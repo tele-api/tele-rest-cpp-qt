@@ -1,6 +1,7 @@
 # C++ Qt API Client For Telegram Bot API 
 
-Auto-generated OpenAPI schema
+The Bot API is an HTTP-based interface created for developers keen on building bots for Telegram.
+To learn how to create and set up a bot, please consult our Introduction to Bots and Bot FAQ.
 
 ## Metadata
 
@@ -152,9 +153,9 @@ Authentication schemes defined for the API:
 
 ## Author
 
-
+gitctrlx@gmail.com
 
 
 ## License
 
- for more information visit []()
+Apache-2.0 for more information visit [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
