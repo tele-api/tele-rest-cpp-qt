@@ -1,0 +1,284 @@
+/**
+ * Telegram Bot API - REST API Client
+ * Auto-generated OpenAPI schema
+ * 
+ * ## Metadata
+ *   
+ * - **Copyright**: Copyright (c) 2025 Qntx
+ * - **Author**: ΣX <gitctrlx@gmail.com>
+ * - **Version**: 9.0.0
+ * - **Modified**: 2025-07-01T14:14:29.176360440Z[Etc/UTC]
+ * - **Generator Version**: 7.14.0
+ *
+ * <details>
+ * <summary><strong>⚠️ Important Disclaimer & Limitation of Liability</strong></summary>
+ * <br>
+ * > **IMPORTANT**: This software is provided "as is" without any warranties, express or implied, including but not limited
+ * > to warranties of merchantability, fitness for a particular purpose, or non-infringement. The developers, contributors,
+ * > and licensors (collectively, "Developers") make no representations regarding the accuracy, completeness, or reliability
+ * > of this software or its outputs.
+ * >
+ * > This client is not intended to provide financial, investment, tax, or legal advice. It facilitates interaction with the
+ * > Telegram Bot API service but does not endorse or recommend any financial actions, including the purchase, sale, or holding of
+ * > financial instruments (e.g., stocks, bonds, derivatives, cryptocurrencies). Users must consult qualified financial or
+ * > legal professionals before making decisions based on this software's outputs.
+ * >
+ * > Financial markets are inherently speculative and carry significant risks. Using this software in trading, analysis, or
+ * > other financial activities may result in substantial losses, including total loss of capital. The Developers are not
+ * > liable for any losses or damages arising from such use. Users assume full responsibility for validating the software's
+ * > outputs and ensuring their suitability for intended purposes.
+ * >
+ * > This client may rely on third-party data or services (e.g., market feeds, APIs). The Developers do not control or verify
+ * > the accuracy of these services and are not liable for any errors, delays, or losses resulting from their use. Users must
+ * > comply with third-party terms and conditions.
+ * >
+ * > Users are solely responsible for ensuring compliance with all applicable financial, tax, and regulatory requirements in
+ * > their jurisdiction. This includes obtaining necessary licenses or approvals for trading or investment activities. The
+ * > Developers disclaim liability for any legal consequences arising from non-compliance.
+ * >
+ * > To the fullest extent permitted by law, the Developers shall not be liable for any direct, indirect, incidental,
+ * > consequential, or punitive damages arising from the use or inability to use this software, including but not limited to
+ * > loss of profits, data, or business opportunities.
+ *
+ * </details>
+ */
+
+#include "OAIDocument.h"
+
+#include <QDebug>
+#include <QJsonArray>
+#include <QJsonDocument>
+#include <QObject>
+
+#include "OAIHelpers.h"
+
+namespace tele_rest {
+
+OAIDocument::OAIDocument(QString json) {
+    this->initializeModel();
+    this->fromJson(json);
+}
+
+OAIDocument::OAIDocument() {
+    this->initializeModel();
+}
+
+OAIDocument::~OAIDocument() {}
+
+void OAIDocument::initializeModel() {
+
+    m_file_id_isSet = false;
+    m_file_id_isValid = false;
+
+    m_file_unique_id_isSet = false;
+    m_file_unique_id_isValid = false;
+
+    m_thumbnail_isSet = false;
+    m_thumbnail_isValid = false;
+
+    m_file_name_isSet = false;
+    m_file_name_isValid = false;
+
+    m_mime_type_isSet = false;
+    m_mime_type_isValid = false;
+
+    m_file_size_isSet = false;
+    m_file_size_isValid = false;
+}
+
+void OAIDocument::fromJson(QString jsonString) {
+    QByteArray array(jsonString.toStdString().c_str());
+    QJsonDocument doc = QJsonDocument::fromJson(array);
+    QJsonObject jsonObject = doc.object();
+    this->fromJsonObject(jsonObject);
+}
+
+void OAIDocument::fromJsonObject(QJsonObject json) {
+
+    m_file_id_isValid = ::tele_rest::fromJsonValue(m_file_id, json[QString("file_id")]);
+    m_file_id_isSet = !json[QString("file_id")].isNull() && m_file_id_isValid;
+
+    m_file_unique_id_isValid = ::tele_rest::fromJsonValue(m_file_unique_id, json[QString("file_unique_id")]);
+    m_file_unique_id_isSet = !json[QString("file_unique_id")].isNull() && m_file_unique_id_isValid;
+
+    m_thumbnail_isValid = ::tele_rest::fromJsonValue(m_thumbnail, json[QString("thumbnail")]);
+    m_thumbnail_isSet = !json[QString("thumbnail")].isNull() && m_thumbnail_isValid;
+
+    m_file_name_isValid = ::tele_rest::fromJsonValue(m_file_name, json[QString("file_name")]);
+    m_file_name_isSet = !json[QString("file_name")].isNull() && m_file_name_isValid;
+
+    m_mime_type_isValid = ::tele_rest::fromJsonValue(m_mime_type, json[QString("mime_type")]);
+    m_mime_type_isSet = !json[QString("mime_type")].isNull() && m_mime_type_isValid;
+
+    m_file_size_isValid = ::tele_rest::fromJsonValue(m_file_size, json[QString("file_size")]);
+    m_file_size_isSet = !json[QString("file_size")].isNull() && m_file_size_isValid;
+}
+
+QString OAIDocument::asJson() const {
+    QJsonObject obj = this->asJsonObject();
+    QJsonDocument doc(obj);
+    QByteArray bytes = doc.toJson();
+    return QString(bytes);
+}
+
+QJsonObject OAIDocument::asJsonObject() const {
+    QJsonObject obj;
+    if (m_file_id_isSet) {
+        obj.insert(QString("file_id"), ::tele_rest::toJsonValue(m_file_id));
+    }
+    if (m_file_unique_id_isSet) {
+        obj.insert(QString("file_unique_id"), ::tele_rest::toJsonValue(m_file_unique_id));
+    }
+    if (m_thumbnail.isSet()) {
+        obj.insert(QString("thumbnail"), ::tele_rest::toJsonValue(m_thumbnail));
+    }
+    if (m_file_name_isSet) {
+        obj.insert(QString("file_name"), ::tele_rest::toJsonValue(m_file_name));
+    }
+    if (m_mime_type_isSet) {
+        obj.insert(QString("mime_type"), ::tele_rest::toJsonValue(m_mime_type));
+    }
+    if (m_file_size_isSet) {
+        obj.insert(QString("file_size"), ::tele_rest::toJsonValue(m_file_size));
+    }
+    return obj;
+}
+
+QString OAIDocument::getFileId() const {
+    return m_file_id;
+}
+void OAIDocument::setFileId(const QString &file_id) {
+    m_file_id = file_id;
+    m_file_id_isSet = true;
+}
+
+bool OAIDocument::is_file_id_Set() const{
+    return m_file_id_isSet;
+}
+
+bool OAIDocument::is_file_id_Valid() const{
+    return m_file_id_isValid;
+}
+
+QString OAIDocument::getFileUniqueId() const {
+    return m_file_unique_id;
+}
+void OAIDocument::setFileUniqueId(const QString &file_unique_id) {
+    m_file_unique_id = file_unique_id;
+    m_file_unique_id_isSet = true;
+}
+
+bool OAIDocument::is_file_unique_id_Set() const{
+    return m_file_unique_id_isSet;
+}
+
+bool OAIDocument::is_file_unique_id_Valid() const{
+    return m_file_unique_id_isValid;
+}
+
+OAIPhotoSize OAIDocument::getThumbnail() const {
+    return m_thumbnail;
+}
+void OAIDocument::setThumbnail(const OAIPhotoSize &thumbnail) {
+    m_thumbnail = thumbnail;
+    m_thumbnail_isSet = true;
+}
+
+bool OAIDocument::is_thumbnail_Set() const{
+    return m_thumbnail_isSet;
+}
+
+bool OAIDocument::is_thumbnail_Valid() const{
+    return m_thumbnail_isValid;
+}
+
+QString OAIDocument::getFileName() const {
+    return m_file_name;
+}
+void OAIDocument::setFileName(const QString &file_name) {
+    m_file_name = file_name;
+    m_file_name_isSet = true;
+}
+
+bool OAIDocument::is_file_name_Set() const{
+    return m_file_name_isSet;
+}
+
+bool OAIDocument::is_file_name_Valid() const{
+    return m_file_name_isValid;
+}
+
+QString OAIDocument::getMimeType() const {
+    return m_mime_type;
+}
+void OAIDocument::setMimeType(const QString &mime_type) {
+    m_mime_type = mime_type;
+    m_mime_type_isSet = true;
+}
+
+bool OAIDocument::is_mime_type_Set() const{
+    return m_mime_type_isSet;
+}
+
+bool OAIDocument::is_mime_type_Valid() const{
+    return m_mime_type_isValid;
+}
+
+qint32 OAIDocument::getFileSize() const {
+    return m_file_size;
+}
+void OAIDocument::setFileSize(const qint32 &file_size) {
+    m_file_size = file_size;
+    m_file_size_isSet = true;
+}
+
+bool OAIDocument::is_file_size_Set() const{
+    return m_file_size_isSet;
+}
+
+bool OAIDocument::is_file_size_Valid() const{
+    return m_file_size_isValid;
+}
+
+bool OAIDocument::isSet() const {
+    bool isObjectUpdated = false;
+    do {
+        if (m_file_id_isSet) {
+            isObjectUpdated = true;
+            break;
+        }
+
+        if (m_file_unique_id_isSet) {
+            isObjectUpdated = true;
+            break;
+        }
+
+        if (m_thumbnail.isSet()) {
+            isObjectUpdated = true;
+            break;
+        }
+
+        if (m_file_name_isSet) {
+            isObjectUpdated = true;
+            break;
+        }
+
+        if (m_mime_type_isSet) {
+            isObjectUpdated = true;
+            break;
+        }
+
+        if (m_file_size_isSet) {
+            isObjectUpdated = true;
+            break;
+        }
+    } while (false);
+    return isObjectUpdated;
+}
+
+bool OAIDocument::isValid() const {
+    // only required properties are required for the object to be considered valid
+    return m_file_id_isValid && m_file_unique_id_isValid && true;
+}
+
+} // namespace tele_rest
