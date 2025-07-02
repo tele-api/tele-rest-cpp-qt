@@ -7,7 +7,7 @@
  * - **Copyright**: Copyright (c) 2025 Qntx
  * - **Author**: ΣX <gitctrlx@gmail.com>
  * - **Version**: 9.0.0
- * - **Modified**: 2025-07-01T14:36:12.380160517Z[Etc/UTC]
+ * - **Modified**: 2025-07-02T09:16:57.652454639Z[Etc/UTC]
  * - **Generator Version**: 7.14.0
  *
  * <details>
@@ -73,8 +73,8 @@ void OAIBusinessBotRights::initializeModel() {
     m_can_read_messages_isSet = false;
     m_can_read_messages_isValid = false;
 
-    m_can_delete_sent_messages_isSet = false;
-    m_can_delete_sent_messages_isValid = false;
+    m_can_delete_outgoing_messages_isSet = false;
+    m_can_delete_outgoing_messages_isValid = false;
 
     m_can_delete_all_messages_isSet = false;
     m_can_delete_all_messages_isValid = false;
@@ -125,8 +125,8 @@ void OAIBusinessBotRights::fromJsonObject(QJsonObject json) {
     m_can_read_messages_isValid = ::tele_rest::fromJsonValue(m_can_read_messages, json[QString("can_read_messages")]);
     m_can_read_messages_isSet = !json[QString("can_read_messages")].isNull() && m_can_read_messages_isValid;
 
-    m_can_delete_sent_messages_isValid = ::tele_rest::fromJsonValue(m_can_delete_sent_messages, json[QString("can_delete_sent_messages")]);
-    m_can_delete_sent_messages_isSet = !json[QString("can_delete_sent_messages")].isNull() && m_can_delete_sent_messages_isValid;
+    m_can_delete_outgoing_messages_isValid = ::tele_rest::fromJsonValue(m_can_delete_outgoing_messages, json[QString("can_delete_outgoing_messages")]);
+    m_can_delete_outgoing_messages_isSet = !json[QString("can_delete_outgoing_messages")].isNull() && m_can_delete_outgoing_messages_isValid;
 
     m_can_delete_all_messages_isValid = ::tele_rest::fromJsonValue(m_can_delete_all_messages, json[QString("can_delete_all_messages")]);
     m_can_delete_all_messages_isSet = !json[QString("can_delete_all_messages")].isNull() && m_can_delete_all_messages_isValid;
@@ -177,8 +177,8 @@ QJsonObject OAIBusinessBotRights::asJsonObject() const {
     if (m_can_read_messages_isSet) {
         obj.insert(QString("can_read_messages"), ::tele_rest::toJsonValue(m_can_read_messages));
     }
-    if (m_can_delete_sent_messages_isSet) {
-        obj.insert(QString("can_delete_sent_messages"), ::tele_rest::toJsonValue(m_can_delete_sent_messages));
+    if (m_can_delete_outgoing_messages_isSet) {
+        obj.insert(QString("can_delete_outgoing_messages"), ::tele_rest::toJsonValue(m_can_delete_outgoing_messages));
     }
     if (m_can_delete_all_messages_isSet) {
         obj.insert(QString("can_delete_all_messages"), ::tele_rest::toJsonValue(m_can_delete_all_messages));
@@ -248,20 +248,20 @@ bool OAIBusinessBotRights::is_can_read_messages_Valid() const{
     return m_can_read_messages_isValid;
 }
 
-bool OAIBusinessBotRights::isCanDeleteSentMessages() const {
-    return m_can_delete_sent_messages;
+bool OAIBusinessBotRights::isCanDeleteOutgoingMessages() const {
+    return m_can_delete_outgoing_messages;
 }
-void OAIBusinessBotRights::setCanDeleteSentMessages(const bool &can_delete_sent_messages) {
-    m_can_delete_sent_messages = can_delete_sent_messages;
-    m_can_delete_sent_messages_isSet = true;
-}
-
-bool OAIBusinessBotRights::is_can_delete_sent_messages_Set() const{
-    return m_can_delete_sent_messages_isSet;
+void OAIBusinessBotRights::setCanDeleteOutgoingMessages(const bool &can_delete_outgoing_messages) {
+    m_can_delete_outgoing_messages = can_delete_outgoing_messages;
+    m_can_delete_outgoing_messages_isSet = true;
 }
 
-bool OAIBusinessBotRights::is_can_delete_sent_messages_Valid() const{
-    return m_can_delete_sent_messages_isValid;
+bool OAIBusinessBotRights::is_can_delete_outgoing_messages_Set() const{
+    return m_can_delete_outgoing_messages_isSet;
+}
+
+bool OAIBusinessBotRights::is_can_delete_outgoing_messages_Valid() const{
+    return m_can_delete_outgoing_messages_isValid;
 }
 
 bool OAIBusinessBotRights::isCanDeleteAllMessages() const {
@@ -453,7 +453,7 @@ bool OAIBusinessBotRights::isSet() const {
             break;
         }
 
-        if (m_can_delete_sent_messages_isSet) {
+        if (m_can_delete_outgoing_messages_isSet) {
             isObjectUpdated = true;
             break;
         }

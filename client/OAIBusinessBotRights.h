@@ -7,7 +7,7 @@
  * - **Copyright**: Copyright (c) 2025 Qntx
  * - **Author**: ΣX <gitctrlx@gmail.com>
  * - **Version**: 9.0.0
- * - **Modified**: 2025-07-01T14:36:12.380160517Z[Etc/UTC]
+ * - **Modified**: 2025-07-02T09:16:57.652454639Z[Etc/UTC]
  * - **Generator Version**: 7.14.0
  *
  * <details>
@@ -81,10 +81,10 @@ public:
     bool is_can_read_messages_Set() const;
     bool is_can_read_messages_Valid() const;
 
-    bool isCanDeleteSentMessages() const;
-    void setCanDeleteSentMessages(const bool &can_delete_sent_messages);
-    bool is_can_delete_sent_messages_Set() const;
-    bool is_can_delete_sent_messages_Valid() const;
+    bool isCanDeleteOutgoingMessages() const;
+    void setCanDeleteOutgoingMessages(const bool &can_delete_outgoing_messages);
+    bool is_can_delete_outgoing_messages_Set() const;
+    bool is_can_delete_outgoing_messages_Valid() const;
 
     bool isCanDeleteAllMessages() const;
     void setCanDeleteAllMessages(const bool &can_delete_all_messages);
@@ -155,9 +155,9 @@ private:
     bool m_can_read_messages_isSet;
     bool m_can_read_messages_isValid;
 
-    bool m_can_delete_sent_messages;
-    bool m_can_delete_sent_messages_isSet;
-    bool m_can_delete_sent_messages_isValid;
+    bool m_can_delete_outgoing_messages;
+    bool m_can_delete_outgoing_messages_isSet;
+    bool m_can_delete_outgoing_messages_isValid;
 
     bool m_can_delete_all_messages;
     bool m_can_delete_all_messages_isSet;

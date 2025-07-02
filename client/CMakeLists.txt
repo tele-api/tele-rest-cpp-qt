@@ -12,8 +12,22 @@ include(CMakePackageConfigHelpers)
 
 add_library(${PROJECT_NAME}
   OAIAcceptedGiftTypes.h
+  OAIAddStickerToSetRequest.h
+  OAIAddStickerToSetResponse.h
   OAIAffiliateInfo.h
   OAIAnimation.h
+  OAIAnswerCallbackQueryRequest.h
+  OAIAnswerCallbackQueryResponse.h
+  OAIAnswerInlineQueryRequest.h
+  OAIAnswerInlineQueryResponse.h
+  OAIAnswerPreCheckoutQueryRequest.h
+  OAIAnswerPreCheckoutQueryResponse.h
+  OAIAnswerShippingQueryRequest.h
+  OAIAnswerShippingQueryResponse.h
+  OAIAnswerWebAppQueryRequest.h
+  OAIAnswerWebAppQueryResponse.h
+  OAIApproveChatJoinRequestRequest.h
+  OAIApproveChatJoinRequestResponse.h
   OAIAudio.h
   OAIBackgroundFill.h
   OAIBackgroundFillFreeformGradient.h
@@ -24,6 +38,11 @@ add_library(${PROJECT_NAME}
   OAIBackgroundTypeFill.h
   OAIBackgroundTypePattern.h
   OAIBackgroundTypeWallpaper.h
+  OAIBanChatMemberRequest.h
+  OAIBanChatMemberRequest_chat_id.h
+  OAIBanChatMemberResponse.h
+  OAIBanChatSenderChatRequest.h
+  OAIBanChatSenderChatResponse.h
   OAIBirthdate.h
   OAIBotCommand.h
   OAIBotCommandScope.h
@@ -33,6 +52,7 @@ add_library(${PROJECT_NAME}
   OAIBotCommandScopeChat.h
   OAIBotCommandScopeChatAdministrators.h
   OAIBotCommandScopeChatMember.h
+  OAIBotCommandScopeChat_chat_id.h
   OAIBotCommandScopeDefault.h
   OAIBotDescription.h
   OAIBotName.h
@@ -72,28 +92,157 @@ add_library(${PROJECT_NAME}
   OAIChatPhoto.h
   OAIChatShared.h
   OAIChosenInlineResult.h
+  OAICloseForumTopicRequest.h
+  OAICloseForumTopicResponse.h
+  OAICloseGeneralForumTopicRequest.h
+  OAICloseGeneralForumTopicResponse.h
+  OAICloseResponse.h
   OAIContact.h
+  OAIConvertGiftToStarsRequest.h
+  OAIConvertGiftToStarsResponse.h
+  OAICopyMessageRequest.h
+  OAICopyMessageResponse.h
+  OAICopyMessagesRequest.h
+  OAICopyMessagesResponse.h
   OAICopyTextButton.h
+  OAICreateChatInviteLinkRequest.h
+  OAICreateChatInviteLinkResponse.h
+  OAICreateChatSubscriptionInviteLinkRequest.h
+  OAICreateChatSubscriptionInviteLinkRequest_chat_id.h
+  OAICreateChatSubscriptionInviteLinkResponse.h
+  OAICreateForumTopicRequest.h
+  OAICreateForumTopicResponse.h
+  OAICreateInvoiceLinkRequest.h
+  OAICreateInvoiceLinkResponse.h
+  OAICreateNewStickerSetRequest.h
+  OAICreateNewStickerSetResponse.h
+  OAIDeclineChatJoinRequestRequest.h
+  OAIDeclineChatJoinRequestResponse.h
+  OAIDeleteBusinessMessagesRequest.h
+  OAIDeleteBusinessMessagesResponse.h
+  OAIDeleteChatPhotoRequest.h
+  OAIDeleteChatPhotoResponse.h
+  OAIDeleteChatStickerSetRequest.h
+  OAIDeleteChatStickerSetResponse.h
+  OAIDeleteForumTopicRequest.h
+  OAIDeleteForumTopicResponse.h
+  OAIDeleteMessageRequest.h
+  OAIDeleteMessageResponse.h
+  OAIDeleteMessagesRequest.h
+  OAIDeleteMessagesResponse.h
+  OAIDeleteMyCommandsRequest.h
+  OAIDeleteMyCommandsResponse.h
+  OAIDeleteStickerFromSetRequest.h
+  OAIDeleteStickerFromSetResponse.h
+  OAIDeleteStickerSetRequest.h
+  OAIDeleteStickerSetResponse.h
+  OAIDeleteStoryRequest.h
+  OAIDeleteStoryResponse.h
+  OAIDeleteWebhookRequest.h
+  OAIDeleteWebhookResponse.h
   OAIDice.h
   OAIDocument.h
+  OAIEditChatInviteLinkRequest.h
+  OAIEditChatInviteLinkResponse.h
+  OAIEditChatSubscriptionInviteLinkRequest.h
+  OAIEditChatSubscriptionInviteLinkResponse.h
+  OAIEditForumTopicRequest.h
+  OAIEditForumTopicResponse.h
+  OAIEditGeneralForumTopicRequest.h
+  OAIEditGeneralForumTopicResponse.h
+  OAIEditMessageCaptionRequest.h
+  OAIEditMessageCaptionResponse.h
+  OAIEditMessageLiveLocationRequest.h
+  OAIEditMessageLiveLocationResponse.h
+  OAIEditMessageMediaRequest.h
+  OAIEditMessageMediaResponse.h
+  OAIEditMessageReplyMarkupRequest.h
+  OAIEditMessageReplyMarkupResponse.h
+  OAIEditMessageTextRequest.h
+  OAIEditMessageTextRequest_chat_id.h
+  OAIEditMessageTextResponse.h
+  OAIEditMessageTextResponse_result.h
+  OAIEditStoryRequest.h
+  OAIEditStoryResponse.h
+  OAIEditUserStarSubscriptionRequest.h
+  OAIEditUserStarSubscriptionResponse.h
   OAIEncryptedCredentials.h
   OAIEncryptedPassportElement.h
   OAIError.h
+  OAIExportChatInviteLinkRequest.h
+  OAIExportChatInviteLinkResponse.h
   OAIExternalReplyInfo.h
   OAIFile.h
   OAIForceReply.h
   OAIForumTopic.h
   OAIForumTopicCreated.h
   OAIForumTopicEdited.h
+  OAIForwardMessageRequest.h
+  OAIForwardMessageRequest_from_chat_id.h
+  OAIForwardMessageResponse.h
+  OAIForwardMessagesRequest.h
+  OAIForwardMessagesRequest_from_chat_id.h
+  OAIForwardMessagesResponse.h
   OAIGame.h
   OAIGameHighScore.h
+  OAIGetAvailableGiftsResponse.h
+  OAIGetBusinessAccountGiftsRequest.h
+  OAIGetBusinessAccountGiftsResponse.h
+  OAIGetBusinessAccountStarBalanceRequest.h
+  OAIGetBusinessAccountStarBalanceResponse.h
+  OAIGetBusinessConnectionRequest.h
+  OAIGetBusinessConnectionResponse.h
+  OAIGetChatAdministratorsRequest.h
+  OAIGetChatAdministratorsResponse.h
+  OAIGetChatMemberCountRequest.h
+  OAIGetChatMemberCountResponse.h
+  OAIGetChatMemberRequest.h
+  OAIGetChatMemberResponse.h
+  OAIGetChatMenuButtonRequest.h
+  OAIGetChatMenuButtonResponse.h
+  OAIGetChatRequest.h
+  OAIGetChatResponse.h
+  OAIGetCustomEmojiStickersRequest.h
+  OAIGetCustomEmojiStickersResponse.h
+  OAIGetFileRequest.h
+  OAIGetFileResponse.h
+  OAIGetForumTopicIconStickersResponse.h
+  OAIGetGameHighScoresRequest.h
+  OAIGetGameHighScoresResponse.h
+  OAIGetMeResponse.h
+  OAIGetMyCommandsRequest.h
+  OAIGetMyCommandsResponse.h
+  OAIGetMyDefaultAdministratorRightsRequest.h
+  OAIGetMyDefaultAdministratorRightsResponse.h
+  OAIGetMyDescriptionRequest.h
+  OAIGetMyDescriptionResponse.h
+  OAIGetMyNameRequest.h
+  OAIGetMyNameResponse.h
+  OAIGetMyShortDescriptionRequest.h
+  OAIGetMyShortDescriptionResponse.h
+  OAIGetStarTransactionsRequest.h
+  OAIGetStarTransactionsResponse.h
+  OAIGetStickerSetRequest.h
+  OAIGetStickerSetResponse.h
+  OAIGetUpdatesRequest.h
+  OAIGetUpdatesResponse.h
+  OAIGetUserChatBoostsRequest.h
+  OAIGetUserChatBoostsRequest_chat_id.h
+  OAIGetUserChatBoostsResponse.h
+  OAIGetUserProfilePhotosRequest.h
+  OAIGetUserProfilePhotosResponse.h
+  OAIGetWebhookInfoResponse.h
   OAIGift.h
   OAIGiftInfo.h
+  OAIGiftPremiumSubscriptionRequest.h
+  OAIGiftPremiumSubscriptionResponse.h
   OAIGifts.h
   OAIGiveaway.h
   OAIGiveawayCompleted.h
   OAIGiveawayCreated.h
   OAIGiveawayWinners.h
+  OAIHideGeneralForumTopicRequest.h
+  OAIHideGeneralForumTopicResponse.h
   OAIInaccessibleMessage.h
   OAIInlineKeyboardButton.h
   OAIInlineKeyboardMarkup.h
@@ -149,9 +298,13 @@ add_library(${PROJECT_NAME}
   OAIKeyboardButtonRequestChat.h
   OAIKeyboardButtonRequestUsers.h
   OAILabeledPrice.h
+  OAILeaveChatRequest.h
+  OAILeaveChatRequest_chat_id.h
+  OAILeaveChatResponse.h
   OAILinkPreviewOptions.h
   OAILocation.h
   OAILocationAddress.h
+  OAILogOutResponse.h
   OAILoginUrl.h
   OAIMaskPosition.h
   OAIMaybeInaccessibleMessage.h
@@ -195,28 +348,160 @@ add_library(${PROJECT_NAME}
   OAIPassportElementErrorUnspecified.h
   OAIPassportFile.h
   OAIPhotoSize.h
+  OAIPinChatMessageRequest.h
+  OAIPinChatMessageResponse.h
   OAIPoll.h
   OAIPollAnswer.h
   OAIPollOption.h
+  OAIPostStoryRequest.h
+  OAIPostStoryResponse.h
   OAIPreCheckoutQuery.h
   OAIPreparedInlineMessage.h
+  OAIPromoteChatMemberRequest.h
+  OAIPromoteChatMemberResponse.h
   OAIProximityAlertTriggered.h
   OAIReactionCount.h
   OAIReactionType.h
   OAIReactionTypeCustomEmoji.h
   OAIReactionTypeEmoji.h
   OAIReactionTypePaid.h
+  OAIReadBusinessMessageRequest.h
+  OAIReadBusinessMessageResponse.h
+  OAIRefundStarPaymentRequest.h
+  OAIRefundStarPaymentResponse.h
   OAIRefundedPayment.h
+  OAIRemoveBusinessAccountProfilePhotoRequest.h
+  OAIRemoveBusinessAccountProfilePhotoResponse.h
+  OAIRemoveChatVerificationRequest.h
+  OAIRemoveChatVerificationResponse.h
+  OAIRemoveUserVerificationRequest.h
+  OAIRemoveUserVerificationResponse.h
+  OAIReopenForumTopicRequest.h
+  OAIReopenForumTopicResponse.h
+  OAIReopenGeneralForumTopicRequest.h
+  OAIReopenGeneralForumTopicResponse.h
+  OAIReplaceStickerInSetRequest.h
+  OAIReplaceStickerInSetResponse.h
   OAIReplyKeyboardMarkup.h
   OAIReplyKeyboardRemove.h
   OAIReplyParameters.h
   OAIReplyParameters_chat_id.h
   OAIResponseParameters.h
+  OAIRestrictChatMemberRequest.h
+  OAIRestrictChatMemberResponse.h
   OAIRevenueWithdrawalState.h
   OAIRevenueWithdrawalStateFailed.h
   OAIRevenueWithdrawalStatePending.h
   OAIRevenueWithdrawalStateSucceeded.h
+  OAIRevokeChatInviteLinkRequest.h
+  OAIRevokeChatInviteLinkRequest_chat_id.h
+  OAIRevokeChatInviteLinkResponse.h
+  OAISavePreparedInlineMessageRequest.h
+  OAISavePreparedInlineMessageResponse.h
+  OAISendAnimationRequest.h
+  OAISendAnimationResponse.h
+  OAISendAudioRequest.h
+  OAISendAudioResponse.h
+  OAISendChatActionRequest.h
+  OAISendChatActionResponse.h
+  OAISendContactRequest.h
+  OAISendContactResponse.h
+  OAISendDiceRequest.h
+  OAISendDiceResponse.h
+  OAISendDocumentRequest.h
+  OAISendDocumentResponse.h
+  OAISendGameRequest.h
+  OAISendGameResponse.h
+  OAISendGiftRequest.h
+  OAISendGiftRequest_chat_id.h
+  OAISendGiftResponse.h
+  OAISendInvoiceRequest.h
+  OAISendInvoiceResponse.h
+  OAISendLocationRequest.h
+  OAISendLocationResponse.h
+  OAISendMediaGroupRequest.h
+  OAISendMediaGroupRequest_media_inner.h
+  OAISendMediaGroupResponse.h
+  OAISendMessageRequest.h
+  OAISendMessageRequest_chat_id.h
+  OAISendMessageRequest_reply_markup.h
+  OAISendMessageResponse.h
+  OAISendPaidMediaRequest.h
+  OAISendPaidMediaRequest_chat_id.h
+  OAISendPaidMediaResponse.h
+  OAISendPhotoRequest.h
+  OAISendPhotoResponse.h
+  OAISendPollRequest.h
+  OAISendPollResponse.h
+  OAISendStickerRequest.h
+  OAISendStickerResponse.h
+  OAISendVenueRequest.h
+  OAISendVenueResponse.h
+  OAISendVideoNoteRequest.h
+  OAISendVideoNoteResponse.h
+  OAISendVideoRequest.h
+  OAISendVideoResponse.h
+  OAISendVoiceRequest.h
+  OAISendVoiceResponse.h
   OAISentWebAppMessage.h
+  OAISetBusinessAccountBioRequest.h
+  OAISetBusinessAccountBioResponse.h
+  OAISetBusinessAccountGiftSettingsRequest.h
+  OAISetBusinessAccountGiftSettingsResponse.h
+  OAISetBusinessAccountNameRequest.h
+  OAISetBusinessAccountNameResponse.h
+  OAISetBusinessAccountProfilePhotoRequest.h
+  OAISetBusinessAccountProfilePhotoResponse.h
+  OAISetBusinessAccountUsernameRequest.h
+  OAISetBusinessAccountUsernameResponse.h
+  OAISetChatAdministratorCustomTitleRequest.h
+  OAISetChatAdministratorCustomTitleResponse.h
+  OAISetChatDescriptionRequest.h
+  OAISetChatDescriptionResponse.h
+  OAISetChatMenuButtonRequest.h
+  OAISetChatMenuButtonResponse.h
+  OAISetChatPermissionsRequest.h
+  OAISetChatPermissionsResponse.h
+  OAISetChatPhotoRequest.h
+  OAISetChatPhotoResponse.h
+  OAISetChatStickerSetRequest.h
+  OAISetChatStickerSetResponse.h
+  OAISetChatTitleRequest.h
+  OAISetChatTitleResponse.h
+  OAISetCustomEmojiStickerSetThumbnailRequest.h
+  OAISetCustomEmojiStickerSetThumbnailResponse.h
+  OAISetGameScoreRequest.h
+  OAISetGameScoreResponse.h
+  OAISetMessageReactionRequest.h
+  OAISetMessageReactionResponse.h
+  OAISetMyCommandsRequest.h
+  OAISetMyCommandsResponse.h
+  OAISetMyDefaultAdministratorRightsRequest.h
+  OAISetMyDefaultAdministratorRightsResponse.h
+  OAISetMyDescriptionRequest.h
+  OAISetMyDescriptionResponse.h
+  OAISetMyNameRequest.h
+  OAISetMyNameResponse.h
+  OAISetMyShortDescriptionRequest.h
+  OAISetMyShortDescriptionResponse.h
+  OAISetPassportDataErrorsRequest.h
+  OAISetPassportDataErrorsResponse.h
+  OAISetStickerEmojiListRequest.h
+  OAISetStickerEmojiListResponse.h
+  OAISetStickerKeywordsRequest.h
+  OAISetStickerKeywordsResponse.h
+  OAISetStickerMaskPositionRequest.h
+  OAISetStickerMaskPositionResponse.h
+  OAISetStickerPositionInSetRequest.h
+  OAISetStickerPositionInSetResponse.h
+  OAISetStickerSetThumbnailRequest.h
+  OAISetStickerSetThumbnailResponse.h
+  OAISetStickerSetTitleRequest.h
+  OAISetStickerSetTitleResponse.h
+  OAISetUserEmojiStatusRequest.h
+  OAISetUserEmojiStatusResponse.h
+  OAISetWebhookRequest.h
+  OAISetWebhookResponse.h
   OAISharedUser.h
   OAIShippingAddress.h
   OAIShippingOption.h
@@ -226,6 +511,10 @@ add_library(${PROJECT_NAME}
   OAIStarTransactions.h
   OAISticker.h
   OAIStickerSet.h
+  OAIStopMessageLiveLocationRequest.h
+  OAIStopMessageLiveLocationResponse.h
+  OAIStopPollRequest.h
+  OAIStopPollResponse.h
   OAIStory.h
   OAIStoryArea.h
   OAIStoryAreaPosition.h
@@ -246,18 +535,44 @@ add_library(${PROJECT_NAME}
   OAITransactionPartnerTelegramAds.h
   OAITransactionPartnerTelegramApi.h
   OAITransactionPartnerUser.h
+  OAITransferBusinessAccountStarsRequest.h
+  OAITransferBusinessAccountStarsResponse.h
+  OAITransferGiftRequest.h
+  OAITransferGiftResponse.h
+  OAIUnbanChatMemberRequest.h
+  OAIUnbanChatMemberResponse.h
+  OAIUnbanChatSenderChatRequest.h
+  OAIUnbanChatSenderChatResponse.h
+  OAIUnhideGeneralForumTopicRequest.h
+  OAIUnhideGeneralForumTopicResponse.h
   OAIUniqueGift.h
   OAIUniqueGiftBackdrop.h
   OAIUniqueGiftBackdropColors.h
   OAIUniqueGiftInfo.h
   OAIUniqueGiftModel.h
   OAIUniqueGiftSymbol.h
+  OAIUnpinAllChatMessagesRequest.h
+  OAIUnpinAllChatMessagesResponse.h
+  OAIUnpinAllForumTopicMessagesRequest.h
+  OAIUnpinAllForumTopicMessagesResponse.h
+  OAIUnpinAllGeneralForumTopicMessagesRequest.h
+  OAIUnpinAllGeneralForumTopicMessagesResponse.h
+  OAIUnpinChatMessageRequest.h
+  OAIUnpinChatMessageResponse.h
   OAIUpdate.h
+  OAIUpgradeGiftRequest.h
+  OAIUpgradeGiftResponse.h
+  OAIUploadStickerFileRequest.h
+  OAIUploadStickerFileResponse.h
   OAIUser.h
   OAIUserChatBoosts.h
   OAIUserProfilePhotos.h
   OAIUsersShared.h
   OAIVenue.h
+  OAIVerifyChatRequest.h
+  OAIVerifyChatResponse.h
+  OAIVerifyUserRequest.h
+  OAIVerifyUserResponse.h
   OAIVideo.h
   OAIVideoChatEnded.h
   OAIVideoChatParticipantsInvited.h
@@ -268,176 +583,6 @@ add_library(${PROJECT_NAME}
   OAIWebAppInfo.h
   OAIWebhookInfo.h
   OAIWriteAccessAllowed.h
-  OAI_answerCallbackQuery_post_request.h
-  OAI_answerInlineQuery_post_request.h
-  OAI_answerPreCheckoutQuery_post_request.h
-  OAI_answerShippingQuery_post_request.h
-  OAI_answerWebAppQuery_post_200_response.h
-  OAI_answerWebAppQuery_post_request.h
-  OAI_approveChatJoinRequest_post_request.h
-  OAI_banChatMember_post_request.h
-  OAI_banChatMember_post_request_chat_id.h
-  OAI_banChatSenderChat_post_request.h
-  OAI_closeForumTopic_post_request.h
-  OAI_convertGiftToStars_post_request.h
-  OAI_copyMessage_post_200_response.h
-  OAI_copyMessage_post_request.h
-  OAI_copyMessages_post_request.h
-  OAI_createChatInviteLink_post_200_response.h
-  OAI_createChatInviteLink_post_request.h
-  OAI_createChatSubscriptionInviteLink_post_request.h
-  OAI_createChatSubscriptionInviteLink_post_request_chat_id.h
-  OAI_createForumTopic_post_200_response.h
-  OAI_createForumTopic_post_request.h
-  OAI_createInvoiceLink_post_request.h
-  OAI_deleteBusinessMessages_post_request.h
-  OAI_deleteChatStickerSet_post_request.h
-  OAI_deleteMessage_post_request.h
-  OAI_deleteMessages_post_request.h
-  OAI_deleteMyCommands_post_request.h
-  OAI_deleteStickerFromSet_post_request.h
-  OAI_deleteStickerSet_post_request.h
-  OAI_deleteStory_post_request.h
-  OAI_deleteWebhook_post_request.h
-  OAI_editChatInviteLink_post_request.h
-  OAI_editChatSubscriptionInviteLink_post_request.h
-  OAI_editForumTopic_post_request.h
-  OAI_editGeneralForumTopic_post_request.h
-  OAI_editMessageCaption_post_request.h
-  OAI_editMessageLiveLocation_post_request.h
-  OAI_editMessageReplyMarkup_post_request.h
-  OAI_editMessageText_post_200_response.h
-  OAI_editMessageText_post_200_response_result.h
-  OAI_editMessageText_post_request.h
-  OAI_editMessageText_post_request_chat_id.h
-  OAI_editUserStarSubscription_post_request.h
-  OAI_exportChatInviteLink_post_200_response.h
-  OAI_exportChatInviteLink_post_request.h
-  OAI_forwardMessage_post_request.h
-  OAI_forwardMessage_post_request_from_chat_id.h
-  OAI_forwardMessages_post_200_response.h
-  OAI_forwardMessages_post_request.h
-  OAI_forwardMessages_post_request_from_chat_id.h
-  OAI_getAvailableGifts_post_200_response.h
-  OAI_getBusinessAccountGifts_post_200_response.h
-  OAI_getBusinessAccountGifts_post_request.h
-  OAI_getBusinessAccountStarBalance_post_200_response.h
-  OAI_getBusinessConnection_post_200_response.h
-  OAI_getBusinessConnection_post_request.h
-  OAI_getChatAdministrators_post_200_response.h
-  OAI_getChatMemberCount_post_200_response.h
-  OAI_getChatMember_post_200_response.h
-  OAI_getChatMember_post_request.h
-  OAI_getChatMenuButton_post_200_response.h
-  OAI_getChatMenuButton_post_request.h
-  OAI_getChat_post_200_response.h
-  OAI_getCustomEmojiStickers_post_request.h
-  OAI_getFile_post_200_response.h
-  OAI_getFile_post_request.h
-  OAI_getForumTopicIconStickers_post_200_response.h
-  OAI_getGameHighScores_post_200_response.h
-  OAI_getGameHighScores_post_request.h
-  OAI_getMe_post_200_response.h
-  OAI_getMyCommands_post_200_response.h
-  OAI_getMyCommands_post_request.h
-  OAI_getMyDefaultAdministratorRights_post_200_response.h
-  OAI_getMyDefaultAdministratorRights_post_request.h
-  OAI_getMyDescription_post_200_response.h
-  OAI_getMyName_post_200_response.h
-  OAI_getMyName_post_request.h
-  OAI_getMyShortDescription_post_200_response.h
-  OAI_getStarTransactions_post_200_response.h
-  OAI_getStarTransactions_post_request.h
-  OAI_getStickerSet_post_200_response.h
-  OAI_getStickerSet_post_request.h
-  OAI_getUpdates_post_200_response.h
-  OAI_getUpdates_post_request.h
-  OAI_getUserChatBoosts_post_200_response.h
-  OAI_getUserChatBoosts_post_request.h
-  OAI_getUserChatBoosts_post_request_chat_id.h
-  OAI_getUserProfilePhotos_post_200_response.h
-  OAI_getUserProfilePhotos_post_request.h
-  OAI_getWebhookInfo_post_200_response.h
-  OAI_giftPremiumSubscription_post_request.h
-  OAI_leaveChat_post_request.h
-  OAI_leaveChat_post_request_chat_id.h
-  OAI_pinChatMessage_post_request.h
-  OAI_postStory_post_200_response.h
-  OAI_promoteChatMember_post_request.h
-  OAI_readBusinessMessage_post_request.h
-  OAI_refundStarPayment_post_request.h
-  OAI_removeBusinessAccountProfilePhoto_post_request.h
-  OAI_removeUserVerification_post_request.h
-  OAI_restrictChatMember_post_request.h
-  OAI_restrictChatMember_post_request_chat_id.h
-  OAI_revokeChatInviteLink_post_request.h
-  OAI_revokeChatInviteLink_post_request_chat_id.h
-  OAI_savePreparedInlineMessage_post_200_response.h
-  OAI_savePreparedInlineMessage_post_request.h
-  OAI_sendAnimation_post_request_animation.h
-  OAI_sendAudio_post_request_audio.h
-  OAI_sendAudio_post_request_thumbnail.h
-  OAI_sendChatAction_post_request.h
-  OAI_sendContact_post_request.h
-  OAI_sendDice_post_request.h
-  OAI_sendDocument_post_request_document.h
-  OAI_sendGame_post_request.h
-  OAI_sendGift_post_request.h
-  OAI_sendGift_post_request_chat_id.h
-  OAI_sendInvoice_post_request.h
-  OAI_sendLocation_post_request.h
-  OAI_sendMediaGroup_post_200_response.h
-  OAI_sendMediaGroup_post_request_media_inner.h
-  OAI_sendMessage_post_200_response.h
-  OAI_sendMessage_post_request.h
-  OAI_sendMessage_post_request_chat_id.h
-  OAI_sendMessage_post_request_reply_markup.h
-  OAI_sendPaidMedia_post_request_chat_id.h
-  OAI_sendPhoto_post_request_photo.h
-  OAI_sendPoll_post_request.h
-  OAI_sendSticker_post_request_sticker.h
-  OAI_sendVenue_post_request.h
-  OAI_sendVideoNote_post_request_video_note.h
-  OAI_sendVideo_post_request_cover.h
-  OAI_sendVideo_post_request_video.h
-  OAI_sendVoice_post_request_voice.h
-  OAI_setBusinessAccountBio_post_request.h
-  OAI_setBusinessAccountGiftSettings_post_request.h
-  OAI_setBusinessAccountName_post_request.h
-  OAI_setBusinessAccountUsername_post_request.h
-  OAI_setChatAdministratorCustomTitle_post_request.h
-  OAI_setChatDescription_post_request.h
-  OAI_setChatMenuButton_post_request.h
-  OAI_setChatPermissions_post_request.h
-  OAI_setChatStickerSet_post_request.h
-  OAI_setChatTitle_post_request.h
-  OAI_setCustomEmojiStickerSetThumbnail_post_request.h
-  OAI_setGameScore_post_request.h
-  OAI_setMessageReaction_post_request.h
-  OAI_setMyCommands_post_request.h
-  OAI_setMyDefaultAdministratorRights_post_request.h
-  OAI_setMyDescription_post_request.h
-  OAI_setMyName_post_request.h
-  OAI_setMyShortDescription_post_request.h
-  OAI_setPassportDataErrors_post_request.h
-  OAI_setStickerEmojiList_post_request.h
-  OAI_setStickerKeywords_post_request.h
-  OAI_setStickerMaskPosition_post_request.h
-  OAI_setStickerPositionInSet_post_request.h
-  OAI_setStickerSetThumbnail_post_request_thumbnail.h
-  OAI_setStickerSetTitle_post_request.h
-  OAI_setUserEmojiStatus_post_request.h
-  OAI_setWebhook_post_200_response.h
-  OAI_stopMessageLiveLocation_post_request.h
-  OAI_stopPoll_post_200_response.h
-  OAI_stopPoll_post_request.h
-  OAI_transferBusinessAccountStars_post_request.h
-  OAI_transferGift_post_request.h
-  OAI_unbanChatMember_post_request.h
-  OAI_unpinChatMessage_post_request.h
-  OAI_upgradeGift_post_request.h
-  OAI_verifyChat_post_request.h
-  OAI_verifyUser_post_request.h
   OAIDefaultApi.h
   OAIHelpers.h
   OAIHttpRequest.h
@@ -448,8 +593,22 @@ add_library(${PROJECT_NAME}
   OAIServerVariable.h
   OAIOauth.h
   OAIAcceptedGiftTypes.cpp
+  OAIAddStickerToSetRequest.cpp
+  OAIAddStickerToSetResponse.cpp
   OAIAffiliateInfo.cpp
   OAIAnimation.cpp
+  OAIAnswerCallbackQueryRequest.cpp
+  OAIAnswerCallbackQueryResponse.cpp
+  OAIAnswerInlineQueryRequest.cpp
+  OAIAnswerInlineQueryResponse.cpp
+  OAIAnswerPreCheckoutQueryRequest.cpp
+  OAIAnswerPreCheckoutQueryResponse.cpp
+  OAIAnswerShippingQueryRequest.cpp
+  OAIAnswerShippingQueryResponse.cpp
+  OAIAnswerWebAppQueryRequest.cpp
+  OAIAnswerWebAppQueryResponse.cpp
+  OAIApproveChatJoinRequestRequest.cpp
+  OAIApproveChatJoinRequestResponse.cpp
   OAIAudio.cpp
   OAIBackgroundFill.cpp
   OAIBackgroundFillFreeformGradient.cpp
@@ -460,6 +619,11 @@ add_library(${PROJECT_NAME}
   OAIBackgroundTypeFill.cpp
   OAIBackgroundTypePattern.cpp
   OAIBackgroundTypeWallpaper.cpp
+  OAIBanChatMemberRequest.cpp
+  OAIBanChatMemberRequest_chat_id.cpp
+  OAIBanChatMemberResponse.cpp
+  OAIBanChatSenderChatRequest.cpp
+  OAIBanChatSenderChatResponse.cpp
   OAIBirthdate.cpp
   OAIBotCommand.cpp
   OAIBotCommandScope.cpp
@@ -469,6 +633,7 @@ add_library(${PROJECT_NAME}
   OAIBotCommandScopeChat.cpp
   OAIBotCommandScopeChatAdministrators.cpp
   OAIBotCommandScopeChatMember.cpp
+  OAIBotCommandScopeChat_chat_id.cpp
   OAIBotCommandScopeDefault.cpp
   OAIBotDescription.cpp
   OAIBotName.cpp
@@ -508,28 +673,157 @@ add_library(${PROJECT_NAME}
   OAIChatPhoto.cpp
   OAIChatShared.cpp
   OAIChosenInlineResult.cpp
+  OAICloseForumTopicRequest.cpp
+  OAICloseForumTopicResponse.cpp
+  OAICloseGeneralForumTopicRequest.cpp
+  OAICloseGeneralForumTopicResponse.cpp
+  OAICloseResponse.cpp
   OAIContact.cpp
+  OAIConvertGiftToStarsRequest.cpp
+  OAIConvertGiftToStarsResponse.cpp
+  OAICopyMessageRequest.cpp
+  OAICopyMessageResponse.cpp
+  OAICopyMessagesRequest.cpp
+  OAICopyMessagesResponse.cpp
   OAICopyTextButton.cpp
+  OAICreateChatInviteLinkRequest.cpp
+  OAICreateChatInviteLinkResponse.cpp
+  OAICreateChatSubscriptionInviteLinkRequest.cpp
+  OAICreateChatSubscriptionInviteLinkRequest_chat_id.cpp
+  OAICreateChatSubscriptionInviteLinkResponse.cpp
+  OAICreateForumTopicRequest.cpp
+  OAICreateForumTopicResponse.cpp
+  OAICreateInvoiceLinkRequest.cpp
+  OAICreateInvoiceLinkResponse.cpp
+  OAICreateNewStickerSetRequest.cpp
+  OAICreateNewStickerSetResponse.cpp
+  OAIDeclineChatJoinRequestRequest.cpp
+  OAIDeclineChatJoinRequestResponse.cpp
+  OAIDeleteBusinessMessagesRequest.cpp
+  OAIDeleteBusinessMessagesResponse.cpp
+  OAIDeleteChatPhotoRequest.cpp
+  OAIDeleteChatPhotoResponse.cpp
+  OAIDeleteChatStickerSetRequest.cpp
+  OAIDeleteChatStickerSetResponse.cpp
+  OAIDeleteForumTopicRequest.cpp
+  OAIDeleteForumTopicResponse.cpp
+  OAIDeleteMessageRequest.cpp
+  OAIDeleteMessageResponse.cpp
+  OAIDeleteMessagesRequest.cpp
+  OAIDeleteMessagesResponse.cpp
+  OAIDeleteMyCommandsRequest.cpp
+  OAIDeleteMyCommandsResponse.cpp
+  OAIDeleteStickerFromSetRequest.cpp
+  OAIDeleteStickerFromSetResponse.cpp
+  OAIDeleteStickerSetRequest.cpp
+  OAIDeleteStickerSetResponse.cpp
+  OAIDeleteStoryRequest.cpp
+  OAIDeleteStoryResponse.cpp
+  OAIDeleteWebhookRequest.cpp
+  OAIDeleteWebhookResponse.cpp
   OAIDice.cpp
   OAIDocument.cpp
+  OAIEditChatInviteLinkRequest.cpp
+  OAIEditChatInviteLinkResponse.cpp
+  OAIEditChatSubscriptionInviteLinkRequest.cpp
+  OAIEditChatSubscriptionInviteLinkResponse.cpp
+  OAIEditForumTopicRequest.cpp
+  OAIEditForumTopicResponse.cpp
+  OAIEditGeneralForumTopicRequest.cpp
+  OAIEditGeneralForumTopicResponse.cpp
+  OAIEditMessageCaptionRequest.cpp
+  OAIEditMessageCaptionResponse.cpp
+  OAIEditMessageLiveLocationRequest.cpp
+  OAIEditMessageLiveLocationResponse.cpp
+  OAIEditMessageMediaRequest.cpp
+  OAIEditMessageMediaResponse.cpp
+  OAIEditMessageReplyMarkupRequest.cpp
+  OAIEditMessageReplyMarkupResponse.cpp
+  OAIEditMessageTextRequest.cpp
+  OAIEditMessageTextRequest_chat_id.cpp
+  OAIEditMessageTextResponse.cpp
+  OAIEditMessageTextResponse_result.cpp
+  OAIEditStoryRequest.cpp
+  OAIEditStoryResponse.cpp
+  OAIEditUserStarSubscriptionRequest.cpp
+  OAIEditUserStarSubscriptionResponse.cpp
   OAIEncryptedCredentials.cpp
   OAIEncryptedPassportElement.cpp
   OAIError.cpp
+  OAIExportChatInviteLinkRequest.cpp
+  OAIExportChatInviteLinkResponse.cpp
   OAIExternalReplyInfo.cpp
   OAIFile.cpp
   OAIForceReply.cpp
   OAIForumTopic.cpp
   OAIForumTopicCreated.cpp
   OAIForumTopicEdited.cpp
+  OAIForwardMessageRequest.cpp
+  OAIForwardMessageRequest_from_chat_id.cpp
+  OAIForwardMessageResponse.cpp
+  OAIForwardMessagesRequest.cpp
+  OAIForwardMessagesRequest_from_chat_id.cpp
+  OAIForwardMessagesResponse.cpp
   OAIGame.cpp
   OAIGameHighScore.cpp
+  OAIGetAvailableGiftsResponse.cpp
+  OAIGetBusinessAccountGiftsRequest.cpp
+  OAIGetBusinessAccountGiftsResponse.cpp
+  OAIGetBusinessAccountStarBalanceRequest.cpp
+  OAIGetBusinessAccountStarBalanceResponse.cpp
+  OAIGetBusinessConnectionRequest.cpp
+  OAIGetBusinessConnectionResponse.cpp
+  OAIGetChatAdministratorsRequest.cpp
+  OAIGetChatAdministratorsResponse.cpp
+  OAIGetChatMemberCountRequest.cpp
+  OAIGetChatMemberCountResponse.cpp
+  OAIGetChatMemberRequest.cpp
+  OAIGetChatMemberResponse.cpp
+  OAIGetChatMenuButtonRequest.cpp
+  OAIGetChatMenuButtonResponse.cpp
+  OAIGetChatRequest.cpp
+  OAIGetChatResponse.cpp
+  OAIGetCustomEmojiStickersRequest.cpp
+  OAIGetCustomEmojiStickersResponse.cpp
+  OAIGetFileRequest.cpp
+  OAIGetFileResponse.cpp
+  OAIGetForumTopicIconStickersResponse.cpp
+  OAIGetGameHighScoresRequest.cpp
+  OAIGetGameHighScoresResponse.cpp
+  OAIGetMeResponse.cpp
+  OAIGetMyCommandsRequest.cpp
+  OAIGetMyCommandsResponse.cpp
+  OAIGetMyDefaultAdministratorRightsRequest.cpp
+  OAIGetMyDefaultAdministratorRightsResponse.cpp
+  OAIGetMyDescriptionRequest.cpp
+  OAIGetMyDescriptionResponse.cpp
+  OAIGetMyNameRequest.cpp
+  OAIGetMyNameResponse.cpp
+  OAIGetMyShortDescriptionRequest.cpp
+  OAIGetMyShortDescriptionResponse.cpp
+  OAIGetStarTransactionsRequest.cpp
+  OAIGetStarTransactionsResponse.cpp
+  OAIGetStickerSetRequest.cpp
+  OAIGetStickerSetResponse.cpp
+  OAIGetUpdatesRequest.cpp
+  OAIGetUpdatesResponse.cpp
+  OAIGetUserChatBoostsRequest.cpp
+  OAIGetUserChatBoostsRequest_chat_id.cpp
+  OAIGetUserChatBoostsResponse.cpp
+  OAIGetUserProfilePhotosRequest.cpp
+  OAIGetUserProfilePhotosResponse.cpp
+  OAIGetWebhookInfoResponse.cpp
   OAIGift.cpp
   OAIGiftInfo.cpp
+  OAIGiftPremiumSubscriptionRequest.cpp
+  OAIGiftPremiumSubscriptionResponse.cpp
   OAIGifts.cpp
   OAIGiveaway.cpp
   OAIGiveawayCompleted.cpp
   OAIGiveawayCreated.cpp
   OAIGiveawayWinners.cpp
+  OAIHideGeneralForumTopicRequest.cpp
+  OAIHideGeneralForumTopicResponse.cpp
   OAIInaccessibleMessage.cpp
   OAIInlineKeyboardButton.cpp
   OAIInlineKeyboardMarkup.cpp
@@ -585,9 +879,13 @@ add_library(${PROJECT_NAME}
   OAIKeyboardButtonRequestChat.cpp
   OAIKeyboardButtonRequestUsers.cpp
   OAILabeledPrice.cpp
+  OAILeaveChatRequest.cpp
+  OAILeaveChatRequest_chat_id.cpp
+  OAILeaveChatResponse.cpp
   OAILinkPreviewOptions.cpp
   OAILocation.cpp
   OAILocationAddress.cpp
+  OAILogOutResponse.cpp
   OAILoginUrl.cpp
   OAIMaskPosition.cpp
   OAIMaybeInaccessibleMessage.cpp
@@ -631,28 +929,160 @@ add_library(${PROJECT_NAME}
   OAIPassportElementErrorUnspecified.cpp
   OAIPassportFile.cpp
   OAIPhotoSize.cpp
+  OAIPinChatMessageRequest.cpp
+  OAIPinChatMessageResponse.cpp
   OAIPoll.cpp
   OAIPollAnswer.cpp
   OAIPollOption.cpp
+  OAIPostStoryRequest.cpp
+  OAIPostStoryResponse.cpp
   OAIPreCheckoutQuery.cpp
   OAIPreparedInlineMessage.cpp
+  OAIPromoteChatMemberRequest.cpp
+  OAIPromoteChatMemberResponse.cpp
   OAIProximityAlertTriggered.cpp
   OAIReactionCount.cpp
   OAIReactionType.cpp
   OAIReactionTypeCustomEmoji.cpp
   OAIReactionTypeEmoji.cpp
   OAIReactionTypePaid.cpp
+  OAIReadBusinessMessageRequest.cpp
+  OAIReadBusinessMessageResponse.cpp
+  OAIRefundStarPaymentRequest.cpp
+  OAIRefundStarPaymentResponse.cpp
   OAIRefundedPayment.cpp
+  OAIRemoveBusinessAccountProfilePhotoRequest.cpp
+  OAIRemoveBusinessAccountProfilePhotoResponse.cpp
+  OAIRemoveChatVerificationRequest.cpp
+  OAIRemoveChatVerificationResponse.cpp
+  OAIRemoveUserVerificationRequest.cpp
+  OAIRemoveUserVerificationResponse.cpp
+  OAIReopenForumTopicRequest.cpp
+  OAIReopenForumTopicResponse.cpp
+  OAIReopenGeneralForumTopicRequest.cpp
+  OAIReopenGeneralForumTopicResponse.cpp
+  OAIReplaceStickerInSetRequest.cpp
+  OAIReplaceStickerInSetResponse.cpp
   OAIReplyKeyboardMarkup.cpp
   OAIReplyKeyboardRemove.cpp
   OAIReplyParameters.cpp
   OAIReplyParameters_chat_id.cpp
   OAIResponseParameters.cpp
+  OAIRestrictChatMemberRequest.cpp
+  OAIRestrictChatMemberResponse.cpp
   OAIRevenueWithdrawalState.cpp
   OAIRevenueWithdrawalStateFailed.cpp
   OAIRevenueWithdrawalStatePending.cpp
   OAIRevenueWithdrawalStateSucceeded.cpp
+  OAIRevokeChatInviteLinkRequest.cpp
+  OAIRevokeChatInviteLinkRequest_chat_id.cpp
+  OAIRevokeChatInviteLinkResponse.cpp
+  OAISavePreparedInlineMessageRequest.cpp
+  OAISavePreparedInlineMessageResponse.cpp
+  OAISendAnimationRequest.cpp
+  OAISendAnimationResponse.cpp
+  OAISendAudioRequest.cpp
+  OAISendAudioResponse.cpp
+  OAISendChatActionRequest.cpp
+  OAISendChatActionResponse.cpp
+  OAISendContactRequest.cpp
+  OAISendContactResponse.cpp
+  OAISendDiceRequest.cpp
+  OAISendDiceResponse.cpp
+  OAISendDocumentRequest.cpp
+  OAISendDocumentResponse.cpp
+  OAISendGameRequest.cpp
+  OAISendGameResponse.cpp
+  OAISendGiftRequest.cpp
+  OAISendGiftRequest_chat_id.cpp
+  OAISendGiftResponse.cpp
+  OAISendInvoiceRequest.cpp
+  OAISendInvoiceResponse.cpp
+  OAISendLocationRequest.cpp
+  OAISendLocationResponse.cpp
+  OAISendMediaGroupRequest.cpp
+  OAISendMediaGroupRequest_media_inner.cpp
+  OAISendMediaGroupResponse.cpp
+  OAISendMessageRequest.cpp
+  OAISendMessageRequest_chat_id.cpp
+  OAISendMessageRequest_reply_markup.cpp
+  OAISendMessageResponse.cpp
+  OAISendPaidMediaRequest.cpp
+  OAISendPaidMediaRequest_chat_id.cpp
+  OAISendPaidMediaResponse.cpp
+  OAISendPhotoRequest.cpp
+  OAISendPhotoResponse.cpp
+  OAISendPollRequest.cpp
+  OAISendPollResponse.cpp
+  OAISendStickerRequest.cpp
+  OAISendStickerResponse.cpp
+  OAISendVenueRequest.cpp
+  OAISendVenueResponse.cpp
+  OAISendVideoNoteRequest.cpp
+  OAISendVideoNoteResponse.cpp
+  OAISendVideoRequest.cpp
+  OAISendVideoResponse.cpp
+  OAISendVoiceRequest.cpp
+  OAISendVoiceResponse.cpp
   OAISentWebAppMessage.cpp
+  OAISetBusinessAccountBioRequest.cpp
+  OAISetBusinessAccountBioResponse.cpp
+  OAISetBusinessAccountGiftSettingsRequest.cpp
+  OAISetBusinessAccountGiftSettingsResponse.cpp
+  OAISetBusinessAccountNameRequest.cpp
+  OAISetBusinessAccountNameResponse.cpp
+  OAISetBusinessAccountProfilePhotoRequest.cpp
+  OAISetBusinessAccountProfilePhotoResponse.cpp
+  OAISetBusinessAccountUsernameRequest.cpp
+  OAISetBusinessAccountUsernameResponse.cpp
+  OAISetChatAdministratorCustomTitleRequest.cpp
+  OAISetChatAdministratorCustomTitleResponse.cpp
+  OAISetChatDescriptionRequest.cpp
+  OAISetChatDescriptionResponse.cpp
+  OAISetChatMenuButtonRequest.cpp
+  OAISetChatMenuButtonResponse.cpp
+  OAISetChatPermissionsRequest.cpp
+  OAISetChatPermissionsResponse.cpp
+  OAISetChatPhotoRequest.cpp
+  OAISetChatPhotoResponse.cpp
+  OAISetChatStickerSetRequest.cpp
+  OAISetChatStickerSetResponse.cpp
+  OAISetChatTitleRequest.cpp
+  OAISetChatTitleResponse.cpp
+  OAISetCustomEmojiStickerSetThumbnailRequest.cpp
+  OAISetCustomEmojiStickerSetThumbnailResponse.cpp
+  OAISetGameScoreRequest.cpp
+  OAISetGameScoreResponse.cpp
+  OAISetMessageReactionRequest.cpp
+  OAISetMessageReactionResponse.cpp
+  OAISetMyCommandsRequest.cpp
+  OAISetMyCommandsResponse.cpp
+  OAISetMyDefaultAdministratorRightsRequest.cpp
+  OAISetMyDefaultAdministratorRightsResponse.cpp
+  OAISetMyDescriptionRequest.cpp
+  OAISetMyDescriptionResponse.cpp
+  OAISetMyNameRequest.cpp
+  OAISetMyNameResponse.cpp
+  OAISetMyShortDescriptionRequest.cpp
+  OAISetMyShortDescriptionResponse.cpp
+  OAISetPassportDataErrorsRequest.cpp
+  OAISetPassportDataErrorsResponse.cpp
+  OAISetStickerEmojiListRequest.cpp
+  OAISetStickerEmojiListResponse.cpp
+  OAISetStickerKeywordsRequest.cpp
+  OAISetStickerKeywordsResponse.cpp
+  OAISetStickerMaskPositionRequest.cpp
+  OAISetStickerMaskPositionResponse.cpp
+  OAISetStickerPositionInSetRequest.cpp
+  OAISetStickerPositionInSetResponse.cpp
+  OAISetStickerSetThumbnailRequest.cpp
+  OAISetStickerSetThumbnailResponse.cpp
+  OAISetStickerSetTitleRequest.cpp
+  OAISetStickerSetTitleResponse.cpp
+  OAISetUserEmojiStatusRequest.cpp
+  OAISetUserEmojiStatusResponse.cpp
+  OAISetWebhookRequest.cpp
+  OAISetWebhookResponse.cpp
   OAISharedUser.cpp
   OAIShippingAddress.cpp
   OAIShippingOption.cpp
@@ -662,6 +1092,10 @@ add_library(${PROJECT_NAME}
   OAIStarTransactions.cpp
   OAISticker.cpp
   OAIStickerSet.cpp
+  OAIStopMessageLiveLocationRequest.cpp
+  OAIStopMessageLiveLocationResponse.cpp
+  OAIStopPollRequest.cpp
+  OAIStopPollResponse.cpp
   OAIStory.cpp
   OAIStoryArea.cpp
   OAIStoryAreaPosition.cpp
@@ -682,18 +1116,44 @@ add_library(${PROJECT_NAME}
   OAITransactionPartnerTelegramAds.cpp
   OAITransactionPartnerTelegramApi.cpp
   OAITransactionPartnerUser.cpp
+  OAITransferBusinessAccountStarsRequest.cpp
+  OAITransferBusinessAccountStarsResponse.cpp
+  OAITransferGiftRequest.cpp
+  OAITransferGiftResponse.cpp
+  OAIUnbanChatMemberRequest.cpp
+  OAIUnbanChatMemberResponse.cpp
+  OAIUnbanChatSenderChatRequest.cpp
+  OAIUnbanChatSenderChatResponse.cpp
+  OAIUnhideGeneralForumTopicRequest.cpp
+  OAIUnhideGeneralForumTopicResponse.cpp
   OAIUniqueGift.cpp
   OAIUniqueGiftBackdrop.cpp
   OAIUniqueGiftBackdropColors.cpp
   OAIUniqueGiftInfo.cpp
   OAIUniqueGiftModel.cpp
   OAIUniqueGiftSymbol.cpp
+  OAIUnpinAllChatMessagesRequest.cpp
+  OAIUnpinAllChatMessagesResponse.cpp
+  OAIUnpinAllForumTopicMessagesRequest.cpp
+  OAIUnpinAllForumTopicMessagesResponse.cpp
+  OAIUnpinAllGeneralForumTopicMessagesRequest.cpp
+  OAIUnpinAllGeneralForumTopicMessagesResponse.cpp
+  OAIUnpinChatMessageRequest.cpp
+  OAIUnpinChatMessageResponse.cpp
   OAIUpdate.cpp
+  OAIUpgradeGiftRequest.cpp
+  OAIUpgradeGiftResponse.cpp
+  OAIUploadStickerFileRequest.cpp
+  OAIUploadStickerFileResponse.cpp
   OAIUser.cpp
   OAIUserChatBoosts.cpp
   OAIUserProfilePhotos.cpp
   OAIUsersShared.cpp
   OAIVenue.cpp
+  OAIVerifyChatRequest.cpp
+  OAIVerifyChatResponse.cpp
+  OAIVerifyUserRequest.cpp
+  OAIVerifyUserResponse.cpp
   OAIVideo.cpp
   OAIVideoChatEnded.cpp
   OAIVideoChatParticipantsInvited.cpp
@@ -704,176 +1164,6 @@ add_library(${PROJECT_NAME}
   OAIWebAppInfo.cpp
   OAIWebhookInfo.cpp
   OAIWriteAccessAllowed.cpp
-  OAI_answerCallbackQuery_post_request.cpp
-  OAI_answerInlineQuery_post_request.cpp
-  OAI_answerPreCheckoutQuery_post_request.cpp
-  OAI_answerShippingQuery_post_request.cpp
-  OAI_answerWebAppQuery_post_200_response.cpp
-  OAI_answerWebAppQuery_post_request.cpp
-  OAI_approveChatJoinRequest_post_request.cpp
-  OAI_banChatMember_post_request.cpp
-  OAI_banChatMember_post_request_chat_id.cpp
-  OAI_banChatSenderChat_post_request.cpp
-  OAI_closeForumTopic_post_request.cpp
-  OAI_convertGiftToStars_post_request.cpp
-  OAI_copyMessage_post_200_response.cpp
-  OAI_copyMessage_post_request.cpp
-  OAI_copyMessages_post_request.cpp
-  OAI_createChatInviteLink_post_200_response.cpp
-  OAI_createChatInviteLink_post_request.cpp
-  OAI_createChatSubscriptionInviteLink_post_request.cpp
-  OAI_createChatSubscriptionInviteLink_post_request_chat_id.cpp
-  OAI_createForumTopic_post_200_response.cpp
-  OAI_createForumTopic_post_request.cpp
-  OAI_createInvoiceLink_post_request.cpp
-  OAI_deleteBusinessMessages_post_request.cpp
-  OAI_deleteChatStickerSet_post_request.cpp
-  OAI_deleteMessage_post_request.cpp
-  OAI_deleteMessages_post_request.cpp
-  OAI_deleteMyCommands_post_request.cpp
-  OAI_deleteStickerFromSet_post_request.cpp
-  OAI_deleteStickerSet_post_request.cpp
-  OAI_deleteStory_post_request.cpp
-  OAI_deleteWebhook_post_request.cpp
-  OAI_editChatInviteLink_post_request.cpp
-  OAI_editChatSubscriptionInviteLink_post_request.cpp
-  OAI_editForumTopic_post_request.cpp
-  OAI_editGeneralForumTopic_post_request.cpp
-  OAI_editMessageCaption_post_request.cpp
-  OAI_editMessageLiveLocation_post_request.cpp
-  OAI_editMessageReplyMarkup_post_request.cpp
-  OAI_editMessageText_post_200_response.cpp
-  OAI_editMessageText_post_200_response_result.cpp
-  OAI_editMessageText_post_request.cpp
-  OAI_editMessageText_post_request_chat_id.cpp
-  OAI_editUserStarSubscription_post_request.cpp
-  OAI_exportChatInviteLink_post_200_response.cpp
-  OAI_exportChatInviteLink_post_request.cpp
-  OAI_forwardMessage_post_request.cpp
-  OAI_forwardMessage_post_request_from_chat_id.cpp
-  OAI_forwardMessages_post_200_response.cpp
-  OAI_forwardMessages_post_request.cpp
-  OAI_forwardMessages_post_request_from_chat_id.cpp
-  OAI_getAvailableGifts_post_200_response.cpp
-  OAI_getBusinessAccountGifts_post_200_response.cpp
-  OAI_getBusinessAccountGifts_post_request.cpp
-  OAI_getBusinessAccountStarBalance_post_200_response.cpp
-  OAI_getBusinessConnection_post_200_response.cpp
-  OAI_getBusinessConnection_post_request.cpp
-  OAI_getChatAdministrators_post_200_response.cpp
-  OAI_getChatMemberCount_post_200_response.cpp
-  OAI_getChatMember_post_200_response.cpp
-  OAI_getChatMember_post_request.cpp
-  OAI_getChatMenuButton_post_200_response.cpp
-  OAI_getChatMenuButton_post_request.cpp
-  OAI_getChat_post_200_response.cpp
-  OAI_getCustomEmojiStickers_post_request.cpp
-  OAI_getFile_post_200_response.cpp
-  OAI_getFile_post_request.cpp
-  OAI_getForumTopicIconStickers_post_200_response.cpp
-  OAI_getGameHighScores_post_200_response.cpp
-  OAI_getGameHighScores_post_request.cpp
-  OAI_getMe_post_200_response.cpp
-  OAI_getMyCommands_post_200_response.cpp
-  OAI_getMyCommands_post_request.cpp
-  OAI_getMyDefaultAdministratorRights_post_200_response.cpp
-  OAI_getMyDefaultAdministratorRights_post_request.cpp
-  OAI_getMyDescription_post_200_response.cpp
-  OAI_getMyName_post_200_response.cpp
-  OAI_getMyName_post_request.cpp
-  OAI_getMyShortDescription_post_200_response.cpp
-  OAI_getStarTransactions_post_200_response.cpp
-  OAI_getStarTransactions_post_request.cpp
-  OAI_getStickerSet_post_200_response.cpp
-  OAI_getStickerSet_post_request.cpp
-  OAI_getUpdates_post_200_response.cpp
-  OAI_getUpdates_post_request.cpp
-  OAI_getUserChatBoosts_post_200_response.cpp
-  OAI_getUserChatBoosts_post_request.cpp
-  OAI_getUserChatBoosts_post_request_chat_id.cpp
-  OAI_getUserProfilePhotos_post_200_response.cpp
-  OAI_getUserProfilePhotos_post_request.cpp
-  OAI_getWebhookInfo_post_200_response.cpp
-  OAI_giftPremiumSubscription_post_request.cpp
-  OAI_leaveChat_post_request.cpp
-  OAI_leaveChat_post_request_chat_id.cpp
-  OAI_pinChatMessage_post_request.cpp
-  OAI_postStory_post_200_response.cpp
-  OAI_promoteChatMember_post_request.cpp
-  OAI_readBusinessMessage_post_request.cpp
-  OAI_refundStarPayment_post_request.cpp
-  OAI_removeBusinessAccountProfilePhoto_post_request.cpp
-  OAI_removeUserVerification_post_request.cpp
-  OAI_restrictChatMember_post_request.cpp
-  OAI_restrictChatMember_post_request_chat_id.cpp
-  OAI_revokeChatInviteLink_post_request.cpp
-  OAI_revokeChatInviteLink_post_request_chat_id.cpp
-  OAI_savePreparedInlineMessage_post_200_response.cpp
-  OAI_savePreparedInlineMessage_post_request.cpp
-  OAI_sendAnimation_post_request_animation.cpp
-  OAI_sendAudio_post_request_audio.cpp
-  OAI_sendAudio_post_request_thumbnail.cpp
-  OAI_sendChatAction_post_request.cpp
-  OAI_sendContact_post_request.cpp
-  OAI_sendDice_post_request.cpp
-  OAI_sendDocument_post_request_document.cpp
-  OAI_sendGame_post_request.cpp
-  OAI_sendGift_post_request.cpp
-  OAI_sendGift_post_request_chat_id.cpp
-  OAI_sendInvoice_post_request.cpp
-  OAI_sendLocation_post_request.cpp
-  OAI_sendMediaGroup_post_200_response.cpp
-  OAI_sendMediaGroup_post_request_media_inner.cpp
-  OAI_sendMessage_post_200_response.cpp
-  OAI_sendMessage_post_request.cpp
-  OAI_sendMessage_post_request_chat_id.cpp
-  OAI_sendMessage_post_request_reply_markup.cpp
-  OAI_sendPaidMedia_post_request_chat_id.cpp
-  OAI_sendPhoto_post_request_photo.cpp
-  OAI_sendPoll_post_request.cpp
-  OAI_sendSticker_post_request_sticker.cpp
-  OAI_sendVenue_post_request.cpp
-  OAI_sendVideoNote_post_request_video_note.cpp
-  OAI_sendVideo_post_request_cover.cpp
-  OAI_sendVideo_post_request_video.cpp
-  OAI_sendVoice_post_request_voice.cpp
-  OAI_setBusinessAccountBio_post_request.cpp
-  OAI_setBusinessAccountGiftSettings_post_request.cpp
-  OAI_setBusinessAccountName_post_request.cpp
-  OAI_setBusinessAccountUsername_post_request.cpp
-  OAI_setChatAdministratorCustomTitle_post_request.cpp
-  OAI_setChatDescription_post_request.cpp
-  OAI_setChatMenuButton_post_request.cpp
-  OAI_setChatPermissions_post_request.cpp
-  OAI_setChatStickerSet_post_request.cpp
-  OAI_setChatTitle_post_request.cpp
-  OAI_setCustomEmojiStickerSetThumbnail_post_request.cpp
-  OAI_setGameScore_post_request.cpp
-  OAI_setMessageReaction_post_request.cpp
-  OAI_setMyCommands_post_request.cpp
-  OAI_setMyDefaultAdministratorRights_post_request.cpp
-  OAI_setMyDescription_post_request.cpp
-  OAI_setMyName_post_request.cpp
-  OAI_setMyShortDescription_post_request.cpp
-  OAI_setPassportDataErrors_post_request.cpp
-  OAI_setStickerEmojiList_post_request.cpp
-  OAI_setStickerKeywords_post_request.cpp
-  OAI_setStickerMaskPosition_post_request.cpp
-  OAI_setStickerPositionInSet_post_request.cpp
-  OAI_setStickerSetThumbnail_post_request_thumbnail.cpp
-  OAI_setStickerSetTitle_post_request.cpp
-  OAI_setUserEmojiStatus_post_request.cpp
-  OAI_setWebhook_post_200_response.cpp
-  OAI_stopMessageLiveLocation_post_request.cpp
-  OAI_stopPoll_post_200_response.cpp
-  OAI_stopPoll_post_request.cpp
-  OAI_transferBusinessAccountStars_post_request.cpp
-  OAI_transferGift_post_request.cpp
-  OAI_unbanChatMember_post_request.cpp
-  OAI_unpinChatMessage_post_request.cpp
-  OAI_upgradeGift_post_request.cpp
-  OAI_verifyChat_post_request.cpp
-  OAI_verifyUser_post_request.cpp
   OAIDefaultApi.cpp
   OAIHelpers.cpp
   OAIHttpRequest.cpp

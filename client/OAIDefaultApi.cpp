@@ -7,7 +7,7 @@
  * - **Copyright**: Copyright (c) 2025 Qntx
  * - **Author**: ΣX <gitctrlx@gmail.com>
  * - **Version**: 9.0.0
- * - **Modified**: 2025-07-01T14:36:12.380160517Z[Etc/UTC]
+ * - **Modified**: 2025-07-02T09:16:57.652454639Z[Etc/UTC]
  * - **Generator Version**: 7.14.0
  *
  * <details>
@@ -72,312 +72,312 @@ void OAIDefaultApi::initializeServerConfigs() {
     {"token", OAIServerVariable("Each bot is given a unique authentication token when it is created.","123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11",
     QSet<QString>{ {"123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"} })}, }));
     
-    _serverConfigs.insert("addStickerToSetPost", defaultConf);
-    _serverIndices.insert("addStickerToSetPost", 0);
-    _serverConfigs.insert("answerCallbackQueryPost", defaultConf);
-    _serverIndices.insert("answerCallbackQueryPost", 0);
-    _serverConfigs.insert("answerInlineQueryPost", defaultConf);
-    _serverIndices.insert("answerInlineQueryPost", 0);
-    _serverConfigs.insert("answerPreCheckoutQueryPost", defaultConf);
-    _serverIndices.insert("answerPreCheckoutQueryPost", 0);
-    _serverConfigs.insert("answerShippingQueryPost", defaultConf);
-    _serverIndices.insert("answerShippingQueryPost", 0);
-    _serverConfigs.insert("answerWebAppQueryPost", defaultConf);
-    _serverIndices.insert("answerWebAppQueryPost", 0);
-    _serverConfigs.insert("approveChatJoinRequestPost", defaultConf);
-    _serverIndices.insert("approveChatJoinRequestPost", 0);
-    _serverConfigs.insert("banChatMemberPost", defaultConf);
-    _serverIndices.insert("banChatMemberPost", 0);
-    _serverConfigs.insert("banChatSenderChatPost", defaultConf);
-    _serverIndices.insert("banChatSenderChatPost", 0);
-    _serverConfigs.insert("closeForumTopicPost", defaultConf);
-    _serverIndices.insert("closeForumTopicPost", 0);
-    _serverConfigs.insert("closeGeneralForumTopicPost", defaultConf);
-    _serverIndices.insert("closeGeneralForumTopicPost", 0);
-    _serverConfigs.insert("closePost", defaultConf);
-    _serverIndices.insert("closePost", 0);
-    _serverConfigs.insert("convertGiftToStarsPost", defaultConf);
-    _serverIndices.insert("convertGiftToStarsPost", 0);
-    _serverConfigs.insert("copyMessagePost", defaultConf);
-    _serverIndices.insert("copyMessagePost", 0);
-    _serverConfigs.insert("copyMessagesPost", defaultConf);
-    _serverIndices.insert("copyMessagesPost", 0);
-    _serverConfigs.insert("createChatInviteLinkPost", defaultConf);
-    _serverIndices.insert("createChatInviteLinkPost", 0);
-    _serverConfigs.insert("createChatSubscriptionInviteLinkPost", defaultConf);
-    _serverIndices.insert("createChatSubscriptionInviteLinkPost", 0);
-    _serverConfigs.insert("createForumTopicPost", defaultConf);
-    _serverIndices.insert("createForumTopicPost", 0);
-    _serverConfigs.insert("createInvoiceLinkPost", defaultConf);
-    _serverIndices.insert("createInvoiceLinkPost", 0);
-    _serverConfigs.insert("createNewStickerSetPost", defaultConf);
-    _serverIndices.insert("createNewStickerSetPost", 0);
-    _serverConfigs.insert("declineChatJoinRequestPost", defaultConf);
-    _serverIndices.insert("declineChatJoinRequestPost", 0);
-    _serverConfigs.insert("deleteBusinessMessagesPost", defaultConf);
-    _serverIndices.insert("deleteBusinessMessagesPost", 0);
-    _serverConfigs.insert("deleteChatPhotoPost", defaultConf);
-    _serverIndices.insert("deleteChatPhotoPost", 0);
-    _serverConfigs.insert("deleteChatStickerSetPost", defaultConf);
-    _serverIndices.insert("deleteChatStickerSetPost", 0);
-    _serverConfigs.insert("deleteForumTopicPost", defaultConf);
-    _serverIndices.insert("deleteForumTopicPost", 0);
-    _serverConfigs.insert("deleteMessagePost", defaultConf);
-    _serverIndices.insert("deleteMessagePost", 0);
-    _serverConfigs.insert("deleteMessagesPost", defaultConf);
-    _serverIndices.insert("deleteMessagesPost", 0);
-    _serverConfigs.insert("deleteMyCommandsPost", defaultConf);
-    _serverIndices.insert("deleteMyCommandsPost", 0);
-    _serverConfigs.insert("deleteStickerFromSetPost", defaultConf);
-    _serverIndices.insert("deleteStickerFromSetPost", 0);
-    _serverConfigs.insert("deleteStickerSetPost", defaultConf);
-    _serverIndices.insert("deleteStickerSetPost", 0);
-    _serverConfigs.insert("deleteStoryPost", defaultConf);
-    _serverIndices.insert("deleteStoryPost", 0);
-    _serverConfigs.insert("deleteWebhookPost", defaultConf);
-    _serverIndices.insert("deleteWebhookPost", 0);
-    _serverConfigs.insert("editChatInviteLinkPost", defaultConf);
-    _serverIndices.insert("editChatInviteLinkPost", 0);
-    _serverConfigs.insert("editChatSubscriptionInviteLinkPost", defaultConf);
-    _serverIndices.insert("editChatSubscriptionInviteLinkPost", 0);
-    _serverConfigs.insert("editForumTopicPost", defaultConf);
-    _serverIndices.insert("editForumTopicPost", 0);
-    _serverConfigs.insert("editGeneralForumTopicPost", defaultConf);
-    _serverIndices.insert("editGeneralForumTopicPost", 0);
-    _serverConfigs.insert("editMessageCaptionPost", defaultConf);
-    _serverIndices.insert("editMessageCaptionPost", 0);
-    _serverConfigs.insert("editMessageLiveLocationPost", defaultConf);
-    _serverIndices.insert("editMessageLiveLocationPost", 0);
-    _serverConfigs.insert("editMessageMediaPost", defaultConf);
-    _serverIndices.insert("editMessageMediaPost", 0);
-    _serverConfigs.insert("editMessageReplyMarkupPost", defaultConf);
-    _serverIndices.insert("editMessageReplyMarkupPost", 0);
-    _serverConfigs.insert("editMessageTextPost", defaultConf);
-    _serverIndices.insert("editMessageTextPost", 0);
-    _serverConfigs.insert("editStoryPost", defaultConf);
-    _serverIndices.insert("editStoryPost", 0);
-    _serverConfigs.insert("editUserStarSubscriptionPost", defaultConf);
-    _serverIndices.insert("editUserStarSubscriptionPost", 0);
-    _serverConfigs.insert("exportChatInviteLinkPost", defaultConf);
-    _serverIndices.insert("exportChatInviteLinkPost", 0);
-    _serverConfigs.insert("forwardMessagePost", defaultConf);
-    _serverIndices.insert("forwardMessagePost", 0);
-    _serverConfigs.insert("forwardMessagesPost", defaultConf);
-    _serverIndices.insert("forwardMessagesPost", 0);
-    _serverConfigs.insert("getAvailableGiftsPost", defaultConf);
-    _serverIndices.insert("getAvailableGiftsPost", 0);
-    _serverConfigs.insert("getBusinessAccountGiftsPost", defaultConf);
-    _serverIndices.insert("getBusinessAccountGiftsPost", 0);
-    _serverConfigs.insert("getBusinessAccountStarBalancePost", defaultConf);
-    _serverIndices.insert("getBusinessAccountStarBalancePost", 0);
-    _serverConfigs.insert("getBusinessConnectionPost", defaultConf);
-    _serverIndices.insert("getBusinessConnectionPost", 0);
-    _serverConfigs.insert("getChatAdministratorsPost", defaultConf);
-    _serverIndices.insert("getChatAdministratorsPost", 0);
-    _serverConfigs.insert("getChatMemberCountPost", defaultConf);
-    _serverIndices.insert("getChatMemberCountPost", 0);
-    _serverConfigs.insert("getChatMemberPost", defaultConf);
-    _serverIndices.insert("getChatMemberPost", 0);
-    _serverConfigs.insert("getChatMenuButtonPost", defaultConf);
-    _serverIndices.insert("getChatMenuButtonPost", 0);
-    _serverConfigs.insert("getChatPost", defaultConf);
-    _serverIndices.insert("getChatPost", 0);
-    _serverConfigs.insert("getCustomEmojiStickersPost", defaultConf);
-    _serverIndices.insert("getCustomEmojiStickersPost", 0);
-    _serverConfigs.insert("getFilePost", defaultConf);
-    _serverIndices.insert("getFilePost", 0);
-    _serverConfigs.insert("getForumTopicIconStickersPost", defaultConf);
-    _serverIndices.insert("getForumTopicIconStickersPost", 0);
-    _serverConfigs.insert("getGameHighScoresPost", defaultConf);
-    _serverIndices.insert("getGameHighScoresPost", 0);
-    _serverConfigs.insert("getMePost", defaultConf);
-    _serverIndices.insert("getMePost", 0);
-    _serverConfigs.insert("getMyCommandsPost", defaultConf);
-    _serverIndices.insert("getMyCommandsPost", 0);
-    _serverConfigs.insert("getMyDefaultAdministratorRightsPost", defaultConf);
-    _serverIndices.insert("getMyDefaultAdministratorRightsPost", 0);
-    _serverConfigs.insert("getMyDescriptionPost", defaultConf);
-    _serverIndices.insert("getMyDescriptionPost", 0);
-    _serverConfigs.insert("getMyNamePost", defaultConf);
-    _serverIndices.insert("getMyNamePost", 0);
-    _serverConfigs.insert("getMyShortDescriptionPost", defaultConf);
-    _serverIndices.insert("getMyShortDescriptionPost", 0);
-    _serverConfigs.insert("getStarTransactionsPost", defaultConf);
-    _serverIndices.insert("getStarTransactionsPost", 0);
-    _serverConfigs.insert("getStickerSetPost", defaultConf);
-    _serverIndices.insert("getStickerSetPost", 0);
-    _serverConfigs.insert("getUpdatesPost", defaultConf);
-    _serverIndices.insert("getUpdatesPost", 0);
-    _serverConfigs.insert("getUserChatBoostsPost", defaultConf);
-    _serverIndices.insert("getUserChatBoostsPost", 0);
-    _serverConfigs.insert("getUserProfilePhotosPost", defaultConf);
-    _serverIndices.insert("getUserProfilePhotosPost", 0);
-    _serverConfigs.insert("getWebhookInfoPost", defaultConf);
-    _serverIndices.insert("getWebhookInfoPost", 0);
-    _serverConfigs.insert("giftPremiumSubscriptionPost", defaultConf);
-    _serverIndices.insert("giftPremiumSubscriptionPost", 0);
-    _serverConfigs.insert("hideGeneralForumTopicPost", defaultConf);
-    _serverIndices.insert("hideGeneralForumTopicPost", 0);
-    _serverConfigs.insert("leaveChatPost", defaultConf);
-    _serverIndices.insert("leaveChatPost", 0);
-    _serverConfigs.insert("logOutPost", defaultConf);
-    _serverIndices.insert("logOutPost", 0);
-    _serverConfigs.insert("pinChatMessagePost", defaultConf);
-    _serverIndices.insert("pinChatMessagePost", 0);
-    _serverConfigs.insert("postStoryPost", defaultConf);
-    _serverIndices.insert("postStoryPost", 0);
-    _serverConfigs.insert("promoteChatMemberPost", defaultConf);
-    _serverIndices.insert("promoteChatMemberPost", 0);
-    _serverConfigs.insert("readBusinessMessagePost", defaultConf);
-    _serverIndices.insert("readBusinessMessagePost", 0);
-    _serverConfigs.insert("refundStarPaymentPost", defaultConf);
-    _serverIndices.insert("refundStarPaymentPost", 0);
-    _serverConfigs.insert("removeBusinessAccountProfilePhotoPost", defaultConf);
-    _serverIndices.insert("removeBusinessAccountProfilePhotoPost", 0);
-    _serverConfigs.insert("removeChatVerificationPost", defaultConf);
-    _serverIndices.insert("removeChatVerificationPost", 0);
-    _serverConfigs.insert("removeUserVerificationPost", defaultConf);
-    _serverIndices.insert("removeUserVerificationPost", 0);
-    _serverConfigs.insert("reopenForumTopicPost", defaultConf);
-    _serverIndices.insert("reopenForumTopicPost", 0);
-    _serverConfigs.insert("reopenGeneralForumTopicPost", defaultConf);
-    _serverIndices.insert("reopenGeneralForumTopicPost", 0);
-    _serverConfigs.insert("replaceStickerInSetPost", defaultConf);
-    _serverIndices.insert("replaceStickerInSetPost", 0);
-    _serverConfigs.insert("restrictChatMemberPost", defaultConf);
-    _serverIndices.insert("restrictChatMemberPost", 0);
-    _serverConfigs.insert("revokeChatInviteLinkPost", defaultConf);
-    _serverIndices.insert("revokeChatInviteLinkPost", 0);
-    _serverConfigs.insert("savePreparedInlineMessagePost", defaultConf);
-    _serverIndices.insert("savePreparedInlineMessagePost", 0);
-    _serverConfigs.insert("sendAnimationPost", defaultConf);
-    _serverIndices.insert("sendAnimationPost", 0);
-    _serverConfigs.insert("sendAudioPost", defaultConf);
-    _serverIndices.insert("sendAudioPost", 0);
-    _serverConfigs.insert("sendChatActionPost", defaultConf);
-    _serverIndices.insert("sendChatActionPost", 0);
-    _serverConfigs.insert("sendContactPost", defaultConf);
-    _serverIndices.insert("sendContactPost", 0);
-    _serverConfigs.insert("sendDicePost", defaultConf);
-    _serverIndices.insert("sendDicePost", 0);
-    _serverConfigs.insert("sendDocumentPost", defaultConf);
-    _serverIndices.insert("sendDocumentPost", 0);
-    _serverConfigs.insert("sendGamePost", defaultConf);
-    _serverIndices.insert("sendGamePost", 0);
-    _serverConfigs.insert("sendGiftPost", defaultConf);
-    _serverIndices.insert("sendGiftPost", 0);
-    _serverConfigs.insert("sendInvoicePost", defaultConf);
-    _serverIndices.insert("sendInvoicePost", 0);
-    _serverConfigs.insert("sendLocationPost", defaultConf);
-    _serverIndices.insert("sendLocationPost", 0);
-    _serverConfigs.insert("sendMediaGroupPost", defaultConf);
-    _serverIndices.insert("sendMediaGroupPost", 0);
-    _serverConfigs.insert("sendMessagePost", defaultConf);
-    _serverIndices.insert("sendMessagePost", 0);
-    _serverConfigs.insert("sendPaidMediaPost", defaultConf);
-    _serverIndices.insert("sendPaidMediaPost", 0);
-    _serverConfigs.insert("sendPhotoPost", defaultConf);
-    _serverIndices.insert("sendPhotoPost", 0);
-    _serverConfigs.insert("sendPollPost", defaultConf);
-    _serverIndices.insert("sendPollPost", 0);
-    _serverConfigs.insert("sendStickerPost", defaultConf);
-    _serverIndices.insert("sendStickerPost", 0);
-    _serverConfigs.insert("sendVenuePost", defaultConf);
-    _serverIndices.insert("sendVenuePost", 0);
-    _serverConfigs.insert("sendVideoNotePost", defaultConf);
-    _serverIndices.insert("sendVideoNotePost", 0);
-    _serverConfigs.insert("sendVideoPost", defaultConf);
-    _serverIndices.insert("sendVideoPost", 0);
-    _serverConfigs.insert("sendVoicePost", defaultConf);
-    _serverIndices.insert("sendVoicePost", 0);
-    _serverConfigs.insert("setBusinessAccountBioPost", defaultConf);
-    _serverIndices.insert("setBusinessAccountBioPost", 0);
-    _serverConfigs.insert("setBusinessAccountGiftSettingsPost", defaultConf);
-    _serverIndices.insert("setBusinessAccountGiftSettingsPost", 0);
-    _serverConfigs.insert("setBusinessAccountNamePost", defaultConf);
-    _serverIndices.insert("setBusinessAccountNamePost", 0);
-    _serverConfigs.insert("setBusinessAccountProfilePhotoPost", defaultConf);
-    _serverIndices.insert("setBusinessAccountProfilePhotoPost", 0);
-    _serverConfigs.insert("setBusinessAccountUsernamePost", defaultConf);
-    _serverIndices.insert("setBusinessAccountUsernamePost", 0);
-    _serverConfigs.insert("setChatAdministratorCustomTitlePost", defaultConf);
-    _serverIndices.insert("setChatAdministratorCustomTitlePost", 0);
-    _serverConfigs.insert("setChatDescriptionPost", defaultConf);
-    _serverIndices.insert("setChatDescriptionPost", 0);
-    _serverConfigs.insert("setChatMenuButtonPost", defaultConf);
-    _serverIndices.insert("setChatMenuButtonPost", 0);
-    _serverConfigs.insert("setChatPermissionsPost", defaultConf);
-    _serverIndices.insert("setChatPermissionsPost", 0);
-    _serverConfigs.insert("setChatPhotoPost", defaultConf);
-    _serverIndices.insert("setChatPhotoPost", 0);
-    _serverConfigs.insert("setChatStickerSetPost", defaultConf);
-    _serverIndices.insert("setChatStickerSetPost", 0);
-    _serverConfigs.insert("setChatTitlePost", defaultConf);
-    _serverIndices.insert("setChatTitlePost", 0);
-    _serverConfigs.insert("setCustomEmojiStickerSetThumbnailPost", defaultConf);
-    _serverIndices.insert("setCustomEmojiStickerSetThumbnailPost", 0);
-    _serverConfigs.insert("setGameScorePost", defaultConf);
-    _serverIndices.insert("setGameScorePost", 0);
-    _serverConfigs.insert("setMessageReactionPost", defaultConf);
-    _serverIndices.insert("setMessageReactionPost", 0);
-    _serverConfigs.insert("setMyCommandsPost", defaultConf);
-    _serverIndices.insert("setMyCommandsPost", 0);
-    _serverConfigs.insert("setMyDefaultAdministratorRightsPost", defaultConf);
-    _serverIndices.insert("setMyDefaultAdministratorRightsPost", 0);
-    _serverConfigs.insert("setMyDescriptionPost", defaultConf);
-    _serverIndices.insert("setMyDescriptionPost", 0);
-    _serverConfigs.insert("setMyNamePost", defaultConf);
-    _serverIndices.insert("setMyNamePost", 0);
-    _serverConfigs.insert("setMyShortDescriptionPost", defaultConf);
-    _serverIndices.insert("setMyShortDescriptionPost", 0);
-    _serverConfigs.insert("setPassportDataErrorsPost", defaultConf);
-    _serverIndices.insert("setPassportDataErrorsPost", 0);
-    _serverConfigs.insert("setStickerEmojiListPost", defaultConf);
-    _serverIndices.insert("setStickerEmojiListPost", 0);
-    _serverConfigs.insert("setStickerKeywordsPost", defaultConf);
-    _serverIndices.insert("setStickerKeywordsPost", 0);
-    _serverConfigs.insert("setStickerMaskPositionPost", defaultConf);
-    _serverIndices.insert("setStickerMaskPositionPost", 0);
-    _serverConfigs.insert("setStickerPositionInSetPost", defaultConf);
-    _serverIndices.insert("setStickerPositionInSetPost", 0);
-    _serverConfigs.insert("setStickerSetThumbnailPost", defaultConf);
-    _serverIndices.insert("setStickerSetThumbnailPost", 0);
-    _serverConfigs.insert("setStickerSetTitlePost", defaultConf);
-    _serverIndices.insert("setStickerSetTitlePost", 0);
-    _serverConfigs.insert("setUserEmojiStatusPost", defaultConf);
-    _serverIndices.insert("setUserEmojiStatusPost", 0);
-    _serverConfigs.insert("setWebhookPost", defaultConf);
-    _serverIndices.insert("setWebhookPost", 0);
-    _serverConfigs.insert("stopMessageLiveLocationPost", defaultConf);
-    _serverIndices.insert("stopMessageLiveLocationPost", 0);
-    _serverConfigs.insert("stopPollPost", defaultConf);
-    _serverIndices.insert("stopPollPost", 0);
-    _serverConfigs.insert("transferBusinessAccountStarsPost", defaultConf);
-    _serverIndices.insert("transferBusinessAccountStarsPost", 0);
-    _serverConfigs.insert("transferGiftPost", defaultConf);
-    _serverIndices.insert("transferGiftPost", 0);
-    _serverConfigs.insert("unbanChatMemberPost", defaultConf);
-    _serverIndices.insert("unbanChatMemberPost", 0);
-    _serverConfigs.insert("unbanChatSenderChatPost", defaultConf);
-    _serverIndices.insert("unbanChatSenderChatPost", 0);
-    _serverConfigs.insert("unhideGeneralForumTopicPost", defaultConf);
-    _serverIndices.insert("unhideGeneralForumTopicPost", 0);
-    _serverConfigs.insert("unpinAllChatMessagesPost", defaultConf);
-    _serverIndices.insert("unpinAllChatMessagesPost", 0);
-    _serverConfigs.insert("unpinAllForumTopicMessagesPost", defaultConf);
-    _serverIndices.insert("unpinAllForumTopicMessagesPost", 0);
-    _serverConfigs.insert("unpinAllGeneralForumTopicMessagesPost", defaultConf);
-    _serverIndices.insert("unpinAllGeneralForumTopicMessagesPost", 0);
-    _serverConfigs.insert("unpinChatMessagePost", defaultConf);
-    _serverIndices.insert("unpinChatMessagePost", 0);
-    _serverConfigs.insert("upgradeGiftPost", defaultConf);
-    _serverIndices.insert("upgradeGiftPost", 0);
-    _serverConfigs.insert("uploadStickerFilePost", defaultConf);
-    _serverIndices.insert("uploadStickerFilePost", 0);
-    _serverConfigs.insert("verifyChatPost", defaultConf);
-    _serverIndices.insert("verifyChatPost", 0);
-    _serverConfigs.insert("verifyUserPost", defaultConf);
-    _serverIndices.insert("verifyUserPost", 0);
+    _serverConfigs.insert("postAddStickerToSet", defaultConf);
+    _serverIndices.insert("postAddStickerToSet", 0);
+    _serverConfigs.insert("postAnswerCallbackQuery", defaultConf);
+    _serverIndices.insert("postAnswerCallbackQuery", 0);
+    _serverConfigs.insert("postAnswerInlineQuery", defaultConf);
+    _serverIndices.insert("postAnswerInlineQuery", 0);
+    _serverConfigs.insert("postAnswerPreCheckoutQuery", defaultConf);
+    _serverIndices.insert("postAnswerPreCheckoutQuery", 0);
+    _serverConfigs.insert("postAnswerShippingQuery", defaultConf);
+    _serverIndices.insert("postAnswerShippingQuery", 0);
+    _serverConfigs.insert("postAnswerWebAppQuery", defaultConf);
+    _serverIndices.insert("postAnswerWebAppQuery", 0);
+    _serverConfigs.insert("postApproveChatJoinRequest", defaultConf);
+    _serverIndices.insert("postApproveChatJoinRequest", 0);
+    _serverConfigs.insert("postBanChatMember", defaultConf);
+    _serverIndices.insert("postBanChatMember", 0);
+    _serverConfigs.insert("postBanChatSenderChat", defaultConf);
+    _serverIndices.insert("postBanChatSenderChat", 0);
+    _serverConfigs.insert("postClose", defaultConf);
+    _serverIndices.insert("postClose", 0);
+    _serverConfigs.insert("postCloseForumTopic", defaultConf);
+    _serverIndices.insert("postCloseForumTopic", 0);
+    _serverConfigs.insert("postCloseGeneralForumTopic", defaultConf);
+    _serverIndices.insert("postCloseGeneralForumTopic", 0);
+    _serverConfigs.insert("postConvertGiftToStars", defaultConf);
+    _serverIndices.insert("postConvertGiftToStars", 0);
+    _serverConfigs.insert("postCopyMessage", defaultConf);
+    _serverIndices.insert("postCopyMessage", 0);
+    _serverConfigs.insert("postCopyMessages", defaultConf);
+    _serverIndices.insert("postCopyMessages", 0);
+    _serverConfigs.insert("postCreateChatInviteLink", defaultConf);
+    _serverIndices.insert("postCreateChatInviteLink", 0);
+    _serverConfigs.insert("postCreateChatSubscriptionInviteLink", defaultConf);
+    _serverIndices.insert("postCreateChatSubscriptionInviteLink", 0);
+    _serverConfigs.insert("postCreateForumTopic", defaultConf);
+    _serverIndices.insert("postCreateForumTopic", 0);
+    _serverConfigs.insert("postCreateInvoiceLink", defaultConf);
+    _serverIndices.insert("postCreateInvoiceLink", 0);
+    _serverConfigs.insert("postCreateNewStickerSet", defaultConf);
+    _serverIndices.insert("postCreateNewStickerSet", 0);
+    _serverConfigs.insert("postDeclineChatJoinRequest", defaultConf);
+    _serverIndices.insert("postDeclineChatJoinRequest", 0);
+    _serverConfigs.insert("postDeleteBusinessMessages", defaultConf);
+    _serverIndices.insert("postDeleteBusinessMessages", 0);
+    _serverConfigs.insert("postDeleteChatPhoto", defaultConf);
+    _serverIndices.insert("postDeleteChatPhoto", 0);
+    _serverConfigs.insert("postDeleteChatStickerSet", defaultConf);
+    _serverIndices.insert("postDeleteChatStickerSet", 0);
+    _serverConfigs.insert("postDeleteForumTopic", defaultConf);
+    _serverIndices.insert("postDeleteForumTopic", 0);
+    _serverConfigs.insert("postDeleteMessage", defaultConf);
+    _serverIndices.insert("postDeleteMessage", 0);
+    _serverConfigs.insert("postDeleteMessages", defaultConf);
+    _serverIndices.insert("postDeleteMessages", 0);
+    _serverConfigs.insert("postDeleteMyCommands", defaultConf);
+    _serverIndices.insert("postDeleteMyCommands", 0);
+    _serverConfigs.insert("postDeleteStickerFromSet", defaultConf);
+    _serverIndices.insert("postDeleteStickerFromSet", 0);
+    _serverConfigs.insert("postDeleteStickerSet", defaultConf);
+    _serverIndices.insert("postDeleteStickerSet", 0);
+    _serverConfigs.insert("postDeleteStory", defaultConf);
+    _serverIndices.insert("postDeleteStory", 0);
+    _serverConfigs.insert("postDeleteWebhook", defaultConf);
+    _serverIndices.insert("postDeleteWebhook", 0);
+    _serverConfigs.insert("postEditChatInviteLink", defaultConf);
+    _serverIndices.insert("postEditChatInviteLink", 0);
+    _serverConfigs.insert("postEditChatSubscriptionInviteLink", defaultConf);
+    _serverIndices.insert("postEditChatSubscriptionInviteLink", 0);
+    _serverConfigs.insert("postEditForumTopic", defaultConf);
+    _serverIndices.insert("postEditForumTopic", 0);
+    _serverConfigs.insert("postEditGeneralForumTopic", defaultConf);
+    _serverIndices.insert("postEditGeneralForumTopic", 0);
+    _serverConfigs.insert("postEditMessageCaption", defaultConf);
+    _serverIndices.insert("postEditMessageCaption", 0);
+    _serverConfigs.insert("postEditMessageLiveLocation", defaultConf);
+    _serverIndices.insert("postEditMessageLiveLocation", 0);
+    _serverConfigs.insert("postEditMessageMedia", defaultConf);
+    _serverIndices.insert("postEditMessageMedia", 0);
+    _serverConfigs.insert("postEditMessageReplyMarkup", defaultConf);
+    _serverIndices.insert("postEditMessageReplyMarkup", 0);
+    _serverConfigs.insert("postEditMessageText", defaultConf);
+    _serverIndices.insert("postEditMessageText", 0);
+    _serverConfigs.insert("postEditStory", defaultConf);
+    _serverIndices.insert("postEditStory", 0);
+    _serverConfigs.insert("postEditUserStarSubscription", defaultConf);
+    _serverIndices.insert("postEditUserStarSubscription", 0);
+    _serverConfigs.insert("postExportChatInviteLink", defaultConf);
+    _serverIndices.insert("postExportChatInviteLink", 0);
+    _serverConfigs.insert("postForwardMessage", defaultConf);
+    _serverIndices.insert("postForwardMessage", 0);
+    _serverConfigs.insert("postForwardMessages", defaultConf);
+    _serverIndices.insert("postForwardMessages", 0);
+    _serverConfigs.insert("postGetAvailableGifts", defaultConf);
+    _serverIndices.insert("postGetAvailableGifts", 0);
+    _serverConfigs.insert("postGetBusinessAccountGifts", defaultConf);
+    _serverIndices.insert("postGetBusinessAccountGifts", 0);
+    _serverConfigs.insert("postGetBusinessAccountStarBalance", defaultConf);
+    _serverIndices.insert("postGetBusinessAccountStarBalance", 0);
+    _serverConfigs.insert("postGetBusinessConnection", defaultConf);
+    _serverIndices.insert("postGetBusinessConnection", 0);
+    _serverConfigs.insert("postGetChat", defaultConf);
+    _serverIndices.insert("postGetChat", 0);
+    _serverConfigs.insert("postGetChatAdministrators", defaultConf);
+    _serverIndices.insert("postGetChatAdministrators", 0);
+    _serverConfigs.insert("postGetChatMember", defaultConf);
+    _serverIndices.insert("postGetChatMember", 0);
+    _serverConfigs.insert("postGetChatMemberCount", defaultConf);
+    _serverIndices.insert("postGetChatMemberCount", 0);
+    _serverConfigs.insert("postGetChatMenuButton", defaultConf);
+    _serverIndices.insert("postGetChatMenuButton", 0);
+    _serverConfigs.insert("postGetCustomEmojiStickers", defaultConf);
+    _serverIndices.insert("postGetCustomEmojiStickers", 0);
+    _serverConfigs.insert("postGetFile", defaultConf);
+    _serverIndices.insert("postGetFile", 0);
+    _serverConfigs.insert("postGetForumTopicIconStickers", defaultConf);
+    _serverIndices.insert("postGetForumTopicIconStickers", 0);
+    _serverConfigs.insert("postGetGameHighScores", defaultConf);
+    _serverIndices.insert("postGetGameHighScores", 0);
+    _serverConfigs.insert("postGetMe", defaultConf);
+    _serverIndices.insert("postGetMe", 0);
+    _serverConfigs.insert("postGetMyCommands", defaultConf);
+    _serverIndices.insert("postGetMyCommands", 0);
+    _serverConfigs.insert("postGetMyDefaultAdministratorRights", defaultConf);
+    _serverIndices.insert("postGetMyDefaultAdministratorRights", 0);
+    _serverConfigs.insert("postGetMyDescription", defaultConf);
+    _serverIndices.insert("postGetMyDescription", 0);
+    _serverConfigs.insert("postGetMyName", defaultConf);
+    _serverIndices.insert("postGetMyName", 0);
+    _serverConfigs.insert("postGetMyShortDescription", defaultConf);
+    _serverIndices.insert("postGetMyShortDescription", 0);
+    _serverConfigs.insert("postGetStarTransactions", defaultConf);
+    _serverIndices.insert("postGetStarTransactions", 0);
+    _serverConfigs.insert("postGetStickerSet", defaultConf);
+    _serverIndices.insert("postGetStickerSet", 0);
+    _serverConfigs.insert("postGetUpdates", defaultConf);
+    _serverIndices.insert("postGetUpdates", 0);
+    _serverConfigs.insert("postGetUserChatBoosts", defaultConf);
+    _serverIndices.insert("postGetUserChatBoosts", 0);
+    _serverConfigs.insert("postGetUserProfilePhotos", defaultConf);
+    _serverIndices.insert("postGetUserProfilePhotos", 0);
+    _serverConfigs.insert("postGetWebhookInfo", defaultConf);
+    _serverIndices.insert("postGetWebhookInfo", 0);
+    _serverConfigs.insert("postGiftPremiumSubscription", defaultConf);
+    _serverIndices.insert("postGiftPremiumSubscription", 0);
+    _serverConfigs.insert("postHideGeneralForumTopic", defaultConf);
+    _serverIndices.insert("postHideGeneralForumTopic", 0);
+    _serverConfigs.insert("postLeaveChat", defaultConf);
+    _serverIndices.insert("postLeaveChat", 0);
+    _serverConfigs.insert("postLogOut", defaultConf);
+    _serverIndices.insert("postLogOut", 0);
+    _serverConfigs.insert("postPinChatMessage", defaultConf);
+    _serverIndices.insert("postPinChatMessage", 0);
+    _serverConfigs.insert("postPostStory", defaultConf);
+    _serverIndices.insert("postPostStory", 0);
+    _serverConfigs.insert("postPromoteChatMember", defaultConf);
+    _serverIndices.insert("postPromoteChatMember", 0);
+    _serverConfigs.insert("postReadBusinessMessage", defaultConf);
+    _serverIndices.insert("postReadBusinessMessage", 0);
+    _serverConfigs.insert("postRefundStarPayment", defaultConf);
+    _serverIndices.insert("postRefundStarPayment", 0);
+    _serverConfigs.insert("postRemoveBusinessAccountProfilePhoto", defaultConf);
+    _serverIndices.insert("postRemoveBusinessAccountProfilePhoto", 0);
+    _serverConfigs.insert("postRemoveChatVerification", defaultConf);
+    _serverIndices.insert("postRemoveChatVerification", 0);
+    _serverConfigs.insert("postRemoveUserVerification", defaultConf);
+    _serverIndices.insert("postRemoveUserVerification", 0);
+    _serverConfigs.insert("postReopenForumTopic", defaultConf);
+    _serverIndices.insert("postReopenForumTopic", 0);
+    _serverConfigs.insert("postReopenGeneralForumTopic", defaultConf);
+    _serverIndices.insert("postReopenGeneralForumTopic", 0);
+    _serverConfigs.insert("postReplaceStickerInSet", defaultConf);
+    _serverIndices.insert("postReplaceStickerInSet", 0);
+    _serverConfigs.insert("postRestrictChatMember", defaultConf);
+    _serverIndices.insert("postRestrictChatMember", 0);
+    _serverConfigs.insert("postRevokeChatInviteLink", defaultConf);
+    _serverIndices.insert("postRevokeChatInviteLink", 0);
+    _serverConfigs.insert("postSavePreparedInlineMessage", defaultConf);
+    _serverIndices.insert("postSavePreparedInlineMessage", 0);
+    _serverConfigs.insert("postSendAnimation", defaultConf);
+    _serverIndices.insert("postSendAnimation", 0);
+    _serverConfigs.insert("postSendAudio", defaultConf);
+    _serverIndices.insert("postSendAudio", 0);
+    _serverConfigs.insert("postSendChatAction", defaultConf);
+    _serverIndices.insert("postSendChatAction", 0);
+    _serverConfigs.insert("postSendContact", defaultConf);
+    _serverIndices.insert("postSendContact", 0);
+    _serverConfigs.insert("postSendDice", defaultConf);
+    _serverIndices.insert("postSendDice", 0);
+    _serverConfigs.insert("postSendDocument", defaultConf);
+    _serverIndices.insert("postSendDocument", 0);
+    _serverConfigs.insert("postSendGame", defaultConf);
+    _serverIndices.insert("postSendGame", 0);
+    _serverConfigs.insert("postSendGift", defaultConf);
+    _serverIndices.insert("postSendGift", 0);
+    _serverConfigs.insert("postSendInvoice", defaultConf);
+    _serverIndices.insert("postSendInvoice", 0);
+    _serverConfigs.insert("postSendLocation", defaultConf);
+    _serverIndices.insert("postSendLocation", 0);
+    _serverConfigs.insert("postSendMediaGroup", defaultConf);
+    _serverIndices.insert("postSendMediaGroup", 0);
+    _serverConfigs.insert("postSendMessage", defaultConf);
+    _serverIndices.insert("postSendMessage", 0);
+    _serverConfigs.insert("postSendPaidMedia", defaultConf);
+    _serverIndices.insert("postSendPaidMedia", 0);
+    _serverConfigs.insert("postSendPhoto", defaultConf);
+    _serverIndices.insert("postSendPhoto", 0);
+    _serverConfigs.insert("postSendPoll", defaultConf);
+    _serverIndices.insert("postSendPoll", 0);
+    _serverConfigs.insert("postSendSticker", defaultConf);
+    _serverIndices.insert("postSendSticker", 0);
+    _serverConfigs.insert("postSendVenue", defaultConf);
+    _serverIndices.insert("postSendVenue", 0);
+    _serverConfigs.insert("postSendVideo", defaultConf);
+    _serverIndices.insert("postSendVideo", 0);
+    _serverConfigs.insert("postSendVideoNote", defaultConf);
+    _serverIndices.insert("postSendVideoNote", 0);
+    _serverConfigs.insert("postSendVoice", defaultConf);
+    _serverIndices.insert("postSendVoice", 0);
+    _serverConfigs.insert("postSetBusinessAccountBio", defaultConf);
+    _serverIndices.insert("postSetBusinessAccountBio", 0);
+    _serverConfigs.insert("postSetBusinessAccountGiftSettings", defaultConf);
+    _serverIndices.insert("postSetBusinessAccountGiftSettings", 0);
+    _serverConfigs.insert("postSetBusinessAccountName", defaultConf);
+    _serverIndices.insert("postSetBusinessAccountName", 0);
+    _serverConfigs.insert("postSetBusinessAccountProfilePhoto", defaultConf);
+    _serverIndices.insert("postSetBusinessAccountProfilePhoto", 0);
+    _serverConfigs.insert("postSetBusinessAccountUsername", defaultConf);
+    _serverIndices.insert("postSetBusinessAccountUsername", 0);
+    _serverConfigs.insert("postSetChatAdministratorCustomTitle", defaultConf);
+    _serverIndices.insert("postSetChatAdministratorCustomTitle", 0);
+    _serverConfigs.insert("postSetChatDescription", defaultConf);
+    _serverIndices.insert("postSetChatDescription", 0);
+    _serverConfigs.insert("postSetChatMenuButton", defaultConf);
+    _serverIndices.insert("postSetChatMenuButton", 0);
+    _serverConfigs.insert("postSetChatPermissions", defaultConf);
+    _serverIndices.insert("postSetChatPermissions", 0);
+    _serverConfigs.insert("postSetChatPhoto", defaultConf);
+    _serverIndices.insert("postSetChatPhoto", 0);
+    _serverConfigs.insert("postSetChatStickerSet", defaultConf);
+    _serverIndices.insert("postSetChatStickerSet", 0);
+    _serverConfigs.insert("postSetChatTitle", defaultConf);
+    _serverIndices.insert("postSetChatTitle", 0);
+    _serverConfigs.insert("postSetCustomEmojiStickerSetThumbnail", defaultConf);
+    _serverIndices.insert("postSetCustomEmojiStickerSetThumbnail", 0);
+    _serverConfigs.insert("postSetGameScore", defaultConf);
+    _serverIndices.insert("postSetGameScore", 0);
+    _serverConfigs.insert("postSetMessageReaction", defaultConf);
+    _serverIndices.insert("postSetMessageReaction", 0);
+    _serverConfigs.insert("postSetMyCommands", defaultConf);
+    _serverIndices.insert("postSetMyCommands", 0);
+    _serverConfigs.insert("postSetMyDefaultAdministratorRights", defaultConf);
+    _serverIndices.insert("postSetMyDefaultAdministratorRights", 0);
+    _serverConfigs.insert("postSetMyDescription", defaultConf);
+    _serverIndices.insert("postSetMyDescription", 0);
+    _serverConfigs.insert("postSetMyName", defaultConf);
+    _serverIndices.insert("postSetMyName", 0);
+    _serverConfigs.insert("postSetMyShortDescription", defaultConf);
+    _serverIndices.insert("postSetMyShortDescription", 0);
+    _serverConfigs.insert("postSetPassportDataErrors", defaultConf);
+    _serverIndices.insert("postSetPassportDataErrors", 0);
+    _serverConfigs.insert("postSetStickerEmojiList", defaultConf);
+    _serverIndices.insert("postSetStickerEmojiList", 0);
+    _serverConfigs.insert("postSetStickerKeywords", defaultConf);
+    _serverIndices.insert("postSetStickerKeywords", 0);
+    _serverConfigs.insert("postSetStickerMaskPosition", defaultConf);
+    _serverIndices.insert("postSetStickerMaskPosition", 0);
+    _serverConfigs.insert("postSetStickerPositionInSet", defaultConf);
+    _serverIndices.insert("postSetStickerPositionInSet", 0);
+    _serverConfigs.insert("postSetStickerSetThumbnail", defaultConf);
+    _serverIndices.insert("postSetStickerSetThumbnail", 0);
+    _serverConfigs.insert("postSetStickerSetTitle", defaultConf);
+    _serverIndices.insert("postSetStickerSetTitle", 0);
+    _serverConfigs.insert("postSetUserEmojiStatus", defaultConf);
+    _serverIndices.insert("postSetUserEmojiStatus", 0);
+    _serverConfigs.insert("postSetWebhook", defaultConf);
+    _serverIndices.insert("postSetWebhook", 0);
+    _serverConfigs.insert("postStopMessageLiveLocation", defaultConf);
+    _serverIndices.insert("postStopMessageLiveLocation", 0);
+    _serverConfigs.insert("postStopPoll", defaultConf);
+    _serverIndices.insert("postStopPoll", 0);
+    _serverConfigs.insert("postTransferBusinessAccountStars", defaultConf);
+    _serverIndices.insert("postTransferBusinessAccountStars", 0);
+    _serverConfigs.insert("postTransferGift", defaultConf);
+    _serverIndices.insert("postTransferGift", 0);
+    _serverConfigs.insert("postUnbanChatMember", defaultConf);
+    _serverIndices.insert("postUnbanChatMember", 0);
+    _serverConfigs.insert("postUnbanChatSenderChat", defaultConf);
+    _serverIndices.insert("postUnbanChatSenderChat", 0);
+    _serverConfigs.insert("postUnhideGeneralForumTopic", defaultConf);
+    _serverIndices.insert("postUnhideGeneralForumTopic", 0);
+    _serverConfigs.insert("postUnpinAllChatMessages", defaultConf);
+    _serverIndices.insert("postUnpinAllChatMessages", 0);
+    _serverConfigs.insert("postUnpinAllForumTopicMessages", defaultConf);
+    _serverIndices.insert("postUnpinAllForumTopicMessages", 0);
+    _serverConfigs.insert("postUnpinAllGeneralForumTopicMessages", defaultConf);
+    _serverIndices.insert("postUnpinAllGeneralForumTopicMessages", 0);
+    _serverConfigs.insert("postUnpinChatMessage", defaultConf);
+    _serverIndices.insert("postUnpinChatMessage", 0);
+    _serverConfigs.insert("postUpgradeGift", defaultConf);
+    _serverIndices.insert("postUpgradeGift", 0);
+    _serverConfigs.insert("postUploadStickerFile", defaultConf);
+    _serverIndices.insert("postUploadStickerFile", 0);
+    _serverConfigs.insert("postVerifyChat", defaultConf);
+    _serverIndices.insert("postVerifyChat", 0);
+    _serverConfigs.insert("postVerifyUser", defaultConf);
+    _serverIndices.insert("postVerifyUser", 0);
 }
 
 /**
@@ -547,8 +547,8 @@ QString OAIDefaultApi::getParamStyleDelimiter(const QString &style, const QStrin
     }
 }
 
-void OAIDefaultApi::addStickerToSetPost(const qint32 &user_id, const QString &name, const OAIInputSticker &sticker) {
-    QString fullPath = QString(_serverConfigs["addStickerToSetPost"][_serverIndices.value("addStickerToSetPost")].URL()+"/addStickerToSet");
+void OAIDefaultApi::postAddStickerToSet(const qint32 &user_id, const QString &name, const OAIInputSticker &sticker) {
+    QString fullPath = QString(_serverConfigs["postAddStickerToSet"][_serverIndices.value("postAddStickerToSet")].URL()+"/addStickerToSet");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -573,7 +573,7 @@ void OAIDefaultApi::addStickerToSetPost(const qint32 &user_id, const QString &na
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::addStickerToSetPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postAddStickerToSetCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -584,19 +584,19 @@ void OAIDefaultApi::addStickerToSetPost(const qint32 &user_id, const QString &na
     worker->execute(&input);
 }
 
-void OAIDefaultApi::addStickerToSetPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postAddStickerToSetCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIAddStickerToSetResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT addStickerToSetPostSignal(output);
-        Q_EMIT addStickerToSetPostSignalFull(worker, output);
+        Q_EMIT postAddStickerToSetSignal(output);
+        Q_EMIT postAddStickerToSetSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -613,8 +613,8 @@ void OAIDefaultApi::addStickerToSetPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT addStickerToSetPostSignalE(output, error_type, error_str);
-        Q_EMIT addStickerToSetPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postAddStickerToSetSignalE(output, error_type, error_str);
+        Q_EMIT postAddStickerToSetSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -624,13 +624,13 @@ void OAIDefaultApi::addStickerToSetPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT addStickerToSetPostSignalError(output, error_type, error_str);
-        Q_EMIT addStickerToSetPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postAddStickerToSetSignalError(output, error_type, error_str);
+        Q_EMIT postAddStickerToSetSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::answerCallbackQueryPost(const QString &callback_query_id, const ::tele_rest::OptionalParam<QString> &text, const ::tele_rest::OptionalParam<bool> &show_alert, const ::tele_rest::OptionalParam<QString> &url, const ::tele_rest::OptionalParam<qint32> &cache_time) {
-    QString fullPath = QString(_serverConfigs["answerCallbackQueryPost"][_serverIndices.value("answerCallbackQueryPost")].URL()+"/answerCallbackQuery");
+void OAIDefaultApi::postAnswerCallbackQuery(const QString &callback_query_id, const ::tele_rest::OptionalParam<QString> &text, const ::tele_rest::OptionalParam<bool> &show_alert, const ::tele_rest::OptionalParam<QString> &url, const ::tele_rest::OptionalParam<qint32> &cache_time) {
+    QString fullPath = QString(_serverConfigs["postAnswerCallbackQuery"][_serverIndices.value("postAnswerCallbackQuery")].URL()+"/answerCallbackQuery");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -663,7 +663,7 @@ void OAIDefaultApi::answerCallbackQueryPost(const QString &callback_query_id, co
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::answerCallbackQueryPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postAnswerCallbackQueryCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -674,19 +674,19 @@ void OAIDefaultApi::answerCallbackQueryPost(const QString &callback_query_id, co
     worker->execute(&input);
 }
 
-void OAIDefaultApi::answerCallbackQueryPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postAnswerCallbackQueryCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIAnswerCallbackQueryResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT answerCallbackQueryPostSignal(output);
-        Q_EMIT answerCallbackQueryPostSignalFull(worker, output);
+        Q_EMIT postAnswerCallbackQuerySignal(output);
+        Q_EMIT postAnswerCallbackQuerySignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -703,8 +703,8 @@ void OAIDefaultApi::answerCallbackQueryPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT answerCallbackQueryPostSignalE(output, error_type, error_str);
-        Q_EMIT answerCallbackQueryPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postAnswerCallbackQuerySignalE(output, error_type, error_str);
+        Q_EMIT postAnswerCallbackQuerySignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -714,13 +714,13 @@ void OAIDefaultApi::answerCallbackQueryPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT answerCallbackQueryPostSignalError(output, error_type, error_str);
-        Q_EMIT answerCallbackQueryPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postAnswerCallbackQuerySignalError(output, error_type, error_str);
+        Q_EMIT postAnswerCallbackQuerySignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::answerInlineQueryPost(const QString &inline_query_id, const QList<OAIInlineQueryResult> &results, const ::tele_rest::OptionalParam<qint32> &cache_time, const ::tele_rest::OptionalParam<bool> &is_personal, const ::tele_rest::OptionalParam<QString> &next_offset, const ::tele_rest::OptionalParam<OAIInlineQueryResultsButton> &button) {
-    QString fullPath = QString(_serverConfigs["answerInlineQueryPost"][_serverIndices.value("answerInlineQueryPost")].URL()+"/answerInlineQuery");
+void OAIDefaultApi::postAnswerInlineQuery(const QString &inline_query_id, const QList<OAIInlineQueryResult> &results, const ::tele_rest::OptionalParam<qint32> &cache_time, const ::tele_rest::OptionalParam<bool> &is_personal, const ::tele_rest::OptionalParam<QString> &next_offset, const ::tele_rest::OptionalParam<OAIInlineQueryResultsButton> &button) {
+    QString fullPath = QString(_serverConfigs["postAnswerInlineQuery"][_serverIndices.value("postAnswerInlineQuery")].URL()+"/answerInlineQuery");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -757,7 +757,7 @@ void OAIDefaultApi::answerInlineQueryPost(const QString &inline_query_id, const 
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::answerInlineQueryPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postAnswerInlineQueryCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -768,19 +768,19 @@ void OAIDefaultApi::answerInlineQueryPost(const QString &inline_query_id, const 
     worker->execute(&input);
 }
 
-void OAIDefaultApi::answerInlineQueryPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postAnswerInlineQueryCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIAnswerInlineQueryResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT answerInlineQueryPostSignal(output);
-        Q_EMIT answerInlineQueryPostSignalFull(worker, output);
+        Q_EMIT postAnswerInlineQuerySignal(output);
+        Q_EMIT postAnswerInlineQuerySignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -797,8 +797,8 @@ void OAIDefaultApi::answerInlineQueryPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT answerInlineQueryPostSignalE(output, error_type, error_str);
-        Q_EMIT answerInlineQueryPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postAnswerInlineQuerySignalE(output, error_type, error_str);
+        Q_EMIT postAnswerInlineQuerySignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -808,13 +808,13 @@ void OAIDefaultApi::answerInlineQueryPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT answerInlineQueryPostSignalError(output, error_type, error_str);
-        Q_EMIT answerInlineQueryPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postAnswerInlineQuerySignalError(output, error_type, error_str);
+        Q_EMIT postAnswerInlineQuerySignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::answerPreCheckoutQueryPost(const QString &pre_checkout_query_id, const bool &ok, const ::tele_rest::OptionalParam<QString> &error_message) {
-    QString fullPath = QString(_serverConfigs["answerPreCheckoutQueryPost"][_serverIndices.value("answerPreCheckoutQueryPost")].URL()+"/answerPreCheckoutQuery");
+void OAIDefaultApi::postAnswerPreCheckoutQuery(const QString &pre_checkout_query_id, const bool &ok, const ::tele_rest::OptionalParam<QString> &error_message) {
+    QString fullPath = QString(_serverConfigs["postAnswerPreCheckoutQuery"][_serverIndices.value("postAnswerPreCheckoutQuery")].URL()+"/answerPreCheckoutQuery");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -839,7 +839,7 @@ void OAIDefaultApi::answerPreCheckoutQueryPost(const QString &pre_checkout_query
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::answerPreCheckoutQueryPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postAnswerPreCheckoutQueryCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -850,19 +850,19 @@ void OAIDefaultApi::answerPreCheckoutQueryPost(const QString &pre_checkout_query
     worker->execute(&input);
 }
 
-void OAIDefaultApi::answerPreCheckoutQueryPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postAnswerPreCheckoutQueryCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIAnswerPreCheckoutQueryResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT answerPreCheckoutQueryPostSignal(output);
-        Q_EMIT answerPreCheckoutQueryPostSignalFull(worker, output);
+        Q_EMIT postAnswerPreCheckoutQuerySignal(output);
+        Q_EMIT postAnswerPreCheckoutQuerySignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -879,8 +879,8 @@ void OAIDefaultApi::answerPreCheckoutQueryPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT answerPreCheckoutQueryPostSignalE(output, error_type, error_str);
-        Q_EMIT answerPreCheckoutQueryPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postAnswerPreCheckoutQuerySignalE(output, error_type, error_str);
+        Q_EMIT postAnswerPreCheckoutQuerySignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -890,13 +890,13 @@ void OAIDefaultApi::answerPreCheckoutQueryPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT answerPreCheckoutQueryPostSignalError(output, error_type, error_str);
-        Q_EMIT answerPreCheckoutQueryPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postAnswerPreCheckoutQuerySignalError(output, error_type, error_str);
+        Q_EMIT postAnswerPreCheckoutQuerySignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::answerShippingQueryPost(const QString &shipping_query_id, const bool &ok, const ::tele_rest::OptionalParam<QList<OAIShippingOption>> &shipping_options, const ::tele_rest::OptionalParam<QString> &error_message) {
-    QString fullPath = QString(_serverConfigs["answerShippingQueryPost"][_serverIndices.value("answerShippingQueryPost")].URL()+"/answerShippingQuery");
+void OAIDefaultApi::postAnswerShippingQuery(const QString &shipping_query_id, const bool &ok, const ::tele_rest::OptionalParam<QList<OAIShippingOption>> &shipping_options, const ::tele_rest::OptionalParam<QString> &error_message) {
+    QString fullPath = QString(_serverConfigs["postAnswerShippingQuery"][_serverIndices.value("postAnswerShippingQuery")].URL()+"/answerShippingQuery");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -925,7 +925,7 @@ void OAIDefaultApi::answerShippingQueryPost(const QString &shipping_query_id, co
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::answerShippingQueryPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postAnswerShippingQueryCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -936,19 +936,19 @@ void OAIDefaultApi::answerShippingQueryPost(const QString &shipping_query_id, co
     worker->execute(&input);
 }
 
-void OAIDefaultApi::answerShippingQueryPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postAnswerShippingQueryCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIAnswerShippingQueryResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT answerShippingQueryPostSignal(output);
-        Q_EMIT answerShippingQueryPostSignalFull(worker, output);
+        Q_EMIT postAnswerShippingQuerySignal(output);
+        Q_EMIT postAnswerShippingQuerySignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -965,8 +965,8 @@ void OAIDefaultApi::answerShippingQueryPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT answerShippingQueryPostSignalE(output, error_type, error_str);
-        Q_EMIT answerShippingQueryPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postAnswerShippingQuerySignalE(output, error_type, error_str);
+        Q_EMIT postAnswerShippingQuerySignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -976,13 +976,13 @@ void OAIDefaultApi::answerShippingQueryPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT answerShippingQueryPostSignalError(output, error_type, error_str);
-        Q_EMIT answerShippingQueryPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postAnswerShippingQuerySignalError(output, error_type, error_str);
+        Q_EMIT postAnswerShippingQuerySignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::answerWebAppQueryPost(const QString &web_app_query_id, const OAIInlineQueryResult &result) {
-    QString fullPath = QString(_serverConfigs["answerWebAppQueryPost"][_serverIndices.value("answerWebAppQueryPost")].URL()+"/answerWebAppQuery");
+void OAIDefaultApi::postAnswerWebAppQuery(const QString &web_app_query_id, const OAIInlineQueryResult &result) {
+    QString fullPath = QString(_serverConfigs["postAnswerWebAppQuery"][_serverIndices.value("postAnswerWebAppQuery")].URL()+"/answerWebAppQuery");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -1003,7 +1003,7 @@ void OAIDefaultApi::answerWebAppQueryPost(const QString &web_app_query_id, const
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::answerWebAppQueryPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postAnswerWebAppQueryCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -1014,19 +1014,19 @@ void OAIDefaultApi::answerWebAppQueryPost(const QString &web_app_query_id, const
     worker->execute(&input);
 }
 
-void OAIDefaultApi::answerWebAppQueryPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postAnswerWebAppQueryCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_answerWebAppQuery_post_200_response output(QString(worker->response));
+    OAIAnswerWebAppQueryResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT answerWebAppQueryPostSignal(output);
-        Q_EMIT answerWebAppQueryPostSignalFull(worker, output);
+        Q_EMIT postAnswerWebAppQuerySignal(output);
+        Q_EMIT postAnswerWebAppQuerySignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -1043,8 +1043,8 @@ void OAIDefaultApi::answerWebAppQueryPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT answerWebAppQueryPostSignalE(output, error_type, error_str);
-        Q_EMIT answerWebAppQueryPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postAnswerWebAppQuerySignalE(output, error_type, error_str);
+        Q_EMIT postAnswerWebAppQuerySignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -1054,13 +1054,13 @@ void OAIDefaultApi::answerWebAppQueryPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT answerWebAppQueryPostSignalError(output, error_type, error_str);
-        Q_EMIT answerWebAppQueryPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postAnswerWebAppQuerySignalError(output, error_type, error_str);
+        Q_EMIT postAnswerWebAppQuerySignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::approveChatJoinRequestPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &user_id) {
-    QString fullPath = QString(_serverConfigs["approveChatJoinRequestPost"][_serverIndices.value("approveChatJoinRequestPost")].URL()+"/approveChatJoinRequest");
+void OAIDefaultApi::postApproveChatJoinRequest(const OAISendMessageRequest_chat_id &chat_id, const qint32 &user_id) {
+    QString fullPath = QString(_serverConfigs["postApproveChatJoinRequest"][_serverIndices.value("postApproveChatJoinRequest")].URL()+"/approveChatJoinRequest");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -1081,7 +1081,7 @@ void OAIDefaultApi::approveChatJoinRequestPost(const OAI_sendMessage_post_reques
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::approveChatJoinRequestPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postApproveChatJoinRequestCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -1092,19 +1092,19 @@ void OAIDefaultApi::approveChatJoinRequestPost(const OAI_sendMessage_post_reques
     worker->execute(&input);
 }
 
-void OAIDefaultApi::approveChatJoinRequestPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postApproveChatJoinRequestCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIApproveChatJoinRequestResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT approveChatJoinRequestPostSignal(output);
-        Q_EMIT approveChatJoinRequestPostSignalFull(worker, output);
+        Q_EMIT postApproveChatJoinRequestSignal(output);
+        Q_EMIT postApproveChatJoinRequestSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -1121,8 +1121,8 @@ void OAIDefaultApi::approveChatJoinRequestPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT approveChatJoinRequestPostSignalE(output, error_type, error_str);
-        Q_EMIT approveChatJoinRequestPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postApproveChatJoinRequestSignalE(output, error_type, error_str);
+        Q_EMIT postApproveChatJoinRequestSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -1132,13 +1132,13 @@ void OAIDefaultApi::approveChatJoinRequestPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT approveChatJoinRequestPostSignalError(output, error_type, error_str);
-        Q_EMIT approveChatJoinRequestPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postApproveChatJoinRequestSignalError(output, error_type, error_str);
+        Q_EMIT postApproveChatJoinRequestSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::banChatMemberPost(const OAI_banChatMember_post_request_chat_id &chat_id, const qint32 &user_id, const ::tele_rest::OptionalParam<qint32> &until_date, const ::tele_rest::OptionalParam<bool> &revoke_messages) {
-    QString fullPath = QString(_serverConfigs["banChatMemberPost"][_serverIndices.value("banChatMemberPost")].URL()+"/banChatMember");
+void OAIDefaultApi::postBanChatMember(const OAIBanChatMemberRequest_chat_id &chat_id, const qint32 &user_id, const ::tele_rest::OptionalParam<qint32> &until_date, const ::tele_rest::OptionalParam<bool> &revoke_messages) {
+    QString fullPath = QString(_serverConfigs["postBanChatMember"][_serverIndices.value("postBanChatMember")].URL()+"/banChatMember");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -1167,7 +1167,7 @@ void OAIDefaultApi::banChatMemberPost(const OAI_banChatMember_post_request_chat_
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::banChatMemberPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postBanChatMemberCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -1178,19 +1178,19 @@ void OAIDefaultApi::banChatMemberPost(const OAI_banChatMember_post_request_chat_
     worker->execute(&input);
 }
 
-void OAIDefaultApi::banChatMemberPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postBanChatMemberCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIBanChatMemberResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT banChatMemberPostSignal(output);
-        Q_EMIT banChatMemberPostSignalFull(worker, output);
+        Q_EMIT postBanChatMemberSignal(output);
+        Q_EMIT postBanChatMemberSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -1207,8 +1207,8 @@ void OAIDefaultApi::banChatMemberPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT banChatMemberPostSignalE(output, error_type, error_str);
-        Q_EMIT banChatMemberPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postBanChatMemberSignalE(output, error_type, error_str);
+        Q_EMIT postBanChatMemberSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -1218,13 +1218,13 @@ void OAIDefaultApi::banChatMemberPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT banChatMemberPostSignalError(output, error_type, error_str);
-        Q_EMIT banChatMemberPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postBanChatMemberSignalError(output, error_type, error_str);
+        Q_EMIT postBanChatMemberSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::banChatSenderChatPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &sender_chat_id) {
-    QString fullPath = QString(_serverConfigs["banChatSenderChatPost"][_serverIndices.value("banChatSenderChatPost")].URL()+"/banChatSenderChat");
+void OAIDefaultApi::postBanChatSenderChat(const OAISendMessageRequest_chat_id &chat_id, const qint32 &sender_chat_id) {
+    QString fullPath = QString(_serverConfigs["postBanChatSenderChat"][_serverIndices.value("postBanChatSenderChat")].URL()+"/banChatSenderChat");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -1245,7 +1245,7 @@ void OAIDefaultApi::banChatSenderChatPost(const OAI_sendMessage_post_request_cha
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::banChatSenderChatPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postBanChatSenderChatCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -1256,19 +1256,19 @@ void OAIDefaultApi::banChatSenderChatPost(const OAI_sendMessage_post_request_cha
     worker->execute(&input);
 }
 
-void OAIDefaultApi::banChatSenderChatPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postBanChatSenderChatCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIBanChatSenderChatResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT banChatSenderChatPostSignal(output);
-        Q_EMIT banChatSenderChatPostSignalFull(worker, output);
+        Q_EMIT postBanChatSenderChatSignal(output);
+        Q_EMIT postBanChatSenderChatSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -1285,8 +1285,8 @@ void OAIDefaultApi::banChatSenderChatPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT banChatSenderChatPostSignalE(output, error_type, error_str);
-        Q_EMIT banChatSenderChatPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postBanChatSenderChatSignalE(output, error_type, error_str);
+        Q_EMIT postBanChatSenderChatSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -1296,13 +1296,83 @@ void OAIDefaultApi::banChatSenderChatPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT banChatSenderChatPostSignalError(output, error_type, error_str);
-        Q_EMIT banChatSenderChatPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postBanChatSenderChatSignalError(output, error_type, error_str);
+        Q_EMIT postBanChatSenderChatSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::closeForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &message_thread_id) {
-    QString fullPath = QString(_serverConfigs["closeForumTopicPost"][_serverIndices.value("closeForumTopicPost")].URL()+"/closeForumTopic");
+void OAIDefaultApi::postClose() {
+    QString fullPath = QString(_serverConfigs["postClose"][_serverIndices.value("postClose")].URL()+"/close");
+    
+    OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
+    worker->setTimeOut(_timeOut);
+    worker->setWorkingDirectory(_workingDirectory);
+    OAIHttpRequestInput input(fullPath, "POST");
+
+
+    for (auto keyValueIt = _defaultHeaders.keyValueBegin(); keyValueIt != _defaultHeaders.keyValueEnd(); keyValueIt++) {
+        input.headers.insert(keyValueIt->first, keyValueIt->second);
+    }
+
+
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postCloseCallback);
+    connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
+    connect(worker, &QObject::destroyed, this, [this] {
+        if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
+            Q_EMIT allPendingRequestsCompleted();
+        }
+    });
+
+    worker->execute(&input);
+}
+
+void OAIDefaultApi::postCloseCallback(OAIHttpRequestWorker *worker) {
+    QString error_str = worker->error_str;
+    QNetworkReply::NetworkError error_type = worker->error_type;
+
+    if (worker->error_type != QNetworkReply::NoError) {
+        error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
+    }
+    OAICloseResponse output(QString(worker->response));
+    worker->deleteLater();
+
+    if (worker->error_type == QNetworkReply::NoError) {
+        Q_EMIT postCloseSignal(output);
+        Q_EMIT postCloseSignalFull(worker, output);
+    } else {
+
+#if defined(_MSC_VER)
+// For MSVC
+#pragma warning(push)
+#pragma warning(disable : 4996)
+#elif defined(__clang__)
+// For Clang
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+#elif defined(__GNUC__)
+// For GCC
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+#endif
+
+        Q_EMIT postCloseSignalE(output, error_type, error_str);
+        Q_EMIT postCloseSignalEFull(worker, error_type, error_str);
+
+#if defined(_MSC_VER)
+#pragma warning(pop)
+#elif defined(__clang__)
+#pragma clang diagnostic pop
+#elif defined(__GNUC__)
+#pragma GCC diagnostic pop
+#endif
+
+        Q_EMIT postCloseSignalError(output, error_type, error_str);
+        Q_EMIT postCloseSignalErrorFull(worker, error_type, error_str);
+    }
+}
+
+void OAIDefaultApi::postCloseForumTopic(const OAIBotCommandScopeChat_chat_id &chat_id, const qint32 &message_thread_id) {
+    QString fullPath = QString(_serverConfigs["postCloseForumTopic"][_serverIndices.value("postCloseForumTopic")].URL()+"/closeForumTopic");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -1323,7 +1393,7 @@ void OAIDefaultApi::closeForumTopicPost(const OAI_restrictChatMember_post_reques
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::closeForumTopicPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postCloseForumTopicCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -1334,19 +1404,19 @@ void OAIDefaultApi::closeForumTopicPost(const OAI_restrictChatMember_post_reques
     worker->execute(&input);
 }
 
-void OAIDefaultApi::closeForumTopicPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postCloseForumTopicCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAICloseForumTopicResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT closeForumTopicPostSignal(output);
-        Q_EMIT closeForumTopicPostSignalFull(worker, output);
+        Q_EMIT postCloseForumTopicSignal(output);
+        Q_EMIT postCloseForumTopicSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -1363,8 +1433,8 @@ void OAIDefaultApi::closeForumTopicPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT closeForumTopicPostSignalE(output, error_type, error_str);
-        Q_EMIT closeForumTopicPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postCloseForumTopicSignalE(output, error_type, error_str);
+        Q_EMIT postCloseForumTopicSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -1374,13 +1444,13 @@ void OAIDefaultApi::closeForumTopicPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT closeForumTopicPostSignalError(output, error_type, error_str);
-        Q_EMIT closeForumTopicPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postCloseForumTopicSignalError(output, error_type, error_str);
+        Q_EMIT postCloseForumTopicSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::closeGeneralForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["closeGeneralForumTopicPost"][_serverIndices.value("closeGeneralForumTopicPost")].URL()+"/closeGeneralForumTopic");
+void OAIDefaultApi::postCloseGeneralForumTopic(const OAIBotCommandScopeChat_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postCloseGeneralForumTopic"][_serverIndices.value("postCloseGeneralForumTopic")].URL()+"/closeGeneralForumTopic");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -1397,7 +1467,7 @@ void OAIDefaultApi::closeGeneralForumTopicPost(const OAI_restrictChatMember_post
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::closeGeneralForumTopicPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postCloseGeneralForumTopicCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -1408,19 +1478,19 @@ void OAIDefaultApi::closeGeneralForumTopicPost(const OAI_restrictChatMember_post
     worker->execute(&input);
 }
 
-void OAIDefaultApi::closeGeneralForumTopicPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postCloseGeneralForumTopicCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAICloseGeneralForumTopicResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT closeGeneralForumTopicPostSignal(output);
-        Q_EMIT closeGeneralForumTopicPostSignalFull(worker, output);
+        Q_EMIT postCloseGeneralForumTopicSignal(output);
+        Q_EMIT postCloseGeneralForumTopicSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -1437,8 +1507,8 @@ void OAIDefaultApi::closeGeneralForumTopicPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT closeGeneralForumTopicPostSignalE(output, error_type, error_str);
-        Q_EMIT closeGeneralForumTopicPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postCloseGeneralForumTopicSignalE(output, error_type, error_str);
+        Q_EMIT postCloseGeneralForumTopicSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -1448,83 +1518,13 @@ void OAIDefaultApi::closeGeneralForumTopicPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT closeGeneralForumTopicPostSignalError(output, error_type, error_str);
-        Q_EMIT closeGeneralForumTopicPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postCloseGeneralForumTopicSignalError(output, error_type, error_str);
+        Q_EMIT postCloseGeneralForumTopicSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::closePost() {
-    QString fullPath = QString(_serverConfigs["closePost"][_serverIndices.value("closePost")].URL()+"/close");
-    
-    OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
-    worker->setTimeOut(_timeOut);
-    worker->setWorkingDirectory(_workingDirectory);
-    OAIHttpRequestInput input(fullPath, "POST");
-
-
-    for (auto keyValueIt = _defaultHeaders.keyValueBegin(); keyValueIt != _defaultHeaders.keyValueEnd(); keyValueIt++) {
-        input.headers.insert(keyValueIt->first, keyValueIt->second);
-    }
-
-
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::closePostCallback);
-    connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
-    connect(worker, &QObject::destroyed, this, [this] {
-        if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
-            Q_EMIT allPendingRequestsCompleted();
-        }
-    });
-
-    worker->execute(&input);
-}
-
-void OAIDefaultApi::closePostCallback(OAIHttpRequestWorker *worker) {
-    QString error_str = worker->error_str;
-    QNetworkReply::NetworkError error_type = worker->error_type;
-
-    if (worker->error_type != QNetworkReply::NoError) {
-        error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
-    }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
-    worker->deleteLater();
-
-    if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT closePostSignal(output);
-        Q_EMIT closePostSignalFull(worker, output);
-    } else {
-
-#if defined(_MSC_VER)
-// For MSVC
-#pragma warning(push)
-#pragma warning(disable : 4996)
-#elif defined(__clang__)
-// For Clang
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-#elif defined(__GNUC__)
-// For GCC
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-#endif
-
-        Q_EMIT closePostSignalE(output, error_type, error_str);
-        Q_EMIT closePostSignalEFull(worker, error_type, error_str);
-
-#if defined(_MSC_VER)
-#pragma warning(pop)
-#elif defined(__clang__)
-#pragma clang diagnostic pop
-#elif defined(__GNUC__)
-#pragma GCC diagnostic pop
-#endif
-
-        Q_EMIT closePostSignalError(output, error_type, error_str);
-        Q_EMIT closePostSignalErrorFull(worker, error_type, error_str);
-    }
-}
-
-void OAIDefaultApi::convertGiftToStarsPost(const QString &business_connection_id, const QString &owned_gift_id) {
-    QString fullPath = QString(_serverConfigs["convertGiftToStarsPost"][_serverIndices.value("convertGiftToStarsPost")].URL()+"/convertGiftToStars");
+void OAIDefaultApi::postConvertGiftToStars(const QString &business_connection_id, const QString &owned_gift_id) {
+    QString fullPath = QString(_serverConfigs["postConvertGiftToStars"][_serverIndices.value("postConvertGiftToStars")].URL()+"/convertGiftToStars");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -1545,7 +1545,7 @@ void OAIDefaultApi::convertGiftToStarsPost(const QString &business_connection_id
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::convertGiftToStarsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postConvertGiftToStarsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -1556,19 +1556,19 @@ void OAIDefaultApi::convertGiftToStarsPost(const QString &business_connection_id
     worker->execute(&input);
 }
 
-void OAIDefaultApi::convertGiftToStarsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postConvertGiftToStarsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIConvertGiftToStarsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT convertGiftToStarsPostSignal(output);
-        Q_EMIT convertGiftToStarsPostSignalFull(worker, output);
+        Q_EMIT postConvertGiftToStarsSignal(output);
+        Q_EMIT postConvertGiftToStarsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -1585,8 +1585,8 @@ void OAIDefaultApi::convertGiftToStarsPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT convertGiftToStarsPostSignalE(output, error_type, error_str);
-        Q_EMIT convertGiftToStarsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postConvertGiftToStarsSignalE(output, error_type, error_str);
+        Q_EMIT postConvertGiftToStarsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -1596,13 +1596,13 @@ void OAIDefaultApi::convertGiftToStarsPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT convertGiftToStarsPostSignalError(output, error_type, error_str);
-        Q_EMIT convertGiftToStarsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postConvertGiftToStarsSignalError(output, error_type, error_str);
+        Q_EMIT postConvertGiftToStarsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::copyMessagePost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_forwardMessage_post_request_from_chat_id &from_chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<qint32> &video_start_timestamp, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &show_caption_above_media, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["copyMessagePost"][_serverIndices.value("copyMessagePost")].URL()+"/copyMessage");
+void OAIDefaultApi::postCopyMessage(const OAISendMessageRequest_chat_id &chat_id, const OAIForwardMessageRequest_from_chat_id &from_chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<qint32> &video_start_timestamp, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &show_caption_above_media, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postCopyMessage"][_serverIndices.value("postCopyMessage")].URL()+"/copyMessage");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -1671,7 +1671,7 @@ void OAIDefaultApi::copyMessagePost(const OAI_sendMessage_post_request_chat_id &
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::copyMessagePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postCopyMessageCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -1682,19 +1682,19 @@ void OAIDefaultApi::copyMessagePost(const OAI_sendMessage_post_request_chat_id &
     worker->execute(&input);
 }
 
-void OAIDefaultApi::copyMessagePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postCopyMessageCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_copyMessage_post_200_response output(QString(worker->response));
+    OAICopyMessageResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT copyMessagePostSignal(output);
-        Q_EMIT copyMessagePostSignalFull(worker, output);
+        Q_EMIT postCopyMessageSignal(output);
+        Q_EMIT postCopyMessageSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -1711,8 +1711,8 @@ void OAIDefaultApi::copyMessagePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT copyMessagePostSignalE(output, error_type, error_str);
-        Q_EMIT copyMessagePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postCopyMessageSignalE(output, error_type, error_str);
+        Q_EMIT postCopyMessageSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -1722,13 +1722,13 @@ void OAIDefaultApi::copyMessagePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT copyMessagePostSignalError(output, error_type, error_str);
-        Q_EMIT copyMessagePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postCopyMessageSignalError(output, error_type, error_str);
+        Q_EMIT postCopyMessageSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::copyMessagesPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_forwardMessages_post_request_from_chat_id &from_chat_id, const QList<qint32> &message_ids, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &remove_caption) {
-    QString fullPath = QString(_serverConfigs["copyMessagesPost"][_serverIndices.value("copyMessagesPost")].URL()+"/copyMessages");
+void OAIDefaultApi::postCopyMessages(const OAISendMessageRequest_chat_id &chat_id, const OAIForwardMessagesRequest_from_chat_id &from_chat_id, const QList<qint32> &message_ids, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &remove_caption) {
+    QString fullPath = QString(_serverConfigs["postCopyMessages"][_serverIndices.value("postCopyMessages")].URL()+"/copyMessages");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -1769,7 +1769,7 @@ void OAIDefaultApi::copyMessagesPost(const OAI_sendMessage_post_request_chat_id 
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::copyMessagesPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postCopyMessagesCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -1780,19 +1780,19 @@ void OAIDefaultApi::copyMessagesPost(const OAI_sendMessage_post_request_chat_id 
     worker->execute(&input);
 }
 
-void OAIDefaultApi::copyMessagesPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postCopyMessagesCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_forwardMessages_post_200_response output(QString(worker->response));
+    OAICopyMessagesResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT copyMessagesPostSignal(output);
-        Q_EMIT copyMessagesPostSignalFull(worker, output);
+        Q_EMIT postCopyMessagesSignal(output);
+        Q_EMIT postCopyMessagesSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -1809,8 +1809,8 @@ void OAIDefaultApi::copyMessagesPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT copyMessagesPostSignalE(output, error_type, error_str);
-        Q_EMIT copyMessagesPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postCopyMessagesSignalE(output, error_type, error_str);
+        Q_EMIT postCopyMessagesSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -1820,13 +1820,13 @@ void OAIDefaultApi::copyMessagesPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT copyMessagesPostSignalError(output, error_type, error_str);
-        Q_EMIT copyMessagesPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postCopyMessagesSignalError(output, error_type, error_str);
+        Q_EMIT postCopyMessagesSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::createChatInviteLinkPost(const OAI_sendMessage_post_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &name, const ::tele_rest::OptionalParam<qint32> &expire_date, const ::tele_rest::OptionalParam<qint32> &member_limit, const ::tele_rest::OptionalParam<bool> &creates_join_request) {
-    QString fullPath = QString(_serverConfigs["createChatInviteLinkPost"][_serverIndices.value("createChatInviteLinkPost")].URL()+"/createChatInviteLink");
+void OAIDefaultApi::postCreateChatInviteLink(const OAISendMessageRequest_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &name, const ::tele_rest::OptionalParam<qint32> &expire_date, const ::tele_rest::OptionalParam<qint32> &member_limit, const ::tele_rest::OptionalParam<bool> &creates_join_request) {
+    QString fullPath = QString(_serverConfigs["postCreateChatInviteLink"][_serverIndices.value("postCreateChatInviteLink")].URL()+"/createChatInviteLink");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -1859,7 +1859,7 @@ void OAIDefaultApi::createChatInviteLinkPost(const OAI_sendMessage_post_request_
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::createChatInviteLinkPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postCreateChatInviteLinkCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -1870,19 +1870,19 @@ void OAIDefaultApi::createChatInviteLinkPost(const OAI_sendMessage_post_request_
     worker->execute(&input);
 }
 
-void OAIDefaultApi::createChatInviteLinkPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postCreateChatInviteLinkCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_createChatInviteLink_post_200_response output(QString(worker->response));
+    OAICreateChatInviteLinkResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT createChatInviteLinkPostSignal(output);
-        Q_EMIT createChatInviteLinkPostSignalFull(worker, output);
+        Q_EMIT postCreateChatInviteLinkSignal(output);
+        Q_EMIT postCreateChatInviteLinkSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -1899,8 +1899,8 @@ void OAIDefaultApi::createChatInviteLinkPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT createChatInviteLinkPostSignalE(output, error_type, error_str);
-        Q_EMIT createChatInviteLinkPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postCreateChatInviteLinkSignalE(output, error_type, error_str);
+        Q_EMIT postCreateChatInviteLinkSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -1910,13 +1910,13 @@ void OAIDefaultApi::createChatInviteLinkPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT createChatInviteLinkPostSignalError(output, error_type, error_str);
-        Q_EMIT createChatInviteLinkPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postCreateChatInviteLinkSignalError(output, error_type, error_str);
+        Q_EMIT postCreateChatInviteLinkSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::createChatSubscriptionInviteLinkPost(const OAI_createChatSubscriptionInviteLink_post_request_chat_id &chat_id, const qint32 &subscription_period, const qint32 &subscription_price, const ::tele_rest::OptionalParam<QString> &name) {
-    QString fullPath = QString(_serverConfigs["createChatSubscriptionInviteLinkPost"][_serverIndices.value("createChatSubscriptionInviteLinkPost")].URL()+"/createChatSubscriptionInviteLink");
+void OAIDefaultApi::postCreateChatSubscriptionInviteLink(const OAICreateChatSubscriptionInviteLinkRequest_chat_id &chat_id, const qint32 &subscription_period, const qint32 &subscription_price, const ::tele_rest::OptionalParam<QString> &name) {
+    QString fullPath = QString(_serverConfigs["postCreateChatSubscriptionInviteLink"][_serverIndices.value("postCreateChatSubscriptionInviteLink")].URL()+"/createChatSubscriptionInviteLink");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -1945,7 +1945,7 @@ void OAIDefaultApi::createChatSubscriptionInviteLinkPost(const OAI_createChatSub
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::createChatSubscriptionInviteLinkPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postCreateChatSubscriptionInviteLinkCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -1956,19 +1956,19 @@ void OAIDefaultApi::createChatSubscriptionInviteLinkPost(const OAI_createChatSub
     worker->execute(&input);
 }
 
-void OAIDefaultApi::createChatSubscriptionInviteLinkPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postCreateChatSubscriptionInviteLinkCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_createChatInviteLink_post_200_response output(QString(worker->response));
+    OAICreateChatSubscriptionInviteLinkResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT createChatSubscriptionInviteLinkPostSignal(output);
-        Q_EMIT createChatSubscriptionInviteLinkPostSignalFull(worker, output);
+        Q_EMIT postCreateChatSubscriptionInviteLinkSignal(output);
+        Q_EMIT postCreateChatSubscriptionInviteLinkSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -1985,8 +1985,8 @@ void OAIDefaultApi::createChatSubscriptionInviteLinkPostCallback(OAIHttpRequestW
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT createChatSubscriptionInviteLinkPostSignalE(output, error_type, error_str);
-        Q_EMIT createChatSubscriptionInviteLinkPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postCreateChatSubscriptionInviteLinkSignalE(output, error_type, error_str);
+        Q_EMIT postCreateChatSubscriptionInviteLinkSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -1996,13 +1996,13 @@ void OAIDefaultApi::createChatSubscriptionInviteLinkPostCallback(OAIHttpRequestW
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT createChatSubscriptionInviteLinkPostSignalError(output, error_type, error_str);
-        Q_EMIT createChatSubscriptionInviteLinkPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postCreateChatSubscriptionInviteLinkSignalError(output, error_type, error_str);
+        Q_EMIT postCreateChatSubscriptionInviteLinkSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::createForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const QString &name, const ::tele_rest::OptionalParam<qint32> &icon_color, const ::tele_rest::OptionalParam<QString> &icon_custom_emoji_id) {
-    QString fullPath = QString(_serverConfigs["createForumTopicPost"][_serverIndices.value("createForumTopicPost")].URL()+"/createForumTopic");
+void OAIDefaultApi::postCreateForumTopic(const OAIBotCommandScopeChat_chat_id &chat_id, const QString &name, const ::tele_rest::OptionalParam<qint32> &icon_color, const ::tele_rest::OptionalParam<QString> &icon_custom_emoji_id) {
+    QString fullPath = QString(_serverConfigs["postCreateForumTopic"][_serverIndices.value("postCreateForumTopic")].URL()+"/createForumTopic");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -2031,7 +2031,7 @@ void OAIDefaultApi::createForumTopicPost(const OAI_restrictChatMember_post_reque
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::createForumTopicPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postCreateForumTopicCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -2042,19 +2042,19 @@ void OAIDefaultApi::createForumTopicPost(const OAI_restrictChatMember_post_reque
     worker->execute(&input);
 }
 
-void OAIDefaultApi::createForumTopicPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postCreateForumTopicCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_createForumTopic_post_200_response output(QString(worker->response));
+    OAICreateForumTopicResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT createForumTopicPostSignal(output);
-        Q_EMIT createForumTopicPostSignalFull(worker, output);
+        Q_EMIT postCreateForumTopicSignal(output);
+        Q_EMIT postCreateForumTopicSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -2071,8 +2071,8 @@ void OAIDefaultApi::createForumTopicPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT createForumTopicPostSignalE(output, error_type, error_str);
-        Q_EMIT createForumTopicPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postCreateForumTopicSignalE(output, error_type, error_str);
+        Q_EMIT postCreateForumTopicSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -2082,13 +2082,13 @@ void OAIDefaultApi::createForumTopicPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT createForumTopicPostSignalError(output, error_type, error_str);
-        Q_EMIT createForumTopicPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postCreateForumTopicSignalError(output, error_type, error_str);
+        Q_EMIT postCreateForumTopicSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::createInvoiceLinkPost(const QString &title, const QString &description, const QString &payload, const QString &currency, const QList<OAILabeledPrice> &prices, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<QString> &provider_token, const ::tele_rest::OptionalParam<qint32> &subscription_period, const ::tele_rest::OptionalParam<qint32> &max_tip_amount, const ::tele_rest::OptionalParam<QList<qint32>> &suggested_tip_amounts, const ::tele_rest::OptionalParam<QString> &provider_data, const ::tele_rest::OptionalParam<QString> &photo_url, const ::tele_rest::OptionalParam<qint32> &photo_size, const ::tele_rest::OptionalParam<qint32> &photo_width, const ::tele_rest::OptionalParam<qint32> &photo_height, const ::tele_rest::OptionalParam<bool> &need_name, const ::tele_rest::OptionalParam<bool> &need_phone_number, const ::tele_rest::OptionalParam<bool> &need_email, const ::tele_rest::OptionalParam<bool> &need_shipping_address, const ::tele_rest::OptionalParam<bool> &send_phone_number_to_provider, const ::tele_rest::OptionalParam<bool> &send_email_to_provider, const ::tele_rest::OptionalParam<bool> &is_flexible) {
-    QString fullPath = QString(_serverConfigs["createInvoiceLinkPost"][_serverIndices.value("createInvoiceLinkPost")].URL()+"/createInvoiceLink");
+void OAIDefaultApi::postCreateInvoiceLink(const QString &title, const QString &description, const QString &payload, const QString &currency, const QList<OAILabeledPrice> &prices, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<QString> &provider_token, const ::tele_rest::OptionalParam<qint32> &subscription_period, const ::tele_rest::OptionalParam<qint32> &max_tip_amount, const ::tele_rest::OptionalParam<QList<qint32>> &suggested_tip_amounts, const ::tele_rest::OptionalParam<QString> &provider_data, const ::tele_rest::OptionalParam<QString> &photo_url, const ::tele_rest::OptionalParam<qint32> &photo_size, const ::tele_rest::OptionalParam<qint32> &photo_width, const ::tele_rest::OptionalParam<qint32> &photo_height, const ::tele_rest::OptionalParam<bool> &need_name, const ::tele_rest::OptionalParam<bool> &need_phone_number, const ::tele_rest::OptionalParam<bool> &need_email, const ::tele_rest::OptionalParam<bool> &need_shipping_address, const ::tele_rest::OptionalParam<bool> &send_phone_number_to_provider, const ::tele_rest::OptionalParam<bool> &send_email_to_provider, const ::tele_rest::OptionalParam<bool> &is_flexible) {
+    QString fullPath = QString(_serverConfigs["postCreateInvoiceLink"][_serverIndices.value("postCreateInvoiceLink")].URL()+"/createInvoiceLink");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -2189,7 +2189,7 @@ void OAIDefaultApi::createInvoiceLinkPost(const QString &title, const QString &d
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::createInvoiceLinkPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postCreateInvoiceLinkCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -2200,19 +2200,19 @@ void OAIDefaultApi::createInvoiceLinkPost(const QString &title, const QString &d
     worker->execute(&input);
 }
 
-void OAIDefaultApi::createInvoiceLinkPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postCreateInvoiceLinkCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_exportChatInviteLink_post_200_response output(QString(worker->response));
+    OAICreateInvoiceLinkResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT createInvoiceLinkPostSignal(output);
-        Q_EMIT createInvoiceLinkPostSignalFull(worker, output);
+        Q_EMIT postCreateInvoiceLinkSignal(output);
+        Q_EMIT postCreateInvoiceLinkSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -2229,8 +2229,8 @@ void OAIDefaultApi::createInvoiceLinkPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT createInvoiceLinkPostSignalE(output, error_type, error_str);
-        Q_EMIT createInvoiceLinkPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postCreateInvoiceLinkSignalE(output, error_type, error_str);
+        Q_EMIT postCreateInvoiceLinkSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -2240,13 +2240,13 @@ void OAIDefaultApi::createInvoiceLinkPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT createInvoiceLinkPostSignalError(output, error_type, error_str);
-        Q_EMIT createInvoiceLinkPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postCreateInvoiceLinkSignalError(output, error_type, error_str);
+        Q_EMIT postCreateInvoiceLinkSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::createNewStickerSetPost(const qint32 &user_id, const QString &name, const QString &title, const QList<OAIInputSticker> &stickers, const ::tele_rest::OptionalParam<QString> &sticker_type, const ::tele_rest::OptionalParam<bool> &needs_repainting) {
-    QString fullPath = QString(_serverConfigs["createNewStickerSetPost"][_serverIndices.value("createNewStickerSetPost")].URL()+"/createNewStickerSet");
+void OAIDefaultApi::postCreateNewStickerSet(const qint32 &user_id, const QString &name, const QString &title, const QList<OAIInputSticker> &stickers, const ::tele_rest::OptionalParam<QString> &sticker_type, const ::tele_rest::OptionalParam<bool> &needs_repainting) {
+    QString fullPath = QString(_serverConfigs["postCreateNewStickerSet"][_serverIndices.value("postCreateNewStickerSet")].URL()+"/createNewStickerSet");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -2283,7 +2283,7 @@ void OAIDefaultApi::createNewStickerSetPost(const qint32 &user_id, const QString
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::createNewStickerSetPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postCreateNewStickerSetCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -2294,19 +2294,19 @@ void OAIDefaultApi::createNewStickerSetPost(const qint32 &user_id, const QString
     worker->execute(&input);
 }
 
-void OAIDefaultApi::createNewStickerSetPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postCreateNewStickerSetCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAICreateNewStickerSetResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT createNewStickerSetPostSignal(output);
-        Q_EMIT createNewStickerSetPostSignalFull(worker, output);
+        Q_EMIT postCreateNewStickerSetSignal(output);
+        Q_EMIT postCreateNewStickerSetSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -2323,8 +2323,8 @@ void OAIDefaultApi::createNewStickerSetPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT createNewStickerSetPostSignalE(output, error_type, error_str);
-        Q_EMIT createNewStickerSetPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postCreateNewStickerSetSignalE(output, error_type, error_str);
+        Q_EMIT postCreateNewStickerSetSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -2334,13 +2334,13 @@ void OAIDefaultApi::createNewStickerSetPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT createNewStickerSetPostSignalError(output, error_type, error_str);
-        Q_EMIT createNewStickerSetPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postCreateNewStickerSetSignalError(output, error_type, error_str);
+        Q_EMIT postCreateNewStickerSetSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::declineChatJoinRequestPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &user_id) {
-    QString fullPath = QString(_serverConfigs["declineChatJoinRequestPost"][_serverIndices.value("declineChatJoinRequestPost")].URL()+"/declineChatJoinRequest");
+void OAIDefaultApi::postDeclineChatJoinRequest(const OAISendMessageRequest_chat_id &chat_id, const qint32 &user_id) {
+    QString fullPath = QString(_serverConfigs["postDeclineChatJoinRequest"][_serverIndices.value("postDeclineChatJoinRequest")].URL()+"/declineChatJoinRequest");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -2361,7 +2361,7 @@ void OAIDefaultApi::declineChatJoinRequestPost(const OAI_sendMessage_post_reques
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::declineChatJoinRequestPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postDeclineChatJoinRequestCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -2372,19 +2372,19 @@ void OAIDefaultApi::declineChatJoinRequestPost(const OAI_sendMessage_post_reques
     worker->execute(&input);
 }
 
-void OAIDefaultApi::declineChatJoinRequestPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postDeclineChatJoinRequestCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIDeclineChatJoinRequestResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT declineChatJoinRequestPostSignal(output);
-        Q_EMIT declineChatJoinRequestPostSignalFull(worker, output);
+        Q_EMIT postDeclineChatJoinRequestSignal(output);
+        Q_EMIT postDeclineChatJoinRequestSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -2401,8 +2401,8 @@ void OAIDefaultApi::declineChatJoinRequestPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT declineChatJoinRequestPostSignalE(output, error_type, error_str);
-        Q_EMIT declineChatJoinRequestPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postDeclineChatJoinRequestSignalE(output, error_type, error_str);
+        Q_EMIT postDeclineChatJoinRequestSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -2412,13 +2412,13 @@ void OAIDefaultApi::declineChatJoinRequestPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT declineChatJoinRequestPostSignalError(output, error_type, error_str);
-        Q_EMIT declineChatJoinRequestPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postDeclineChatJoinRequestSignalError(output, error_type, error_str);
+        Q_EMIT postDeclineChatJoinRequestSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::deleteBusinessMessagesPost(const QString &business_connection_id, const QList<qint32> &message_ids) {
-    QString fullPath = QString(_serverConfigs["deleteBusinessMessagesPost"][_serverIndices.value("deleteBusinessMessagesPost")].URL()+"/deleteBusinessMessages");
+void OAIDefaultApi::postDeleteBusinessMessages(const QString &business_connection_id, const QList<qint32> &message_ids) {
+    QString fullPath = QString(_serverConfigs["postDeleteBusinessMessages"][_serverIndices.value("postDeleteBusinessMessages")].URL()+"/deleteBusinessMessages");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -2439,7 +2439,7 @@ void OAIDefaultApi::deleteBusinessMessagesPost(const QString &business_connectio
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::deleteBusinessMessagesPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postDeleteBusinessMessagesCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -2450,19 +2450,19 @@ void OAIDefaultApi::deleteBusinessMessagesPost(const QString &business_connectio
     worker->execute(&input);
 }
 
-void OAIDefaultApi::deleteBusinessMessagesPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postDeleteBusinessMessagesCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIDeleteBusinessMessagesResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT deleteBusinessMessagesPostSignal(output);
-        Q_EMIT deleteBusinessMessagesPostSignalFull(worker, output);
+        Q_EMIT postDeleteBusinessMessagesSignal(output);
+        Q_EMIT postDeleteBusinessMessagesSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -2479,8 +2479,8 @@ void OAIDefaultApi::deleteBusinessMessagesPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT deleteBusinessMessagesPostSignalE(output, error_type, error_str);
-        Q_EMIT deleteBusinessMessagesPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postDeleteBusinessMessagesSignalE(output, error_type, error_str);
+        Q_EMIT postDeleteBusinessMessagesSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -2490,13 +2490,13 @@ void OAIDefaultApi::deleteBusinessMessagesPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT deleteBusinessMessagesPostSignalError(output, error_type, error_str);
-        Q_EMIT deleteBusinessMessagesPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postDeleteBusinessMessagesSignalError(output, error_type, error_str);
+        Q_EMIT postDeleteBusinessMessagesSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::deleteChatPhotoPost(const OAI_sendMessage_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["deleteChatPhotoPost"][_serverIndices.value("deleteChatPhotoPost")].URL()+"/deleteChatPhoto");
+void OAIDefaultApi::postDeleteChatPhoto(const OAISendMessageRequest_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postDeleteChatPhoto"][_serverIndices.value("postDeleteChatPhoto")].URL()+"/deleteChatPhoto");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -2513,7 +2513,7 @@ void OAIDefaultApi::deleteChatPhotoPost(const OAI_sendMessage_post_request_chat_
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::deleteChatPhotoPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postDeleteChatPhotoCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -2524,19 +2524,19 @@ void OAIDefaultApi::deleteChatPhotoPost(const OAI_sendMessage_post_request_chat_
     worker->execute(&input);
 }
 
-void OAIDefaultApi::deleteChatPhotoPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postDeleteChatPhotoCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIDeleteChatPhotoResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT deleteChatPhotoPostSignal(output);
-        Q_EMIT deleteChatPhotoPostSignalFull(worker, output);
+        Q_EMIT postDeleteChatPhotoSignal(output);
+        Q_EMIT postDeleteChatPhotoSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -2553,8 +2553,8 @@ void OAIDefaultApi::deleteChatPhotoPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT deleteChatPhotoPostSignalE(output, error_type, error_str);
-        Q_EMIT deleteChatPhotoPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postDeleteChatPhotoSignalE(output, error_type, error_str);
+        Q_EMIT postDeleteChatPhotoSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -2564,13 +2564,13 @@ void OAIDefaultApi::deleteChatPhotoPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT deleteChatPhotoPostSignalError(output, error_type, error_str);
-        Q_EMIT deleteChatPhotoPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postDeleteChatPhotoSignalError(output, error_type, error_str);
+        Q_EMIT postDeleteChatPhotoSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::deleteChatStickerSetPost(const OAI_restrictChatMember_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["deleteChatStickerSetPost"][_serverIndices.value("deleteChatStickerSetPost")].URL()+"/deleteChatStickerSet");
+void OAIDefaultApi::postDeleteChatStickerSet(const OAIBotCommandScopeChat_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postDeleteChatStickerSet"][_serverIndices.value("postDeleteChatStickerSet")].URL()+"/deleteChatStickerSet");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -2587,7 +2587,7 @@ void OAIDefaultApi::deleteChatStickerSetPost(const OAI_restrictChatMember_post_r
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::deleteChatStickerSetPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postDeleteChatStickerSetCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -2598,19 +2598,19 @@ void OAIDefaultApi::deleteChatStickerSetPost(const OAI_restrictChatMember_post_r
     worker->execute(&input);
 }
 
-void OAIDefaultApi::deleteChatStickerSetPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postDeleteChatStickerSetCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIDeleteChatStickerSetResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT deleteChatStickerSetPostSignal(output);
-        Q_EMIT deleteChatStickerSetPostSignalFull(worker, output);
+        Q_EMIT postDeleteChatStickerSetSignal(output);
+        Q_EMIT postDeleteChatStickerSetSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -2627,8 +2627,8 @@ void OAIDefaultApi::deleteChatStickerSetPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT deleteChatStickerSetPostSignalE(output, error_type, error_str);
-        Q_EMIT deleteChatStickerSetPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postDeleteChatStickerSetSignalE(output, error_type, error_str);
+        Q_EMIT postDeleteChatStickerSetSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -2638,13 +2638,13 @@ void OAIDefaultApi::deleteChatStickerSetPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT deleteChatStickerSetPostSignalError(output, error_type, error_str);
-        Q_EMIT deleteChatStickerSetPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postDeleteChatStickerSetSignalError(output, error_type, error_str);
+        Q_EMIT postDeleteChatStickerSetSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::deleteForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &message_thread_id) {
-    QString fullPath = QString(_serverConfigs["deleteForumTopicPost"][_serverIndices.value("deleteForumTopicPost")].URL()+"/deleteForumTopic");
+void OAIDefaultApi::postDeleteForumTopic(const OAIBotCommandScopeChat_chat_id &chat_id, const qint32 &message_thread_id) {
+    QString fullPath = QString(_serverConfigs["postDeleteForumTopic"][_serverIndices.value("postDeleteForumTopic")].URL()+"/deleteForumTopic");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -2665,7 +2665,7 @@ void OAIDefaultApi::deleteForumTopicPost(const OAI_restrictChatMember_post_reque
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::deleteForumTopicPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postDeleteForumTopicCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -2676,19 +2676,19 @@ void OAIDefaultApi::deleteForumTopicPost(const OAI_restrictChatMember_post_reque
     worker->execute(&input);
 }
 
-void OAIDefaultApi::deleteForumTopicPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postDeleteForumTopicCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIDeleteForumTopicResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT deleteForumTopicPostSignal(output);
-        Q_EMIT deleteForumTopicPostSignalFull(worker, output);
+        Q_EMIT postDeleteForumTopicSignal(output);
+        Q_EMIT postDeleteForumTopicSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -2705,8 +2705,8 @@ void OAIDefaultApi::deleteForumTopicPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT deleteForumTopicPostSignalE(output, error_type, error_str);
-        Q_EMIT deleteForumTopicPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postDeleteForumTopicSignalE(output, error_type, error_str);
+        Q_EMIT postDeleteForumTopicSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -2716,13 +2716,13 @@ void OAIDefaultApi::deleteForumTopicPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT deleteForumTopicPostSignalError(output, error_type, error_str);
-        Q_EMIT deleteForumTopicPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postDeleteForumTopicSignalError(output, error_type, error_str);
+        Q_EMIT postDeleteForumTopicSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::deleteMessagePost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &message_id) {
-    QString fullPath = QString(_serverConfigs["deleteMessagePost"][_serverIndices.value("deleteMessagePost")].URL()+"/deleteMessage");
+void OAIDefaultApi::postDeleteMessage(const OAISendMessageRequest_chat_id &chat_id, const qint32 &message_id) {
+    QString fullPath = QString(_serverConfigs["postDeleteMessage"][_serverIndices.value("postDeleteMessage")].URL()+"/deleteMessage");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -2743,7 +2743,7 @@ void OAIDefaultApi::deleteMessagePost(const OAI_sendMessage_post_request_chat_id
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::deleteMessagePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postDeleteMessageCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -2754,19 +2754,19 @@ void OAIDefaultApi::deleteMessagePost(const OAI_sendMessage_post_request_chat_id
     worker->execute(&input);
 }
 
-void OAIDefaultApi::deleteMessagePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postDeleteMessageCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIDeleteMessageResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT deleteMessagePostSignal(output);
-        Q_EMIT deleteMessagePostSignalFull(worker, output);
+        Q_EMIT postDeleteMessageSignal(output);
+        Q_EMIT postDeleteMessageSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -2783,8 +2783,8 @@ void OAIDefaultApi::deleteMessagePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT deleteMessagePostSignalE(output, error_type, error_str);
-        Q_EMIT deleteMessagePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postDeleteMessageSignalE(output, error_type, error_str);
+        Q_EMIT postDeleteMessageSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -2794,13 +2794,13 @@ void OAIDefaultApi::deleteMessagePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT deleteMessagePostSignalError(output, error_type, error_str);
-        Q_EMIT deleteMessagePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postDeleteMessageSignalError(output, error_type, error_str);
+        Q_EMIT postDeleteMessageSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::deleteMessagesPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QList<qint32> &message_ids) {
-    QString fullPath = QString(_serverConfigs["deleteMessagesPost"][_serverIndices.value("deleteMessagesPost")].URL()+"/deleteMessages");
+void OAIDefaultApi::postDeleteMessages(const OAISendMessageRequest_chat_id &chat_id, const QList<qint32> &message_ids) {
+    QString fullPath = QString(_serverConfigs["postDeleteMessages"][_serverIndices.value("postDeleteMessages")].URL()+"/deleteMessages");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -2821,7 +2821,7 @@ void OAIDefaultApi::deleteMessagesPost(const OAI_sendMessage_post_request_chat_i
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::deleteMessagesPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postDeleteMessagesCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -2832,19 +2832,19 @@ void OAIDefaultApi::deleteMessagesPost(const OAI_sendMessage_post_request_chat_i
     worker->execute(&input);
 }
 
-void OAIDefaultApi::deleteMessagesPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postDeleteMessagesCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIDeleteMessagesResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT deleteMessagesPostSignal(output);
-        Q_EMIT deleteMessagesPostSignalFull(worker, output);
+        Q_EMIT postDeleteMessagesSignal(output);
+        Q_EMIT postDeleteMessagesSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -2861,8 +2861,8 @@ void OAIDefaultApi::deleteMessagesPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT deleteMessagesPostSignalE(output, error_type, error_str);
-        Q_EMIT deleteMessagesPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postDeleteMessagesSignalE(output, error_type, error_str);
+        Q_EMIT postDeleteMessagesSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -2872,13 +2872,13 @@ void OAIDefaultApi::deleteMessagesPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT deleteMessagesPostSignalError(output, error_type, error_str);
-        Q_EMIT deleteMessagesPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postDeleteMessagesSignalError(output, error_type, error_str);
+        Q_EMIT postDeleteMessagesSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::deleteMyCommandsPost(const ::tele_rest::OptionalParam<OAIBotCommandScope> &scope, const ::tele_rest::OptionalParam<QString> &language_code) {
-    QString fullPath = QString(_serverConfigs["deleteMyCommandsPost"][_serverIndices.value("deleteMyCommandsPost")].URL()+"/deleteMyCommands");
+void OAIDefaultApi::postDeleteMyCommands(const ::tele_rest::OptionalParam<OAIBotCommandScope> &scope, const ::tele_rest::OptionalParam<QString> &language_code) {
+    QString fullPath = QString(_serverConfigs["postDeleteMyCommands"][_serverIndices.value("postDeleteMyCommands")].URL()+"/deleteMyCommands");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -2899,7 +2899,7 @@ void OAIDefaultApi::deleteMyCommandsPost(const ::tele_rest::OptionalParam<OAIBot
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::deleteMyCommandsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postDeleteMyCommandsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -2910,19 +2910,19 @@ void OAIDefaultApi::deleteMyCommandsPost(const ::tele_rest::OptionalParam<OAIBot
     worker->execute(&input);
 }
 
-void OAIDefaultApi::deleteMyCommandsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postDeleteMyCommandsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIDeleteMyCommandsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT deleteMyCommandsPostSignal(output);
-        Q_EMIT deleteMyCommandsPostSignalFull(worker, output);
+        Q_EMIT postDeleteMyCommandsSignal(output);
+        Q_EMIT postDeleteMyCommandsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -2939,8 +2939,8 @@ void OAIDefaultApi::deleteMyCommandsPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT deleteMyCommandsPostSignalE(output, error_type, error_str);
-        Q_EMIT deleteMyCommandsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postDeleteMyCommandsSignalE(output, error_type, error_str);
+        Q_EMIT postDeleteMyCommandsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -2950,13 +2950,13 @@ void OAIDefaultApi::deleteMyCommandsPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT deleteMyCommandsPostSignalError(output, error_type, error_str);
-        Q_EMIT deleteMyCommandsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postDeleteMyCommandsSignalError(output, error_type, error_str);
+        Q_EMIT postDeleteMyCommandsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::deleteStickerFromSetPost(const QString &sticker) {
-    QString fullPath = QString(_serverConfigs["deleteStickerFromSetPost"][_serverIndices.value("deleteStickerFromSetPost")].URL()+"/deleteStickerFromSet");
+void OAIDefaultApi::postDeleteStickerFromSet(const QString &sticker) {
+    QString fullPath = QString(_serverConfigs["postDeleteStickerFromSet"][_serverIndices.value("postDeleteStickerFromSet")].URL()+"/deleteStickerFromSet");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -2973,7 +2973,7 @@ void OAIDefaultApi::deleteStickerFromSetPost(const QString &sticker) {
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::deleteStickerFromSetPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postDeleteStickerFromSetCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -2984,19 +2984,19 @@ void OAIDefaultApi::deleteStickerFromSetPost(const QString &sticker) {
     worker->execute(&input);
 }
 
-void OAIDefaultApi::deleteStickerFromSetPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postDeleteStickerFromSetCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIDeleteStickerFromSetResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT deleteStickerFromSetPostSignal(output);
-        Q_EMIT deleteStickerFromSetPostSignalFull(worker, output);
+        Q_EMIT postDeleteStickerFromSetSignal(output);
+        Q_EMIT postDeleteStickerFromSetSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -3013,8 +3013,8 @@ void OAIDefaultApi::deleteStickerFromSetPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT deleteStickerFromSetPostSignalE(output, error_type, error_str);
-        Q_EMIT deleteStickerFromSetPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postDeleteStickerFromSetSignalE(output, error_type, error_str);
+        Q_EMIT postDeleteStickerFromSetSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -3024,13 +3024,13 @@ void OAIDefaultApi::deleteStickerFromSetPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT deleteStickerFromSetPostSignalError(output, error_type, error_str);
-        Q_EMIT deleteStickerFromSetPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postDeleteStickerFromSetSignalError(output, error_type, error_str);
+        Q_EMIT postDeleteStickerFromSetSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::deleteStickerSetPost(const QString &name) {
-    QString fullPath = QString(_serverConfigs["deleteStickerSetPost"][_serverIndices.value("deleteStickerSetPost")].URL()+"/deleteStickerSet");
+void OAIDefaultApi::postDeleteStickerSet(const QString &name) {
+    QString fullPath = QString(_serverConfigs["postDeleteStickerSet"][_serverIndices.value("postDeleteStickerSet")].URL()+"/deleteStickerSet");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -3047,7 +3047,7 @@ void OAIDefaultApi::deleteStickerSetPost(const QString &name) {
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::deleteStickerSetPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postDeleteStickerSetCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -3058,19 +3058,19 @@ void OAIDefaultApi::deleteStickerSetPost(const QString &name) {
     worker->execute(&input);
 }
 
-void OAIDefaultApi::deleteStickerSetPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postDeleteStickerSetCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIDeleteStickerSetResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT deleteStickerSetPostSignal(output);
-        Q_EMIT deleteStickerSetPostSignalFull(worker, output);
+        Q_EMIT postDeleteStickerSetSignal(output);
+        Q_EMIT postDeleteStickerSetSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -3087,8 +3087,8 @@ void OAIDefaultApi::deleteStickerSetPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT deleteStickerSetPostSignalE(output, error_type, error_str);
-        Q_EMIT deleteStickerSetPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postDeleteStickerSetSignalE(output, error_type, error_str);
+        Q_EMIT postDeleteStickerSetSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -3098,13 +3098,13 @@ void OAIDefaultApi::deleteStickerSetPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT deleteStickerSetPostSignalError(output, error_type, error_str);
-        Q_EMIT deleteStickerSetPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postDeleteStickerSetSignalError(output, error_type, error_str);
+        Q_EMIT postDeleteStickerSetSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::deleteStoryPost(const QString &business_connection_id, const qint32 &story_id) {
-    QString fullPath = QString(_serverConfigs["deleteStoryPost"][_serverIndices.value("deleteStoryPost")].URL()+"/deleteStory");
+void OAIDefaultApi::postDeleteStory(const QString &business_connection_id, const qint32 &story_id) {
+    QString fullPath = QString(_serverConfigs["postDeleteStory"][_serverIndices.value("postDeleteStory")].URL()+"/deleteStory");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -3125,7 +3125,7 @@ void OAIDefaultApi::deleteStoryPost(const QString &business_connection_id, const
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::deleteStoryPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postDeleteStoryCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -3136,19 +3136,19 @@ void OAIDefaultApi::deleteStoryPost(const QString &business_connection_id, const
     worker->execute(&input);
 }
 
-void OAIDefaultApi::deleteStoryPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postDeleteStoryCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIDeleteStoryResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT deleteStoryPostSignal(output);
-        Q_EMIT deleteStoryPostSignalFull(worker, output);
+        Q_EMIT postDeleteStorySignal(output);
+        Q_EMIT postDeleteStorySignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -3165,8 +3165,8 @@ void OAIDefaultApi::deleteStoryPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT deleteStoryPostSignalE(output, error_type, error_str);
-        Q_EMIT deleteStoryPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postDeleteStorySignalE(output, error_type, error_str);
+        Q_EMIT postDeleteStorySignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -3176,13 +3176,13 @@ void OAIDefaultApi::deleteStoryPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT deleteStoryPostSignalError(output, error_type, error_str);
-        Q_EMIT deleteStoryPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postDeleteStorySignalError(output, error_type, error_str);
+        Q_EMIT postDeleteStorySignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::deleteWebhookPost(const ::tele_rest::OptionalParam<bool> &drop_pending_updates) {
-    QString fullPath = QString(_serverConfigs["deleteWebhookPost"][_serverIndices.value("deleteWebhookPost")].URL()+"/deleteWebhook");
+void OAIDefaultApi::postDeleteWebhook(const ::tele_rest::OptionalParam<bool> &drop_pending_updates) {
+    QString fullPath = QString(_serverConfigs["postDeleteWebhook"][_serverIndices.value("postDeleteWebhook")].URL()+"/deleteWebhook");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -3199,7 +3199,7 @@ void OAIDefaultApi::deleteWebhookPost(const ::tele_rest::OptionalParam<bool> &dr
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::deleteWebhookPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postDeleteWebhookCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -3210,19 +3210,19 @@ void OAIDefaultApi::deleteWebhookPost(const ::tele_rest::OptionalParam<bool> &dr
     worker->execute(&input);
 }
 
-void OAIDefaultApi::deleteWebhookPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postDeleteWebhookCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIDeleteWebhookResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT deleteWebhookPostSignal(output);
-        Q_EMIT deleteWebhookPostSignalFull(worker, output);
+        Q_EMIT postDeleteWebhookSignal(output);
+        Q_EMIT postDeleteWebhookSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -3239,8 +3239,8 @@ void OAIDefaultApi::deleteWebhookPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT deleteWebhookPostSignalE(output, error_type, error_str);
-        Q_EMIT deleteWebhookPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postDeleteWebhookSignalE(output, error_type, error_str);
+        Q_EMIT postDeleteWebhookSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -3250,13 +3250,13 @@ void OAIDefaultApi::deleteWebhookPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT deleteWebhookPostSignalError(output, error_type, error_str);
-        Q_EMIT deleteWebhookPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postDeleteWebhookSignalError(output, error_type, error_str);
+        Q_EMIT postDeleteWebhookSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::editChatInviteLinkPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &invite_link, const ::tele_rest::OptionalParam<QString> &name, const ::tele_rest::OptionalParam<qint32> &expire_date, const ::tele_rest::OptionalParam<qint32> &member_limit, const ::tele_rest::OptionalParam<bool> &creates_join_request) {
-    QString fullPath = QString(_serverConfigs["editChatInviteLinkPost"][_serverIndices.value("editChatInviteLinkPost")].URL()+"/editChatInviteLink");
+void OAIDefaultApi::postEditChatInviteLink(const OAISendMessageRequest_chat_id &chat_id, const QString &invite_link, const ::tele_rest::OptionalParam<QString> &name, const ::tele_rest::OptionalParam<qint32> &expire_date, const ::tele_rest::OptionalParam<qint32> &member_limit, const ::tele_rest::OptionalParam<bool> &creates_join_request) {
+    QString fullPath = QString(_serverConfigs["postEditChatInviteLink"][_serverIndices.value("postEditChatInviteLink")].URL()+"/editChatInviteLink");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -3293,7 +3293,7 @@ void OAIDefaultApi::editChatInviteLinkPost(const OAI_sendMessage_post_request_ch
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::editChatInviteLinkPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postEditChatInviteLinkCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -3304,19 +3304,19 @@ void OAIDefaultApi::editChatInviteLinkPost(const OAI_sendMessage_post_request_ch
     worker->execute(&input);
 }
 
-void OAIDefaultApi::editChatInviteLinkPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postEditChatInviteLinkCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_createChatInviteLink_post_200_response output(QString(worker->response));
+    OAIEditChatInviteLinkResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT editChatInviteLinkPostSignal(output);
-        Q_EMIT editChatInviteLinkPostSignalFull(worker, output);
+        Q_EMIT postEditChatInviteLinkSignal(output);
+        Q_EMIT postEditChatInviteLinkSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -3333,8 +3333,8 @@ void OAIDefaultApi::editChatInviteLinkPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT editChatInviteLinkPostSignalE(output, error_type, error_str);
-        Q_EMIT editChatInviteLinkPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postEditChatInviteLinkSignalE(output, error_type, error_str);
+        Q_EMIT postEditChatInviteLinkSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -3344,13 +3344,13 @@ void OAIDefaultApi::editChatInviteLinkPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT editChatInviteLinkPostSignalError(output, error_type, error_str);
-        Q_EMIT editChatInviteLinkPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postEditChatInviteLinkSignalError(output, error_type, error_str);
+        Q_EMIT postEditChatInviteLinkSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::editChatSubscriptionInviteLinkPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &invite_link, const ::tele_rest::OptionalParam<QString> &name) {
-    QString fullPath = QString(_serverConfigs["editChatSubscriptionInviteLinkPost"][_serverIndices.value("editChatSubscriptionInviteLinkPost")].URL()+"/editChatSubscriptionInviteLink");
+void OAIDefaultApi::postEditChatSubscriptionInviteLink(const OAISendMessageRequest_chat_id &chat_id, const QString &invite_link, const ::tele_rest::OptionalParam<QString> &name) {
+    QString fullPath = QString(_serverConfigs["postEditChatSubscriptionInviteLink"][_serverIndices.value("postEditChatSubscriptionInviteLink")].URL()+"/editChatSubscriptionInviteLink");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -3375,7 +3375,7 @@ void OAIDefaultApi::editChatSubscriptionInviteLinkPost(const OAI_sendMessage_pos
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::editChatSubscriptionInviteLinkPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postEditChatSubscriptionInviteLinkCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -3386,19 +3386,19 @@ void OAIDefaultApi::editChatSubscriptionInviteLinkPost(const OAI_sendMessage_pos
     worker->execute(&input);
 }
 
-void OAIDefaultApi::editChatSubscriptionInviteLinkPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postEditChatSubscriptionInviteLinkCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_createChatInviteLink_post_200_response output(QString(worker->response));
+    OAIEditChatSubscriptionInviteLinkResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT editChatSubscriptionInviteLinkPostSignal(output);
-        Q_EMIT editChatSubscriptionInviteLinkPostSignalFull(worker, output);
+        Q_EMIT postEditChatSubscriptionInviteLinkSignal(output);
+        Q_EMIT postEditChatSubscriptionInviteLinkSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -3415,8 +3415,8 @@ void OAIDefaultApi::editChatSubscriptionInviteLinkPostCallback(OAIHttpRequestWor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT editChatSubscriptionInviteLinkPostSignalE(output, error_type, error_str);
-        Q_EMIT editChatSubscriptionInviteLinkPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postEditChatSubscriptionInviteLinkSignalE(output, error_type, error_str);
+        Q_EMIT postEditChatSubscriptionInviteLinkSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -3426,13 +3426,13 @@ void OAIDefaultApi::editChatSubscriptionInviteLinkPostCallback(OAIHttpRequestWor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT editChatSubscriptionInviteLinkPostSignalError(output, error_type, error_str);
-        Q_EMIT editChatSubscriptionInviteLinkPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postEditChatSubscriptionInviteLinkSignalError(output, error_type, error_str);
+        Q_EMIT postEditChatSubscriptionInviteLinkSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::editForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &message_thread_id, const ::tele_rest::OptionalParam<QString> &name, const ::tele_rest::OptionalParam<QString> &icon_custom_emoji_id) {
-    QString fullPath = QString(_serverConfigs["editForumTopicPost"][_serverIndices.value("editForumTopicPost")].URL()+"/editForumTopic");
+void OAIDefaultApi::postEditForumTopic(const OAIBotCommandScopeChat_chat_id &chat_id, const qint32 &message_thread_id, const ::tele_rest::OptionalParam<QString> &name, const ::tele_rest::OptionalParam<QString> &icon_custom_emoji_id) {
+    QString fullPath = QString(_serverConfigs["postEditForumTopic"][_serverIndices.value("postEditForumTopic")].URL()+"/editForumTopic");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -3461,7 +3461,7 @@ void OAIDefaultApi::editForumTopicPost(const OAI_restrictChatMember_post_request
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::editForumTopicPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postEditForumTopicCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -3472,19 +3472,19 @@ void OAIDefaultApi::editForumTopicPost(const OAI_restrictChatMember_post_request
     worker->execute(&input);
 }
 
-void OAIDefaultApi::editForumTopicPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postEditForumTopicCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIEditForumTopicResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT editForumTopicPostSignal(output);
-        Q_EMIT editForumTopicPostSignalFull(worker, output);
+        Q_EMIT postEditForumTopicSignal(output);
+        Q_EMIT postEditForumTopicSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -3501,8 +3501,8 @@ void OAIDefaultApi::editForumTopicPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT editForumTopicPostSignalE(output, error_type, error_str);
-        Q_EMIT editForumTopicPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postEditForumTopicSignalE(output, error_type, error_str);
+        Q_EMIT postEditForumTopicSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -3512,13 +3512,13 @@ void OAIDefaultApi::editForumTopicPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT editForumTopicPostSignalError(output, error_type, error_str);
-        Q_EMIT editForumTopicPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postEditForumTopicSignalError(output, error_type, error_str);
+        Q_EMIT postEditForumTopicSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::editGeneralForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const QString &name) {
-    QString fullPath = QString(_serverConfigs["editGeneralForumTopicPost"][_serverIndices.value("editGeneralForumTopicPost")].URL()+"/editGeneralForumTopic");
+void OAIDefaultApi::postEditGeneralForumTopic(const OAIBotCommandScopeChat_chat_id &chat_id, const QString &name) {
+    QString fullPath = QString(_serverConfigs["postEditGeneralForumTopic"][_serverIndices.value("postEditGeneralForumTopic")].URL()+"/editGeneralForumTopic");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -3539,7 +3539,7 @@ void OAIDefaultApi::editGeneralForumTopicPost(const OAI_restrictChatMember_post_
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::editGeneralForumTopicPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postEditGeneralForumTopicCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -3550,19 +3550,19 @@ void OAIDefaultApi::editGeneralForumTopicPost(const OAI_restrictChatMember_post_
     worker->execute(&input);
 }
 
-void OAIDefaultApi::editGeneralForumTopicPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postEditGeneralForumTopicCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIEditGeneralForumTopicResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT editGeneralForumTopicPostSignal(output);
-        Q_EMIT editGeneralForumTopicPostSignalFull(worker, output);
+        Q_EMIT postEditGeneralForumTopicSignal(output);
+        Q_EMIT postEditGeneralForumTopicSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -3579,8 +3579,8 @@ void OAIDefaultApi::editGeneralForumTopicPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT editGeneralForumTopicPostSignalE(output, error_type, error_str);
-        Q_EMIT editGeneralForumTopicPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postEditGeneralForumTopicSignalE(output, error_type, error_str);
+        Q_EMIT postEditGeneralForumTopicSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -3590,13 +3590,13 @@ void OAIDefaultApi::editGeneralForumTopicPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT editGeneralForumTopicPostSignalError(output, error_type, error_str);
-        Q_EMIT editGeneralForumTopicPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postEditGeneralForumTopicSignalError(output, error_type, error_str);
+        Q_EMIT postEditGeneralForumTopicSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::editMessageCaptionPost(const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &show_caption_above_media, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["editMessageCaptionPost"][_serverIndices.value("editMessageCaptionPost")].URL()+"/editMessageCaption");
+void OAIDefaultApi::postEditMessageCaption(const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAIEditMessageTextRequest_chat_id> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &show_caption_above_media, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postEditMessageCaption"][_serverIndices.value("postEditMessageCaption")].URL()+"/editMessageCaption");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -3645,7 +3645,7 @@ void OAIDefaultApi::editMessageCaptionPost(const ::tele_rest::OptionalParam<QStr
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::editMessageCaptionPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postEditMessageCaptionCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -3656,19 +3656,19 @@ void OAIDefaultApi::editMessageCaptionPost(const ::tele_rest::OptionalParam<QStr
     worker->execute(&input);
 }
 
-void OAIDefaultApi::editMessageCaptionPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postEditMessageCaptionCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_editMessageText_post_200_response output(QString(worker->response));
+    OAIEditMessageCaptionResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT editMessageCaptionPostSignal(output);
-        Q_EMIT editMessageCaptionPostSignalFull(worker, output);
+        Q_EMIT postEditMessageCaptionSignal(output);
+        Q_EMIT postEditMessageCaptionSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -3685,8 +3685,8 @@ void OAIDefaultApi::editMessageCaptionPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT editMessageCaptionPostSignalE(output, error_type, error_str);
-        Q_EMIT editMessageCaptionPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postEditMessageCaptionSignalE(output, error_type, error_str);
+        Q_EMIT postEditMessageCaptionSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -3696,13 +3696,13 @@ void OAIDefaultApi::editMessageCaptionPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT editMessageCaptionPostSignalError(output, error_type, error_str);
-        Q_EMIT editMessageCaptionPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postEditMessageCaptionSignalError(output, error_type, error_str);
+        Q_EMIT postEditMessageCaptionSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::editMessageLiveLocationPost(const double &latitude, const double &longitude, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id, const ::tele_rest::OptionalParam<qint32> &live_period, const ::tele_rest::OptionalParam<double> &horizontal_accuracy, const ::tele_rest::OptionalParam<qint32> &heading, const ::tele_rest::OptionalParam<qint32> &proximity_alert_radius, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["editMessageLiveLocationPost"][_serverIndices.value("editMessageLiveLocationPost")].URL()+"/editMessageLiveLocation");
+void OAIDefaultApi::postEditMessageLiveLocation(const double &latitude, const double &longitude, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAIEditMessageTextRequest_chat_id> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id, const ::tele_rest::OptionalParam<qint32> &live_period, const ::tele_rest::OptionalParam<double> &horizontal_accuracy, const ::tele_rest::OptionalParam<qint32> &heading, const ::tele_rest::OptionalParam<qint32> &proximity_alert_radius, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postEditMessageLiveLocation"][_serverIndices.value("postEditMessageLiveLocation")].URL()+"/editMessageLiveLocation");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -3759,7 +3759,7 @@ void OAIDefaultApi::editMessageLiveLocationPost(const double &latitude, const do
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::editMessageLiveLocationPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postEditMessageLiveLocationCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -3770,19 +3770,19 @@ void OAIDefaultApi::editMessageLiveLocationPost(const double &latitude, const do
     worker->execute(&input);
 }
 
-void OAIDefaultApi::editMessageLiveLocationPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postEditMessageLiveLocationCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_editMessageText_post_200_response output(QString(worker->response));
+    OAIEditMessageLiveLocationResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT editMessageLiveLocationPostSignal(output);
-        Q_EMIT editMessageLiveLocationPostSignalFull(worker, output);
+        Q_EMIT postEditMessageLiveLocationSignal(output);
+        Q_EMIT postEditMessageLiveLocationSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -3799,8 +3799,8 @@ void OAIDefaultApi::editMessageLiveLocationPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT editMessageLiveLocationPostSignalE(output, error_type, error_str);
-        Q_EMIT editMessageLiveLocationPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postEditMessageLiveLocationSignalE(output, error_type, error_str);
+        Q_EMIT postEditMessageLiveLocationSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -3810,13 +3810,13 @@ void OAIDefaultApi::editMessageLiveLocationPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT editMessageLiveLocationPostSignalError(output, error_type, error_str);
-        Q_EMIT editMessageLiveLocationPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postEditMessageLiveLocationSignalError(output, error_type, error_str);
+        Q_EMIT postEditMessageLiveLocationSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::editMessageMediaPost(const OAIInputMedia &media, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["editMessageMediaPost"][_serverIndices.value("editMessageMediaPost")].URL()+"/editMessageMedia");
+void OAIDefaultApi::postEditMessageMedia(const OAIInputMedia &media, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAIEditMessageTextRequest_chat_id> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postEditMessageMedia"][_serverIndices.value("postEditMessageMedia")].URL()+"/editMessageMedia");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -3853,7 +3853,7 @@ void OAIDefaultApi::editMessageMediaPost(const OAIInputMedia &media, const ::tel
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::editMessageMediaPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postEditMessageMediaCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -3864,19 +3864,19 @@ void OAIDefaultApi::editMessageMediaPost(const OAIInputMedia &media, const ::tel
     worker->execute(&input);
 }
 
-void OAIDefaultApi::editMessageMediaPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postEditMessageMediaCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_editMessageText_post_200_response output(QString(worker->response));
+    OAIEditMessageMediaResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT editMessageMediaPostSignal(output);
-        Q_EMIT editMessageMediaPostSignalFull(worker, output);
+        Q_EMIT postEditMessageMediaSignal(output);
+        Q_EMIT postEditMessageMediaSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -3893,8 +3893,8 @@ void OAIDefaultApi::editMessageMediaPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT editMessageMediaPostSignalE(output, error_type, error_str);
-        Q_EMIT editMessageMediaPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postEditMessageMediaSignalE(output, error_type, error_str);
+        Q_EMIT postEditMessageMediaSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -3904,13 +3904,13 @@ void OAIDefaultApi::editMessageMediaPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT editMessageMediaPostSignalError(output, error_type, error_str);
-        Q_EMIT editMessageMediaPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postEditMessageMediaSignalError(output, error_type, error_str);
+        Q_EMIT postEditMessageMediaSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::editMessageReplyMarkupPost(const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["editMessageReplyMarkupPost"][_serverIndices.value("editMessageReplyMarkupPost")].URL()+"/editMessageReplyMarkup");
+void OAIDefaultApi::postEditMessageReplyMarkup(const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAIEditMessageTextRequest_chat_id> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postEditMessageReplyMarkup"][_serverIndices.value("postEditMessageReplyMarkup")].URL()+"/editMessageReplyMarkup");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -3943,7 +3943,7 @@ void OAIDefaultApi::editMessageReplyMarkupPost(const ::tele_rest::OptionalParam<
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::editMessageReplyMarkupPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postEditMessageReplyMarkupCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -3954,19 +3954,19 @@ void OAIDefaultApi::editMessageReplyMarkupPost(const ::tele_rest::OptionalParam<
     worker->execute(&input);
 }
 
-void OAIDefaultApi::editMessageReplyMarkupPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postEditMessageReplyMarkupCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_editMessageText_post_200_response output(QString(worker->response));
+    OAIEditMessageReplyMarkupResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT editMessageReplyMarkupPostSignal(output);
-        Q_EMIT editMessageReplyMarkupPostSignalFull(worker, output);
+        Q_EMIT postEditMessageReplyMarkupSignal(output);
+        Q_EMIT postEditMessageReplyMarkupSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -3983,8 +3983,8 @@ void OAIDefaultApi::editMessageReplyMarkupPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT editMessageReplyMarkupPostSignalE(output, error_type, error_str);
-        Q_EMIT editMessageReplyMarkupPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postEditMessageReplyMarkupSignalE(output, error_type, error_str);
+        Q_EMIT postEditMessageReplyMarkupSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -3994,13 +3994,13 @@ void OAIDefaultApi::editMessageReplyMarkupPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT editMessageReplyMarkupPostSignalError(output, error_type, error_str);
-        Q_EMIT editMessageReplyMarkupPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postEditMessageReplyMarkupSignalError(output, error_type, error_str);
+        Q_EMIT postEditMessageReplyMarkupSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::editMessageTextPost(const QString &text, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &entities, const ::tele_rest::OptionalParam<OAILinkPreviewOptions> &link_preview_options, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["editMessageTextPost"][_serverIndices.value("editMessageTextPost")].URL()+"/editMessageText");
+void OAIDefaultApi::postEditMessageText(const QString &text, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAIEditMessageTextRequest_chat_id> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &entities, const ::tele_rest::OptionalParam<OAILinkPreviewOptions> &link_preview_options, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postEditMessageText"][_serverIndices.value("postEditMessageText")].URL()+"/editMessageText");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -4049,7 +4049,7 @@ void OAIDefaultApi::editMessageTextPost(const QString &text, const ::tele_rest::
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::editMessageTextPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postEditMessageTextCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -4060,19 +4060,19 @@ void OAIDefaultApi::editMessageTextPost(const QString &text, const ::tele_rest::
     worker->execute(&input);
 }
 
-void OAIDefaultApi::editMessageTextPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postEditMessageTextCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_editMessageText_post_200_response output(QString(worker->response));
+    OAIEditMessageTextResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT editMessageTextPostSignal(output);
-        Q_EMIT editMessageTextPostSignalFull(worker, output);
+        Q_EMIT postEditMessageTextSignal(output);
+        Q_EMIT postEditMessageTextSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -4089,8 +4089,8 @@ void OAIDefaultApi::editMessageTextPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT editMessageTextPostSignalE(output, error_type, error_str);
-        Q_EMIT editMessageTextPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postEditMessageTextSignalE(output, error_type, error_str);
+        Q_EMIT postEditMessageTextSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -4100,13 +4100,13 @@ void OAIDefaultApi::editMessageTextPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT editMessageTextPostSignalError(output, error_type, error_str);
-        Q_EMIT editMessageTextPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postEditMessageTextSignalError(output, error_type, error_str);
+        Q_EMIT postEditMessageTextSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::editStoryPost(const QString &business_connection_id, const qint32 &story_id, const OAIInputStoryContent &content, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<QList<OAIStoryArea>> &areas) {
-    QString fullPath = QString(_serverConfigs["editStoryPost"][_serverIndices.value("editStoryPost")].URL()+"/editStory");
+void OAIDefaultApi::postEditStory(const QString &business_connection_id, const qint32 &story_id, const OAIInputStoryContent &content, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<QList<OAIStoryArea>> &areas) {
+    QString fullPath = QString(_serverConfigs["postEditStory"][_serverIndices.value("postEditStory")].URL()+"/editStory");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -4147,7 +4147,7 @@ void OAIDefaultApi::editStoryPost(const QString &business_connection_id, const q
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::editStoryPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postEditStoryCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -4158,19 +4158,19 @@ void OAIDefaultApi::editStoryPost(const QString &business_connection_id, const q
     worker->execute(&input);
 }
 
-void OAIDefaultApi::editStoryPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postEditStoryCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_postStory_post_200_response output(QString(worker->response));
+    OAIEditStoryResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT editStoryPostSignal(output);
-        Q_EMIT editStoryPostSignalFull(worker, output);
+        Q_EMIT postEditStorySignal(output);
+        Q_EMIT postEditStorySignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -4187,8 +4187,8 @@ void OAIDefaultApi::editStoryPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT editStoryPostSignalE(output, error_type, error_str);
-        Q_EMIT editStoryPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postEditStorySignalE(output, error_type, error_str);
+        Q_EMIT postEditStorySignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -4198,13 +4198,13 @@ void OAIDefaultApi::editStoryPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT editStoryPostSignalError(output, error_type, error_str);
-        Q_EMIT editStoryPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postEditStorySignalError(output, error_type, error_str);
+        Q_EMIT postEditStorySignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::editUserStarSubscriptionPost(const qint32 &user_id, const QString &telegram_payment_charge_id, const bool &is_canceled) {
-    QString fullPath = QString(_serverConfigs["editUserStarSubscriptionPost"][_serverIndices.value("editUserStarSubscriptionPost")].URL()+"/editUserStarSubscription");
+void OAIDefaultApi::postEditUserStarSubscription(const qint32 &user_id, const QString &telegram_payment_charge_id, const bool &is_canceled) {
+    QString fullPath = QString(_serverConfigs["postEditUserStarSubscription"][_serverIndices.value("postEditUserStarSubscription")].URL()+"/editUserStarSubscription");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -4229,7 +4229,7 @@ void OAIDefaultApi::editUserStarSubscriptionPost(const qint32 &user_id, const QS
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::editUserStarSubscriptionPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postEditUserStarSubscriptionCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -4240,19 +4240,19 @@ void OAIDefaultApi::editUserStarSubscriptionPost(const qint32 &user_id, const QS
     worker->execute(&input);
 }
 
-void OAIDefaultApi::editUserStarSubscriptionPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postEditUserStarSubscriptionCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIEditUserStarSubscriptionResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT editUserStarSubscriptionPostSignal(output);
-        Q_EMIT editUserStarSubscriptionPostSignalFull(worker, output);
+        Q_EMIT postEditUserStarSubscriptionSignal(output);
+        Q_EMIT postEditUserStarSubscriptionSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -4269,8 +4269,8 @@ void OAIDefaultApi::editUserStarSubscriptionPostCallback(OAIHttpRequestWorker *w
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT editUserStarSubscriptionPostSignalE(output, error_type, error_str);
-        Q_EMIT editUserStarSubscriptionPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postEditUserStarSubscriptionSignalE(output, error_type, error_str);
+        Q_EMIT postEditUserStarSubscriptionSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -4280,13 +4280,13 @@ void OAIDefaultApi::editUserStarSubscriptionPostCallback(OAIHttpRequestWorker *w
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT editUserStarSubscriptionPostSignalError(output, error_type, error_str);
-        Q_EMIT editUserStarSubscriptionPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postEditUserStarSubscriptionSignalError(output, error_type, error_str);
+        Q_EMIT postEditUserStarSubscriptionSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::exportChatInviteLinkPost(const OAI_sendMessage_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["exportChatInviteLinkPost"][_serverIndices.value("exportChatInviteLinkPost")].URL()+"/exportChatInviteLink");
+void OAIDefaultApi::postExportChatInviteLink(const OAISendMessageRequest_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postExportChatInviteLink"][_serverIndices.value("postExportChatInviteLink")].URL()+"/exportChatInviteLink");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -4303,7 +4303,7 @@ void OAIDefaultApi::exportChatInviteLinkPost(const OAI_sendMessage_post_request_
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::exportChatInviteLinkPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postExportChatInviteLinkCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -4314,19 +4314,19 @@ void OAIDefaultApi::exportChatInviteLinkPost(const OAI_sendMessage_post_request_
     worker->execute(&input);
 }
 
-void OAIDefaultApi::exportChatInviteLinkPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postExportChatInviteLinkCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_exportChatInviteLink_post_200_response output(QString(worker->response));
+    OAIExportChatInviteLinkResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT exportChatInviteLinkPostSignal(output);
-        Q_EMIT exportChatInviteLinkPostSignalFull(worker, output);
+        Q_EMIT postExportChatInviteLinkSignal(output);
+        Q_EMIT postExportChatInviteLinkSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -4343,8 +4343,8 @@ void OAIDefaultApi::exportChatInviteLinkPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT exportChatInviteLinkPostSignalE(output, error_type, error_str);
-        Q_EMIT exportChatInviteLinkPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postExportChatInviteLinkSignalE(output, error_type, error_str);
+        Q_EMIT postExportChatInviteLinkSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -4354,13 +4354,13 @@ void OAIDefaultApi::exportChatInviteLinkPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT exportChatInviteLinkPostSignalError(output, error_type, error_str);
-        Q_EMIT exportChatInviteLinkPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postExportChatInviteLinkSignalError(output, error_type, error_str);
+        Q_EMIT postExportChatInviteLinkSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::forwardMessagePost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_forwardMessage_post_request_from_chat_id &from_chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<qint32> &video_start_timestamp, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content) {
-    QString fullPath = QString(_serverConfigs["forwardMessagePost"][_serverIndices.value("forwardMessagePost")].URL()+"/forwardMessage");
+void OAIDefaultApi::postForwardMessage(const OAISendMessageRequest_chat_id &chat_id, const OAIForwardMessageRequest_from_chat_id &from_chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<qint32> &video_start_timestamp, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content) {
+    QString fullPath = QString(_serverConfigs["postForwardMessage"][_serverIndices.value("postForwardMessage")].URL()+"/forwardMessage");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -4401,7 +4401,7 @@ void OAIDefaultApi::forwardMessagePost(const OAI_sendMessage_post_request_chat_i
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::forwardMessagePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postForwardMessageCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -4412,19 +4412,19 @@ void OAIDefaultApi::forwardMessagePost(const OAI_sendMessage_post_request_chat_i
     worker->execute(&input);
 }
 
-void OAIDefaultApi::forwardMessagePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postForwardMessageCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAIForwardMessageResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT forwardMessagePostSignal(output);
-        Q_EMIT forwardMessagePostSignalFull(worker, output);
+        Q_EMIT postForwardMessageSignal(output);
+        Q_EMIT postForwardMessageSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -4441,8 +4441,8 @@ void OAIDefaultApi::forwardMessagePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT forwardMessagePostSignalE(output, error_type, error_str);
-        Q_EMIT forwardMessagePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postForwardMessageSignalE(output, error_type, error_str);
+        Q_EMIT postForwardMessageSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -4452,13 +4452,13 @@ void OAIDefaultApi::forwardMessagePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT forwardMessagePostSignalError(output, error_type, error_str);
-        Q_EMIT forwardMessagePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postForwardMessageSignalError(output, error_type, error_str);
+        Q_EMIT postForwardMessageSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::forwardMessagesPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_forwardMessages_post_request_from_chat_id &from_chat_id, const QList<qint32> &message_ids, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content) {
-    QString fullPath = QString(_serverConfigs["forwardMessagesPost"][_serverIndices.value("forwardMessagesPost")].URL()+"/forwardMessages");
+void OAIDefaultApi::postForwardMessages(const OAISendMessageRequest_chat_id &chat_id, const OAIForwardMessagesRequest_from_chat_id &from_chat_id, const QList<qint32> &message_ids, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content) {
+    QString fullPath = QString(_serverConfigs["postForwardMessages"][_serverIndices.value("postForwardMessages")].URL()+"/forwardMessages");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -4495,7 +4495,7 @@ void OAIDefaultApi::forwardMessagesPost(const OAI_sendMessage_post_request_chat_
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::forwardMessagesPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postForwardMessagesCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -4506,19 +4506,19 @@ void OAIDefaultApi::forwardMessagesPost(const OAI_sendMessage_post_request_chat_
     worker->execute(&input);
 }
 
-void OAIDefaultApi::forwardMessagesPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postForwardMessagesCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_forwardMessages_post_200_response output(QString(worker->response));
+    OAIForwardMessagesResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT forwardMessagesPostSignal(output);
-        Q_EMIT forwardMessagesPostSignalFull(worker, output);
+        Q_EMIT postForwardMessagesSignal(output);
+        Q_EMIT postForwardMessagesSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -4535,8 +4535,8 @@ void OAIDefaultApi::forwardMessagesPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT forwardMessagesPostSignalE(output, error_type, error_str);
-        Q_EMIT forwardMessagesPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postForwardMessagesSignalE(output, error_type, error_str);
+        Q_EMIT postForwardMessagesSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -4546,13 +4546,13 @@ void OAIDefaultApi::forwardMessagesPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT forwardMessagesPostSignalError(output, error_type, error_str);
-        Q_EMIT forwardMessagesPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postForwardMessagesSignalError(output, error_type, error_str);
+        Q_EMIT postForwardMessagesSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getAvailableGiftsPost() {
-    QString fullPath = QString(_serverConfigs["getAvailableGiftsPost"][_serverIndices.value("getAvailableGiftsPost")].URL()+"/getAvailableGifts");
+void OAIDefaultApi::postGetAvailableGifts() {
+    QString fullPath = QString(_serverConfigs["postGetAvailableGifts"][_serverIndices.value("postGetAvailableGifts")].URL()+"/getAvailableGifts");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -4565,7 +4565,7 @@ void OAIDefaultApi::getAvailableGiftsPost() {
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getAvailableGiftsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetAvailableGiftsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -4576,19 +4576,19 @@ void OAIDefaultApi::getAvailableGiftsPost() {
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getAvailableGiftsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetAvailableGiftsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getAvailableGifts_post_200_response output(QString(worker->response));
+    OAIGetAvailableGiftsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getAvailableGiftsPostSignal(output);
-        Q_EMIT getAvailableGiftsPostSignalFull(worker, output);
+        Q_EMIT postGetAvailableGiftsSignal(output);
+        Q_EMIT postGetAvailableGiftsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -4605,8 +4605,8 @@ void OAIDefaultApi::getAvailableGiftsPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getAvailableGiftsPostSignalE(output, error_type, error_str);
-        Q_EMIT getAvailableGiftsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetAvailableGiftsSignalE(output, error_type, error_str);
+        Q_EMIT postGetAvailableGiftsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -4616,13 +4616,13 @@ void OAIDefaultApi::getAvailableGiftsPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getAvailableGiftsPostSignalError(output, error_type, error_str);
-        Q_EMIT getAvailableGiftsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetAvailableGiftsSignalError(output, error_type, error_str);
+        Q_EMIT postGetAvailableGiftsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getBusinessAccountGiftsPost(const QString &business_connection_id, const ::tele_rest::OptionalParam<bool> &exclude_unsaved, const ::tele_rest::OptionalParam<bool> &exclude_saved, const ::tele_rest::OptionalParam<bool> &exclude_unlimited, const ::tele_rest::OptionalParam<bool> &exclude_limited, const ::tele_rest::OptionalParam<bool> &exclude_unique, const ::tele_rest::OptionalParam<bool> &sort_by_price, const ::tele_rest::OptionalParam<QString> &offset, const ::tele_rest::OptionalParam<qint32> &limit) {
-    QString fullPath = QString(_serverConfigs["getBusinessAccountGiftsPost"][_serverIndices.value("getBusinessAccountGiftsPost")].URL()+"/getBusinessAccountGifts");
+void OAIDefaultApi::postGetBusinessAccountGifts(const QString &business_connection_id, const ::tele_rest::OptionalParam<bool> &exclude_unsaved, const ::tele_rest::OptionalParam<bool> &exclude_saved, const ::tele_rest::OptionalParam<bool> &exclude_unlimited, const ::tele_rest::OptionalParam<bool> &exclude_limited, const ::tele_rest::OptionalParam<bool> &exclude_unique, const ::tele_rest::OptionalParam<bool> &sort_by_price, const ::tele_rest::OptionalParam<QString> &offset, const ::tele_rest::OptionalParam<qint32> &limit) {
+    QString fullPath = QString(_serverConfigs["postGetBusinessAccountGifts"][_serverIndices.value("postGetBusinessAccountGifts")].URL()+"/getBusinessAccountGifts");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -4671,7 +4671,7 @@ void OAIDefaultApi::getBusinessAccountGiftsPost(const QString &business_connecti
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getBusinessAccountGiftsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetBusinessAccountGiftsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -4682,19 +4682,19 @@ void OAIDefaultApi::getBusinessAccountGiftsPost(const QString &business_connecti
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getBusinessAccountGiftsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetBusinessAccountGiftsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getBusinessAccountGifts_post_200_response output(QString(worker->response));
+    OAIGetBusinessAccountGiftsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getBusinessAccountGiftsPostSignal(output);
-        Q_EMIT getBusinessAccountGiftsPostSignalFull(worker, output);
+        Q_EMIT postGetBusinessAccountGiftsSignal(output);
+        Q_EMIT postGetBusinessAccountGiftsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -4711,8 +4711,8 @@ void OAIDefaultApi::getBusinessAccountGiftsPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getBusinessAccountGiftsPostSignalE(output, error_type, error_str);
-        Q_EMIT getBusinessAccountGiftsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetBusinessAccountGiftsSignalE(output, error_type, error_str);
+        Q_EMIT postGetBusinessAccountGiftsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -4722,13 +4722,13 @@ void OAIDefaultApi::getBusinessAccountGiftsPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getBusinessAccountGiftsPostSignalError(output, error_type, error_str);
-        Q_EMIT getBusinessAccountGiftsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetBusinessAccountGiftsSignalError(output, error_type, error_str);
+        Q_EMIT postGetBusinessAccountGiftsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getBusinessAccountStarBalancePost(const QString &business_connection_id) {
-    QString fullPath = QString(_serverConfigs["getBusinessAccountStarBalancePost"][_serverIndices.value("getBusinessAccountStarBalancePost")].URL()+"/getBusinessAccountStarBalance");
+void OAIDefaultApi::postGetBusinessAccountStarBalance(const QString &business_connection_id) {
+    QString fullPath = QString(_serverConfigs["postGetBusinessAccountStarBalance"][_serverIndices.value("postGetBusinessAccountStarBalance")].URL()+"/getBusinessAccountStarBalance");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -4745,7 +4745,7 @@ void OAIDefaultApi::getBusinessAccountStarBalancePost(const QString &business_co
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getBusinessAccountStarBalancePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetBusinessAccountStarBalanceCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -4756,19 +4756,19 @@ void OAIDefaultApi::getBusinessAccountStarBalancePost(const QString &business_co
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getBusinessAccountStarBalancePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetBusinessAccountStarBalanceCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getBusinessAccountStarBalance_post_200_response output(QString(worker->response));
+    OAIGetBusinessAccountStarBalanceResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getBusinessAccountStarBalancePostSignal(output);
-        Q_EMIT getBusinessAccountStarBalancePostSignalFull(worker, output);
+        Q_EMIT postGetBusinessAccountStarBalanceSignal(output);
+        Q_EMIT postGetBusinessAccountStarBalanceSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -4785,8 +4785,8 @@ void OAIDefaultApi::getBusinessAccountStarBalancePostCallback(OAIHttpRequestWork
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getBusinessAccountStarBalancePostSignalE(output, error_type, error_str);
-        Q_EMIT getBusinessAccountStarBalancePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetBusinessAccountStarBalanceSignalE(output, error_type, error_str);
+        Q_EMIT postGetBusinessAccountStarBalanceSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -4796,13 +4796,13 @@ void OAIDefaultApi::getBusinessAccountStarBalancePostCallback(OAIHttpRequestWork
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getBusinessAccountStarBalancePostSignalError(output, error_type, error_str);
-        Q_EMIT getBusinessAccountStarBalancePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetBusinessAccountStarBalanceSignalError(output, error_type, error_str);
+        Q_EMIT postGetBusinessAccountStarBalanceSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getBusinessConnectionPost(const QString &business_connection_id) {
-    QString fullPath = QString(_serverConfigs["getBusinessConnectionPost"][_serverIndices.value("getBusinessConnectionPost")].URL()+"/getBusinessConnection");
+void OAIDefaultApi::postGetBusinessConnection(const QString &business_connection_id) {
+    QString fullPath = QString(_serverConfigs["postGetBusinessConnection"][_serverIndices.value("postGetBusinessConnection")].URL()+"/getBusinessConnection");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -4819,7 +4819,7 @@ void OAIDefaultApi::getBusinessConnectionPost(const QString &business_connection
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getBusinessConnectionPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetBusinessConnectionCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -4830,19 +4830,19 @@ void OAIDefaultApi::getBusinessConnectionPost(const QString &business_connection
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getBusinessConnectionPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetBusinessConnectionCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getBusinessConnection_post_200_response output(QString(worker->response));
+    OAIGetBusinessConnectionResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getBusinessConnectionPostSignal(output);
-        Q_EMIT getBusinessConnectionPostSignalFull(worker, output);
+        Q_EMIT postGetBusinessConnectionSignal(output);
+        Q_EMIT postGetBusinessConnectionSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -4859,8 +4859,8 @@ void OAIDefaultApi::getBusinessConnectionPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getBusinessConnectionPostSignalE(output, error_type, error_str);
-        Q_EMIT getBusinessConnectionPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetBusinessConnectionSignalE(output, error_type, error_str);
+        Q_EMIT postGetBusinessConnectionSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -4870,13 +4870,13 @@ void OAIDefaultApi::getBusinessConnectionPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getBusinessConnectionPostSignalError(output, error_type, error_str);
-        Q_EMIT getBusinessConnectionPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetBusinessConnectionSignalError(output, error_type, error_str);
+        Q_EMIT postGetBusinessConnectionSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getChatAdministratorsPost(const OAI_leaveChat_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["getChatAdministratorsPost"][_serverIndices.value("getChatAdministratorsPost")].URL()+"/getChatAdministrators");
+void OAIDefaultApi::postGetChat(const OAILeaveChatRequest_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postGetChat"][_serverIndices.value("postGetChat")].URL()+"/getChat");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -4893,7 +4893,7 @@ void OAIDefaultApi::getChatAdministratorsPost(const OAI_leaveChat_post_request_c
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getChatAdministratorsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetChatCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -4904,19 +4904,19 @@ void OAIDefaultApi::getChatAdministratorsPost(const OAI_leaveChat_post_request_c
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getChatAdministratorsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetChatCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getChatAdministrators_post_200_response output(QString(worker->response));
+    OAIGetChatResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getChatAdministratorsPostSignal(output);
-        Q_EMIT getChatAdministratorsPostSignalFull(worker, output);
+        Q_EMIT postGetChatSignal(output);
+        Q_EMIT postGetChatSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -4933,8 +4933,8 @@ void OAIDefaultApi::getChatAdministratorsPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getChatAdministratorsPostSignalE(output, error_type, error_str);
-        Q_EMIT getChatAdministratorsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetChatSignalE(output, error_type, error_str);
+        Q_EMIT postGetChatSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -4944,13 +4944,13 @@ void OAIDefaultApi::getChatAdministratorsPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getChatAdministratorsPostSignalError(output, error_type, error_str);
-        Q_EMIT getChatAdministratorsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetChatSignalError(output, error_type, error_str);
+        Q_EMIT postGetChatSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getChatMemberCountPost(const OAI_leaveChat_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["getChatMemberCountPost"][_serverIndices.value("getChatMemberCountPost")].URL()+"/getChatMemberCount");
+void OAIDefaultApi::postGetChatAdministrators(const OAILeaveChatRequest_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postGetChatAdministrators"][_serverIndices.value("postGetChatAdministrators")].URL()+"/getChatAdministrators");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -4967,7 +4967,7 @@ void OAIDefaultApi::getChatMemberCountPost(const OAI_leaveChat_post_request_chat
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getChatMemberCountPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetChatAdministratorsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -4978,19 +4978,19 @@ void OAIDefaultApi::getChatMemberCountPost(const OAI_leaveChat_post_request_chat
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getChatMemberCountPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetChatAdministratorsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getChatMemberCount_post_200_response output(QString(worker->response));
+    OAIGetChatAdministratorsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getChatMemberCountPostSignal(output);
-        Q_EMIT getChatMemberCountPostSignalFull(worker, output);
+        Q_EMIT postGetChatAdministratorsSignal(output);
+        Q_EMIT postGetChatAdministratorsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5007,8 +5007,8 @@ void OAIDefaultApi::getChatMemberCountPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getChatMemberCountPostSignalE(output, error_type, error_str);
-        Q_EMIT getChatMemberCountPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetChatAdministratorsSignalE(output, error_type, error_str);
+        Q_EMIT postGetChatAdministratorsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5018,13 +5018,13 @@ void OAIDefaultApi::getChatMemberCountPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getChatMemberCountPostSignalError(output, error_type, error_str);
-        Q_EMIT getChatMemberCountPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetChatAdministratorsSignalError(output, error_type, error_str);
+        Q_EMIT postGetChatAdministratorsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getChatMemberPost(const OAI_leaveChat_post_request_chat_id &chat_id, const qint32 &user_id) {
-    QString fullPath = QString(_serverConfigs["getChatMemberPost"][_serverIndices.value("getChatMemberPost")].URL()+"/getChatMember");
+void OAIDefaultApi::postGetChatMember(const OAILeaveChatRequest_chat_id &chat_id, const qint32 &user_id) {
+    QString fullPath = QString(_serverConfigs["postGetChatMember"][_serverIndices.value("postGetChatMember")].URL()+"/getChatMember");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -5045,7 +5045,7 @@ void OAIDefaultApi::getChatMemberPost(const OAI_leaveChat_post_request_chat_id &
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getChatMemberPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetChatMemberCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -5056,19 +5056,19 @@ void OAIDefaultApi::getChatMemberPost(const OAI_leaveChat_post_request_chat_id &
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getChatMemberPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetChatMemberCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getChatMember_post_200_response output(QString(worker->response));
+    OAIGetChatMemberResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getChatMemberPostSignal(output);
-        Q_EMIT getChatMemberPostSignalFull(worker, output);
+        Q_EMIT postGetChatMemberSignal(output);
+        Q_EMIT postGetChatMemberSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5085,8 +5085,8 @@ void OAIDefaultApi::getChatMemberPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getChatMemberPostSignalE(output, error_type, error_str);
-        Q_EMIT getChatMemberPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetChatMemberSignalE(output, error_type, error_str);
+        Q_EMIT postGetChatMemberSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5096,87 +5096,13 @@ void OAIDefaultApi::getChatMemberPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getChatMemberPostSignalError(output, error_type, error_str);
-        Q_EMIT getChatMemberPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetChatMemberSignalError(output, error_type, error_str);
+        Q_EMIT postGetChatMemberSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getChatMenuButtonPost(const ::tele_rest::OptionalParam<qint32> &chat_id) {
-    QString fullPath = QString(_serverConfigs["getChatMenuButtonPost"][_serverIndices.value("getChatMenuButtonPost")].URL()+"/getChatMenuButton");
-    
-    OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
-    worker->setTimeOut(_timeOut);
-    worker->setWorkingDirectory(_workingDirectory);
-    OAIHttpRequestInput input(fullPath, "POST");
-
-    if (chat_id.hasValue())
-    {
-        input.add_var("chat_id", ::tele_rest::toStringValue(chat_id.value()));
-    }
-
-    for (auto keyValueIt = _defaultHeaders.keyValueBegin(); keyValueIt != _defaultHeaders.keyValueEnd(); keyValueIt++) {
-        input.headers.insert(keyValueIt->first, keyValueIt->second);
-    }
-
-
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getChatMenuButtonPostCallback);
-    connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
-    connect(worker, &QObject::destroyed, this, [this] {
-        if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
-            Q_EMIT allPendingRequestsCompleted();
-        }
-    });
-
-    worker->execute(&input);
-}
-
-void OAIDefaultApi::getChatMenuButtonPostCallback(OAIHttpRequestWorker *worker) {
-    QString error_str = worker->error_str;
-    QNetworkReply::NetworkError error_type = worker->error_type;
-
-    if (worker->error_type != QNetworkReply::NoError) {
-        error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
-    }
-    OAI_getChatMenuButton_post_200_response output(QString(worker->response));
-    worker->deleteLater();
-
-    if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getChatMenuButtonPostSignal(output);
-        Q_EMIT getChatMenuButtonPostSignalFull(worker, output);
-    } else {
-
-#if defined(_MSC_VER)
-// For MSVC
-#pragma warning(push)
-#pragma warning(disable : 4996)
-#elif defined(__clang__)
-// For Clang
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-#elif defined(__GNUC__)
-// For GCC
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-#endif
-
-        Q_EMIT getChatMenuButtonPostSignalE(output, error_type, error_str);
-        Q_EMIT getChatMenuButtonPostSignalEFull(worker, error_type, error_str);
-
-#if defined(_MSC_VER)
-#pragma warning(pop)
-#elif defined(__clang__)
-#pragma clang diagnostic pop
-#elif defined(__GNUC__)
-#pragma GCC diagnostic pop
-#endif
-
-        Q_EMIT getChatMenuButtonPostSignalError(output, error_type, error_str);
-        Q_EMIT getChatMenuButtonPostSignalErrorFull(worker, error_type, error_str);
-    }
-}
-
-void OAIDefaultApi::getChatPost(const OAI_leaveChat_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["getChatPost"][_serverIndices.value("getChatPost")].URL()+"/getChat");
+void OAIDefaultApi::postGetChatMemberCount(const OAILeaveChatRequest_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postGetChatMemberCount"][_serverIndices.value("postGetChatMemberCount")].URL()+"/getChatMemberCount");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -5193,7 +5119,7 @@ void OAIDefaultApi::getChatPost(const OAI_leaveChat_post_request_chat_id &chat_i
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getChatPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetChatMemberCountCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -5204,19 +5130,19 @@ void OAIDefaultApi::getChatPost(const OAI_leaveChat_post_request_chat_id &chat_i
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getChatPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetChatMemberCountCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getChat_post_200_response output(QString(worker->response));
+    OAIGetChatMemberCountResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getChatPostSignal(output);
-        Q_EMIT getChatPostSignalFull(worker, output);
+        Q_EMIT postGetChatMemberCountSignal(output);
+        Q_EMIT postGetChatMemberCountSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5233,8 +5159,8 @@ void OAIDefaultApi::getChatPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getChatPostSignalE(output, error_type, error_str);
-        Q_EMIT getChatPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetChatMemberCountSignalE(output, error_type, error_str);
+        Q_EMIT postGetChatMemberCountSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5244,13 +5170,87 @@ void OAIDefaultApi::getChatPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getChatPostSignalError(output, error_type, error_str);
-        Q_EMIT getChatPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetChatMemberCountSignalError(output, error_type, error_str);
+        Q_EMIT postGetChatMemberCountSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getCustomEmojiStickersPost(const QList<QString> &custom_emoji_ids) {
-    QString fullPath = QString(_serverConfigs["getCustomEmojiStickersPost"][_serverIndices.value("getCustomEmojiStickersPost")].URL()+"/getCustomEmojiStickers");
+void OAIDefaultApi::postGetChatMenuButton(const ::tele_rest::OptionalParam<qint32> &chat_id) {
+    QString fullPath = QString(_serverConfigs["postGetChatMenuButton"][_serverIndices.value("postGetChatMenuButton")].URL()+"/getChatMenuButton");
+    
+    OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
+    worker->setTimeOut(_timeOut);
+    worker->setWorkingDirectory(_workingDirectory);
+    OAIHttpRequestInput input(fullPath, "POST");
+
+    if (chat_id.hasValue())
+    {
+        input.add_var("chat_id", ::tele_rest::toStringValue(chat_id.value()));
+    }
+
+    for (auto keyValueIt = _defaultHeaders.keyValueBegin(); keyValueIt != _defaultHeaders.keyValueEnd(); keyValueIt++) {
+        input.headers.insert(keyValueIt->first, keyValueIt->second);
+    }
+
+
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetChatMenuButtonCallback);
+    connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
+    connect(worker, &QObject::destroyed, this, [this] {
+        if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
+            Q_EMIT allPendingRequestsCompleted();
+        }
+    });
+
+    worker->execute(&input);
+}
+
+void OAIDefaultApi::postGetChatMenuButtonCallback(OAIHttpRequestWorker *worker) {
+    QString error_str = worker->error_str;
+    QNetworkReply::NetworkError error_type = worker->error_type;
+
+    if (worker->error_type != QNetworkReply::NoError) {
+        error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
+    }
+    OAIGetChatMenuButtonResponse output(QString(worker->response));
+    worker->deleteLater();
+
+    if (worker->error_type == QNetworkReply::NoError) {
+        Q_EMIT postGetChatMenuButtonSignal(output);
+        Q_EMIT postGetChatMenuButtonSignalFull(worker, output);
+    } else {
+
+#if defined(_MSC_VER)
+// For MSVC
+#pragma warning(push)
+#pragma warning(disable : 4996)
+#elif defined(__clang__)
+// For Clang
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+#elif defined(__GNUC__)
+// For GCC
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+#endif
+
+        Q_EMIT postGetChatMenuButtonSignalE(output, error_type, error_str);
+        Q_EMIT postGetChatMenuButtonSignalEFull(worker, error_type, error_str);
+
+#if defined(_MSC_VER)
+#pragma warning(pop)
+#elif defined(__clang__)
+#pragma clang diagnostic pop
+#elif defined(__GNUC__)
+#pragma GCC diagnostic pop
+#endif
+
+        Q_EMIT postGetChatMenuButtonSignalError(output, error_type, error_str);
+        Q_EMIT postGetChatMenuButtonSignalErrorFull(worker, error_type, error_str);
+    }
+}
+
+void OAIDefaultApi::postGetCustomEmojiStickers(const QList<QString> &custom_emoji_ids) {
+    QString fullPath = QString(_serverConfigs["postGetCustomEmojiStickers"][_serverIndices.value("postGetCustomEmojiStickers")].URL()+"/getCustomEmojiStickers");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -5267,7 +5267,7 @@ void OAIDefaultApi::getCustomEmojiStickersPost(const QList<QString> &custom_emoj
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getCustomEmojiStickersPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetCustomEmojiStickersCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -5278,19 +5278,19 @@ void OAIDefaultApi::getCustomEmojiStickersPost(const QList<QString> &custom_emoj
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getCustomEmojiStickersPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetCustomEmojiStickersCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getForumTopicIconStickers_post_200_response output(QString(worker->response));
+    OAIGetCustomEmojiStickersResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getCustomEmojiStickersPostSignal(output);
-        Q_EMIT getCustomEmojiStickersPostSignalFull(worker, output);
+        Q_EMIT postGetCustomEmojiStickersSignal(output);
+        Q_EMIT postGetCustomEmojiStickersSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5307,8 +5307,8 @@ void OAIDefaultApi::getCustomEmojiStickersPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getCustomEmojiStickersPostSignalE(output, error_type, error_str);
-        Q_EMIT getCustomEmojiStickersPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetCustomEmojiStickersSignalE(output, error_type, error_str);
+        Q_EMIT postGetCustomEmojiStickersSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5318,13 +5318,13 @@ void OAIDefaultApi::getCustomEmojiStickersPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getCustomEmojiStickersPostSignalError(output, error_type, error_str);
-        Q_EMIT getCustomEmojiStickersPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetCustomEmojiStickersSignalError(output, error_type, error_str);
+        Q_EMIT postGetCustomEmojiStickersSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getFilePost(const QString &file_id) {
-    QString fullPath = QString(_serverConfigs["getFilePost"][_serverIndices.value("getFilePost")].URL()+"/getFile");
+void OAIDefaultApi::postGetFile(const QString &file_id) {
+    QString fullPath = QString(_serverConfigs["postGetFile"][_serverIndices.value("postGetFile")].URL()+"/getFile");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -5341,7 +5341,7 @@ void OAIDefaultApi::getFilePost(const QString &file_id) {
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getFilePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetFileCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -5352,19 +5352,19 @@ void OAIDefaultApi::getFilePost(const QString &file_id) {
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getFilePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetFileCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getFile_post_200_response output(QString(worker->response));
+    OAIGetFileResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getFilePostSignal(output);
-        Q_EMIT getFilePostSignalFull(worker, output);
+        Q_EMIT postGetFileSignal(output);
+        Q_EMIT postGetFileSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5381,8 +5381,8 @@ void OAIDefaultApi::getFilePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getFilePostSignalE(output, error_type, error_str);
-        Q_EMIT getFilePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetFileSignalE(output, error_type, error_str);
+        Q_EMIT postGetFileSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5392,13 +5392,13 @@ void OAIDefaultApi::getFilePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getFilePostSignalError(output, error_type, error_str);
-        Q_EMIT getFilePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetFileSignalError(output, error_type, error_str);
+        Q_EMIT postGetFileSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getForumTopicIconStickersPost() {
-    QString fullPath = QString(_serverConfigs["getForumTopicIconStickersPost"][_serverIndices.value("getForumTopicIconStickersPost")].URL()+"/getForumTopicIconStickers");
+void OAIDefaultApi::postGetForumTopicIconStickers() {
+    QString fullPath = QString(_serverConfigs["postGetForumTopicIconStickers"][_serverIndices.value("postGetForumTopicIconStickers")].URL()+"/getForumTopicIconStickers");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -5411,7 +5411,7 @@ void OAIDefaultApi::getForumTopicIconStickersPost() {
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getForumTopicIconStickersPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetForumTopicIconStickersCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -5422,19 +5422,19 @@ void OAIDefaultApi::getForumTopicIconStickersPost() {
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getForumTopicIconStickersPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetForumTopicIconStickersCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getForumTopicIconStickers_post_200_response output(QString(worker->response));
+    OAIGetForumTopicIconStickersResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getForumTopicIconStickersPostSignal(output);
-        Q_EMIT getForumTopicIconStickersPostSignalFull(worker, output);
+        Q_EMIT postGetForumTopicIconStickersSignal(output);
+        Q_EMIT postGetForumTopicIconStickersSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5451,8 +5451,8 @@ void OAIDefaultApi::getForumTopicIconStickersPostCallback(OAIHttpRequestWorker *
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getForumTopicIconStickersPostSignalE(output, error_type, error_str);
-        Q_EMIT getForumTopicIconStickersPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetForumTopicIconStickersSignalE(output, error_type, error_str);
+        Q_EMIT postGetForumTopicIconStickersSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5462,13 +5462,13 @@ void OAIDefaultApi::getForumTopicIconStickersPostCallback(OAIHttpRequestWorker *
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getForumTopicIconStickersPostSignalError(output, error_type, error_str);
-        Q_EMIT getForumTopicIconStickersPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetForumTopicIconStickersSignalError(output, error_type, error_str);
+        Q_EMIT postGetForumTopicIconStickersSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getGameHighScoresPost(const qint32 &user_id, const ::tele_rest::OptionalParam<qint32> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id) {
-    QString fullPath = QString(_serverConfigs["getGameHighScoresPost"][_serverIndices.value("getGameHighScoresPost")].URL()+"/getGameHighScores");
+void OAIDefaultApi::postGetGameHighScores(const qint32 &user_id, const ::tele_rest::OptionalParam<qint32> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id) {
+    QString fullPath = QString(_serverConfigs["postGetGameHighScores"][_serverIndices.value("postGetGameHighScores")].URL()+"/getGameHighScores");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -5497,7 +5497,7 @@ void OAIDefaultApi::getGameHighScoresPost(const qint32 &user_id, const ::tele_re
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getGameHighScoresPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetGameHighScoresCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -5508,19 +5508,19 @@ void OAIDefaultApi::getGameHighScoresPost(const qint32 &user_id, const ::tele_re
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getGameHighScoresPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetGameHighScoresCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getGameHighScores_post_200_response output(QString(worker->response));
+    OAIGetGameHighScoresResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getGameHighScoresPostSignal(output);
-        Q_EMIT getGameHighScoresPostSignalFull(worker, output);
+        Q_EMIT postGetGameHighScoresSignal(output);
+        Q_EMIT postGetGameHighScoresSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5537,8 +5537,8 @@ void OAIDefaultApi::getGameHighScoresPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getGameHighScoresPostSignalE(output, error_type, error_str);
-        Q_EMIT getGameHighScoresPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetGameHighScoresSignalE(output, error_type, error_str);
+        Q_EMIT postGetGameHighScoresSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5548,13 +5548,13 @@ void OAIDefaultApi::getGameHighScoresPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getGameHighScoresPostSignalError(output, error_type, error_str);
-        Q_EMIT getGameHighScoresPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetGameHighScoresSignalError(output, error_type, error_str);
+        Q_EMIT postGetGameHighScoresSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getMePost() {
-    QString fullPath = QString(_serverConfigs["getMePost"][_serverIndices.value("getMePost")].URL()+"/getMe");
+void OAIDefaultApi::postGetMe() {
+    QString fullPath = QString(_serverConfigs["postGetMe"][_serverIndices.value("postGetMe")].URL()+"/getMe");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -5567,7 +5567,7 @@ void OAIDefaultApi::getMePost() {
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getMePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetMeCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -5578,19 +5578,19 @@ void OAIDefaultApi::getMePost() {
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getMePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetMeCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getMe_post_200_response output(QString(worker->response));
+    OAIGetMeResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getMePostSignal(output);
-        Q_EMIT getMePostSignalFull(worker, output);
+        Q_EMIT postGetMeSignal(output);
+        Q_EMIT postGetMeSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5607,8 +5607,8 @@ void OAIDefaultApi::getMePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getMePostSignalE(output, error_type, error_str);
-        Q_EMIT getMePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetMeSignalE(output, error_type, error_str);
+        Q_EMIT postGetMeSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5618,13 +5618,13 @@ void OAIDefaultApi::getMePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getMePostSignalError(output, error_type, error_str);
-        Q_EMIT getMePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetMeSignalError(output, error_type, error_str);
+        Q_EMIT postGetMeSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getMyCommandsPost(const ::tele_rest::OptionalParam<OAIBotCommandScope> &scope, const ::tele_rest::OptionalParam<QString> &language_code) {
-    QString fullPath = QString(_serverConfigs["getMyCommandsPost"][_serverIndices.value("getMyCommandsPost")].URL()+"/getMyCommands");
+void OAIDefaultApi::postGetMyCommands(const ::tele_rest::OptionalParam<OAIBotCommandScope> &scope, const ::tele_rest::OptionalParam<QString> &language_code) {
+    QString fullPath = QString(_serverConfigs["postGetMyCommands"][_serverIndices.value("postGetMyCommands")].URL()+"/getMyCommands");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -5645,7 +5645,7 @@ void OAIDefaultApi::getMyCommandsPost(const ::tele_rest::OptionalParam<OAIBotCom
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getMyCommandsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetMyCommandsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -5656,19 +5656,19 @@ void OAIDefaultApi::getMyCommandsPost(const ::tele_rest::OptionalParam<OAIBotCom
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getMyCommandsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetMyCommandsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getMyCommands_post_200_response output(QString(worker->response));
+    OAIGetMyCommandsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getMyCommandsPostSignal(output);
-        Q_EMIT getMyCommandsPostSignalFull(worker, output);
+        Q_EMIT postGetMyCommandsSignal(output);
+        Q_EMIT postGetMyCommandsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5685,8 +5685,8 @@ void OAIDefaultApi::getMyCommandsPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getMyCommandsPostSignalE(output, error_type, error_str);
-        Q_EMIT getMyCommandsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetMyCommandsSignalE(output, error_type, error_str);
+        Q_EMIT postGetMyCommandsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5696,13 +5696,13 @@ void OAIDefaultApi::getMyCommandsPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getMyCommandsPostSignalError(output, error_type, error_str);
-        Q_EMIT getMyCommandsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetMyCommandsSignalError(output, error_type, error_str);
+        Q_EMIT postGetMyCommandsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getMyDefaultAdministratorRightsPost(const ::tele_rest::OptionalParam<bool> &for_channels) {
-    QString fullPath = QString(_serverConfigs["getMyDefaultAdministratorRightsPost"][_serverIndices.value("getMyDefaultAdministratorRightsPost")].URL()+"/getMyDefaultAdministratorRights");
+void OAIDefaultApi::postGetMyDefaultAdministratorRights(const ::tele_rest::OptionalParam<bool> &for_channels) {
+    QString fullPath = QString(_serverConfigs["postGetMyDefaultAdministratorRights"][_serverIndices.value("postGetMyDefaultAdministratorRights")].URL()+"/getMyDefaultAdministratorRights");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -5719,7 +5719,7 @@ void OAIDefaultApi::getMyDefaultAdministratorRightsPost(const ::tele_rest::Optio
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getMyDefaultAdministratorRightsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetMyDefaultAdministratorRightsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -5730,19 +5730,19 @@ void OAIDefaultApi::getMyDefaultAdministratorRightsPost(const ::tele_rest::Optio
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getMyDefaultAdministratorRightsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetMyDefaultAdministratorRightsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getMyDefaultAdministratorRights_post_200_response output(QString(worker->response));
+    OAIGetMyDefaultAdministratorRightsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getMyDefaultAdministratorRightsPostSignal(output);
-        Q_EMIT getMyDefaultAdministratorRightsPostSignalFull(worker, output);
+        Q_EMIT postGetMyDefaultAdministratorRightsSignal(output);
+        Q_EMIT postGetMyDefaultAdministratorRightsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5759,8 +5759,8 @@ void OAIDefaultApi::getMyDefaultAdministratorRightsPostCallback(OAIHttpRequestWo
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getMyDefaultAdministratorRightsPostSignalE(output, error_type, error_str);
-        Q_EMIT getMyDefaultAdministratorRightsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetMyDefaultAdministratorRightsSignalE(output, error_type, error_str);
+        Q_EMIT postGetMyDefaultAdministratorRightsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5770,13 +5770,13 @@ void OAIDefaultApi::getMyDefaultAdministratorRightsPostCallback(OAIHttpRequestWo
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getMyDefaultAdministratorRightsPostSignalError(output, error_type, error_str);
-        Q_EMIT getMyDefaultAdministratorRightsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetMyDefaultAdministratorRightsSignalError(output, error_type, error_str);
+        Q_EMIT postGetMyDefaultAdministratorRightsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getMyDescriptionPost(const ::tele_rest::OptionalParam<QString> &language_code) {
-    QString fullPath = QString(_serverConfigs["getMyDescriptionPost"][_serverIndices.value("getMyDescriptionPost")].URL()+"/getMyDescription");
+void OAIDefaultApi::postGetMyDescription(const ::tele_rest::OptionalParam<QString> &language_code) {
+    QString fullPath = QString(_serverConfigs["postGetMyDescription"][_serverIndices.value("postGetMyDescription")].URL()+"/getMyDescription");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -5793,7 +5793,7 @@ void OAIDefaultApi::getMyDescriptionPost(const ::tele_rest::OptionalParam<QStrin
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getMyDescriptionPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetMyDescriptionCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -5804,19 +5804,19 @@ void OAIDefaultApi::getMyDescriptionPost(const ::tele_rest::OptionalParam<QStrin
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getMyDescriptionPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetMyDescriptionCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getMyDescription_post_200_response output(QString(worker->response));
+    OAIGetMyDescriptionResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getMyDescriptionPostSignal(output);
-        Q_EMIT getMyDescriptionPostSignalFull(worker, output);
+        Q_EMIT postGetMyDescriptionSignal(output);
+        Q_EMIT postGetMyDescriptionSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5833,8 +5833,8 @@ void OAIDefaultApi::getMyDescriptionPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getMyDescriptionPostSignalE(output, error_type, error_str);
-        Q_EMIT getMyDescriptionPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetMyDescriptionSignalE(output, error_type, error_str);
+        Q_EMIT postGetMyDescriptionSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5844,13 +5844,13 @@ void OAIDefaultApi::getMyDescriptionPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getMyDescriptionPostSignalError(output, error_type, error_str);
-        Q_EMIT getMyDescriptionPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetMyDescriptionSignalError(output, error_type, error_str);
+        Q_EMIT postGetMyDescriptionSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getMyNamePost(const ::tele_rest::OptionalParam<QString> &language_code) {
-    QString fullPath = QString(_serverConfigs["getMyNamePost"][_serverIndices.value("getMyNamePost")].URL()+"/getMyName");
+void OAIDefaultApi::postGetMyName(const ::tele_rest::OptionalParam<QString> &language_code) {
+    QString fullPath = QString(_serverConfigs["postGetMyName"][_serverIndices.value("postGetMyName")].URL()+"/getMyName");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -5867,7 +5867,7 @@ void OAIDefaultApi::getMyNamePost(const ::tele_rest::OptionalParam<QString> &lan
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getMyNamePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetMyNameCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -5878,19 +5878,19 @@ void OAIDefaultApi::getMyNamePost(const ::tele_rest::OptionalParam<QString> &lan
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getMyNamePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetMyNameCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getMyName_post_200_response output(QString(worker->response));
+    OAIGetMyNameResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getMyNamePostSignal(output);
-        Q_EMIT getMyNamePostSignalFull(worker, output);
+        Q_EMIT postGetMyNameSignal(output);
+        Q_EMIT postGetMyNameSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5907,8 +5907,8 @@ void OAIDefaultApi::getMyNamePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getMyNamePostSignalE(output, error_type, error_str);
-        Q_EMIT getMyNamePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetMyNameSignalE(output, error_type, error_str);
+        Q_EMIT postGetMyNameSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5918,13 +5918,13 @@ void OAIDefaultApi::getMyNamePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getMyNamePostSignalError(output, error_type, error_str);
-        Q_EMIT getMyNamePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetMyNameSignalError(output, error_type, error_str);
+        Q_EMIT postGetMyNameSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getMyShortDescriptionPost(const ::tele_rest::OptionalParam<QString> &language_code) {
-    QString fullPath = QString(_serverConfigs["getMyShortDescriptionPost"][_serverIndices.value("getMyShortDescriptionPost")].URL()+"/getMyShortDescription");
+void OAIDefaultApi::postGetMyShortDescription(const ::tele_rest::OptionalParam<QString> &language_code) {
+    QString fullPath = QString(_serverConfigs["postGetMyShortDescription"][_serverIndices.value("postGetMyShortDescription")].URL()+"/getMyShortDescription");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -5941,7 +5941,7 @@ void OAIDefaultApi::getMyShortDescriptionPost(const ::tele_rest::OptionalParam<Q
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getMyShortDescriptionPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetMyShortDescriptionCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -5952,19 +5952,19 @@ void OAIDefaultApi::getMyShortDescriptionPost(const ::tele_rest::OptionalParam<Q
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getMyShortDescriptionPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetMyShortDescriptionCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getMyShortDescription_post_200_response output(QString(worker->response));
+    OAIGetMyShortDescriptionResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getMyShortDescriptionPostSignal(output);
-        Q_EMIT getMyShortDescriptionPostSignalFull(worker, output);
+        Q_EMIT postGetMyShortDescriptionSignal(output);
+        Q_EMIT postGetMyShortDescriptionSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -5981,8 +5981,8 @@ void OAIDefaultApi::getMyShortDescriptionPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getMyShortDescriptionPostSignalE(output, error_type, error_str);
-        Q_EMIT getMyShortDescriptionPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetMyShortDescriptionSignalE(output, error_type, error_str);
+        Q_EMIT postGetMyShortDescriptionSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -5992,13 +5992,13 @@ void OAIDefaultApi::getMyShortDescriptionPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getMyShortDescriptionPostSignalError(output, error_type, error_str);
-        Q_EMIT getMyShortDescriptionPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetMyShortDescriptionSignalError(output, error_type, error_str);
+        Q_EMIT postGetMyShortDescriptionSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getStarTransactionsPost(const ::tele_rest::OptionalParam<qint32> &offset, const ::tele_rest::OptionalParam<qint32> &limit) {
-    QString fullPath = QString(_serverConfigs["getStarTransactionsPost"][_serverIndices.value("getStarTransactionsPost")].URL()+"/getStarTransactions");
+void OAIDefaultApi::postGetStarTransactions(const ::tele_rest::OptionalParam<qint32> &offset, const ::tele_rest::OptionalParam<qint32> &limit) {
+    QString fullPath = QString(_serverConfigs["postGetStarTransactions"][_serverIndices.value("postGetStarTransactions")].URL()+"/getStarTransactions");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -6019,7 +6019,7 @@ void OAIDefaultApi::getStarTransactionsPost(const ::tele_rest::OptionalParam<qin
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getStarTransactionsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetStarTransactionsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -6030,19 +6030,19 @@ void OAIDefaultApi::getStarTransactionsPost(const ::tele_rest::OptionalParam<qin
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getStarTransactionsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetStarTransactionsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getStarTransactions_post_200_response output(QString(worker->response));
+    OAIGetStarTransactionsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getStarTransactionsPostSignal(output);
-        Q_EMIT getStarTransactionsPostSignalFull(worker, output);
+        Q_EMIT postGetStarTransactionsSignal(output);
+        Q_EMIT postGetStarTransactionsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -6059,8 +6059,8 @@ void OAIDefaultApi::getStarTransactionsPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getStarTransactionsPostSignalE(output, error_type, error_str);
-        Q_EMIT getStarTransactionsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetStarTransactionsSignalE(output, error_type, error_str);
+        Q_EMIT postGetStarTransactionsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -6070,13 +6070,13 @@ void OAIDefaultApi::getStarTransactionsPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getStarTransactionsPostSignalError(output, error_type, error_str);
-        Q_EMIT getStarTransactionsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetStarTransactionsSignalError(output, error_type, error_str);
+        Q_EMIT postGetStarTransactionsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getStickerSetPost(const QString &name) {
-    QString fullPath = QString(_serverConfigs["getStickerSetPost"][_serverIndices.value("getStickerSetPost")].URL()+"/getStickerSet");
+void OAIDefaultApi::postGetStickerSet(const QString &name) {
+    QString fullPath = QString(_serverConfigs["postGetStickerSet"][_serverIndices.value("postGetStickerSet")].URL()+"/getStickerSet");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -6093,7 +6093,7 @@ void OAIDefaultApi::getStickerSetPost(const QString &name) {
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getStickerSetPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetStickerSetCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -6104,19 +6104,19 @@ void OAIDefaultApi::getStickerSetPost(const QString &name) {
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getStickerSetPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetStickerSetCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getStickerSet_post_200_response output(QString(worker->response));
+    OAIGetStickerSetResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getStickerSetPostSignal(output);
-        Q_EMIT getStickerSetPostSignalFull(worker, output);
+        Q_EMIT postGetStickerSetSignal(output);
+        Q_EMIT postGetStickerSetSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -6133,8 +6133,8 @@ void OAIDefaultApi::getStickerSetPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getStickerSetPostSignalE(output, error_type, error_str);
-        Q_EMIT getStickerSetPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetStickerSetSignalE(output, error_type, error_str);
+        Q_EMIT postGetStickerSetSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -6144,13 +6144,13 @@ void OAIDefaultApi::getStickerSetPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getStickerSetPostSignalError(output, error_type, error_str);
-        Q_EMIT getStickerSetPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetStickerSetSignalError(output, error_type, error_str);
+        Q_EMIT postGetStickerSetSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getUpdatesPost(const ::tele_rest::OptionalParam<qint32> &offset, const ::tele_rest::OptionalParam<qint32> &limit, const ::tele_rest::OptionalParam<qint32> &timeout, const ::tele_rest::OptionalParam<QList<QString>> &allowed_updates) {
-    QString fullPath = QString(_serverConfigs["getUpdatesPost"][_serverIndices.value("getUpdatesPost")].URL()+"/getUpdates");
+void OAIDefaultApi::postGetUpdates(const ::tele_rest::OptionalParam<qint32> &offset, const ::tele_rest::OptionalParam<qint32> &limit, const ::tele_rest::OptionalParam<qint32> &timeout, const ::tele_rest::OptionalParam<QList<QString>> &allowed_updates) {
+    QString fullPath = QString(_serverConfigs["postGetUpdates"][_serverIndices.value("postGetUpdates")].URL()+"/getUpdates");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -6179,7 +6179,7 @@ void OAIDefaultApi::getUpdatesPost(const ::tele_rest::OptionalParam<qint32> &off
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getUpdatesPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetUpdatesCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -6190,19 +6190,19 @@ void OAIDefaultApi::getUpdatesPost(const ::tele_rest::OptionalParam<qint32> &off
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getUpdatesPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetUpdatesCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getUpdates_post_200_response output(QString(worker->response));
+    OAIGetUpdatesResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getUpdatesPostSignal(output);
-        Q_EMIT getUpdatesPostSignalFull(worker, output);
+        Q_EMIT postGetUpdatesSignal(output);
+        Q_EMIT postGetUpdatesSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -6219,8 +6219,8 @@ void OAIDefaultApi::getUpdatesPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getUpdatesPostSignalE(output, error_type, error_str);
-        Q_EMIT getUpdatesPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetUpdatesSignalE(output, error_type, error_str);
+        Q_EMIT postGetUpdatesSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -6230,13 +6230,13 @@ void OAIDefaultApi::getUpdatesPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getUpdatesPostSignalError(output, error_type, error_str);
-        Q_EMIT getUpdatesPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetUpdatesSignalError(output, error_type, error_str);
+        Q_EMIT postGetUpdatesSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getUserChatBoostsPost(const OAI_getUserChatBoosts_post_request_chat_id &chat_id, const qint32 &user_id) {
-    QString fullPath = QString(_serverConfigs["getUserChatBoostsPost"][_serverIndices.value("getUserChatBoostsPost")].URL()+"/getUserChatBoosts");
+void OAIDefaultApi::postGetUserChatBoosts(const OAIGetUserChatBoostsRequest_chat_id &chat_id, const qint32 &user_id) {
+    QString fullPath = QString(_serverConfigs["postGetUserChatBoosts"][_serverIndices.value("postGetUserChatBoosts")].URL()+"/getUserChatBoosts");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -6257,7 +6257,7 @@ void OAIDefaultApi::getUserChatBoostsPost(const OAI_getUserChatBoosts_post_reque
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getUserChatBoostsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetUserChatBoostsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -6268,19 +6268,19 @@ void OAIDefaultApi::getUserChatBoostsPost(const OAI_getUserChatBoosts_post_reque
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getUserChatBoostsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetUserChatBoostsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getUserChatBoosts_post_200_response output(QString(worker->response));
+    OAIGetUserChatBoostsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getUserChatBoostsPostSignal(output);
-        Q_EMIT getUserChatBoostsPostSignalFull(worker, output);
+        Q_EMIT postGetUserChatBoostsSignal(output);
+        Q_EMIT postGetUserChatBoostsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -6297,8 +6297,8 @@ void OAIDefaultApi::getUserChatBoostsPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getUserChatBoostsPostSignalE(output, error_type, error_str);
-        Q_EMIT getUserChatBoostsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetUserChatBoostsSignalE(output, error_type, error_str);
+        Q_EMIT postGetUserChatBoostsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -6308,13 +6308,13 @@ void OAIDefaultApi::getUserChatBoostsPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getUserChatBoostsPostSignalError(output, error_type, error_str);
-        Q_EMIT getUserChatBoostsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetUserChatBoostsSignalError(output, error_type, error_str);
+        Q_EMIT postGetUserChatBoostsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getUserProfilePhotosPost(const qint32 &user_id, const ::tele_rest::OptionalParam<qint32> &offset, const ::tele_rest::OptionalParam<qint32> &limit) {
-    QString fullPath = QString(_serverConfigs["getUserProfilePhotosPost"][_serverIndices.value("getUserProfilePhotosPost")].URL()+"/getUserProfilePhotos");
+void OAIDefaultApi::postGetUserProfilePhotos(const qint32 &user_id, const ::tele_rest::OptionalParam<qint32> &offset, const ::tele_rest::OptionalParam<qint32> &limit) {
+    QString fullPath = QString(_serverConfigs["postGetUserProfilePhotos"][_serverIndices.value("postGetUserProfilePhotos")].URL()+"/getUserProfilePhotos");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -6339,7 +6339,7 @@ void OAIDefaultApi::getUserProfilePhotosPost(const qint32 &user_id, const ::tele
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getUserProfilePhotosPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetUserProfilePhotosCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -6350,19 +6350,19 @@ void OAIDefaultApi::getUserProfilePhotosPost(const qint32 &user_id, const ::tele
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getUserProfilePhotosPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetUserProfilePhotosCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getUserProfilePhotos_post_200_response output(QString(worker->response));
+    OAIGetUserProfilePhotosResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getUserProfilePhotosPostSignal(output);
-        Q_EMIT getUserProfilePhotosPostSignalFull(worker, output);
+        Q_EMIT postGetUserProfilePhotosSignal(output);
+        Q_EMIT postGetUserProfilePhotosSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -6379,8 +6379,8 @@ void OAIDefaultApi::getUserProfilePhotosPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getUserProfilePhotosPostSignalE(output, error_type, error_str);
-        Q_EMIT getUserProfilePhotosPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetUserProfilePhotosSignalE(output, error_type, error_str);
+        Q_EMIT postGetUserProfilePhotosSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -6390,13 +6390,13 @@ void OAIDefaultApi::getUserProfilePhotosPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getUserProfilePhotosPostSignalError(output, error_type, error_str);
-        Q_EMIT getUserProfilePhotosPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetUserProfilePhotosSignalError(output, error_type, error_str);
+        Q_EMIT postGetUserProfilePhotosSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::getWebhookInfoPost() {
-    QString fullPath = QString(_serverConfigs["getWebhookInfoPost"][_serverIndices.value("getWebhookInfoPost")].URL()+"/getWebhookInfo");
+void OAIDefaultApi::postGetWebhookInfo() {
+    QString fullPath = QString(_serverConfigs["postGetWebhookInfo"][_serverIndices.value("postGetWebhookInfo")].URL()+"/getWebhookInfo");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -6409,7 +6409,7 @@ void OAIDefaultApi::getWebhookInfoPost() {
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::getWebhookInfoPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGetWebhookInfoCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -6420,19 +6420,19 @@ void OAIDefaultApi::getWebhookInfoPost() {
     worker->execute(&input);
 }
 
-void OAIDefaultApi::getWebhookInfoPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGetWebhookInfoCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getWebhookInfo_post_200_response output(QString(worker->response));
+    OAIGetWebhookInfoResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT getWebhookInfoPostSignal(output);
-        Q_EMIT getWebhookInfoPostSignalFull(worker, output);
+        Q_EMIT postGetWebhookInfoSignal(output);
+        Q_EMIT postGetWebhookInfoSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -6449,8 +6449,8 @@ void OAIDefaultApi::getWebhookInfoPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT getWebhookInfoPostSignalE(output, error_type, error_str);
-        Q_EMIT getWebhookInfoPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGetWebhookInfoSignalE(output, error_type, error_str);
+        Q_EMIT postGetWebhookInfoSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -6460,13 +6460,13 @@ void OAIDefaultApi::getWebhookInfoPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT getWebhookInfoPostSignalError(output, error_type, error_str);
-        Q_EMIT getWebhookInfoPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGetWebhookInfoSignalError(output, error_type, error_str);
+        Q_EMIT postGetWebhookInfoSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::giftPremiumSubscriptionPost(const qint32 &user_id, const qint32 &month_count, const qint32 &star_count, const ::tele_rest::OptionalParam<QString> &text, const ::tele_rest::OptionalParam<QString> &text_parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &text_entities) {
-    QString fullPath = QString(_serverConfigs["giftPremiumSubscriptionPost"][_serverIndices.value("giftPremiumSubscriptionPost")].URL()+"/giftPremiumSubscription");
+void OAIDefaultApi::postGiftPremiumSubscription(const qint32 &user_id, const qint32 &month_count, const qint32 &star_count, const ::tele_rest::OptionalParam<QString> &text, const ::tele_rest::OptionalParam<QString> &text_parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &text_entities) {
+    QString fullPath = QString(_serverConfigs["postGiftPremiumSubscription"][_serverIndices.value("postGiftPremiumSubscription")].URL()+"/giftPremiumSubscription");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -6503,7 +6503,7 @@ void OAIDefaultApi::giftPremiumSubscriptionPost(const qint32 &user_id, const qin
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::giftPremiumSubscriptionPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postGiftPremiumSubscriptionCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -6514,19 +6514,19 @@ void OAIDefaultApi::giftPremiumSubscriptionPost(const qint32 &user_id, const qin
     worker->execute(&input);
 }
 
-void OAIDefaultApi::giftPremiumSubscriptionPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postGiftPremiumSubscriptionCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIGiftPremiumSubscriptionResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT giftPremiumSubscriptionPostSignal(output);
-        Q_EMIT giftPremiumSubscriptionPostSignalFull(worker, output);
+        Q_EMIT postGiftPremiumSubscriptionSignal(output);
+        Q_EMIT postGiftPremiumSubscriptionSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -6543,8 +6543,8 @@ void OAIDefaultApi::giftPremiumSubscriptionPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT giftPremiumSubscriptionPostSignalE(output, error_type, error_str);
-        Q_EMIT giftPremiumSubscriptionPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postGiftPremiumSubscriptionSignalE(output, error_type, error_str);
+        Q_EMIT postGiftPremiumSubscriptionSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -6554,13 +6554,13 @@ void OAIDefaultApi::giftPremiumSubscriptionPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT giftPremiumSubscriptionPostSignalError(output, error_type, error_str);
-        Q_EMIT giftPremiumSubscriptionPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postGiftPremiumSubscriptionSignalError(output, error_type, error_str);
+        Q_EMIT postGiftPremiumSubscriptionSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::hideGeneralForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["hideGeneralForumTopicPost"][_serverIndices.value("hideGeneralForumTopicPost")].URL()+"/hideGeneralForumTopic");
+void OAIDefaultApi::postHideGeneralForumTopic(const OAIBotCommandScopeChat_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postHideGeneralForumTopic"][_serverIndices.value("postHideGeneralForumTopic")].URL()+"/hideGeneralForumTopic");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -6577,7 +6577,7 @@ void OAIDefaultApi::hideGeneralForumTopicPost(const OAI_restrictChatMember_post_
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::hideGeneralForumTopicPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postHideGeneralForumTopicCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -6588,19 +6588,19 @@ void OAIDefaultApi::hideGeneralForumTopicPost(const OAI_restrictChatMember_post_
     worker->execute(&input);
 }
 
-void OAIDefaultApi::hideGeneralForumTopicPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postHideGeneralForumTopicCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIHideGeneralForumTopicResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT hideGeneralForumTopicPostSignal(output);
-        Q_EMIT hideGeneralForumTopicPostSignalFull(worker, output);
+        Q_EMIT postHideGeneralForumTopicSignal(output);
+        Q_EMIT postHideGeneralForumTopicSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -6617,8 +6617,8 @@ void OAIDefaultApi::hideGeneralForumTopicPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT hideGeneralForumTopicPostSignalE(output, error_type, error_str);
-        Q_EMIT hideGeneralForumTopicPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postHideGeneralForumTopicSignalE(output, error_type, error_str);
+        Q_EMIT postHideGeneralForumTopicSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -6628,13 +6628,13 @@ void OAIDefaultApi::hideGeneralForumTopicPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT hideGeneralForumTopicPostSignalError(output, error_type, error_str);
-        Q_EMIT hideGeneralForumTopicPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postHideGeneralForumTopicSignalError(output, error_type, error_str);
+        Q_EMIT postHideGeneralForumTopicSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::leaveChatPost(const OAI_leaveChat_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["leaveChatPost"][_serverIndices.value("leaveChatPost")].URL()+"/leaveChat");
+void OAIDefaultApi::postLeaveChat(const OAILeaveChatRequest_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postLeaveChat"][_serverIndices.value("postLeaveChat")].URL()+"/leaveChat");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -6651,7 +6651,7 @@ void OAIDefaultApi::leaveChatPost(const OAI_leaveChat_post_request_chat_id &chat
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::leaveChatPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postLeaveChatCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -6662,19 +6662,19 @@ void OAIDefaultApi::leaveChatPost(const OAI_leaveChat_post_request_chat_id &chat
     worker->execute(&input);
 }
 
-void OAIDefaultApi::leaveChatPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postLeaveChatCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAILeaveChatResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT leaveChatPostSignal(output);
-        Q_EMIT leaveChatPostSignalFull(worker, output);
+        Q_EMIT postLeaveChatSignal(output);
+        Q_EMIT postLeaveChatSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -6691,8 +6691,8 @@ void OAIDefaultApi::leaveChatPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT leaveChatPostSignalE(output, error_type, error_str);
-        Q_EMIT leaveChatPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postLeaveChatSignalE(output, error_type, error_str);
+        Q_EMIT postLeaveChatSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -6702,13 +6702,13 @@ void OAIDefaultApi::leaveChatPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT leaveChatPostSignalError(output, error_type, error_str);
-        Q_EMIT leaveChatPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postLeaveChatSignalError(output, error_type, error_str);
+        Q_EMIT postLeaveChatSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::logOutPost() {
-    QString fullPath = QString(_serverConfigs["logOutPost"][_serverIndices.value("logOutPost")].URL()+"/logOut");
+void OAIDefaultApi::postLogOut() {
+    QString fullPath = QString(_serverConfigs["postLogOut"][_serverIndices.value("postLogOut")].URL()+"/logOut");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -6721,7 +6721,7 @@ void OAIDefaultApi::logOutPost() {
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::logOutPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postLogOutCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -6732,19 +6732,19 @@ void OAIDefaultApi::logOutPost() {
     worker->execute(&input);
 }
 
-void OAIDefaultApi::logOutPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postLogOutCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAILogOutResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT logOutPostSignal(output);
-        Q_EMIT logOutPostSignalFull(worker, output);
+        Q_EMIT postLogOutSignal(output);
+        Q_EMIT postLogOutSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -6761,8 +6761,8 @@ void OAIDefaultApi::logOutPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT logOutPostSignalE(output, error_type, error_str);
-        Q_EMIT logOutPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postLogOutSignalE(output, error_type, error_str);
+        Q_EMIT postLogOutSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -6772,13 +6772,13 @@ void OAIDefaultApi::logOutPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT logOutPostSignalError(output, error_type, error_str);
-        Q_EMIT logOutPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postLogOutSignalError(output, error_type, error_str);
+        Q_EMIT postLogOutSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::pinChatMessagePost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<bool> &disable_notification) {
-    QString fullPath = QString(_serverConfigs["pinChatMessagePost"][_serverIndices.value("pinChatMessagePost")].URL()+"/pinChatMessage");
+void OAIDefaultApi::postPinChatMessage(const OAISendMessageRequest_chat_id &chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<bool> &disable_notification) {
+    QString fullPath = QString(_serverConfigs["postPinChatMessage"][_serverIndices.value("postPinChatMessage")].URL()+"/pinChatMessage");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -6807,7 +6807,7 @@ void OAIDefaultApi::pinChatMessagePost(const OAI_sendMessage_post_request_chat_i
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::pinChatMessagePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postPinChatMessageCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -6818,19 +6818,19 @@ void OAIDefaultApi::pinChatMessagePost(const OAI_sendMessage_post_request_chat_i
     worker->execute(&input);
 }
 
-void OAIDefaultApi::pinChatMessagePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postPinChatMessageCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIPinChatMessageResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT pinChatMessagePostSignal(output);
-        Q_EMIT pinChatMessagePostSignalFull(worker, output);
+        Q_EMIT postPinChatMessageSignal(output);
+        Q_EMIT postPinChatMessageSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -6847,8 +6847,8 @@ void OAIDefaultApi::pinChatMessagePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT pinChatMessagePostSignalE(output, error_type, error_str);
-        Q_EMIT pinChatMessagePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postPinChatMessageSignalE(output, error_type, error_str);
+        Q_EMIT postPinChatMessageSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -6858,13 +6858,13 @@ void OAIDefaultApi::pinChatMessagePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT pinChatMessagePostSignalError(output, error_type, error_str);
-        Q_EMIT pinChatMessagePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postPinChatMessageSignalError(output, error_type, error_str);
+        Q_EMIT postPinChatMessageSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::postStoryPost(const QString &business_connection_id, const OAIInputStoryContent &content, const qint32 &active_period, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<QList<OAIStoryArea>> &areas, const ::tele_rest::OptionalParam<bool> &post_to_chat_page, const ::tele_rest::OptionalParam<bool> &protect_content) {
-    QString fullPath = QString(_serverConfigs["postStoryPost"][_serverIndices.value("postStoryPost")].URL()+"/postStory");
+void OAIDefaultApi::postPostStory(const QString &business_connection_id, const OAIInputStoryContent &content, const qint32 &active_period, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<QList<OAIStoryArea>> &areas, const ::tele_rest::OptionalParam<bool> &post_to_chat_page, const ::tele_rest::OptionalParam<bool> &protect_content) {
+    QString fullPath = QString(_serverConfigs["postPostStory"][_serverIndices.value("postPostStory")].URL()+"/postStory");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -6913,7 +6913,7 @@ void OAIDefaultApi::postStoryPost(const QString &business_connection_id, const O
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postStoryPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postPostStoryCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -6924,19 +6924,19 @@ void OAIDefaultApi::postStoryPost(const QString &business_connection_id, const O
     worker->execute(&input);
 }
 
-void OAIDefaultApi::postStoryPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postPostStoryCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_postStory_post_200_response output(QString(worker->response));
+    OAIPostStoryResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT postStoryPostSignal(output);
-        Q_EMIT postStoryPostSignalFull(worker, output);
+        Q_EMIT postPostStorySignal(output);
+        Q_EMIT postPostStorySignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -6953,8 +6953,8 @@ void OAIDefaultApi::postStoryPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT postStoryPostSignalE(output, error_type, error_str);
-        Q_EMIT postStoryPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postPostStorySignalE(output, error_type, error_str);
+        Q_EMIT postPostStorySignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -6964,13 +6964,13 @@ void OAIDefaultApi::postStoryPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT postStoryPostSignalError(output, error_type, error_str);
-        Q_EMIT postStoryPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postPostStorySignalError(output, error_type, error_str);
+        Q_EMIT postPostStorySignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::promoteChatMemberPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &user_id, const ::tele_rest::OptionalParam<bool> &is_anonymous, const ::tele_rest::OptionalParam<bool> &can_manage_chat, const ::tele_rest::OptionalParam<bool> &can_delete_messages, const ::tele_rest::OptionalParam<bool> &can_manage_video_chats, const ::tele_rest::OptionalParam<bool> &can_restrict_members, const ::tele_rest::OptionalParam<bool> &can_promote_members, const ::tele_rest::OptionalParam<bool> &can_change_info, const ::tele_rest::OptionalParam<bool> &can_invite_users, const ::tele_rest::OptionalParam<bool> &can_post_stories, const ::tele_rest::OptionalParam<bool> &can_edit_stories, const ::tele_rest::OptionalParam<bool> &can_delete_stories, const ::tele_rest::OptionalParam<bool> &can_post_messages, const ::tele_rest::OptionalParam<bool> &can_edit_messages, const ::tele_rest::OptionalParam<bool> &can_pin_messages, const ::tele_rest::OptionalParam<bool> &can_manage_topics) {
-    QString fullPath = QString(_serverConfigs["promoteChatMemberPost"][_serverIndices.value("promoteChatMemberPost")].URL()+"/promoteChatMember");
+void OAIDefaultApi::postPromoteChatMember(const OAISendMessageRequest_chat_id &chat_id, const qint32 &user_id, const ::tele_rest::OptionalParam<bool> &is_anonymous, const ::tele_rest::OptionalParam<bool> &can_manage_chat, const ::tele_rest::OptionalParam<bool> &can_delete_messages, const ::tele_rest::OptionalParam<bool> &can_manage_video_chats, const ::tele_rest::OptionalParam<bool> &can_restrict_members, const ::tele_rest::OptionalParam<bool> &can_promote_members, const ::tele_rest::OptionalParam<bool> &can_change_info, const ::tele_rest::OptionalParam<bool> &can_invite_users, const ::tele_rest::OptionalParam<bool> &can_post_stories, const ::tele_rest::OptionalParam<bool> &can_edit_stories, const ::tele_rest::OptionalParam<bool> &can_delete_stories, const ::tele_rest::OptionalParam<bool> &can_post_messages, const ::tele_rest::OptionalParam<bool> &can_edit_messages, const ::tele_rest::OptionalParam<bool> &can_pin_messages, const ::tele_rest::OptionalParam<bool> &can_manage_topics) {
+    QString fullPath = QString(_serverConfigs["postPromoteChatMember"][_serverIndices.value("postPromoteChatMember")].URL()+"/promoteChatMember");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -7051,7 +7051,7 @@ void OAIDefaultApi::promoteChatMemberPost(const OAI_sendMessage_post_request_cha
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::promoteChatMemberPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postPromoteChatMemberCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -7062,19 +7062,19 @@ void OAIDefaultApi::promoteChatMemberPost(const OAI_sendMessage_post_request_cha
     worker->execute(&input);
 }
 
-void OAIDefaultApi::promoteChatMemberPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postPromoteChatMemberCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIPromoteChatMemberResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT promoteChatMemberPostSignal(output);
-        Q_EMIT promoteChatMemberPostSignalFull(worker, output);
+        Q_EMIT postPromoteChatMemberSignal(output);
+        Q_EMIT postPromoteChatMemberSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -7091,8 +7091,8 @@ void OAIDefaultApi::promoteChatMemberPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT promoteChatMemberPostSignalE(output, error_type, error_str);
-        Q_EMIT promoteChatMemberPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postPromoteChatMemberSignalE(output, error_type, error_str);
+        Q_EMIT postPromoteChatMemberSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -7102,13 +7102,13 @@ void OAIDefaultApi::promoteChatMemberPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT promoteChatMemberPostSignalError(output, error_type, error_str);
-        Q_EMIT promoteChatMemberPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postPromoteChatMemberSignalError(output, error_type, error_str);
+        Q_EMIT postPromoteChatMemberSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::readBusinessMessagePost(const QString &business_connection_id, const qint32 &chat_id, const qint32 &message_id) {
-    QString fullPath = QString(_serverConfigs["readBusinessMessagePost"][_serverIndices.value("readBusinessMessagePost")].URL()+"/readBusinessMessage");
+void OAIDefaultApi::postReadBusinessMessage(const QString &business_connection_id, const qint32 &chat_id, const qint32 &message_id) {
+    QString fullPath = QString(_serverConfigs["postReadBusinessMessage"][_serverIndices.value("postReadBusinessMessage")].URL()+"/readBusinessMessage");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -7133,7 +7133,7 @@ void OAIDefaultApi::readBusinessMessagePost(const QString &business_connection_i
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::readBusinessMessagePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postReadBusinessMessageCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -7144,19 +7144,19 @@ void OAIDefaultApi::readBusinessMessagePost(const QString &business_connection_i
     worker->execute(&input);
 }
 
-void OAIDefaultApi::readBusinessMessagePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postReadBusinessMessageCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIReadBusinessMessageResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT readBusinessMessagePostSignal(output);
-        Q_EMIT readBusinessMessagePostSignalFull(worker, output);
+        Q_EMIT postReadBusinessMessageSignal(output);
+        Q_EMIT postReadBusinessMessageSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -7173,8 +7173,8 @@ void OAIDefaultApi::readBusinessMessagePostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT readBusinessMessagePostSignalE(output, error_type, error_str);
-        Q_EMIT readBusinessMessagePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postReadBusinessMessageSignalE(output, error_type, error_str);
+        Q_EMIT postReadBusinessMessageSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -7184,13 +7184,13 @@ void OAIDefaultApi::readBusinessMessagePostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT readBusinessMessagePostSignalError(output, error_type, error_str);
-        Q_EMIT readBusinessMessagePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postReadBusinessMessageSignalError(output, error_type, error_str);
+        Q_EMIT postReadBusinessMessageSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::refundStarPaymentPost(const qint32 &user_id, const QString &telegram_payment_charge_id) {
-    QString fullPath = QString(_serverConfigs["refundStarPaymentPost"][_serverIndices.value("refundStarPaymentPost")].URL()+"/refundStarPayment");
+void OAIDefaultApi::postRefundStarPayment(const qint32 &user_id, const QString &telegram_payment_charge_id) {
+    QString fullPath = QString(_serverConfigs["postRefundStarPayment"][_serverIndices.value("postRefundStarPayment")].URL()+"/refundStarPayment");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -7211,7 +7211,7 @@ void OAIDefaultApi::refundStarPaymentPost(const qint32 &user_id, const QString &
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::refundStarPaymentPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postRefundStarPaymentCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -7222,19 +7222,19 @@ void OAIDefaultApi::refundStarPaymentPost(const qint32 &user_id, const QString &
     worker->execute(&input);
 }
 
-void OAIDefaultApi::refundStarPaymentPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postRefundStarPaymentCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIRefundStarPaymentResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT refundStarPaymentPostSignal(output);
-        Q_EMIT refundStarPaymentPostSignalFull(worker, output);
+        Q_EMIT postRefundStarPaymentSignal(output);
+        Q_EMIT postRefundStarPaymentSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -7251,8 +7251,8 @@ void OAIDefaultApi::refundStarPaymentPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT refundStarPaymentPostSignalE(output, error_type, error_str);
-        Q_EMIT refundStarPaymentPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postRefundStarPaymentSignalE(output, error_type, error_str);
+        Q_EMIT postRefundStarPaymentSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -7262,13 +7262,13 @@ void OAIDefaultApi::refundStarPaymentPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT refundStarPaymentPostSignalError(output, error_type, error_str);
-        Q_EMIT refundStarPaymentPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postRefundStarPaymentSignalError(output, error_type, error_str);
+        Q_EMIT postRefundStarPaymentSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::removeBusinessAccountProfilePhotoPost(const QString &business_connection_id, const ::tele_rest::OptionalParam<bool> &is_public) {
-    QString fullPath = QString(_serverConfigs["removeBusinessAccountProfilePhotoPost"][_serverIndices.value("removeBusinessAccountProfilePhotoPost")].URL()+"/removeBusinessAccountProfilePhoto");
+void OAIDefaultApi::postRemoveBusinessAccountProfilePhoto(const QString &business_connection_id, const ::tele_rest::OptionalParam<bool> &is_public) {
+    QString fullPath = QString(_serverConfigs["postRemoveBusinessAccountProfilePhoto"][_serverIndices.value("postRemoveBusinessAccountProfilePhoto")].URL()+"/removeBusinessAccountProfilePhoto");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -7289,7 +7289,7 @@ void OAIDefaultApi::removeBusinessAccountProfilePhotoPost(const QString &busines
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::removeBusinessAccountProfilePhotoPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postRemoveBusinessAccountProfilePhotoCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -7300,19 +7300,19 @@ void OAIDefaultApi::removeBusinessAccountProfilePhotoPost(const QString &busines
     worker->execute(&input);
 }
 
-void OAIDefaultApi::removeBusinessAccountProfilePhotoPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postRemoveBusinessAccountProfilePhotoCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIRemoveBusinessAccountProfilePhotoResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT removeBusinessAccountProfilePhotoPostSignal(output);
-        Q_EMIT removeBusinessAccountProfilePhotoPostSignalFull(worker, output);
+        Q_EMIT postRemoveBusinessAccountProfilePhotoSignal(output);
+        Q_EMIT postRemoveBusinessAccountProfilePhotoSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -7329,8 +7329,8 @@ void OAIDefaultApi::removeBusinessAccountProfilePhotoPostCallback(OAIHttpRequest
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT removeBusinessAccountProfilePhotoPostSignalE(output, error_type, error_str);
-        Q_EMIT removeBusinessAccountProfilePhotoPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postRemoveBusinessAccountProfilePhotoSignalE(output, error_type, error_str);
+        Q_EMIT postRemoveBusinessAccountProfilePhotoSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -7340,13 +7340,13 @@ void OAIDefaultApi::removeBusinessAccountProfilePhotoPostCallback(OAIHttpRequest
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT removeBusinessAccountProfilePhotoPostSignalError(output, error_type, error_str);
-        Q_EMIT removeBusinessAccountProfilePhotoPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postRemoveBusinessAccountProfilePhotoSignalError(output, error_type, error_str);
+        Q_EMIT postRemoveBusinessAccountProfilePhotoSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::removeChatVerificationPost(const OAI_sendMessage_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["removeChatVerificationPost"][_serverIndices.value("removeChatVerificationPost")].URL()+"/removeChatVerification");
+void OAIDefaultApi::postRemoveChatVerification(const OAISendMessageRequest_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postRemoveChatVerification"][_serverIndices.value("postRemoveChatVerification")].URL()+"/removeChatVerification");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -7363,7 +7363,7 @@ void OAIDefaultApi::removeChatVerificationPost(const OAI_sendMessage_post_reques
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::removeChatVerificationPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postRemoveChatVerificationCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -7374,19 +7374,19 @@ void OAIDefaultApi::removeChatVerificationPost(const OAI_sendMessage_post_reques
     worker->execute(&input);
 }
 
-void OAIDefaultApi::removeChatVerificationPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postRemoveChatVerificationCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIRemoveChatVerificationResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT removeChatVerificationPostSignal(output);
-        Q_EMIT removeChatVerificationPostSignalFull(worker, output);
+        Q_EMIT postRemoveChatVerificationSignal(output);
+        Q_EMIT postRemoveChatVerificationSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -7403,8 +7403,8 @@ void OAIDefaultApi::removeChatVerificationPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT removeChatVerificationPostSignalE(output, error_type, error_str);
-        Q_EMIT removeChatVerificationPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postRemoveChatVerificationSignalE(output, error_type, error_str);
+        Q_EMIT postRemoveChatVerificationSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -7414,13 +7414,13 @@ void OAIDefaultApi::removeChatVerificationPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT removeChatVerificationPostSignalError(output, error_type, error_str);
-        Q_EMIT removeChatVerificationPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postRemoveChatVerificationSignalError(output, error_type, error_str);
+        Q_EMIT postRemoveChatVerificationSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::removeUserVerificationPost(const qint32 &user_id) {
-    QString fullPath = QString(_serverConfigs["removeUserVerificationPost"][_serverIndices.value("removeUserVerificationPost")].URL()+"/removeUserVerification");
+void OAIDefaultApi::postRemoveUserVerification(const qint32 &user_id) {
+    QString fullPath = QString(_serverConfigs["postRemoveUserVerification"][_serverIndices.value("postRemoveUserVerification")].URL()+"/removeUserVerification");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -7437,7 +7437,7 @@ void OAIDefaultApi::removeUserVerificationPost(const qint32 &user_id) {
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::removeUserVerificationPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postRemoveUserVerificationCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -7448,19 +7448,19 @@ void OAIDefaultApi::removeUserVerificationPost(const qint32 &user_id) {
     worker->execute(&input);
 }
 
-void OAIDefaultApi::removeUserVerificationPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postRemoveUserVerificationCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIRemoveUserVerificationResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT removeUserVerificationPostSignal(output);
-        Q_EMIT removeUserVerificationPostSignalFull(worker, output);
+        Q_EMIT postRemoveUserVerificationSignal(output);
+        Q_EMIT postRemoveUserVerificationSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -7477,8 +7477,8 @@ void OAIDefaultApi::removeUserVerificationPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT removeUserVerificationPostSignalE(output, error_type, error_str);
-        Q_EMIT removeUserVerificationPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postRemoveUserVerificationSignalE(output, error_type, error_str);
+        Q_EMIT postRemoveUserVerificationSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -7488,13 +7488,13 @@ void OAIDefaultApi::removeUserVerificationPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT removeUserVerificationPostSignalError(output, error_type, error_str);
-        Q_EMIT removeUserVerificationPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postRemoveUserVerificationSignalError(output, error_type, error_str);
+        Q_EMIT postRemoveUserVerificationSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::reopenForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &message_thread_id) {
-    QString fullPath = QString(_serverConfigs["reopenForumTopicPost"][_serverIndices.value("reopenForumTopicPost")].URL()+"/reopenForumTopic");
+void OAIDefaultApi::postReopenForumTopic(const OAIBotCommandScopeChat_chat_id &chat_id, const qint32 &message_thread_id) {
+    QString fullPath = QString(_serverConfigs["postReopenForumTopic"][_serverIndices.value("postReopenForumTopic")].URL()+"/reopenForumTopic");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -7515,7 +7515,7 @@ void OAIDefaultApi::reopenForumTopicPost(const OAI_restrictChatMember_post_reque
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::reopenForumTopicPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postReopenForumTopicCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -7526,19 +7526,19 @@ void OAIDefaultApi::reopenForumTopicPost(const OAI_restrictChatMember_post_reque
     worker->execute(&input);
 }
 
-void OAIDefaultApi::reopenForumTopicPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postReopenForumTopicCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIReopenForumTopicResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT reopenForumTopicPostSignal(output);
-        Q_EMIT reopenForumTopicPostSignalFull(worker, output);
+        Q_EMIT postReopenForumTopicSignal(output);
+        Q_EMIT postReopenForumTopicSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -7555,8 +7555,8 @@ void OAIDefaultApi::reopenForumTopicPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT reopenForumTopicPostSignalE(output, error_type, error_str);
-        Q_EMIT reopenForumTopicPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postReopenForumTopicSignalE(output, error_type, error_str);
+        Q_EMIT postReopenForumTopicSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -7566,13 +7566,13 @@ void OAIDefaultApi::reopenForumTopicPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT reopenForumTopicPostSignalError(output, error_type, error_str);
-        Q_EMIT reopenForumTopicPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postReopenForumTopicSignalError(output, error_type, error_str);
+        Q_EMIT postReopenForumTopicSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::reopenGeneralForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["reopenGeneralForumTopicPost"][_serverIndices.value("reopenGeneralForumTopicPost")].URL()+"/reopenGeneralForumTopic");
+void OAIDefaultApi::postReopenGeneralForumTopic(const OAIBotCommandScopeChat_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postReopenGeneralForumTopic"][_serverIndices.value("postReopenGeneralForumTopic")].URL()+"/reopenGeneralForumTopic");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -7589,7 +7589,7 @@ void OAIDefaultApi::reopenGeneralForumTopicPost(const OAI_restrictChatMember_pos
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::reopenGeneralForumTopicPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postReopenGeneralForumTopicCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -7600,19 +7600,19 @@ void OAIDefaultApi::reopenGeneralForumTopicPost(const OAI_restrictChatMember_pos
     worker->execute(&input);
 }
 
-void OAIDefaultApi::reopenGeneralForumTopicPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postReopenGeneralForumTopicCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIReopenGeneralForumTopicResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT reopenGeneralForumTopicPostSignal(output);
-        Q_EMIT reopenGeneralForumTopicPostSignalFull(worker, output);
+        Q_EMIT postReopenGeneralForumTopicSignal(output);
+        Q_EMIT postReopenGeneralForumTopicSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -7629,8 +7629,8 @@ void OAIDefaultApi::reopenGeneralForumTopicPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT reopenGeneralForumTopicPostSignalE(output, error_type, error_str);
-        Q_EMIT reopenGeneralForumTopicPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postReopenGeneralForumTopicSignalE(output, error_type, error_str);
+        Q_EMIT postReopenGeneralForumTopicSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -7640,13 +7640,13 @@ void OAIDefaultApi::reopenGeneralForumTopicPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT reopenGeneralForumTopicPostSignalError(output, error_type, error_str);
-        Q_EMIT reopenGeneralForumTopicPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postReopenGeneralForumTopicSignalError(output, error_type, error_str);
+        Q_EMIT postReopenGeneralForumTopicSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::replaceStickerInSetPost(const qint32 &user_id, const QString &name, const QString &old_sticker, const OAIInputSticker &sticker) {
-    QString fullPath = QString(_serverConfigs["replaceStickerInSetPost"][_serverIndices.value("replaceStickerInSetPost")].URL()+"/replaceStickerInSet");
+void OAIDefaultApi::postReplaceStickerInSet(const qint32 &user_id, const QString &name, const QString &old_sticker, const OAIInputSticker &sticker) {
+    QString fullPath = QString(_serverConfigs["postReplaceStickerInSet"][_serverIndices.value("postReplaceStickerInSet")].URL()+"/replaceStickerInSet");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -7675,7 +7675,7 @@ void OAIDefaultApi::replaceStickerInSetPost(const qint32 &user_id, const QString
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::replaceStickerInSetPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postReplaceStickerInSetCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -7686,19 +7686,19 @@ void OAIDefaultApi::replaceStickerInSetPost(const qint32 &user_id, const QString
     worker->execute(&input);
 }
 
-void OAIDefaultApi::replaceStickerInSetPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postReplaceStickerInSetCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIReplaceStickerInSetResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT replaceStickerInSetPostSignal(output);
-        Q_EMIT replaceStickerInSetPostSignalFull(worker, output);
+        Q_EMIT postReplaceStickerInSetSignal(output);
+        Q_EMIT postReplaceStickerInSetSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -7715,8 +7715,8 @@ void OAIDefaultApi::replaceStickerInSetPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT replaceStickerInSetPostSignalE(output, error_type, error_str);
-        Q_EMIT replaceStickerInSetPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postReplaceStickerInSetSignalE(output, error_type, error_str);
+        Q_EMIT postReplaceStickerInSetSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -7726,13 +7726,13 @@ void OAIDefaultApi::replaceStickerInSetPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT replaceStickerInSetPostSignalError(output, error_type, error_str);
-        Q_EMIT replaceStickerInSetPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postReplaceStickerInSetSignalError(output, error_type, error_str);
+        Q_EMIT postReplaceStickerInSetSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::restrictChatMemberPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &user_id, const OAIChatPermissions &permissions, const ::tele_rest::OptionalParam<bool> &use_independent_chat_permissions, const ::tele_rest::OptionalParam<qint32> &until_date) {
-    QString fullPath = QString(_serverConfigs["restrictChatMemberPost"][_serverIndices.value("restrictChatMemberPost")].URL()+"/restrictChatMember");
+void OAIDefaultApi::postRestrictChatMember(const OAIBotCommandScopeChat_chat_id &chat_id, const qint32 &user_id, const OAIChatPermissions &permissions, const ::tele_rest::OptionalParam<bool> &use_independent_chat_permissions, const ::tele_rest::OptionalParam<qint32> &until_date) {
+    QString fullPath = QString(_serverConfigs["postRestrictChatMember"][_serverIndices.value("postRestrictChatMember")].URL()+"/restrictChatMember");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -7765,7 +7765,7 @@ void OAIDefaultApi::restrictChatMemberPost(const OAI_restrictChatMember_post_req
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::restrictChatMemberPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postRestrictChatMemberCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -7776,19 +7776,19 @@ void OAIDefaultApi::restrictChatMemberPost(const OAI_restrictChatMember_post_req
     worker->execute(&input);
 }
 
-void OAIDefaultApi::restrictChatMemberPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postRestrictChatMemberCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIRestrictChatMemberResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT restrictChatMemberPostSignal(output);
-        Q_EMIT restrictChatMemberPostSignalFull(worker, output);
+        Q_EMIT postRestrictChatMemberSignal(output);
+        Q_EMIT postRestrictChatMemberSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -7805,8 +7805,8 @@ void OAIDefaultApi::restrictChatMemberPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT restrictChatMemberPostSignalE(output, error_type, error_str);
-        Q_EMIT restrictChatMemberPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postRestrictChatMemberSignalE(output, error_type, error_str);
+        Q_EMIT postRestrictChatMemberSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -7816,13 +7816,13 @@ void OAIDefaultApi::restrictChatMemberPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT restrictChatMemberPostSignalError(output, error_type, error_str);
-        Q_EMIT restrictChatMemberPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postRestrictChatMemberSignalError(output, error_type, error_str);
+        Q_EMIT postRestrictChatMemberSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::revokeChatInviteLinkPost(const OAI_revokeChatInviteLink_post_request_chat_id &chat_id, const QString &invite_link) {
-    QString fullPath = QString(_serverConfigs["revokeChatInviteLinkPost"][_serverIndices.value("revokeChatInviteLinkPost")].URL()+"/revokeChatInviteLink");
+void OAIDefaultApi::postRevokeChatInviteLink(const OAIRevokeChatInviteLinkRequest_chat_id &chat_id, const QString &invite_link) {
+    QString fullPath = QString(_serverConfigs["postRevokeChatInviteLink"][_serverIndices.value("postRevokeChatInviteLink")].URL()+"/revokeChatInviteLink");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -7843,7 +7843,7 @@ void OAIDefaultApi::revokeChatInviteLinkPost(const OAI_revokeChatInviteLink_post
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::revokeChatInviteLinkPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postRevokeChatInviteLinkCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -7854,19 +7854,19 @@ void OAIDefaultApi::revokeChatInviteLinkPost(const OAI_revokeChatInviteLink_post
     worker->execute(&input);
 }
 
-void OAIDefaultApi::revokeChatInviteLinkPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postRevokeChatInviteLinkCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_createChatInviteLink_post_200_response output(QString(worker->response));
+    OAIRevokeChatInviteLinkResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT revokeChatInviteLinkPostSignal(output);
-        Q_EMIT revokeChatInviteLinkPostSignalFull(worker, output);
+        Q_EMIT postRevokeChatInviteLinkSignal(output);
+        Q_EMIT postRevokeChatInviteLinkSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -7883,8 +7883,8 @@ void OAIDefaultApi::revokeChatInviteLinkPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT revokeChatInviteLinkPostSignalE(output, error_type, error_str);
-        Q_EMIT revokeChatInviteLinkPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postRevokeChatInviteLinkSignalE(output, error_type, error_str);
+        Q_EMIT postRevokeChatInviteLinkSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -7894,13 +7894,13 @@ void OAIDefaultApi::revokeChatInviteLinkPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT revokeChatInviteLinkPostSignalError(output, error_type, error_str);
-        Q_EMIT revokeChatInviteLinkPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postRevokeChatInviteLinkSignalError(output, error_type, error_str);
+        Q_EMIT postRevokeChatInviteLinkSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::savePreparedInlineMessagePost(const qint32 &user_id, const OAIInlineQueryResult &result, const ::tele_rest::OptionalParam<bool> &allow_user_chats, const ::tele_rest::OptionalParam<bool> &allow_bot_chats, const ::tele_rest::OptionalParam<bool> &allow_group_chats, const ::tele_rest::OptionalParam<bool> &allow_channel_chats) {
-    QString fullPath = QString(_serverConfigs["savePreparedInlineMessagePost"][_serverIndices.value("savePreparedInlineMessagePost")].URL()+"/savePreparedInlineMessage");
+void OAIDefaultApi::postSavePreparedInlineMessage(const qint32 &user_id, const OAIInlineQueryResult &result, const ::tele_rest::OptionalParam<bool> &allow_user_chats, const ::tele_rest::OptionalParam<bool> &allow_bot_chats, const ::tele_rest::OptionalParam<bool> &allow_group_chats, const ::tele_rest::OptionalParam<bool> &allow_channel_chats) {
+    QString fullPath = QString(_serverConfigs["postSavePreparedInlineMessage"][_serverIndices.value("postSavePreparedInlineMessage")].URL()+"/savePreparedInlineMessage");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -7937,7 +7937,7 @@ void OAIDefaultApi::savePreparedInlineMessagePost(const qint32 &user_id, const O
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::savePreparedInlineMessagePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSavePreparedInlineMessageCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -7948,19 +7948,19 @@ void OAIDefaultApi::savePreparedInlineMessagePost(const qint32 &user_id, const O
     worker->execute(&input);
 }
 
-void OAIDefaultApi::savePreparedInlineMessagePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSavePreparedInlineMessageCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_savePreparedInlineMessage_post_200_response output(QString(worker->response));
+    OAISavePreparedInlineMessageResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT savePreparedInlineMessagePostSignal(output);
-        Q_EMIT savePreparedInlineMessagePostSignalFull(worker, output);
+        Q_EMIT postSavePreparedInlineMessageSignal(output);
+        Q_EMIT postSavePreparedInlineMessageSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -7977,8 +7977,8 @@ void OAIDefaultApi::savePreparedInlineMessagePostCallback(OAIHttpRequestWorker *
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT savePreparedInlineMessagePostSignalE(output, error_type, error_str);
-        Q_EMIT savePreparedInlineMessagePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSavePreparedInlineMessageSignalE(output, error_type, error_str);
+        Q_EMIT postSavePreparedInlineMessageSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -7988,13 +7988,13 @@ void OAIDefaultApi::savePreparedInlineMessagePostCallback(OAIHttpRequestWorker *
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT savePreparedInlineMessagePostSignalError(output, error_type, error_str);
-        Q_EMIT savePreparedInlineMessagePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSavePreparedInlineMessageSignalError(output, error_type, error_str);
+        Q_EMIT postSavePreparedInlineMessageSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendAnimationPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendAnimation_post_request_animation &animation, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<qint32> &duration, const ::tele_rest::OptionalParam<qint32> &width, const ::tele_rest::OptionalParam<qint32> &height, const ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail> &thumbnail, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &show_caption_above_media, const ::tele_rest::OptionalParam<bool> &has_spoiler, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendAnimationPost"][_serverIndices.value("sendAnimationPost")].URL()+"/sendAnimation");
+void OAIDefaultApi::postSendAnimation(const OAISendMessageRequest_chat_id &chat_id, const QString &animation, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<qint32> &duration, const ::tele_rest::OptionalParam<qint32> &width, const ::tele_rest::OptionalParam<qint32> &height, const ::tele_rest::OptionalParam<QString> &thumbnail, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &show_caption_above_media, const ::tele_rest::OptionalParam<bool> &has_spoiler, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendAnimation"][_serverIndices.value("postSendAnimation")].URL()+"/sendAnimation");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -8083,7 +8083,7 @@ void OAIDefaultApi::sendAnimationPost(const OAI_sendMessage_post_request_chat_id
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendAnimationPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendAnimationCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -8094,19 +8094,19 @@ void OAIDefaultApi::sendAnimationPost(const OAI_sendMessage_post_request_chat_id
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendAnimationPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendAnimationCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendAnimationResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendAnimationPostSignal(output);
-        Q_EMIT sendAnimationPostSignalFull(worker, output);
+        Q_EMIT postSendAnimationSignal(output);
+        Q_EMIT postSendAnimationSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -8123,8 +8123,8 @@ void OAIDefaultApi::sendAnimationPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendAnimationPostSignalE(output, error_type, error_str);
-        Q_EMIT sendAnimationPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendAnimationSignalE(output, error_type, error_str);
+        Q_EMIT postSendAnimationSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -8134,13 +8134,13 @@ void OAIDefaultApi::sendAnimationPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendAnimationPostSignalError(output, error_type, error_str);
-        Q_EMIT sendAnimationPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendAnimationSignalError(output, error_type, error_str);
+        Q_EMIT postSendAnimationSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendAudioPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendAudio_post_request_audio &audio, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<qint32> &duration, const ::tele_rest::OptionalParam<QString> &performer, const ::tele_rest::OptionalParam<QString> &title, const ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail> &thumbnail, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendAudioPost"][_serverIndices.value("sendAudioPost")].URL()+"/sendAudio");
+void OAIDefaultApi::postSendAudio(const OAISendMessageRequest_chat_id &chat_id, const QString &audio, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<qint32> &duration, const ::tele_rest::OptionalParam<QString> &performer, const ::tele_rest::OptionalParam<QString> &title, const ::tele_rest::OptionalParam<QString> &thumbnail, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendAudio"][_serverIndices.value("postSendAudio")].URL()+"/sendAudio");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -8221,7 +8221,7 @@ void OAIDefaultApi::sendAudioPost(const OAI_sendMessage_post_request_chat_id &ch
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendAudioPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendAudioCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -8232,19 +8232,19 @@ void OAIDefaultApi::sendAudioPost(const OAI_sendMessage_post_request_chat_id &ch
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendAudioPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendAudioCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendAudioResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendAudioPostSignal(output);
-        Q_EMIT sendAudioPostSignalFull(worker, output);
+        Q_EMIT postSendAudioSignal(output);
+        Q_EMIT postSendAudioSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -8261,8 +8261,8 @@ void OAIDefaultApi::sendAudioPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendAudioPostSignalE(output, error_type, error_str);
-        Q_EMIT sendAudioPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendAudioSignalE(output, error_type, error_str);
+        Q_EMIT postSendAudioSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -8272,13 +8272,13 @@ void OAIDefaultApi::sendAudioPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendAudioPostSignalError(output, error_type, error_str);
-        Q_EMIT sendAudioPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendAudioSignalError(output, error_type, error_str);
+        Q_EMIT postSendAudioSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendChatActionPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &action, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id) {
-    QString fullPath = QString(_serverConfigs["sendChatActionPost"][_serverIndices.value("sendChatActionPost")].URL()+"/sendChatAction");
+void OAIDefaultApi::postSendChatAction(const OAISendMessageRequest_chat_id &chat_id, const QString &action, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id) {
+    QString fullPath = QString(_serverConfigs["postSendChatAction"][_serverIndices.value("postSendChatAction")].URL()+"/sendChatAction");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -8307,7 +8307,7 @@ void OAIDefaultApi::sendChatActionPost(const OAI_sendMessage_post_request_chat_i
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendChatActionPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendChatActionCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -8318,19 +8318,19 @@ void OAIDefaultApi::sendChatActionPost(const OAI_sendMessage_post_request_chat_i
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendChatActionPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendChatActionCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISendChatActionResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendChatActionPostSignal(output);
-        Q_EMIT sendChatActionPostSignalFull(worker, output);
+        Q_EMIT postSendChatActionSignal(output);
+        Q_EMIT postSendChatActionSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -8347,8 +8347,8 @@ void OAIDefaultApi::sendChatActionPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendChatActionPostSignalE(output, error_type, error_str);
-        Q_EMIT sendChatActionPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendChatActionSignalE(output, error_type, error_str);
+        Q_EMIT postSendChatActionSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -8358,13 +8358,13 @@ void OAIDefaultApi::sendChatActionPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendChatActionPostSignalError(output, error_type, error_str);
-        Q_EMIT sendChatActionPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendChatActionSignalError(output, error_type, error_str);
+        Q_EMIT postSendChatActionSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendContactPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &phone_number, const QString &first_name, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &last_name, const ::tele_rest::OptionalParam<QString> &vcard, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendContactPost"][_serverIndices.value("sendContactPost")].URL()+"/sendContact");
+void OAIDefaultApi::postSendContact(const OAISendMessageRequest_chat_id &chat_id, const QString &phone_number, const QString &first_name, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &last_name, const ::tele_rest::OptionalParam<QString> &vcard, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendContact"][_serverIndices.value("postSendContact")].URL()+"/sendContact");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -8429,7 +8429,7 @@ void OAIDefaultApi::sendContactPost(const OAI_sendMessage_post_request_chat_id &
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendContactPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendContactCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -8440,19 +8440,19 @@ void OAIDefaultApi::sendContactPost(const OAI_sendMessage_post_request_chat_id &
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendContactPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendContactCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendContactResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendContactPostSignal(output);
-        Q_EMIT sendContactPostSignalFull(worker, output);
+        Q_EMIT postSendContactSignal(output);
+        Q_EMIT postSendContactSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -8469,8 +8469,8 @@ void OAIDefaultApi::sendContactPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendContactPostSignalE(output, error_type, error_str);
-        Q_EMIT sendContactPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendContactSignalE(output, error_type, error_str);
+        Q_EMIT postSendContactSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -8480,13 +8480,13 @@ void OAIDefaultApi::sendContactPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendContactPostSignalError(output, error_type, error_str);
-        Q_EMIT sendContactPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendContactSignalError(output, error_type, error_str);
+        Q_EMIT postSendContactSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendDicePost(const OAI_sendMessage_post_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &emoji, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendDicePost"][_serverIndices.value("sendDicePost")].URL()+"/sendDice");
+void OAIDefaultApi::postSendDice(const OAISendMessageRequest_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &emoji, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendDice"][_serverIndices.value("postSendDice")].URL()+"/sendDice");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -8539,7 +8539,7 @@ void OAIDefaultApi::sendDicePost(const OAI_sendMessage_post_request_chat_id &cha
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendDicePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendDiceCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -8550,19 +8550,19 @@ void OAIDefaultApi::sendDicePost(const OAI_sendMessage_post_request_chat_id &cha
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendDicePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendDiceCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendDiceResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendDicePostSignal(output);
-        Q_EMIT sendDicePostSignalFull(worker, output);
+        Q_EMIT postSendDiceSignal(output);
+        Q_EMIT postSendDiceSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -8579,8 +8579,8 @@ void OAIDefaultApi::sendDicePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendDicePostSignalE(output, error_type, error_str);
-        Q_EMIT sendDicePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendDiceSignalE(output, error_type, error_str);
+        Q_EMIT postSendDiceSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -8590,13 +8590,13 @@ void OAIDefaultApi::sendDicePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendDicePostSignalError(output, error_type, error_str);
-        Q_EMIT sendDicePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendDiceSignalError(output, error_type, error_str);
+        Q_EMIT postSendDiceSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendDocumentPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendDocument_post_request_document &document, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail> &thumbnail, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &disable_content_type_detection, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendDocumentPost"][_serverIndices.value("sendDocumentPost")].URL()+"/sendDocument");
+void OAIDefaultApi::postSendDocument(const OAISendMessageRequest_chat_id &chat_id, const QString &document, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &thumbnail, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &disable_content_type_detection, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendDocument"][_serverIndices.value("postSendDocument")].URL()+"/sendDocument");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -8669,7 +8669,7 @@ void OAIDefaultApi::sendDocumentPost(const OAI_sendMessage_post_request_chat_id 
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendDocumentPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendDocumentCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -8680,19 +8680,19 @@ void OAIDefaultApi::sendDocumentPost(const OAI_sendMessage_post_request_chat_id 
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendDocumentPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendDocumentCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendDocumentResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendDocumentPostSignal(output);
-        Q_EMIT sendDocumentPostSignalFull(worker, output);
+        Q_EMIT postSendDocumentSignal(output);
+        Q_EMIT postSendDocumentSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -8709,8 +8709,8 @@ void OAIDefaultApi::sendDocumentPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendDocumentPostSignalE(output, error_type, error_str);
-        Q_EMIT sendDocumentPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendDocumentSignalE(output, error_type, error_str);
+        Q_EMIT postSendDocumentSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -8720,13 +8720,13 @@ void OAIDefaultApi::sendDocumentPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendDocumentPostSignalError(output, error_type, error_str);
-        Q_EMIT sendDocumentPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendDocumentSignalError(output, error_type, error_str);
+        Q_EMIT postSendDocumentSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendGamePost(const qint32 &chat_id, const QString &game_short_name, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendGamePost"][_serverIndices.value("sendGamePost")].URL()+"/sendGame");
+void OAIDefaultApi::postSendGame(const qint32 &chat_id, const QString &game_short_name, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendGame"][_serverIndices.value("postSendGame")].URL()+"/sendGame");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -8779,7 +8779,7 @@ void OAIDefaultApi::sendGamePost(const qint32 &chat_id, const QString &game_shor
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendGamePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendGameCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -8790,19 +8790,19 @@ void OAIDefaultApi::sendGamePost(const qint32 &chat_id, const QString &game_shor
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendGamePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendGameCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendGameResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendGamePostSignal(output);
-        Q_EMIT sendGamePostSignalFull(worker, output);
+        Q_EMIT postSendGameSignal(output);
+        Q_EMIT postSendGameSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -8819,8 +8819,8 @@ void OAIDefaultApi::sendGamePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendGamePostSignalE(output, error_type, error_str);
-        Q_EMIT sendGamePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendGameSignalE(output, error_type, error_str);
+        Q_EMIT postSendGameSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -8830,13 +8830,13 @@ void OAIDefaultApi::sendGamePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendGamePostSignalError(output, error_type, error_str);
-        Q_EMIT sendGamePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendGameSignalError(output, error_type, error_str);
+        Q_EMIT postSendGameSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendGiftPost(const QString &gift_id, const ::tele_rest::OptionalParam<qint32> &user_id, const ::tele_rest::OptionalParam<OAI_sendGift_post_request_chat_id> &chat_id, const ::tele_rest::OptionalParam<bool> &pay_for_upgrade, const ::tele_rest::OptionalParam<QString> &text, const ::tele_rest::OptionalParam<QString> &text_parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &text_entities) {
-    QString fullPath = QString(_serverConfigs["sendGiftPost"][_serverIndices.value("sendGiftPost")].URL()+"/sendGift");
+void OAIDefaultApi::postSendGift(const QString &gift_id, const ::tele_rest::OptionalParam<qint32> &user_id, const ::tele_rest::OptionalParam<OAISendGiftRequest_chat_id> &chat_id, const ::tele_rest::OptionalParam<bool> &pay_for_upgrade, const ::tele_rest::OptionalParam<QString> &text, const ::tele_rest::OptionalParam<QString> &text_parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &text_entities) {
+    QString fullPath = QString(_serverConfigs["postSendGift"][_serverIndices.value("postSendGift")].URL()+"/sendGift");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -8877,7 +8877,7 @@ void OAIDefaultApi::sendGiftPost(const QString &gift_id, const ::tele_rest::Opti
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendGiftPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendGiftCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -8888,19 +8888,19 @@ void OAIDefaultApi::sendGiftPost(const QString &gift_id, const ::tele_rest::Opti
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendGiftPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendGiftCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISendGiftResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendGiftPostSignal(output);
-        Q_EMIT sendGiftPostSignalFull(worker, output);
+        Q_EMIT postSendGiftSignal(output);
+        Q_EMIT postSendGiftSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -8917,8 +8917,8 @@ void OAIDefaultApi::sendGiftPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendGiftPostSignalE(output, error_type, error_str);
-        Q_EMIT sendGiftPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendGiftSignalE(output, error_type, error_str);
+        Q_EMIT postSendGiftSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -8928,13 +8928,13 @@ void OAIDefaultApi::sendGiftPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendGiftPostSignalError(output, error_type, error_str);
-        Q_EMIT sendGiftPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendGiftSignalError(output, error_type, error_str);
+        Q_EMIT postSendGiftSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendInvoicePost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &title, const QString &description, const QString &payload, const QString &currency, const QList<OAILabeledPrice> &prices, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &provider_token, const ::tele_rest::OptionalParam<qint32> &max_tip_amount, const ::tele_rest::OptionalParam<QList<qint32>> &suggested_tip_amounts, const ::tele_rest::OptionalParam<QString> &start_parameter, const ::tele_rest::OptionalParam<QString> &provider_data, const ::tele_rest::OptionalParam<QString> &photo_url, const ::tele_rest::OptionalParam<qint32> &photo_size, const ::tele_rest::OptionalParam<qint32> &photo_width, const ::tele_rest::OptionalParam<qint32> &photo_height, const ::tele_rest::OptionalParam<bool> &need_name, const ::tele_rest::OptionalParam<bool> &need_phone_number, const ::tele_rest::OptionalParam<bool> &need_email, const ::tele_rest::OptionalParam<bool> &need_shipping_address, const ::tele_rest::OptionalParam<bool> &send_phone_number_to_provider, const ::tele_rest::OptionalParam<bool> &send_email_to_provider, const ::tele_rest::OptionalParam<bool> &is_flexible, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendInvoicePost"][_serverIndices.value("sendInvoicePost")].URL()+"/sendInvoice");
+void OAIDefaultApi::postSendInvoice(const OAISendMessageRequest_chat_id &chat_id, const QString &title, const QString &description, const QString &payload, const QString &currency, const QList<OAILabeledPrice> &prices, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &provider_token, const ::tele_rest::OptionalParam<qint32> &max_tip_amount, const ::tele_rest::OptionalParam<QList<qint32>> &suggested_tip_amounts, const ::tele_rest::OptionalParam<QString> &start_parameter, const ::tele_rest::OptionalParam<QString> &provider_data, const ::tele_rest::OptionalParam<QString> &photo_url, const ::tele_rest::OptionalParam<qint32> &photo_size, const ::tele_rest::OptionalParam<qint32> &photo_width, const ::tele_rest::OptionalParam<qint32> &photo_height, const ::tele_rest::OptionalParam<bool> &need_name, const ::tele_rest::OptionalParam<bool> &need_phone_number, const ::tele_rest::OptionalParam<bool> &need_email, const ::tele_rest::OptionalParam<bool> &need_shipping_address, const ::tele_rest::OptionalParam<bool> &send_phone_number_to_provider, const ::tele_rest::OptionalParam<bool> &send_email_to_provider, const ::tele_rest::OptionalParam<bool> &is_flexible, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendInvoice"][_serverIndices.value("postSendInvoice")].URL()+"/sendInvoice");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -9063,7 +9063,7 @@ void OAIDefaultApi::sendInvoicePost(const OAI_sendMessage_post_request_chat_id &
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendInvoicePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendInvoiceCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -9074,19 +9074,19 @@ void OAIDefaultApi::sendInvoicePost(const OAI_sendMessage_post_request_chat_id &
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendInvoicePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendInvoiceCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendInvoiceResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendInvoicePostSignal(output);
-        Q_EMIT sendInvoicePostSignalFull(worker, output);
+        Q_EMIT postSendInvoiceSignal(output);
+        Q_EMIT postSendInvoiceSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -9103,8 +9103,8 @@ void OAIDefaultApi::sendInvoicePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendInvoicePostSignalE(output, error_type, error_str);
-        Q_EMIT sendInvoicePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendInvoiceSignalE(output, error_type, error_str);
+        Q_EMIT postSendInvoiceSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -9114,13 +9114,13 @@ void OAIDefaultApi::sendInvoicePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendInvoicePostSignalError(output, error_type, error_str);
-        Q_EMIT sendInvoicePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendInvoiceSignalError(output, error_type, error_str);
+        Q_EMIT postSendInvoiceSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendLocationPost(const OAI_sendMessage_post_request_chat_id &chat_id, const double &latitude, const double &longitude, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<double> &horizontal_accuracy, const ::tele_rest::OptionalParam<qint32> &live_period, const ::tele_rest::OptionalParam<qint32> &heading, const ::tele_rest::OptionalParam<qint32> &proximity_alert_radius, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendLocationPost"][_serverIndices.value("sendLocationPost")].URL()+"/sendLocation");
+void OAIDefaultApi::postSendLocation(const OAISendMessageRequest_chat_id &chat_id, const double &latitude, const double &longitude, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<double> &horizontal_accuracy, const ::tele_rest::OptionalParam<qint32> &live_period, const ::tele_rest::OptionalParam<qint32> &heading, const ::tele_rest::OptionalParam<qint32> &proximity_alert_radius, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendLocation"][_serverIndices.value("postSendLocation")].URL()+"/sendLocation");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -9193,7 +9193,7 @@ void OAIDefaultApi::sendLocationPost(const OAI_sendMessage_post_request_chat_id 
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendLocationPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendLocationCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -9204,19 +9204,19 @@ void OAIDefaultApi::sendLocationPost(const OAI_sendMessage_post_request_chat_id 
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendLocationPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendLocationCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendLocationResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendLocationPostSignal(output);
-        Q_EMIT sendLocationPostSignalFull(worker, output);
+        Q_EMIT postSendLocationSignal(output);
+        Q_EMIT postSendLocationSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -9233,8 +9233,8 @@ void OAIDefaultApi::sendLocationPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendLocationPostSignalE(output, error_type, error_str);
-        Q_EMIT sendLocationPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendLocationSignalE(output, error_type, error_str);
+        Q_EMIT postSendLocationSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -9244,13 +9244,13 @@ void OAIDefaultApi::sendLocationPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendLocationPostSignalError(output, error_type, error_str);
-        Q_EMIT sendLocationPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendLocationSignalError(output, error_type, error_str);
+        Q_EMIT postSendLocationSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendMediaGroupPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QList<OAI_sendMediaGroup_post_request_media_inner> &media, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters) {
-    QString fullPath = QString(_serverConfigs["sendMediaGroupPost"][_serverIndices.value("sendMediaGroupPost")].URL()+"/sendMediaGroup");
+void OAIDefaultApi::postSendMediaGroup(const OAISendMessageRequest_chat_id &chat_id, const QList<OAISendMediaGroupRequest_media_inner> &media, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters) {
+    QString fullPath = QString(_serverConfigs["postSendMediaGroup"][_serverIndices.value("postSendMediaGroup")].URL()+"/sendMediaGroup");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -9299,7 +9299,7 @@ void OAIDefaultApi::sendMediaGroupPost(const OAI_sendMessage_post_request_chat_i
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendMediaGroupPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendMediaGroupCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -9310,19 +9310,19 @@ void OAIDefaultApi::sendMediaGroupPost(const OAI_sendMessage_post_request_chat_i
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendMediaGroupPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendMediaGroupCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMediaGroup_post_200_response output(QString(worker->response));
+    OAISendMediaGroupResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendMediaGroupPostSignal(output);
-        Q_EMIT sendMediaGroupPostSignalFull(worker, output);
+        Q_EMIT postSendMediaGroupSignal(output);
+        Q_EMIT postSendMediaGroupSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -9339,8 +9339,8 @@ void OAIDefaultApi::sendMediaGroupPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendMediaGroupPostSignalE(output, error_type, error_str);
-        Q_EMIT sendMediaGroupPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendMediaGroupSignalE(output, error_type, error_str);
+        Q_EMIT postSendMediaGroupSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -9350,13 +9350,13 @@ void OAIDefaultApi::sendMediaGroupPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendMediaGroupPostSignalError(output, error_type, error_str);
-        Q_EMIT sendMediaGroupPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendMediaGroupSignalError(output, error_type, error_str);
+        Q_EMIT postSendMediaGroupSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendMessagePost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &text, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &entities, const ::tele_rest::OptionalParam<OAILinkPreviewOptions> &link_preview_options, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendMessagePost"][_serverIndices.value("sendMessagePost")].URL()+"/sendMessage");
+void OAIDefaultApi::postSendMessage(const OAISendMessageRequest_chat_id &chat_id, const QString &text, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &entities, const ::tele_rest::OptionalParam<OAILinkPreviewOptions> &link_preview_options, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendMessage"][_serverIndices.value("postSendMessage")].URL()+"/sendMessage");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -9421,7 +9421,7 @@ void OAIDefaultApi::sendMessagePost(const OAI_sendMessage_post_request_chat_id &
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendMessagePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendMessageCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -9432,19 +9432,19 @@ void OAIDefaultApi::sendMessagePost(const OAI_sendMessage_post_request_chat_id &
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendMessagePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendMessageCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendMessageResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendMessagePostSignal(output);
-        Q_EMIT sendMessagePostSignalFull(worker, output);
+        Q_EMIT postSendMessageSignal(output);
+        Q_EMIT postSendMessageSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -9461,8 +9461,8 @@ void OAIDefaultApi::sendMessagePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendMessagePostSignalE(output, error_type, error_str);
-        Q_EMIT sendMessagePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendMessageSignalE(output, error_type, error_str);
+        Q_EMIT postSendMessageSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -9472,13 +9472,13 @@ void OAIDefaultApi::sendMessagePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendMessagePostSignalError(output, error_type, error_str);
-        Q_EMIT sendMessagePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendMessageSignalError(output, error_type, error_str);
+        Q_EMIT postSendMessageSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendPaidMediaPost(const OAI_sendPaidMedia_post_request_chat_id &chat_id, const qint32 &star_count, const QList<OAIInputPaidMedia> &media, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<QString> &payload, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &show_caption_above_media, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendPaidMediaPost"][_serverIndices.value("sendPaidMediaPost")].URL()+"/sendPaidMedia");
+void OAIDefaultApi::postSendPaidMedia(const OAISendPaidMediaRequest_chat_id &chat_id, const qint32 &star_count, const QList<OAIInputPaidMedia> &media, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<QString> &payload, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &show_caption_above_media, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendPaidMedia"][_serverIndices.value("postSendPaidMedia")].URL()+"/sendPaidMedia");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -9547,7 +9547,7 @@ void OAIDefaultApi::sendPaidMediaPost(const OAI_sendPaidMedia_post_request_chat_
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendPaidMediaPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendPaidMediaCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -9558,19 +9558,19 @@ void OAIDefaultApi::sendPaidMediaPost(const OAI_sendPaidMedia_post_request_chat_
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendPaidMediaPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendPaidMediaCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendPaidMediaResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendPaidMediaPostSignal(output);
-        Q_EMIT sendPaidMediaPostSignalFull(worker, output);
+        Q_EMIT postSendPaidMediaSignal(output);
+        Q_EMIT postSendPaidMediaSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -9587,8 +9587,8 @@ void OAIDefaultApi::sendPaidMediaPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendPaidMediaPostSignalE(output, error_type, error_str);
-        Q_EMIT sendPaidMediaPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendPaidMediaSignalE(output, error_type, error_str);
+        Q_EMIT postSendPaidMediaSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -9598,13 +9598,13 @@ void OAIDefaultApi::sendPaidMediaPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendPaidMediaPostSignalError(output, error_type, error_str);
-        Q_EMIT sendPaidMediaPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendPaidMediaSignalError(output, error_type, error_str);
+        Q_EMIT postSendPaidMediaSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendPhotoPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendPhoto_post_request_photo &photo, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &show_caption_above_media, const ::tele_rest::OptionalParam<bool> &has_spoiler, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendPhotoPost"][_serverIndices.value("sendPhotoPost")].URL()+"/sendPhoto");
+void OAIDefaultApi::postSendPhoto(const OAISendMessageRequest_chat_id &chat_id, const QString &photo, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &show_caption_above_media, const ::tele_rest::OptionalParam<bool> &has_spoiler, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendPhoto"][_serverIndices.value("postSendPhoto")].URL()+"/sendPhoto");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -9677,7 +9677,7 @@ void OAIDefaultApi::sendPhotoPost(const OAI_sendMessage_post_request_chat_id &ch
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendPhotoPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendPhotoCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -9688,19 +9688,19 @@ void OAIDefaultApi::sendPhotoPost(const OAI_sendMessage_post_request_chat_id &ch
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendPhotoPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendPhotoCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendPhotoResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendPhotoPostSignal(output);
-        Q_EMIT sendPhotoPostSignalFull(worker, output);
+        Q_EMIT postSendPhotoSignal(output);
+        Q_EMIT postSendPhotoSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -9717,8 +9717,8 @@ void OAIDefaultApi::sendPhotoPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendPhotoPostSignalE(output, error_type, error_str);
-        Q_EMIT sendPhotoPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendPhotoSignalE(output, error_type, error_str);
+        Q_EMIT postSendPhotoSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -9728,13 +9728,13 @@ void OAIDefaultApi::sendPhotoPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendPhotoPostSignalError(output, error_type, error_str);
-        Q_EMIT sendPhotoPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendPhotoSignalError(output, error_type, error_str);
+        Q_EMIT postSendPhotoSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendPollPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &question, const QList<OAIInputPollOption> &options, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &question_parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &question_entities, const ::tele_rest::OptionalParam<bool> &is_anonymous, const ::tele_rest::OptionalParam<QString> &type, const ::tele_rest::OptionalParam<bool> &allows_multiple_answers, const ::tele_rest::OptionalParam<qint32> &correct_option_id, const ::tele_rest::OptionalParam<QString> &explanation, const ::tele_rest::OptionalParam<QString> &explanation_parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &explanation_entities, const ::tele_rest::OptionalParam<qint32> &open_period, const ::tele_rest::OptionalParam<qint32> &close_date, const ::tele_rest::OptionalParam<bool> &is_closed, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendPollPost"][_serverIndices.value("sendPollPost")].URL()+"/sendPoll");
+void OAIDefaultApi::postSendPoll(const OAISendMessageRequest_chat_id &chat_id, const QString &question, const QList<OAIInputPollOption> &options, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &question_parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &question_entities, const ::tele_rest::OptionalParam<bool> &is_anonymous, const ::tele_rest::OptionalParam<QString> &type, const ::tele_rest::OptionalParam<bool> &allows_multiple_answers, const ::tele_rest::OptionalParam<qint32> &correct_option_id, const ::tele_rest::OptionalParam<QString> &explanation, const ::tele_rest::OptionalParam<QString> &explanation_parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &explanation_entities, const ::tele_rest::OptionalParam<qint32> &open_period, const ::tele_rest::OptionalParam<qint32> &close_date, const ::tele_rest::OptionalParam<bool> &is_closed, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendPoll"][_serverIndices.value("postSendPoll")].URL()+"/sendPoll");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -9839,7 +9839,7 @@ void OAIDefaultApi::sendPollPost(const OAI_sendMessage_post_request_chat_id &cha
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendPollPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendPollCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -9850,19 +9850,19 @@ void OAIDefaultApi::sendPollPost(const OAI_sendMessage_post_request_chat_id &cha
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendPollPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendPollCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendPollResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendPollPostSignal(output);
-        Q_EMIT sendPollPostSignalFull(worker, output);
+        Q_EMIT postSendPollSignal(output);
+        Q_EMIT postSendPollSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -9879,8 +9879,8 @@ void OAIDefaultApi::sendPollPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendPollPostSignalE(output, error_type, error_str);
-        Q_EMIT sendPollPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendPollSignalE(output, error_type, error_str);
+        Q_EMIT postSendPollSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -9890,13 +9890,13 @@ void OAIDefaultApi::sendPollPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendPollPostSignalError(output, error_type, error_str);
-        Q_EMIT sendPollPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendPollSignalError(output, error_type, error_str);
+        Q_EMIT postSendPollSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendStickerPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendSticker_post_request_sticker &sticker, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &emoji, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendStickerPost"][_serverIndices.value("sendStickerPost")].URL()+"/sendSticker");
+void OAIDefaultApi::postSendSticker(const OAISendMessageRequest_chat_id &chat_id, const QString &sticker, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &emoji, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendSticker"][_serverIndices.value("postSendSticker")].URL()+"/sendSticker");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -9953,7 +9953,7 @@ void OAIDefaultApi::sendStickerPost(const OAI_sendMessage_post_request_chat_id &
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendStickerPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendStickerCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -9964,19 +9964,19 @@ void OAIDefaultApi::sendStickerPost(const OAI_sendMessage_post_request_chat_id &
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendStickerPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendStickerCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendStickerResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendStickerPostSignal(output);
-        Q_EMIT sendStickerPostSignalFull(worker, output);
+        Q_EMIT postSendStickerSignal(output);
+        Q_EMIT postSendStickerSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -9993,8 +9993,8 @@ void OAIDefaultApi::sendStickerPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendStickerPostSignalE(output, error_type, error_str);
-        Q_EMIT sendStickerPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendStickerSignalE(output, error_type, error_str);
+        Q_EMIT postSendStickerSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -10004,13 +10004,13 @@ void OAIDefaultApi::sendStickerPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendStickerPostSignalError(output, error_type, error_str);
-        Q_EMIT sendStickerPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendStickerSignalError(output, error_type, error_str);
+        Q_EMIT postSendStickerSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendVenuePost(const OAI_sendMessage_post_request_chat_id &chat_id, const double &latitude, const double &longitude, const QString &title, const QString &address, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &foursquare_id, const ::tele_rest::OptionalParam<QString> &foursquare_type, const ::tele_rest::OptionalParam<QString> &google_place_id, const ::tele_rest::OptionalParam<QString> &google_place_type, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendVenuePost"][_serverIndices.value("sendVenuePost")].URL()+"/sendVenue");
+void OAIDefaultApi::postSendVenue(const OAISendMessageRequest_chat_id &chat_id, const double &latitude, const double &longitude, const QString &title, const QString &address, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &foursquare_id, const ::tele_rest::OptionalParam<QString> &foursquare_type, const ::tele_rest::OptionalParam<QString> &google_place_id, const ::tele_rest::OptionalParam<QString> &google_place_type, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendVenue"][_serverIndices.value("postSendVenue")].URL()+"/sendVenue");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -10091,7 +10091,7 @@ void OAIDefaultApi::sendVenuePost(const OAI_sendMessage_post_request_chat_id &ch
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendVenuePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendVenueCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -10102,19 +10102,19 @@ void OAIDefaultApi::sendVenuePost(const OAI_sendMessage_post_request_chat_id &ch
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendVenuePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendVenueCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendVenueResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendVenuePostSignal(output);
-        Q_EMIT sendVenuePostSignalFull(worker, output);
+        Q_EMIT postSendVenueSignal(output);
+        Q_EMIT postSendVenueSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -10131,8 +10131,8 @@ void OAIDefaultApi::sendVenuePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendVenuePostSignalE(output, error_type, error_str);
-        Q_EMIT sendVenuePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendVenueSignalE(output, error_type, error_str);
+        Q_EMIT postSendVenueSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -10142,135 +10142,13 @@ void OAIDefaultApi::sendVenuePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendVenuePostSignalError(output, error_type, error_str);
-        Q_EMIT sendVenuePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendVenueSignalError(output, error_type, error_str);
+        Q_EMIT postSendVenueSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendVideoNotePost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendVideoNote_post_request_video_note &video_note, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<qint32> &duration, const ::tele_rest::OptionalParam<qint32> &length, const ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail> &thumbnail, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendVideoNotePost"][_serverIndices.value("sendVideoNotePost")].URL()+"/sendVideoNote");
-    
-    OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
-    worker->setTimeOut(_timeOut);
-    worker->setWorkingDirectory(_workingDirectory);
-    OAIHttpRequestInput input(fullPath, "POST");
-
-    if (business_connection_id.hasValue())
-    {
-        input.add_var("business_connection_id", ::tele_rest::toStringValue(business_connection_id.value()));
-    }
-    
-    {
-        input.add_var("chat_id", ::tele_rest::toStringValue(chat_id));
-    }
-    if (message_thread_id.hasValue())
-    {
-        input.add_var("message_thread_id", ::tele_rest::toStringValue(message_thread_id.value()));
-    }
-    
-    {
-        input.add_var("video_note", ::tele_rest::toStringValue(video_note));
-    }
-    if (duration.hasValue())
-    {
-        input.add_var("duration", ::tele_rest::toStringValue(duration.value()));
-    }
-    if (length.hasValue())
-    {
-        input.add_var("length", ::tele_rest::toStringValue(length.value()));
-    }
-    if (thumbnail.hasValue())
-    {
-        input.add_var("thumbnail", ::tele_rest::toStringValue(thumbnail.value()));
-    }
-    if (disable_notification.hasValue())
-    {
-        input.add_var("disable_notification", ::tele_rest::toStringValue(disable_notification.value()));
-    }
-    if (protect_content.hasValue())
-    {
-        input.add_var("protect_content", ::tele_rest::toStringValue(protect_content.value()));
-    }
-    if (allow_paid_broadcast.hasValue())
-    {
-        input.add_var("allow_paid_broadcast", ::tele_rest::toStringValue(allow_paid_broadcast.value()));
-    }
-    if (message_effect_id.hasValue())
-    {
-        input.add_var("message_effect_id", ::tele_rest::toStringValue(message_effect_id.value()));
-    }
-    if (reply_parameters.hasValue())
-    {
-        input.add_var("reply_parameters", ::tele_rest::toStringValue(reply_parameters.value()));
-    }
-    if (reply_markup.hasValue())
-    {
-        input.add_var("reply_markup", ::tele_rest::toStringValue(reply_markup.value()));
-    }
-
-    for (auto keyValueIt = _defaultHeaders.keyValueBegin(); keyValueIt != _defaultHeaders.keyValueEnd(); keyValueIt++) {
-        input.headers.insert(keyValueIt->first, keyValueIt->second);
-    }
-
-
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendVideoNotePostCallback);
-    connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
-    connect(worker, &QObject::destroyed, this, [this] {
-        if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
-            Q_EMIT allPendingRequestsCompleted();
-        }
-    });
-
-    worker->execute(&input);
-}
-
-void OAIDefaultApi::sendVideoNotePostCallback(OAIHttpRequestWorker *worker) {
-    QString error_str = worker->error_str;
-    QNetworkReply::NetworkError error_type = worker->error_type;
-
-    if (worker->error_type != QNetworkReply::NoError) {
-        error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
-    }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
-    worker->deleteLater();
-
-    if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendVideoNotePostSignal(output);
-        Q_EMIT sendVideoNotePostSignalFull(worker, output);
-    } else {
-
-#if defined(_MSC_VER)
-// For MSVC
-#pragma warning(push)
-#pragma warning(disable : 4996)
-#elif defined(__clang__)
-// For Clang
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-#elif defined(__GNUC__)
-// For GCC
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-#endif
-
-        Q_EMIT sendVideoNotePostSignalE(output, error_type, error_str);
-        Q_EMIT sendVideoNotePostSignalEFull(worker, error_type, error_str);
-
-#if defined(_MSC_VER)
-#pragma warning(pop)
-#elif defined(__clang__)
-#pragma clang diagnostic pop
-#elif defined(__GNUC__)
-#pragma GCC diagnostic pop
-#endif
-
-        Q_EMIT sendVideoNotePostSignalError(output, error_type, error_str);
-        Q_EMIT sendVideoNotePostSignalErrorFull(worker, error_type, error_str);
-    }
-}
-
-void OAIDefaultApi::sendVideoPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendVideo_post_request_video &video, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<qint32> &duration, const ::tele_rest::OptionalParam<qint32> &width, const ::tele_rest::OptionalParam<qint32> &height, const ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail> &thumbnail, const ::tele_rest::OptionalParam<OAI_sendVideo_post_request_cover> &cover, const ::tele_rest::OptionalParam<qint32> &start_timestamp, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &show_caption_above_media, const ::tele_rest::OptionalParam<bool> &has_spoiler, const ::tele_rest::OptionalParam<bool> &supports_streaming, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendVideoPost"][_serverIndices.value("sendVideoPost")].URL()+"/sendVideo");
+void OAIDefaultApi::postSendVideo(const OAISendMessageRequest_chat_id &chat_id, const QString &video, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<qint32> &duration, const ::tele_rest::OptionalParam<qint32> &width, const ::tele_rest::OptionalParam<qint32> &height, const ::tele_rest::OptionalParam<QString> &thumbnail, const ::tele_rest::OptionalParam<QString> &cover, const ::tele_rest::OptionalParam<qint32> &start_timestamp, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<bool> &show_caption_above_media, const ::tele_rest::OptionalParam<bool> &has_spoiler, const ::tele_rest::OptionalParam<bool> &supports_streaming, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendVideo"][_serverIndices.value("postSendVideo")].URL()+"/sendVideo");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -10371,7 +10249,7 @@ void OAIDefaultApi::sendVideoPost(const OAI_sendMessage_post_request_chat_id &ch
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendVideoPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendVideoCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -10382,19 +10260,19 @@ void OAIDefaultApi::sendVideoPost(const OAI_sendMessage_post_request_chat_id &ch
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendVideoPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendVideoCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendVideoResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendVideoPostSignal(output);
-        Q_EMIT sendVideoPostSignalFull(worker, output);
+        Q_EMIT postSendVideoSignal(output);
+        Q_EMIT postSendVideoSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -10411,8 +10289,8 @@ void OAIDefaultApi::sendVideoPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendVideoPostSignalE(output, error_type, error_str);
-        Q_EMIT sendVideoPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendVideoSignalE(output, error_type, error_str);
+        Q_EMIT postSendVideoSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -10422,13 +10300,135 @@ void OAIDefaultApi::sendVideoPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendVideoPostSignalError(output, error_type, error_str);
-        Q_EMIT sendVideoPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendVideoSignalError(output, error_type, error_str);
+        Q_EMIT postSendVideoSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::sendVoicePost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendVoice_post_request_voice &voice, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<qint32> &duration, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["sendVoicePost"][_serverIndices.value("sendVoicePost")].URL()+"/sendVoice");
+void OAIDefaultApi::postSendVideoNote(const OAISendMessageRequest_chat_id &chat_id, const QString &video_note, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<qint32> &duration, const ::tele_rest::OptionalParam<qint32> &length, const ::tele_rest::OptionalParam<QString> &thumbnail, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendVideoNote"][_serverIndices.value("postSendVideoNote")].URL()+"/sendVideoNote");
+    
+    OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
+    worker->setTimeOut(_timeOut);
+    worker->setWorkingDirectory(_workingDirectory);
+    OAIHttpRequestInput input(fullPath, "POST");
+
+    if (business_connection_id.hasValue())
+    {
+        input.add_var("business_connection_id", ::tele_rest::toStringValue(business_connection_id.value()));
+    }
+    
+    {
+        input.add_var("chat_id", ::tele_rest::toStringValue(chat_id));
+    }
+    if (message_thread_id.hasValue())
+    {
+        input.add_var("message_thread_id", ::tele_rest::toStringValue(message_thread_id.value()));
+    }
+    
+    {
+        input.add_var("video_note", ::tele_rest::toStringValue(video_note));
+    }
+    if (duration.hasValue())
+    {
+        input.add_var("duration", ::tele_rest::toStringValue(duration.value()));
+    }
+    if (length.hasValue())
+    {
+        input.add_var("length", ::tele_rest::toStringValue(length.value()));
+    }
+    if (thumbnail.hasValue())
+    {
+        input.add_var("thumbnail", ::tele_rest::toStringValue(thumbnail.value()));
+    }
+    if (disable_notification.hasValue())
+    {
+        input.add_var("disable_notification", ::tele_rest::toStringValue(disable_notification.value()));
+    }
+    if (protect_content.hasValue())
+    {
+        input.add_var("protect_content", ::tele_rest::toStringValue(protect_content.value()));
+    }
+    if (allow_paid_broadcast.hasValue())
+    {
+        input.add_var("allow_paid_broadcast", ::tele_rest::toStringValue(allow_paid_broadcast.value()));
+    }
+    if (message_effect_id.hasValue())
+    {
+        input.add_var("message_effect_id", ::tele_rest::toStringValue(message_effect_id.value()));
+    }
+    if (reply_parameters.hasValue())
+    {
+        input.add_var("reply_parameters", ::tele_rest::toStringValue(reply_parameters.value()));
+    }
+    if (reply_markup.hasValue())
+    {
+        input.add_var("reply_markup", ::tele_rest::toStringValue(reply_markup.value()));
+    }
+
+    for (auto keyValueIt = _defaultHeaders.keyValueBegin(); keyValueIt != _defaultHeaders.keyValueEnd(); keyValueIt++) {
+        input.headers.insert(keyValueIt->first, keyValueIt->second);
+    }
+
+
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendVideoNoteCallback);
+    connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
+    connect(worker, &QObject::destroyed, this, [this] {
+        if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
+            Q_EMIT allPendingRequestsCompleted();
+        }
+    });
+
+    worker->execute(&input);
+}
+
+void OAIDefaultApi::postSendVideoNoteCallback(OAIHttpRequestWorker *worker) {
+    QString error_str = worker->error_str;
+    QNetworkReply::NetworkError error_type = worker->error_type;
+
+    if (worker->error_type != QNetworkReply::NoError) {
+        error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
+    }
+    OAISendVideoNoteResponse output(QString(worker->response));
+    worker->deleteLater();
+
+    if (worker->error_type == QNetworkReply::NoError) {
+        Q_EMIT postSendVideoNoteSignal(output);
+        Q_EMIT postSendVideoNoteSignalFull(worker, output);
+    } else {
+
+#if defined(_MSC_VER)
+// For MSVC
+#pragma warning(push)
+#pragma warning(disable : 4996)
+#elif defined(__clang__)
+// For Clang
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+#elif defined(__GNUC__)
+// For GCC
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+#endif
+
+        Q_EMIT postSendVideoNoteSignalE(output, error_type, error_str);
+        Q_EMIT postSendVideoNoteSignalEFull(worker, error_type, error_str);
+
+#if defined(_MSC_VER)
+#pragma warning(pop)
+#elif defined(__clang__)
+#pragma clang diagnostic pop
+#elif defined(__GNUC__)
+#pragma GCC diagnostic pop
+#endif
+
+        Q_EMIT postSendVideoNoteSignalError(output, error_type, error_str);
+        Q_EMIT postSendVideoNoteSignalErrorFull(worker, error_type, error_str);
+    }
+}
+
+void OAIDefaultApi::postSendVoice(const OAISendMessageRequest_chat_id &chat_id, const QString &voice, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id, const ::tele_rest::OptionalParam<QString> &caption, const ::tele_rest::OptionalParam<QString> &parse_mode, const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities, const ::tele_rest::OptionalParam<qint32> &duration, const ::tele_rest::OptionalParam<bool> &disable_notification, const ::tele_rest::OptionalParam<bool> &protect_content, const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast, const ::tele_rest::OptionalParam<QString> &message_effect_id, const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters, const ::tele_rest::OptionalParam<OAISendMessageRequest_reply_markup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postSendVoice"][_serverIndices.value("postSendVoice")].URL()+"/sendVoice");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -10497,7 +10497,7 @@ void OAIDefaultApi::sendVoicePost(const OAI_sendMessage_post_request_chat_id &ch
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::sendVoicePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSendVoiceCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -10508,19 +10508,19 @@ void OAIDefaultApi::sendVoicePost(const OAI_sendMessage_post_request_chat_id &ch
     worker->execute(&input);
 }
 
-void OAIDefaultApi::sendVoicePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSendVoiceCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_sendMessage_post_200_response output(QString(worker->response));
+    OAISendVoiceResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT sendVoicePostSignal(output);
-        Q_EMIT sendVoicePostSignalFull(worker, output);
+        Q_EMIT postSendVoiceSignal(output);
+        Q_EMIT postSendVoiceSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -10537,8 +10537,8 @@ void OAIDefaultApi::sendVoicePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT sendVoicePostSignalE(output, error_type, error_str);
-        Q_EMIT sendVoicePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSendVoiceSignalE(output, error_type, error_str);
+        Q_EMIT postSendVoiceSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -10548,13 +10548,13 @@ void OAIDefaultApi::sendVoicePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT sendVoicePostSignalError(output, error_type, error_str);
-        Q_EMIT sendVoicePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSendVoiceSignalError(output, error_type, error_str);
+        Q_EMIT postSendVoiceSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setBusinessAccountBioPost(const QString &business_connection_id, const ::tele_rest::OptionalParam<QString> &bio) {
-    QString fullPath = QString(_serverConfigs["setBusinessAccountBioPost"][_serverIndices.value("setBusinessAccountBioPost")].URL()+"/setBusinessAccountBio");
+void OAIDefaultApi::postSetBusinessAccountBio(const QString &business_connection_id, const ::tele_rest::OptionalParam<QString> &bio) {
+    QString fullPath = QString(_serverConfigs["postSetBusinessAccountBio"][_serverIndices.value("postSetBusinessAccountBio")].URL()+"/setBusinessAccountBio");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -10575,7 +10575,7 @@ void OAIDefaultApi::setBusinessAccountBioPost(const QString &business_connection
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setBusinessAccountBioPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetBusinessAccountBioCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -10586,19 +10586,19 @@ void OAIDefaultApi::setBusinessAccountBioPost(const QString &business_connection
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setBusinessAccountBioPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetBusinessAccountBioCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetBusinessAccountBioResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setBusinessAccountBioPostSignal(output);
-        Q_EMIT setBusinessAccountBioPostSignalFull(worker, output);
+        Q_EMIT postSetBusinessAccountBioSignal(output);
+        Q_EMIT postSetBusinessAccountBioSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -10615,8 +10615,8 @@ void OAIDefaultApi::setBusinessAccountBioPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setBusinessAccountBioPostSignalE(output, error_type, error_str);
-        Q_EMIT setBusinessAccountBioPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetBusinessAccountBioSignalE(output, error_type, error_str);
+        Q_EMIT postSetBusinessAccountBioSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -10626,13 +10626,13 @@ void OAIDefaultApi::setBusinessAccountBioPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setBusinessAccountBioPostSignalError(output, error_type, error_str);
-        Q_EMIT setBusinessAccountBioPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetBusinessAccountBioSignalError(output, error_type, error_str);
+        Q_EMIT postSetBusinessAccountBioSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setBusinessAccountGiftSettingsPost(const QString &business_connection_id, const bool &show_gift_button, const OAIAcceptedGiftTypes &accepted_gift_types) {
-    QString fullPath = QString(_serverConfigs["setBusinessAccountGiftSettingsPost"][_serverIndices.value("setBusinessAccountGiftSettingsPost")].URL()+"/setBusinessAccountGiftSettings");
+void OAIDefaultApi::postSetBusinessAccountGiftSettings(const QString &business_connection_id, const bool &show_gift_button, const OAIAcceptedGiftTypes &accepted_gift_types) {
+    QString fullPath = QString(_serverConfigs["postSetBusinessAccountGiftSettings"][_serverIndices.value("postSetBusinessAccountGiftSettings")].URL()+"/setBusinessAccountGiftSettings");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -10657,7 +10657,7 @@ void OAIDefaultApi::setBusinessAccountGiftSettingsPost(const QString &business_c
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setBusinessAccountGiftSettingsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetBusinessAccountGiftSettingsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -10668,19 +10668,19 @@ void OAIDefaultApi::setBusinessAccountGiftSettingsPost(const QString &business_c
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setBusinessAccountGiftSettingsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetBusinessAccountGiftSettingsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetBusinessAccountGiftSettingsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setBusinessAccountGiftSettingsPostSignal(output);
-        Q_EMIT setBusinessAccountGiftSettingsPostSignalFull(worker, output);
+        Q_EMIT postSetBusinessAccountGiftSettingsSignal(output);
+        Q_EMIT postSetBusinessAccountGiftSettingsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -10697,8 +10697,8 @@ void OAIDefaultApi::setBusinessAccountGiftSettingsPostCallback(OAIHttpRequestWor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setBusinessAccountGiftSettingsPostSignalE(output, error_type, error_str);
-        Q_EMIT setBusinessAccountGiftSettingsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetBusinessAccountGiftSettingsSignalE(output, error_type, error_str);
+        Q_EMIT postSetBusinessAccountGiftSettingsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -10708,13 +10708,13 @@ void OAIDefaultApi::setBusinessAccountGiftSettingsPostCallback(OAIHttpRequestWor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setBusinessAccountGiftSettingsPostSignalError(output, error_type, error_str);
-        Q_EMIT setBusinessAccountGiftSettingsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetBusinessAccountGiftSettingsSignalError(output, error_type, error_str);
+        Q_EMIT postSetBusinessAccountGiftSettingsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setBusinessAccountNamePost(const QString &business_connection_id, const QString &first_name, const ::tele_rest::OptionalParam<QString> &last_name) {
-    QString fullPath = QString(_serverConfigs["setBusinessAccountNamePost"][_serverIndices.value("setBusinessAccountNamePost")].URL()+"/setBusinessAccountName");
+void OAIDefaultApi::postSetBusinessAccountName(const QString &business_connection_id, const QString &first_name, const ::tele_rest::OptionalParam<QString> &last_name) {
+    QString fullPath = QString(_serverConfigs["postSetBusinessAccountName"][_serverIndices.value("postSetBusinessAccountName")].URL()+"/setBusinessAccountName");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -10739,7 +10739,7 @@ void OAIDefaultApi::setBusinessAccountNamePost(const QString &business_connectio
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setBusinessAccountNamePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetBusinessAccountNameCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -10750,19 +10750,19 @@ void OAIDefaultApi::setBusinessAccountNamePost(const QString &business_connectio
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setBusinessAccountNamePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetBusinessAccountNameCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetBusinessAccountNameResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setBusinessAccountNamePostSignal(output);
-        Q_EMIT setBusinessAccountNamePostSignalFull(worker, output);
+        Q_EMIT postSetBusinessAccountNameSignal(output);
+        Q_EMIT postSetBusinessAccountNameSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -10779,8 +10779,8 @@ void OAIDefaultApi::setBusinessAccountNamePostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setBusinessAccountNamePostSignalE(output, error_type, error_str);
-        Q_EMIT setBusinessAccountNamePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetBusinessAccountNameSignalE(output, error_type, error_str);
+        Q_EMIT postSetBusinessAccountNameSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -10790,13 +10790,13 @@ void OAIDefaultApi::setBusinessAccountNamePostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setBusinessAccountNamePostSignalError(output, error_type, error_str);
-        Q_EMIT setBusinessAccountNamePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetBusinessAccountNameSignalError(output, error_type, error_str);
+        Q_EMIT postSetBusinessAccountNameSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setBusinessAccountProfilePhotoPost(const QString &business_connection_id, const OAIInputProfilePhoto &photo, const ::tele_rest::OptionalParam<bool> &is_public) {
-    QString fullPath = QString(_serverConfigs["setBusinessAccountProfilePhotoPost"][_serverIndices.value("setBusinessAccountProfilePhotoPost")].URL()+"/setBusinessAccountProfilePhoto");
+void OAIDefaultApi::postSetBusinessAccountProfilePhoto(const QString &business_connection_id, const OAIInputProfilePhoto &photo, const ::tele_rest::OptionalParam<bool> &is_public) {
+    QString fullPath = QString(_serverConfigs["postSetBusinessAccountProfilePhoto"][_serverIndices.value("postSetBusinessAccountProfilePhoto")].URL()+"/setBusinessAccountProfilePhoto");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -10821,7 +10821,7 @@ void OAIDefaultApi::setBusinessAccountProfilePhotoPost(const QString &business_c
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setBusinessAccountProfilePhotoPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetBusinessAccountProfilePhotoCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -10832,19 +10832,19 @@ void OAIDefaultApi::setBusinessAccountProfilePhotoPost(const QString &business_c
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setBusinessAccountProfilePhotoPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetBusinessAccountProfilePhotoCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetBusinessAccountProfilePhotoResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setBusinessAccountProfilePhotoPostSignal(output);
-        Q_EMIT setBusinessAccountProfilePhotoPostSignalFull(worker, output);
+        Q_EMIT postSetBusinessAccountProfilePhotoSignal(output);
+        Q_EMIT postSetBusinessAccountProfilePhotoSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -10861,8 +10861,8 @@ void OAIDefaultApi::setBusinessAccountProfilePhotoPostCallback(OAIHttpRequestWor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setBusinessAccountProfilePhotoPostSignalE(output, error_type, error_str);
-        Q_EMIT setBusinessAccountProfilePhotoPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetBusinessAccountProfilePhotoSignalE(output, error_type, error_str);
+        Q_EMIT postSetBusinessAccountProfilePhotoSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -10872,13 +10872,13 @@ void OAIDefaultApi::setBusinessAccountProfilePhotoPostCallback(OAIHttpRequestWor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setBusinessAccountProfilePhotoPostSignalError(output, error_type, error_str);
-        Q_EMIT setBusinessAccountProfilePhotoPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetBusinessAccountProfilePhotoSignalError(output, error_type, error_str);
+        Q_EMIT postSetBusinessAccountProfilePhotoSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setBusinessAccountUsernamePost(const QString &business_connection_id, const ::tele_rest::OptionalParam<QString> &username) {
-    QString fullPath = QString(_serverConfigs["setBusinessAccountUsernamePost"][_serverIndices.value("setBusinessAccountUsernamePost")].URL()+"/setBusinessAccountUsername");
+void OAIDefaultApi::postSetBusinessAccountUsername(const QString &business_connection_id, const ::tele_rest::OptionalParam<QString> &username) {
+    QString fullPath = QString(_serverConfigs["postSetBusinessAccountUsername"][_serverIndices.value("postSetBusinessAccountUsername")].URL()+"/setBusinessAccountUsername");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -10899,7 +10899,7 @@ void OAIDefaultApi::setBusinessAccountUsernamePost(const QString &business_conne
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setBusinessAccountUsernamePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetBusinessAccountUsernameCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -10910,19 +10910,19 @@ void OAIDefaultApi::setBusinessAccountUsernamePost(const QString &business_conne
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setBusinessAccountUsernamePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetBusinessAccountUsernameCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetBusinessAccountUsernameResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setBusinessAccountUsernamePostSignal(output);
-        Q_EMIT setBusinessAccountUsernamePostSignalFull(worker, output);
+        Q_EMIT postSetBusinessAccountUsernameSignal(output);
+        Q_EMIT postSetBusinessAccountUsernameSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -10939,8 +10939,8 @@ void OAIDefaultApi::setBusinessAccountUsernamePostCallback(OAIHttpRequestWorker 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setBusinessAccountUsernamePostSignalE(output, error_type, error_str);
-        Q_EMIT setBusinessAccountUsernamePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetBusinessAccountUsernameSignalE(output, error_type, error_str);
+        Q_EMIT postSetBusinessAccountUsernameSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -10950,13 +10950,13 @@ void OAIDefaultApi::setBusinessAccountUsernamePostCallback(OAIHttpRequestWorker 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setBusinessAccountUsernamePostSignalError(output, error_type, error_str);
-        Q_EMIT setBusinessAccountUsernamePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetBusinessAccountUsernameSignalError(output, error_type, error_str);
+        Q_EMIT postSetBusinessAccountUsernameSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setChatAdministratorCustomTitlePost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &user_id, const QString &custom_title) {
-    QString fullPath = QString(_serverConfigs["setChatAdministratorCustomTitlePost"][_serverIndices.value("setChatAdministratorCustomTitlePost")].URL()+"/setChatAdministratorCustomTitle");
+void OAIDefaultApi::postSetChatAdministratorCustomTitle(const OAIBotCommandScopeChat_chat_id &chat_id, const qint32 &user_id, const QString &custom_title) {
+    QString fullPath = QString(_serverConfigs["postSetChatAdministratorCustomTitle"][_serverIndices.value("postSetChatAdministratorCustomTitle")].URL()+"/setChatAdministratorCustomTitle");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -10981,7 +10981,7 @@ void OAIDefaultApi::setChatAdministratorCustomTitlePost(const OAI_restrictChatMe
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setChatAdministratorCustomTitlePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetChatAdministratorCustomTitleCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -10992,19 +10992,19 @@ void OAIDefaultApi::setChatAdministratorCustomTitlePost(const OAI_restrictChatMe
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setChatAdministratorCustomTitlePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetChatAdministratorCustomTitleCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetChatAdministratorCustomTitleResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setChatAdministratorCustomTitlePostSignal(output);
-        Q_EMIT setChatAdministratorCustomTitlePostSignalFull(worker, output);
+        Q_EMIT postSetChatAdministratorCustomTitleSignal(output);
+        Q_EMIT postSetChatAdministratorCustomTitleSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11021,8 +11021,8 @@ void OAIDefaultApi::setChatAdministratorCustomTitlePostCallback(OAIHttpRequestWo
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setChatAdministratorCustomTitlePostSignalE(output, error_type, error_str);
-        Q_EMIT setChatAdministratorCustomTitlePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetChatAdministratorCustomTitleSignalE(output, error_type, error_str);
+        Q_EMIT postSetChatAdministratorCustomTitleSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -11032,13 +11032,13 @@ void OAIDefaultApi::setChatAdministratorCustomTitlePostCallback(OAIHttpRequestWo
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setChatAdministratorCustomTitlePostSignalError(output, error_type, error_str);
-        Q_EMIT setChatAdministratorCustomTitlePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetChatAdministratorCustomTitleSignalError(output, error_type, error_str);
+        Q_EMIT postSetChatAdministratorCustomTitleSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setChatDescriptionPost(const OAI_sendMessage_post_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &description) {
-    QString fullPath = QString(_serverConfigs["setChatDescriptionPost"][_serverIndices.value("setChatDescriptionPost")].URL()+"/setChatDescription");
+void OAIDefaultApi::postSetChatDescription(const OAISendMessageRequest_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &description) {
+    QString fullPath = QString(_serverConfigs["postSetChatDescription"][_serverIndices.value("postSetChatDescription")].URL()+"/setChatDescription");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -11059,7 +11059,7 @@ void OAIDefaultApi::setChatDescriptionPost(const OAI_sendMessage_post_request_ch
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setChatDescriptionPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetChatDescriptionCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -11070,19 +11070,19 @@ void OAIDefaultApi::setChatDescriptionPost(const OAI_sendMessage_post_request_ch
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setChatDescriptionPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetChatDescriptionCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetChatDescriptionResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setChatDescriptionPostSignal(output);
-        Q_EMIT setChatDescriptionPostSignalFull(worker, output);
+        Q_EMIT postSetChatDescriptionSignal(output);
+        Q_EMIT postSetChatDescriptionSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11099,8 +11099,8 @@ void OAIDefaultApi::setChatDescriptionPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setChatDescriptionPostSignalE(output, error_type, error_str);
-        Q_EMIT setChatDescriptionPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetChatDescriptionSignalE(output, error_type, error_str);
+        Q_EMIT postSetChatDescriptionSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -11110,13 +11110,13 @@ void OAIDefaultApi::setChatDescriptionPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setChatDescriptionPostSignalError(output, error_type, error_str);
-        Q_EMIT setChatDescriptionPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetChatDescriptionSignalError(output, error_type, error_str);
+        Q_EMIT postSetChatDescriptionSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setChatMenuButtonPost(const ::tele_rest::OptionalParam<qint32> &chat_id, const ::tele_rest::OptionalParam<OAIMenuButton> &menu_button) {
-    QString fullPath = QString(_serverConfigs["setChatMenuButtonPost"][_serverIndices.value("setChatMenuButtonPost")].URL()+"/setChatMenuButton");
+void OAIDefaultApi::postSetChatMenuButton(const ::tele_rest::OptionalParam<qint32> &chat_id, const ::tele_rest::OptionalParam<OAIMenuButton> &menu_button) {
+    QString fullPath = QString(_serverConfigs["postSetChatMenuButton"][_serverIndices.value("postSetChatMenuButton")].URL()+"/setChatMenuButton");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -11137,7 +11137,7 @@ void OAIDefaultApi::setChatMenuButtonPost(const ::tele_rest::OptionalParam<qint3
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setChatMenuButtonPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetChatMenuButtonCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -11148,19 +11148,19 @@ void OAIDefaultApi::setChatMenuButtonPost(const ::tele_rest::OptionalParam<qint3
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setChatMenuButtonPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetChatMenuButtonCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetChatMenuButtonResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setChatMenuButtonPostSignal(output);
-        Q_EMIT setChatMenuButtonPostSignalFull(worker, output);
+        Q_EMIT postSetChatMenuButtonSignal(output);
+        Q_EMIT postSetChatMenuButtonSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11177,8 +11177,8 @@ void OAIDefaultApi::setChatMenuButtonPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setChatMenuButtonPostSignalE(output, error_type, error_str);
-        Q_EMIT setChatMenuButtonPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetChatMenuButtonSignalE(output, error_type, error_str);
+        Q_EMIT postSetChatMenuButtonSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -11188,13 +11188,13 @@ void OAIDefaultApi::setChatMenuButtonPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setChatMenuButtonPostSignalError(output, error_type, error_str);
-        Q_EMIT setChatMenuButtonPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetChatMenuButtonSignalError(output, error_type, error_str);
+        Q_EMIT postSetChatMenuButtonSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setChatPermissionsPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const OAIChatPermissions &permissions, const ::tele_rest::OptionalParam<bool> &use_independent_chat_permissions) {
-    QString fullPath = QString(_serverConfigs["setChatPermissionsPost"][_serverIndices.value("setChatPermissionsPost")].URL()+"/setChatPermissions");
+void OAIDefaultApi::postSetChatPermissions(const OAIBotCommandScopeChat_chat_id &chat_id, const OAIChatPermissions &permissions, const ::tele_rest::OptionalParam<bool> &use_independent_chat_permissions) {
+    QString fullPath = QString(_serverConfigs["postSetChatPermissions"][_serverIndices.value("postSetChatPermissions")].URL()+"/setChatPermissions");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -11219,7 +11219,7 @@ void OAIDefaultApi::setChatPermissionsPost(const OAI_restrictChatMember_post_req
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setChatPermissionsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetChatPermissionsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -11230,19 +11230,19 @@ void OAIDefaultApi::setChatPermissionsPost(const OAI_restrictChatMember_post_req
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setChatPermissionsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetChatPermissionsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetChatPermissionsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setChatPermissionsPostSignal(output);
-        Q_EMIT setChatPermissionsPostSignalFull(worker, output);
+        Q_EMIT postSetChatPermissionsSignal(output);
+        Q_EMIT postSetChatPermissionsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11259,8 +11259,8 @@ void OAIDefaultApi::setChatPermissionsPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setChatPermissionsPostSignalE(output, error_type, error_str);
-        Q_EMIT setChatPermissionsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetChatPermissionsSignalE(output, error_type, error_str);
+        Q_EMIT postSetChatPermissionsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -11270,13 +11270,13 @@ void OAIDefaultApi::setChatPermissionsPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setChatPermissionsPostSignalError(output, error_type, error_str);
-        Q_EMIT setChatPermissionsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetChatPermissionsSignalError(output, error_type, error_str);
+        Q_EMIT postSetChatPermissionsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setChatPhotoPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QJsonValue &photo) {
-    QString fullPath = QString(_serverConfigs["setChatPhotoPost"][_serverIndices.value("setChatPhotoPost")].URL()+"/setChatPhoto");
+void OAIDefaultApi::postSetChatPhoto(const OAISendMessageRequest_chat_id &chat_id, const QJsonValue &photo) {
+    QString fullPath = QString(_serverConfigs["postSetChatPhoto"][_serverIndices.value("postSetChatPhoto")].URL()+"/setChatPhoto");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -11297,7 +11297,7 @@ void OAIDefaultApi::setChatPhotoPost(const OAI_sendMessage_post_request_chat_id 
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setChatPhotoPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetChatPhotoCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -11308,19 +11308,19 @@ void OAIDefaultApi::setChatPhotoPost(const OAI_sendMessage_post_request_chat_id 
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setChatPhotoPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetChatPhotoCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetChatPhotoResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setChatPhotoPostSignal(output);
-        Q_EMIT setChatPhotoPostSignalFull(worker, output);
+        Q_EMIT postSetChatPhotoSignal(output);
+        Q_EMIT postSetChatPhotoSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11337,8 +11337,8 @@ void OAIDefaultApi::setChatPhotoPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setChatPhotoPostSignalE(output, error_type, error_str);
-        Q_EMIT setChatPhotoPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetChatPhotoSignalE(output, error_type, error_str);
+        Q_EMIT postSetChatPhotoSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -11348,13 +11348,13 @@ void OAIDefaultApi::setChatPhotoPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setChatPhotoPostSignalError(output, error_type, error_str);
-        Q_EMIT setChatPhotoPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetChatPhotoSignalError(output, error_type, error_str);
+        Q_EMIT postSetChatPhotoSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setChatStickerSetPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const QString &sticker_set_name) {
-    QString fullPath = QString(_serverConfigs["setChatStickerSetPost"][_serverIndices.value("setChatStickerSetPost")].URL()+"/setChatStickerSet");
+void OAIDefaultApi::postSetChatStickerSet(const OAIBotCommandScopeChat_chat_id &chat_id, const QString &sticker_set_name) {
+    QString fullPath = QString(_serverConfigs["postSetChatStickerSet"][_serverIndices.value("postSetChatStickerSet")].URL()+"/setChatStickerSet");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -11375,7 +11375,7 @@ void OAIDefaultApi::setChatStickerSetPost(const OAI_restrictChatMember_post_requ
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setChatStickerSetPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetChatStickerSetCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -11386,19 +11386,19 @@ void OAIDefaultApi::setChatStickerSetPost(const OAI_restrictChatMember_post_requ
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setChatStickerSetPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetChatStickerSetCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetChatStickerSetResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setChatStickerSetPostSignal(output);
-        Q_EMIT setChatStickerSetPostSignalFull(worker, output);
+        Q_EMIT postSetChatStickerSetSignal(output);
+        Q_EMIT postSetChatStickerSetSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11415,8 +11415,8 @@ void OAIDefaultApi::setChatStickerSetPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setChatStickerSetPostSignalE(output, error_type, error_str);
-        Q_EMIT setChatStickerSetPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetChatStickerSetSignalE(output, error_type, error_str);
+        Q_EMIT postSetChatStickerSetSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -11426,13 +11426,13 @@ void OAIDefaultApi::setChatStickerSetPostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setChatStickerSetPostSignalError(output, error_type, error_str);
-        Q_EMIT setChatStickerSetPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetChatStickerSetSignalError(output, error_type, error_str);
+        Q_EMIT postSetChatStickerSetSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setChatTitlePost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &title) {
-    QString fullPath = QString(_serverConfigs["setChatTitlePost"][_serverIndices.value("setChatTitlePost")].URL()+"/setChatTitle");
+void OAIDefaultApi::postSetChatTitle(const OAISendMessageRequest_chat_id &chat_id, const QString &title) {
+    QString fullPath = QString(_serverConfigs["postSetChatTitle"][_serverIndices.value("postSetChatTitle")].URL()+"/setChatTitle");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -11453,7 +11453,7 @@ void OAIDefaultApi::setChatTitlePost(const OAI_sendMessage_post_request_chat_id 
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setChatTitlePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetChatTitleCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -11464,19 +11464,19 @@ void OAIDefaultApi::setChatTitlePost(const OAI_sendMessage_post_request_chat_id 
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setChatTitlePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetChatTitleCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetChatTitleResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setChatTitlePostSignal(output);
-        Q_EMIT setChatTitlePostSignalFull(worker, output);
+        Q_EMIT postSetChatTitleSignal(output);
+        Q_EMIT postSetChatTitleSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11493,8 +11493,8 @@ void OAIDefaultApi::setChatTitlePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setChatTitlePostSignalE(output, error_type, error_str);
-        Q_EMIT setChatTitlePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetChatTitleSignalE(output, error_type, error_str);
+        Q_EMIT postSetChatTitleSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -11504,13 +11504,13 @@ void OAIDefaultApi::setChatTitlePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setChatTitlePostSignalError(output, error_type, error_str);
-        Q_EMIT setChatTitlePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetChatTitleSignalError(output, error_type, error_str);
+        Q_EMIT postSetChatTitleSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setCustomEmojiStickerSetThumbnailPost(const QString &name, const ::tele_rest::OptionalParam<QString> &custom_emoji_id) {
-    QString fullPath = QString(_serverConfigs["setCustomEmojiStickerSetThumbnailPost"][_serverIndices.value("setCustomEmojiStickerSetThumbnailPost")].URL()+"/setCustomEmojiStickerSetThumbnail");
+void OAIDefaultApi::postSetCustomEmojiStickerSetThumbnail(const QString &name, const ::tele_rest::OptionalParam<QString> &custom_emoji_id) {
+    QString fullPath = QString(_serverConfigs["postSetCustomEmojiStickerSetThumbnail"][_serverIndices.value("postSetCustomEmojiStickerSetThumbnail")].URL()+"/setCustomEmojiStickerSetThumbnail");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -11531,7 +11531,7 @@ void OAIDefaultApi::setCustomEmojiStickerSetThumbnailPost(const QString &name, c
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setCustomEmojiStickerSetThumbnailPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetCustomEmojiStickerSetThumbnailCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -11542,19 +11542,19 @@ void OAIDefaultApi::setCustomEmojiStickerSetThumbnailPost(const QString &name, c
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setCustomEmojiStickerSetThumbnailPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetCustomEmojiStickerSetThumbnailCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetCustomEmojiStickerSetThumbnailResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setCustomEmojiStickerSetThumbnailPostSignal(output);
-        Q_EMIT setCustomEmojiStickerSetThumbnailPostSignalFull(worker, output);
+        Q_EMIT postSetCustomEmojiStickerSetThumbnailSignal(output);
+        Q_EMIT postSetCustomEmojiStickerSetThumbnailSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11571,8 +11571,8 @@ void OAIDefaultApi::setCustomEmojiStickerSetThumbnailPostCallback(OAIHttpRequest
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setCustomEmojiStickerSetThumbnailPostSignalE(output, error_type, error_str);
-        Q_EMIT setCustomEmojiStickerSetThumbnailPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetCustomEmojiStickerSetThumbnailSignalE(output, error_type, error_str);
+        Q_EMIT postSetCustomEmojiStickerSetThumbnailSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -11582,13 +11582,13 @@ void OAIDefaultApi::setCustomEmojiStickerSetThumbnailPostCallback(OAIHttpRequest
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setCustomEmojiStickerSetThumbnailPostSignalError(output, error_type, error_str);
-        Q_EMIT setCustomEmojiStickerSetThumbnailPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetCustomEmojiStickerSetThumbnailSignalError(output, error_type, error_str);
+        Q_EMIT postSetCustomEmojiStickerSetThumbnailSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setGameScorePost(const qint32 &user_id, const qint32 &score, const ::tele_rest::OptionalParam<bool> &force, const ::tele_rest::OptionalParam<bool> &disable_edit_message, const ::tele_rest::OptionalParam<qint32> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id) {
-    QString fullPath = QString(_serverConfigs["setGameScorePost"][_serverIndices.value("setGameScorePost")].URL()+"/setGameScore");
+void OAIDefaultApi::postSetGameScore(const qint32 &user_id, const qint32 &score, const ::tele_rest::OptionalParam<bool> &force, const ::tele_rest::OptionalParam<bool> &disable_edit_message, const ::tele_rest::OptionalParam<qint32> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id) {
+    QString fullPath = QString(_serverConfigs["postSetGameScore"][_serverIndices.value("postSetGameScore")].URL()+"/setGameScore");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -11629,7 +11629,7 @@ void OAIDefaultApi::setGameScorePost(const qint32 &user_id, const qint32 &score,
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setGameScorePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetGameScoreCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -11640,19 +11640,19 @@ void OAIDefaultApi::setGameScorePost(const qint32 &user_id, const qint32 &score,
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setGameScorePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetGameScoreCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_editMessageText_post_200_response output(QString(worker->response));
+    OAISetGameScoreResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setGameScorePostSignal(output);
-        Q_EMIT setGameScorePostSignalFull(worker, output);
+        Q_EMIT postSetGameScoreSignal(output);
+        Q_EMIT postSetGameScoreSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11669,8 +11669,8 @@ void OAIDefaultApi::setGameScorePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setGameScorePostSignalE(output, error_type, error_str);
-        Q_EMIT setGameScorePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetGameScoreSignalE(output, error_type, error_str);
+        Q_EMIT postSetGameScoreSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -11680,13 +11680,13 @@ void OAIDefaultApi::setGameScorePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setGameScorePostSignalError(output, error_type, error_str);
-        Q_EMIT setGameScorePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetGameScoreSignalError(output, error_type, error_str);
+        Q_EMIT postSetGameScoreSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setMessageReactionPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<QList<OAIReactionType>> &reaction, const ::tele_rest::OptionalParam<bool> &is_big) {
-    QString fullPath = QString(_serverConfigs["setMessageReactionPost"][_serverIndices.value("setMessageReactionPost")].URL()+"/setMessageReaction");
+void OAIDefaultApi::postSetMessageReaction(const OAISendMessageRequest_chat_id &chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<QList<OAIReactionType>> &reaction, const ::tele_rest::OptionalParam<bool> &is_big) {
+    QString fullPath = QString(_serverConfigs["postSetMessageReaction"][_serverIndices.value("postSetMessageReaction")].URL()+"/setMessageReaction");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -11715,7 +11715,7 @@ void OAIDefaultApi::setMessageReactionPost(const OAI_sendMessage_post_request_ch
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setMessageReactionPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetMessageReactionCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -11726,19 +11726,19 @@ void OAIDefaultApi::setMessageReactionPost(const OAI_sendMessage_post_request_ch
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setMessageReactionPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetMessageReactionCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetMessageReactionResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setMessageReactionPostSignal(output);
-        Q_EMIT setMessageReactionPostSignalFull(worker, output);
+        Q_EMIT postSetMessageReactionSignal(output);
+        Q_EMIT postSetMessageReactionSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11755,8 +11755,8 @@ void OAIDefaultApi::setMessageReactionPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setMessageReactionPostSignalE(output, error_type, error_str);
-        Q_EMIT setMessageReactionPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetMessageReactionSignalE(output, error_type, error_str);
+        Q_EMIT postSetMessageReactionSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -11766,13 +11766,13 @@ void OAIDefaultApi::setMessageReactionPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setMessageReactionPostSignalError(output, error_type, error_str);
-        Q_EMIT setMessageReactionPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetMessageReactionSignalError(output, error_type, error_str);
+        Q_EMIT postSetMessageReactionSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setMyCommandsPost(const QList<OAIBotCommand> &commands, const ::tele_rest::OptionalParam<OAIBotCommandScope> &scope, const ::tele_rest::OptionalParam<QString> &language_code) {
-    QString fullPath = QString(_serverConfigs["setMyCommandsPost"][_serverIndices.value("setMyCommandsPost")].URL()+"/setMyCommands");
+void OAIDefaultApi::postSetMyCommands(const QList<OAIBotCommand> &commands, const ::tele_rest::OptionalParam<OAIBotCommandScope> &scope, const ::tele_rest::OptionalParam<QString> &language_code) {
+    QString fullPath = QString(_serverConfigs["postSetMyCommands"][_serverIndices.value("postSetMyCommands")].URL()+"/setMyCommands");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -11797,7 +11797,7 @@ void OAIDefaultApi::setMyCommandsPost(const QList<OAIBotCommand> &commands, cons
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setMyCommandsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetMyCommandsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -11808,19 +11808,19 @@ void OAIDefaultApi::setMyCommandsPost(const QList<OAIBotCommand> &commands, cons
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setMyCommandsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetMyCommandsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetMyCommandsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setMyCommandsPostSignal(output);
-        Q_EMIT setMyCommandsPostSignalFull(worker, output);
+        Q_EMIT postSetMyCommandsSignal(output);
+        Q_EMIT postSetMyCommandsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11837,8 +11837,8 @@ void OAIDefaultApi::setMyCommandsPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setMyCommandsPostSignalE(output, error_type, error_str);
-        Q_EMIT setMyCommandsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetMyCommandsSignalE(output, error_type, error_str);
+        Q_EMIT postSetMyCommandsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -11848,13 +11848,13 @@ void OAIDefaultApi::setMyCommandsPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setMyCommandsPostSignalError(output, error_type, error_str);
-        Q_EMIT setMyCommandsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetMyCommandsSignalError(output, error_type, error_str);
+        Q_EMIT postSetMyCommandsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setMyDefaultAdministratorRightsPost(const ::tele_rest::OptionalParam<OAIChatAdministratorRights> &rights, const ::tele_rest::OptionalParam<bool> &for_channels) {
-    QString fullPath = QString(_serverConfigs["setMyDefaultAdministratorRightsPost"][_serverIndices.value("setMyDefaultAdministratorRightsPost")].URL()+"/setMyDefaultAdministratorRights");
+void OAIDefaultApi::postSetMyDefaultAdministratorRights(const ::tele_rest::OptionalParam<OAIChatAdministratorRights> &rights, const ::tele_rest::OptionalParam<bool> &for_channels) {
+    QString fullPath = QString(_serverConfigs["postSetMyDefaultAdministratorRights"][_serverIndices.value("postSetMyDefaultAdministratorRights")].URL()+"/setMyDefaultAdministratorRights");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -11875,7 +11875,7 @@ void OAIDefaultApi::setMyDefaultAdministratorRightsPost(const ::tele_rest::Optio
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setMyDefaultAdministratorRightsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetMyDefaultAdministratorRightsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -11886,19 +11886,19 @@ void OAIDefaultApi::setMyDefaultAdministratorRightsPost(const ::tele_rest::Optio
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setMyDefaultAdministratorRightsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetMyDefaultAdministratorRightsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetMyDefaultAdministratorRightsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setMyDefaultAdministratorRightsPostSignal(output);
-        Q_EMIT setMyDefaultAdministratorRightsPostSignalFull(worker, output);
+        Q_EMIT postSetMyDefaultAdministratorRightsSignal(output);
+        Q_EMIT postSetMyDefaultAdministratorRightsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11915,8 +11915,8 @@ void OAIDefaultApi::setMyDefaultAdministratorRightsPostCallback(OAIHttpRequestWo
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setMyDefaultAdministratorRightsPostSignalE(output, error_type, error_str);
-        Q_EMIT setMyDefaultAdministratorRightsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetMyDefaultAdministratorRightsSignalE(output, error_type, error_str);
+        Q_EMIT postSetMyDefaultAdministratorRightsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -11926,13 +11926,13 @@ void OAIDefaultApi::setMyDefaultAdministratorRightsPostCallback(OAIHttpRequestWo
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setMyDefaultAdministratorRightsPostSignalError(output, error_type, error_str);
-        Q_EMIT setMyDefaultAdministratorRightsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetMyDefaultAdministratorRightsSignalError(output, error_type, error_str);
+        Q_EMIT postSetMyDefaultAdministratorRightsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setMyDescriptionPost(const ::tele_rest::OptionalParam<QString> &description, const ::tele_rest::OptionalParam<QString> &language_code) {
-    QString fullPath = QString(_serverConfigs["setMyDescriptionPost"][_serverIndices.value("setMyDescriptionPost")].URL()+"/setMyDescription");
+void OAIDefaultApi::postSetMyDescription(const ::tele_rest::OptionalParam<QString> &description, const ::tele_rest::OptionalParam<QString> &language_code) {
+    QString fullPath = QString(_serverConfigs["postSetMyDescription"][_serverIndices.value("postSetMyDescription")].URL()+"/setMyDescription");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -11953,7 +11953,7 @@ void OAIDefaultApi::setMyDescriptionPost(const ::tele_rest::OptionalParam<QStrin
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setMyDescriptionPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetMyDescriptionCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -11964,19 +11964,19 @@ void OAIDefaultApi::setMyDescriptionPost(const ::tele_rest::OptionalParam<QStrin
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setMyDescriptionPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetMyDescriptionCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetMyDescriptionResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setMyDescriptionPostSignal(output);
-        Q_EMIT setMyDescriptionPostSignalFull(worker, output);
+        Q_EMIT postSetMyDescriptionSignal(output);
+        Q_EMIT postSetMyDescriptionSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -11993,8 +11993,8 @@ void OAIDefaultApi::setMyDescriptionPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setMyDescriptionPostSignalE(output, error_type, error_str);
-        Q_EMIT setMyDescriptionPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetMyDescriptionSignalE(output, error_type, error_str);
+        Q_EMIT postSetMyDescriptionSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12004,13 +12004,13 @@ void OAIDefaultApi::setMyDescriptionPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setMyDescriptionPostSignalError(output, error_type, error_str);
-        Q_EMIT setMyDescriptionPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetMyDescriptionSignalError(output, error_type, error_str);
+        Q_EMIT postSetMyDescriptionSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setMyNamePost(const ::tele_rest::OptionalParam<QString> &name, const ::tele_rest::OptionalParam<QString> &language_code) {
-    QString fullPath = QString(_serverConfigs["setMyNamePost"][_serverIndices.value("setMyNamePost")].URL()+"/setMyName");
+void OAIDefaultApi::postSetMyName(const ::tele_rest::OptionalParam<QString> &name, const ::tele_rest::OptionalParam<QString> &language_code) {
+    QString fullPath = QString(_serverConfigs["postSetMyName"][_serverIndices.value("postSetMyName")].URL()+"/setMyName");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -12031,7 +12031,7 @@ void OAIDefaultApi::setMyNamePost(const ::tele_rest::OptionalParam<QString> &nam
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setMyNamePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetMyNameCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -12042,19 +12042,19 @@ void OAIDefaultApi::setMyNamePost(const ::tele_rest::OptionalParam<QString> &nam
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setMyNamePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetMyNameCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetMyNameResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setMyNamePostSignal(output);
-        Q_EMIT setMyNamePostSignalFull(worker, output);
+        Q_EMIT postSetMyNameSignal(output);
+        Q_EMIT postSetMyNameSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -12071,8 +12071,8 @@ void OAIDefaultApi::setMyNamePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setMyNamePostSignalE(output, error_type, error_str);
-        Q_EMIT setMyNamePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetMyNameSignalE(output, error_type, error_str);
+        Q_EMIT postSetMyNameSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12082,13 +12082,13 @@ void OAIDefaultApi::setMyNamePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setMyNamePostSignalError(output, error_type, error_str);
-        Q_EMIT setMyNamePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetMyNameSignalError(output, error_type, error_str);
+        Q_EMIT postSetMyNameSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setMyShortDescriptionPost(const ::tele_rest::OptionalParam<QString> &short_description, const ::tele_rest::OptionalParam<QString> &language_code) {
-    QString fullPath = QString(_serverConfigs["setMyShortDescriptionPost"][_serverIndices.value("setMyShortDescriptionPost")].URL()+"/setMyShortDescription");
+void OAIDefaultApi::postSetMyShortDescription(const ::tele_rest::OptionalParam<QString> &short_description, const ::tele_rest::OptionalParam<QString> &language_code) {
+    QString fullPath = QString(_serverConfigs["postSetMyShortDescription"][_serverIndices.value("postSetMyShortDescription")].URL()+"/setMyShortDescription");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -12109,7 +12109,7 @@ void OAIDefaultApi::setMyShortDescriptionPost(const ::tele_rest::OptionalParam<Q
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setMyShortDescriptionPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetMyShortDescriptionCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -12120,19 +12120,19 @@ void OAIDefaultApi::setMyShortDescriptionPost(const ::tele_rest::OptionalParam<Q
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setMyShortDescriptionPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetMyShortDescriptionCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetMyShortDescriptionResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setMyShortDescriptionPostSignal(output);
-        Q_EMIT setMyShortDescriptionPostSignalFull(worker, output);
+        Q_EMIT postSetMyShortDescriptionSignal(output);
+        Q_EMIT postSetMyShortDescriptionSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -12149,8 +12149,8 @@ void OAIDefaultApi::setMyShortDescriptionPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setMyShortDescriptionPostSignalE(output, error_type, error_str);
-        Q_EMIT setMyShortDescriptionPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetMyShortDescriptionSignalE(output, error_type, error_str);
+        Q_EMIT postSetMyShortDescriptionSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12160,13 +12160,13 @@ void OAIDefaultApi::setMyShortDescriptionPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setMyShortDescriptionPostSignalError(output, error_type, error_str);
-        Q_EMIT setMyShortDescriptionPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetMyShortDescriptionSignalError(output, error_type, error_str);
+        Q_EMIT postSetMyShortDescriptionSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setPassportDataErrorsPost(const qint32 &user_id, const QList<OAIPassportElementError> &errors) {
-    QString fullPath = QString(_serverConfigs["setPassportDataErrorsPost"][_serverIndices.value("setPassportDataErrorsPost")].URL()+"/setPassportDataErrors");
+void OAIDefaultApi::postSetPassportDataErrors(const qint32 &user_id, const QList<OAIPassportElementError> &errors) {
+    QString fullPath = QString(_serverConfigs["postSetPassportDataErrors"][_serverIndices.value("postSetPassportDataErrors")].URL()+"/setPassportDataErrors");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -12187,7 +12187,7 @@ void OAIDefaultApi::setPassportDataErrorsPost(const qint32 &user_id, const QList
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setPassportDataErrorsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetPassportDataErrorsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -12198,19 +12198,19 @@ void OAIDefaultApi::setPassportDataErrorsPost(const qint32 &user_id, const QList
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setPassportDataErrorsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetPassportDataErrorsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetPassportDataErrorsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setPassportDataErrorsPostSignal(output);
-        Q_EMIT setPassportDataErrorsPostSignalFull(worker, output);
+        Q_EMIT postSetPassportDataErrorsSignal(output);
+        Q_EMIT postSetPassportDataErrorsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -12227,8 +12227,8 @@ void OAIDefaultApi::setPassportDataErrorsPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setPassportDataErrorsPostSignalE(output, error_type, error_str);
-        Q_EMIT setPassportDataErrorsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetPassportDataErrorsSignalE(output, error_type, error_str);
+        Q_EMIT postSetPassportDataErrorsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12238,13 +12238,13 @@ void OAIDefaultApi::setPassportDataErrorsPostCallback(OAIHttpRequestWorker *work
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setPassportDataErrorsPostSignalError(output, error_type, error_str);
-        Q_EMIT setPassportDataErrorsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetPassportDataErrorsSignalError(output, error_type, error_str);
+        Q_EMIT postSetPassportDataErrorsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setStickerEmojiListPost(const QString &sticker, const QList<QString> &emoji_list) {
-    QString fullPath = QString(_serverConfigs["setStickerEmojiListPost"][_serverIndices.value("setStickerEmojiListPost")].URL()+"/setStickerEmojiList");
+void OAIDefaultApi::postSetStickerEmojiList(const QString &sticker, const QList<QString> &emoji_list) {
+    QString fullPath = QString(_serverConfigs["postSetStickerEmojiList"][_serverIndices.value("postSetStickerEmojiList")].URL()+"/setStickerEmojiList");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -12265,7 +12265,7 @@ void OAIDefaultApi::setStickerEmojiListPost(const QString &sticker, const QList<
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setStickerEmojiListPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetStickerEmojiListCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -12276,19 +12276,19 @@ void OAIDefaultApi::setStickerEmojiListPost(const QString &sticker, const QList<
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setStickerEmojiListPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetStickerEmojiListCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetStickerEmojiListResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setStickerEmojiListPostSignal(output);
-        Q_EMIT setStickerEmojiListPostSignalFull(worker, output);
+        Q_EMIT postSetStickerEmojiListSignal(output);
+        Q_EMIT postSetStickerEmojiListSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -12305,8 +12305,8 @@ void OAIDefaultApi::setStickerEmojiListPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setStickerEmojiListPostSignalE(output, error_type, error_str);
-        Q_EMIT setStickerEmojiListPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetStickerEmojiListSignalE(output, error_type, error_str);
+        Q_EMIT postSetStickerEmojiListSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12316,13 +12316,13 @@ void OAIDefaultApi::setStickerEmojiListPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setStickerEmojiListPostSignalError(output, error_type, error_str);
-        Q_EMIT setStickerEmojiListPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetStickerEmojiListSignalError(output, error_type, error_str);
+        Q_EMIT postSetStickerEmojiListSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setStickerKeywordsPost(const QString &sticker, const ::tele_rest::OptionalParam<QList<QString>> &keywords) {
-    QString fullPath = QString(_serverConfigs["setStickerKeywordsPost"][_serverIndices.value("setStickerKeywordsPost")].URL()+"/setStickerKeywords");
+void OAIDefaultApi::postSetStickerKeywords(const QString &sticker, const ::tele_rest::OptionalParam<QList<QString>> &keywords) {
+    QString fullPath = QString(_serverConfigs["postSetStickerKeywords"][_serverIndices.value("postSetStickerKeywords")].URL()+"/setStickerKeywords");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -12343,7 +12343,7 @@ void OAIDefaultApi::setStickerKeywordsPost(const QString &sticker, const ::tele_
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setStickerKeywordsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetStickerKeywordsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -12354,19 +12354,19 @@ void OAIDefaultApi::setStickerKeywordsPost(const QString &sticker, const ::tele_
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setStickerKeywordsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetStickerKeywordsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetStickerKeywordsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setStickerKeywordsPostSignal(output);
-        Q_EMIT setStickerKeywordsPostSignalFull(worker, output);
+        Q_EMIT postSetStickerKeywordsSignal(output);
+        Q_EMIT postSetStickerKeywordsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -12383,8 +12383,8 @@ void OAIDefaultApi::setStickerKeywordsPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setStickerKeywordsPostSignalE(output, error_type, error_str);
-        Q_EMIT setStickerKeywordsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetStickerKeywordsSignalE(output, error_type, error_str);
+        Q_EMIT postSetStickerKeywordsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12394,13 +12394,13 @@ void OAIDefaultApi::setStickerKeywordsPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setStickerKeywordsPostSignalError(output, error_type, error_str);
-        Q_EMIT setStickerKeywordsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetStickerKeywordsSignalError(output, error_type, error_str);
+        Q_EMIT postSetStickerKeywordsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setStickerMaskPositionPost(const QString &sticker, const ::tele_rest::OptionalParam<OAIMaskPosition> &mask_position) {
-    QString fullPath = QString(_serverConfigs["setStickerMaskPositionPost"][_serverIndices.value("setStickerMaskPositionPost")].URL()+"/setStickerMaskPosition");
+void OAIDefaultApi::postSetStickerMaskPosition(const QString &sticker, const ::tele_rest::OptionalParam<OAIMaskPosition> &mask_position) {
+    QString fullPath = QString(_serverConfigs["postSetStickerMaskPosition"][_serverIndices.value("postSetStickerMaskPosition")].URL()+"/setStickerMaskPosition");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -12421,7 +12421,7 @@ void OAIDefaultApi::setStickerMaskPositionPost(const QString &sticker, const ::t
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setStickerMaskPositionPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetStickerMaskPositionCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -12432,19 +12432,19 @@ void OAIDefaultApi::setStickerMaskPositionPost(const QString &sticker, const ::t
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setStickerMaskPositionPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetStickerMaskPositionCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetStickerMaskPositionResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setStickerMaskPositionPostSignal(output);
-        Q_EMIT setStickerMaskPositionPostSignalFull(worker, output);
+        Q_EMIT postSetStickerMaskPositionSignal(output);
+        Q_EMIT postSetStickerMaskPositionSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -12461,8 +12461,8 @@ void OAIDefaultApi::setStickerMaskPositionPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setStickerMaskPositionPostSignalE(output, error_type, error_str);
-        Q_EMIT setStickerMaskPositionPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetStickerMaskPositionSignalE(output, error_type, error_str);
+        Q_EMIT postSetStickerMaskPositionSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12472,13 +12472,13 @@ void OAIDefaultApi::setStickerMaskPositionPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setStickerMaskPositionPostSignalError(output, error_type, error_str);
-        Q_EMIT setStickerMaskPositionPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetStickerMaskPositionSignalError(output, error_type, error_str);
+        Q_EMIT postSetStickerMaskPositionSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setStickerPositionInSetPost(const QString &sticker, const qint32 &position) {
-    QString fullPath = QString(_serverConfigs["setStickerPositionInSetPost"][_serverIndices.value("setStickerPositionInSetPost")].URL()+"/setStickerPositionInSet");
+void OAIDefaultApi::postSetStickerPositionInSet(const QString &sticker, const qint32 &position) {
+    QString fullPath = QString(_serverConfigs["postSetStickerPositionInSet"][_serverIndices.value("postSetStickerPositionInSet")].URL()+"/setStickerPositionInSet");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -12499,7 +12499,7 @@ void OAIDefaultApi::setStickerPositionInSetPost(const QString &sticker, const qi
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setStickerPositionInSetPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetStickerPositionInSetCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -12510,19 +12510,19 @@ void OAIDefaultApi::setStickerPositionInSetPost(const QString &sticker, const qi
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setStickerPositionInSetPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetStickerPositionInSetCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetStickerPositionInSetResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setStickerPositionInSetPostSignal(output);
-        Q_EMIT setStickerPositionInSetPostSignalFull(worker, output);
+        Q_EMIT postSetStickerPositionInSetSignal(output);
+        Q_EMIT postSetStickerPositionInSetSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -12539,8 +12539,8 @@ void OAIDefaultApi::setStickerPositionInSetPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setStickerPositionInSetPostSignalE(output, error_type, error_str);
-        Q_EMIT setStickerPositionInSetPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetStickerPositionInSetSignalE(output, error_type, error_str);
+        Q_EMIT postSetStickerPositionInSetSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12550,13 +12550,13 @@ void OAIDefaultApi::setStickerPositionInSetPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setStickerPositionInSetPostSignalError(output, error_type, error_str);
-        Q_EMIT setStickerPositionInSetPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetStickerPositionInSetSignalError(output, error_type, error_str);
+        Q_EMIT postSetStickerPositionInSetSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setStickerSetThumbnailPost(const QString &name, const qint32 &user_id, const QString &format, const ::tele_rest::OptionalParam<OAI_setStickerSetThumbnail_post_request_thumbnail> &thumbnail) {
-    QString fullPath = QString(_serverConfigs["setStickerSetThumbnailPost"][_serverIndices.value("setStickerSetThumbnailPost")].URL()+"/setStickerSetThumbnail");
+void OAIDefaultApi::postSetStickerSetThumbnail(const QString &name, const qint32 &user_id, const QString &format, const ::tele_rest::OptionalParam<QString> &thumbnail) {
+    QString fullPath = QString(_serverConfigs["postSetStickerSetThumbnail"][_serverIndices.value("postSetStickerSetThumbnail")].URL()+"/setStickerSetThumbnail");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -12585,7 +12585,7 @@ void OAIDefaultApi::setStickerSetThumbnailPost(const QString &name, const qint32
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setStickerSetThumbnailPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetStickerSetThumbnailCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -12596,19 +12596,19 @@ void OAIDefaultApi::setStickerSetThumbnailPost(const QString &name, const qint32
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setStickerSetThumbnailPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetStickerSetThumbnailCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetStickerSetThumbnailResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setStickerSetThumbnailPostSignal(output);
-        Q_EMIT setStickerSetThumbnailPostSignalFull(worker, output);
+        Q_EMIT postSetStickerSetThumbnailSignal(output);
+        Q_EMIT postSetStickerSetThumbnailSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -12625,8 +12625,8 @@ void OAIDefaultApi::setStickerSetThumbnailPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setStickerSetThumbnailPostSignalE(output, error_type, error_str);
-        Q_EMIT setStickerSetThumbnailPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetStickerSetThumbnailSignalE(output, error_type, error_str);
+        Q_EMIT postSetStickerSetThumbnailSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12636,13 +12636,13 @@ void OAIDefaultApi::setStickerSetThumbnailPostCallback(OAIHttpRequestWorker *wor
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setStickerSetThumbnailPostSignalError(output, error_type, error_str);
-        Q_EMIT setStickerSetThumbnailPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetStickerSetThumbnailSignalError(output, error_type, error_str);
+        Q_EMIT postSetStickerSetThumbnailSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setStickerSetTitlePost(const QString &name, const QString &title) {
-    QString fullPath = QString(_serverConfigs["setStickerSetTitlePost"][_serverIndices.value("setStickerSetTitlePost")].URL()+"/setStickerSetTitle");
+void OAIDefaultApi::postSetStickerSetTitle(const QString &name, const QString &title) {
+    QString fullPath = QString(_serverConfigs["postSetStickerSetTitle"][_serverIndices.value("postSetStickerSetTitle")].URL()+"/setStickerSetTitle");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -12663,7 +12663,7 @@ void OAIDefaultApi::setStickerSetTitlePost(const QString &name, const QString &t
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setStickerSetTitlePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetStickerSetTitleCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -12674,19 +12674,19 @@ void OAIDefaultApi::setStickerSetTitlePost(const QString &name, const QString &t
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setStickerSetTitlePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetStickerSetTitleCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetStickerSetTitleResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setStickerSetTitlePostSignal(output);
-        Q_EMIT setStickerSetTitlePostSignalFull(worker, output);
+        Q_EMIT postSetStickerSetTitleSignal(output);
+        Q_EMIT postSetStickerSetTitleSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -12703,8 +12703,8 @@ void OAIDefaultApi::setStickerSetTitlePostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setStickerSetTitlePostSignalE(output, error_type, error_str);
-        Q_EMIT setStickerSetTitlePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetStickerSetTitleSignalE(output, error_type, error_str);
+        Q_EMIT postSetStickerSetTitleSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12714,13 +12714,13 @@ void OAIDefaultApi::setStickerSetTitlePostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setStickerSetTitlePostSignalError(output, error_type, error_str);
-        Q_EMIT setStickerSetTitlePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetStickerSetTitleSignalError(output, error_type, error_str);
+        Q_EMIT postSetStickerSetTitleSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setUserEmojiStatusPost(const qint32 &user_id, const ::tele_rest::OptionalParam<QString> &emoji_status_custom_emoji_id, const ::tele_rest::OptionalParam<qint32> &emoji_status_expiration_date) {
-    QString fullPath = QString(_serverConfigs["setUserEmojiStatusPost"][_serverIndices.value("setUserEmojiStatusPost")].URL()+"/setUserEmojiStatus");
+void OAIDefaultApi::postSetUserEmojiStatus(const qint32 &user_id, const ::tele_rest::OptionalParam<QString> &emoji_status_custom_emoji_id, const ::tele_rest::OptionalParam<qint32> &emoji_status_expiration_date) {
+    QString fullPath = QString(_serverConfigs["postSetUserEmojiStatus"][_serverIndices.value("postSetUserEmojiStatus")].URL()+"/setUserEmojiStatus");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -12745,7 +12745,7 @@ void OAIDefaultApi::setUserEmojiStatusPost(const qint32 &user_id, const ::tele_r
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setUserEmojiStatusPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetUserEmojiStatusCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -12756,19 +12756,19 @@ void OAIDefaultApi::setUserEmojiStatusPost(const qint32 &user_id, const ::tele_r
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setUserEmojiStatusPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetUserEmojiStatusCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetUserEmojiStatusResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setUserEmojiStatusPostSignal(output);
-        Q_EMIT setUserEmojiStatusPostSignalFull(worker, output);
+        Q_EMIT postSetUserEmojiStatusSignal(output);
+        Q_EMIT postSetUserEmojiStatusSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -12785,8 +12785,8 @@ void OAIDefaultApi::setUserEmojiStatusPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setUserEmojiStatusPostSignalE(output, error_type, error_str);
-        Q_EMIT setUserEmojiStatusPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetUserEmojiStatusSignalE(output, error_type, error_str);
+        Q_EMIT postSetUserEmojiStatusSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12796,13 +12796,13 @@ void OAIDefaultApi::setUserEmojiStatusPostCallback(OAIHttpRequestWorker *worker)
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setUserEmojiStatusPostSignalError(output, error_type, error_str);
-        Q_EMIT setUserEmojiStatusPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetUserEmojiStatusSignalError(output, error_type, error_str);
+        Q_EMIT postSetUserEmojiStatusSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::setWebhookPost(const QString &url, const ::tele_rest::OptionalParam<QJsonValue> &certificate, const ::tele_rest::OptionalParam<QString> &ip_address, const ::tele_rest::OptionalParam<qint32> &max_connections, const ::tele_rest::OptionalParam<QList<QString>> &allowed_updates, const ::tele_rest::OptionalParam<bool> &drop_pending_updates, const ::tele_rest::OptionalParam<QString> &secret_token) {
-    QString fullPath = QString(_serverConfigs["setWebhookPost"][_serverIndices.value("setWebhookPost")].URL()+"/setWebhook");
+void OAIDefaultApi::postSetWebhook(const QString &url, const ::tele_rest::OptionalParam<QJsonValue> &certificate, const ::tele_rest::OptionalParam<QString> &ip_address, const ::tele_rest::OptionalParam<qint32> &max_connections, const ::tele_rest::OptionalParam<QList<QString>> &allowed_updates, const ::tele_rest::OptionalParam<bool> &drop_pending_updates, const ::tele_rest::OptionalParam<QString> &secret_token) {
+    QString fullPath = QString(_serverConfigs["postSetWebhook"][_serverIndices.value("postSetWebhook")].URL()+"/setWebhook");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -12843,7 +12843,7 @@ void OAIDefaultApi::setWebhookPost(const QString &url, const ::tele_rest::Option
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::setWebhookPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postSetWebhookCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -12854,19 +12854,19 @@ void OAIDefaultApi::setWebhookPost(const QString &url, const ::tele_rest::Option
     worker->execute(&input);
 }
 
-void OAIDefaultApi::setWebhookPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postSetWebhookCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAISetWebhookResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT setWebhookPostSignal(output);
-        Q_EMIT setWebhookPostSignalFull(worker, output);
+        Q_EMIT postSetWebhookSignal(output);
+        Q_EMIT postSetWebhookSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -12883,8 +12883,8 @@ void OAIDefaultApi::setWebhookPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT setWebhookPostSignalE(output, error_type, error_str);
-        Q_EMIT setWebhookPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postSetWebhookSignalE(output, error_type, error_str);
+        Q_EMIT postSetWebhookSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12894,13 +12894,13 @@ void OAIDefaultApi::setWebhookPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT setWebhookPostSignalError(output, error_type, error_str);
-        Q_EMIT setWebhookPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postSetWebhookSignalError(output, error_type, error_str);
+        Q_EMIT postSetWebhookSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::stopMessageLiveLocationPost(const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["stopMessageLiveLocationPost"][_serverIndices.value("stopMessageLiveLocationPost")].URL()+"/stopMessageLiveLocation");
+void OAIDefaultApi::postStopMessageLiveLocation(const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAIEditMessageTextRequest_chat_id> &chat_id, const ::tele_rest::OptionalParam<qint32> &message_id, const ::tele_rest::OptionalParam<QString> &inline_message_id, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postStopMessageLiveLocation"][_serverIndices.value("postStopMessageLiveLocation")].URL()+"/stopMessageLiveLocation");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -12933,7 +12933,7 @@ void OAIDefaultApi::stopMessageLiveLocationPost(const ::tele_rest::OptionalParam
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::stopMessageLiveLocationPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postStopMessageLiveLocationCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -12944,19 +12944,19 @@ void OAIDefaultApi::stopMessageLiveLocationPost(const ::tele_rest::OptionalParam
     worker->execute(&input);
 }
 
-void OAIDefaultApi::stopMessageLiveLocationPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postStopMessageLiveLocationCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_editMessageText_post_200_response output(QString(worker->response));
+    OAIStopMessageLiveLocationResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT stopMessageLiveLocationPostSignal(output);
-        Q_EMIT stopMessageLiveLocationPostSignalFull(worker, output);
+        Q_EMIT postStopMessageLiveLocationSignal(output);
+        Q_EMIT postStopMessageLiveLocationSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -12973,8 +12973,8 @@ void OAIDefaultApi::stopMessageLiveLocationPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT stopMessageLiveLocationPostSignalE(output, error_type, error_str);
-        Q_EMIT stopMessageLiveLocationPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postStopMessageLiveLocationSignalE(output, error_type, error_str);
+        Q_EMIT postStopMessageLiveLocationSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -12984,13 +12984,13 @@ void OAIDefaultApi::stopMessageLiveLocationPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT stopMessageLiveLocationPostSignalError(output, error_type, error_str);
-        Q_EMIT stopMessageLiveLocationPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postStopMessageLiveLocationSignalError(output, error_type, error_str);
+        Q_EMIT postStopMessageLiveLocationSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::stopPollPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
-    QString fullPath = QString(_serverConfigs["stopPollPost"][_serverIndices.value("stopPollPost")].URL()+"/stopPoll");
+void OAIDefaultApi::postStopPoll(const OAISendMessageRequest_chat_id &chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup) {
+    QString fullPath = QString(_serverConfigs["postStopPoll"][_serverIndices.value("postStopPoll")].URL()+"/stopPoll");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13019,7 +13019,7 @@ void OAIDefaultApi::stopPollPost(const OAI_sendMessage_post_request_chat_id &cha
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::stopPollPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postStopPollCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13030,19 +13030,19 @@ void OAIDefaultApi::stopPollPost(const OAI_sendMessage_post_request_chat_id &cha
     worker->execute(&input);
 }
 
-void OAIDefaultApi::stopPollPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postStopPollCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_stopPoll_post_200_response output(QString(worker->response));
+    OAIStopPollResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT stopPollPostSignal(output);
-        Q_EMIT stopPollPostSignalFull(worker, output);
+        Q_EMIT postStopPollSignal(output);
+        Q_EMIT postStopPollSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -13059,8 +13059,8 @@ void OAIDefaultApi::stopPollPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT stopPollPostSignalE(output, error_type, error_str);
-        Q_EMIT stopPollPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postStopPollSignalE(output, error_type, error_str);
+        Q_EMIT postStopPollSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -13070,13 +13070,13 @@ void OAIDefaultApi::stopPollPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT stopPollPostSignalError(output, error_type, error_str);
-        Q_EMIT stopPollPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postStopPollSignalError(output, error_type, error_str);
+        Q_EMIT postStopPollSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::transferBusinessAccountStarsPost(const QString &business_connection_id, const qint32 &star_count) {
-    QString fullPath = QString(_serverConfigs["transferBusinessAccountStarsPost"][_serverIndices.value("transferBusinessAccountStarsPost")].URL()+"/transferBusinessAccountStars");
+void OAIDefaultApi::postTransferBusinessAccountStars(const QString &business_connection_id, const qint32 &star_count) {
+    QString fullPath = QString(_serverConfigs["postTransferBusinessAccountStars"][_serverIndices.value("postTransferBusinessAccountStars")].URL()+"/transferBusinessAccountStars");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13097,7 +13097,7 @@ void OAIDefaultApi::transferBusinessAccountStarsPost(const QString &business_con
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::transferBusinessAccountStarsPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postTransferBusinessAccountStarsCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13108,19 +13108,19 @@ void OAIDefaultApi::transferBusinessAccountStarsPost(const QString &business_con
     worker->execute(&input);
 }
 
-void OAIDefaultApi::transferBusinessAccountStarsPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postTransferBusinessAccountStarsCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAITransferBusinessAccountStarsResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT transferBusinessAccountStarsPostSignal(output);
-        Q_EMIT transferBusinessAccountStarsPostSignalFull(worker, output);
+        Q_EMIT postTransferBusinessAccountStarsSignal(output);
+        Q_EMIT postTransferBusinessAccountStarsSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -13137,8 +13137,8 @@ void OAIDefaultApi::transferBusinessAccountStarsPostCallback(OAIHttpRequestWorke
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT transferBusinessAccountStarsPostSignalE(output, error_type, error_str);
-        Q_EMIT transferBusinessAccountStarsPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postTransferBusinessAccountStarsSignalE(output, error_type, error_str);
+        Q_EMIT postTransferBusinessAccountStarsSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -13148,13 +13148,13 @@ void OAIDefaultApi::transferBusinessAccountStarsPostCallback(OAIHttpRequestWorke
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT transferBusinessAccountStarsPostSignalError(output, error_type, error_str);
-        Q_EMIT transferBusinessAccountStarsPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postTransferBusinessAccountStarsSignalError(output, error_type, error_str);
+        Q_EMIT postTransferBusinessAccountStarsSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::transferGiftPost(const QString &business_connection_id, const QString &owned_gift_id, const qint32 &new_owner_chat_id, const ::tele_rest::OptionalParam<qint32> &star_count) {
-    QString fullPath = QString(_serverConfigs["transferGiftPost"][_serverIndices.value("transferGiftPost")].URL()+"/transferGift");
+void OAIDefaultApi::postTransferGift(const QString &business_connection_id, const QString &owned_gift_id, const qint32 &new_owner_chat_id, const ::tele_rest::OptionalParam<qint32> &star_count) {
+    QString fullPath = QString(_serverConfigs["postTransferGift"][_serverIndices.value("postTransferGift")].URL()+"/transferGift");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13183,7 +13183,7 @@ void OAIDefaultApi::transferGiftPost(const QString &business_connection_id, cons
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::transferGiftPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postTransferGiftCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13194,19 +13194,19 @@ void OAIDefaultApi::transferGiftPost(const QString &business_connection_id, cons
     worker->execute(&input);
 }
 
-void OAIDefaultApi::transferGiftPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postTransferGiftCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAITransferGiftResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT transferGiftPostSignal(output);
-        Q_EMIT transferGiftPostSignalFull(worker, output);
+        Q_EMIT postTransferGiftSignal(output);
+        Q_EMIT postTransferGiftSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -13223,8 +13223,8 @@ void OAIDefaultApi::transferGiftPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT transferGiftPostSignalE(output, error_type, error_str);
-        Q_EMIT transferGiftPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postTransferGiftSignalE(output, error_type, error_str);
+        Q_EMIT postTransferGiftSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -13234,13 +13234,13 @@ void OAIDefaultApi::transferGiftPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT transferGiftPostSignalError(output, error_type, error_str);
-        Q_EMIT transferGiftPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postTransferGiftSignalError(output, error_type, error_str);
+        Q_EMIT postTransferGiftSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::unbanChatMemberPost(const OAI_banChatMember_post_request_chat_id &chat_id, const qint32 &user_id, const ::tele_rest::OptionalParam<bool> &only_if_banned) {
-    QString fullPath = QString(_serverConfigs["unbanChatMemberPost"][_serverIndices.value("unbanChatMemberPost")].URL()+"/unbanChatMember");
+void OAIDefaultApi::postUnbanChatMember(const OAIBanChatMemberRequest_chat_id &chat_id, const qint32 &user_id, const ::tele_rest::OptionalParam<bool> &only_if_banned) {
+    QString fullPath = QString(_serverConfigs["postUnbanChatMember"][_serverIndices.value("postUnbanChatMember")].URL()+"/unbanChatMember");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13265,7 +13265,7 @@ void OAIDefaultApi::unbanChatMemberPost(const OAI_banChatMember_post_request_cha
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::unbanChatMemberPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postUnbanChatMemberCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13276,19 +13276,19 @@ void OAIDefaultApi::unbanChatMemberPost(const OAI_banChatMember_post_request_cha
     worker->execute(&input);
 }
 
-void OAIDefaultApi::unbanChatMemberPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postUnbanChatMemberCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIUnbanChatMemberResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT unbanChatMemberPostSignal(output);
-        Q_EMIT unbanChatMemberPostSignalFull(worker, output);
+        Q_EMIT postUnbanChatMemberSignal(output);
+        Q_EMIT postUnbanChatMemberSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -13305,8 +13305,8 @@ void OAIDefaultApi::unbanChatMemberPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT unbanChatMemberPostSignalE(output, error_type, error_str);
-        Q_EMIT unbanChatMemberPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postUnbanChatMemberSignalE(output, error_type, error_str);
+        Q_EMIT postUnbanChatMemberSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -13316,13 +13316,13 @@ void OAIDefaultApi::unbanChatMemberPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT unbanChatMemberPostSignalError(output, error_type, error_str);
-        Q_EMIT unbanChatMemberPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postUnbanChatMemberSignalError(output, error_type, error_str);
+        Q_EMIT postUnbanChatMemberSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::unbanChatSenderChatPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &sender_chat_id) {
-    QString fullPath = QString(_serverConfigs["unbanChatSenderChatPost"][_serverIndices.value("unbanChatSenderChatPost")].URL()+"/unbanChatSenderChat");
+void OAIDefaultApi::postUnbanChatSenderChat(const OAISendMessageRequest_chat_id &chat_id, const qint32 &sender_chat_id) {
+    QString fullPath = QString(_serverConfigs["postUnbanChatSenderChat"][_serverIndices.value("postUnbanChatSenderChat")].URL()+"/unbanChatSenderChat");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13343,7 +13343,7 @@ void OAIDefaultApi::unbanChatSenderChatPost(const OAI_sendMessage_post_request_c
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::unbanChatSenderChatPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postUnbanChatSenderChatCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13354,19 +13354,19 @@ void OAIDefaultApi::unbanChatSenderChatPost(const OAI_sendMessage_post_request_c
     worker->execute(&input);
 }
 
-void OAIDefaultApi::unbanChatSenderChatPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postUnbanChatSenderChatCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIUnbanChatSenderChatResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT unbanChatSenderChatPostSignal(output);
-        Q_EMIT unbanChatSenderChatPostSignalFull(worker, output);
+        Q_EMIT postUnbanChatSenderChatSignal(output);
+        Q_EMIT postUnbanChatSenderChatSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -13383,8 +13383,8 @@ void OAIDefaultApi::unbanChatSenderChatPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT unbanChatSenderChatPostSignalE(output, error_type, error_str);
-        Q_EMIT unbanChatSenderChatPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postUnbanChatSenderChatSignalE(output, error_type, error_str);
+        Q_EMIT postUnbanChatSenderChatSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -13394,13 +13394,13 @@ void OAIDefaultApi::unbanChatSenderChatPostCallback(OAIHttpRequestWorker *worker
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT unbanChatSenderChatPostSignalError(output, error_type, error_str);
-        Q_EMIT unbanChatSenderChatPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postUnbanChatSenderChatSignalError(output, error_type, error_str);
+        Q_EMIT postUnbanChatSenderChatSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::unhideGeneralForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["unhideGeneralForumTopicPost"][_serverIndices.value("unhideGeneralForumTopicPost")].URL()+"/unhideGeneralForumTopic");
+void OAIDefaultApi::postUnhideGeneralForumTopic(const OAIBotCommandScopeChat_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postUnhideGeneralForumTopic"][_serverIndices.value("postUnhideGeneralForumTopic")].URL()+"/unhideGeneralForumTopic");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13417,7 +13417,7 @@ void OAIDefaultApi::unhideGeneralForumTopicPost(const OAI_restrictChatMember_pos
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::unhideGeneralForumTopicPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postUnhideGeneralForumTopicCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13428,19 +13428,19 @@ void OAIDefaultApi::unhideGeneralForumTopicPost(const OAI_restrictChatMember_pos
     worker->execute(&input);
 }
 
-void OAIDefaultApi::unhideGeneralForumTopicPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postUnhideGeneralForumTopicCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIUnhideGeneralForumTopicResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT unhideGeneralForumTopicPostSignal(output);
-        Q_EMIT unhideGeneralForumTopicPostSignalFull(worker, output);
+        Q_EMIT postUnhideGeneralForumTopicSignal(output);
+        Q_EMIT postUnhideGeneralForumTopicSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -13457,8 +13457,8 @@ void OAIDefaultApi::unhideGeneralForumTopicPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT unhideGeneralForumTopicPostSignalE(output, error_type, error_str);
-        Q_EMIT unhideGeneralForumTopicPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postUnhideGeneralForumTopicSignalE(output, error_type, error_str);
+        Q_EMIT postUnhideGeneralForumTopicSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -13468,13 +13468,13 @@ void OAIDefaultApi::unhideGeneralForumTopicPostCallback(OAIHttpRequestWorker *wo
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT unhideGeneralForumTopicPostSignalError(output, error_type, error_str);
-        Q_EMIT unhideGeneralForumTopicPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postUnhideGeneralForumTopicSignalError(output, error_type, error_str);
+        Q_EMIT postUnhideGeneralForumTopicSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::unpinAllChatMessagesPost(const OAI_sendMessage_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["unpinAllChatMessagesPost"][_serverIndices.value("unpinAllChatMessagesPost")].URL()+"/unpinAllChatMessages");
+void OAIDefaultApi::postUnpinAllChatMessages(const OAISendMessageRequest_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postUnpinAllChatMessages"][_serverIndices.value("postUnpinAllChatMessages")].URL()+"/unpinAllChatMessages");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13491,7 +13491,7 @@ void OAIDefaultApi::unpinAllChatMessagesPost(const OAI_sendMessage_post_request_
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::unpinAllChatMessagesPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postUnpinAllChatMessagesCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13502,19 +13502,19 @@ void OAIDefaultApi::unpinAllChatMessagesPost(const OAI_sendMessage_post_request_
     worker->execute(&input);
 }
 
-void OAIDefaultApi::unpinAllChatMessagesPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postUnpinAllChatMessagesCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIUnpinAllChatMessagesResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT unpinAllChatMessagesPostSignal(output);
-        Q_EMIT unpinAllChatMessagesPostSignalFull(worker, output);
+        Q_EMIT postUnpinAllChatMessagesSignal(output);
+        Q_EMIT postUnpinAllChatMessagesSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -13531,8 +13531,8 @@ void OAIDefaultApi::unpinAllChatMessagesPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT unpinAllChatMessagesPostSignalE(output, error_type, error_str);
-        Q_EMIT unpinAllChatMessagesPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postUnpinAllChatMessagesSignalE(output, error_type, error_str);
+        Q_EMIT postUnpinAllChatMessagesSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -13542,13 +13542,13 @@ void OAIDefaultApi::unpinAllChatMessagesPostCallback(OAIHttpRequestWorker *worke
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT unpinAllChatMessagesPostSignalError(output, error_type, error_str);
-        Q_EMIT unpinAllChatMessagesPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postUnpinAllChatMessagesSignalError(output, error_type, error_str);
+        Q_EMIT postUnpinAllChatMessagesSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::unpinAllForumTopicMessagesPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &message_thread_id) {
-    QString fullPath = QString(_serverConfigs["unpinAllForumTopicMessagesPost"][_serverIndices.value("unpinAllForumTopicMessagesPost")].URL()+"/unpinAllForumTopicMessages");
+void OAIDefaultApi::postUnpinAllForumTopicMessages(const OAIBotCommandScopeChat_chat_id &chat_id, const qint32 &message_thread_id) {
+    QString fullPath = QString(_serverConfigs["postUnpinAllForumTopicMessages"][_serverIndices.value("postUnpinAllForumTopicMessages")].URL()+"/unpinAllForumTopicMessages");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13569,7 +13569,7 @@ void OAIDefaultApi::unpinAllForumTopicMessagesPost(const OAI_restrictChatMember_
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::unpinAllForumTopicMessagesPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postUnpinAllForumTopicMessagesCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13580,19 +13580,19 @@ void OAIDefaultApi::unpinAllForumTopicMessagesPost(const OAI_restrictChatMember_
     worker->execute(&input);
 }
 
-void OAIDefaultApi::unpinAllForumTopicMessagesPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postUnpinAllForumTopicMessagesCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIUnpinAllForumTopicMessagesResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT unpinAllForumTopicMessagesPostSignal(output);
-        Q_EMIT unpinAllForumTopicMessagesPostSignalFull(worker, output);
+        Q_EMIT postUnpinAllForumTopicMessagesSignal(output);
+        Q_EMIT postUnpinAllForumTopicMessagesSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -13609,8 +13609,8 @@ void OAIDefaultApi::unpinAllForumTopicMessagesPostCallback(OAIHttpRequestWorker 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT unpinAllForumTopicMessagesPostSignalE(output, error_type, error_str);
-        Q_EMIT unpinAllForumTopicMessagesPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postUnpinAllForumTopicMessagesSignalE(output, error_type, error_str);
+        Q_EMIT postUnpinAllForumTopicMessagesSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -13620,13 +13620,13 @@ void OAIDefaultApi::unpinAllForumTopicMessagesPostCallback(OAIHttpRequestWorker 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT unpinAllForumTopicMessagesPostSignalError(output, error_type, error_str);
-        Q_EMIT unpinAllForumTopicMessagesPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postUnpinAllForumTopicMessagesSignalError(output, error_type, error_str);
+        Q_EMIT postUnpinAllForumTopicMessagesSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::unpinAllGeneralForumTopicMessagesPost(const OAI_restrictChatMember_post_request_chat_id &chat_id) {
-    QString fullPath = QString(_serverConfigs["unpinAllGeneralForumTopicMessagesPost"][_serverIndices.value("unpinAllGeneralForumTopicMessagesPost")].URL()+"/unpinAllGeneralForumTopicMessages");
+void OAIDefaultApi::postUnpinAllGeneralForumTopicMessages(const OAIBotCommandScopeChat_chat_id &chat_id) {
+    QString fullPath = QString(_serverConfigs["postUnpinAllGeneralForumTopicMessages"][_serverIndices.value("postUnpinAllGeneralForumTopicMessages")].URL()+"/unpinAllGeneralForumTopicMessages");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13643,7 +13643,7 @@ void OAIDefaultApi::unpinAllGeneralForumTopicMessagesPost(const OAI_restrictChat
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::unpinAllGeneralForumTopicMessagesPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postUnpinAllGeneralForumTopicMessagesCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13654,19 +13654,19 @@ void OAIDefaultApi::unpinAllGeneralForumTopicMessagesPost(const OAI_restrictChat
     worker->execute(&input);
 }
 
-void OAIDefaultApi::unpinAllGeneralForumTopicMessagesPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postUnpinAllGeneralForumTopicMessagesCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIUnpinAllGeneralForumTopicMessagesResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT unpinAllGeneralForumTopicMessagesPostSignal(output);
-        Q_EMIT unpinAllGeneralForumTopicMessagesPostSignalFull(worker, output);
+        Q_EMIT postUnpinAllGeneralForumTopicMessagesSignal(output);
+        Q_EMIT postUnpinAllGeneralForumTopicMessagesSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -13683,8 +13683,8 @@ void OAIDefaultApi::unpinAllGeneralForumTopicMessagesPostCallback(OAIHttpRequest
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT unpinAllGeneralForumTopicMessagesPostSignalE(output, error_type, error_str);
-        Q_EMIT unpinAllGeneralForumTopicMessagesPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postUnpinAllGeneralForumTopicMessagesSignalE(output, error_type, error_str);
+        Q_EMIT postUnpinAllGeneralForumTopicMessagesSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -13694,13 +13694,13 @@ void OAIDefaultApi::unpinAllGeneralForumTopicMessagesPostCallback(OAIHttpRequest
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT unpinAllGeneralForumTopicMessagesPostSignalError(output, error_type, error_str);
-        Q_EMIT unpinAllGeneralForumTopicMessagesPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postUnpinAllGeneralForumTopicMessagesSignalError(output, error_type, error_str);
+        Q_EMIT postUnpinAllGeneralForumTopicMessagesSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::unpinChatMessagePost(const OAI_sendMessage_post_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_id) {
-    QString fullPath = QString(_serverConfigs["unpinChatMessagePost"][_serverIndices.value("unpinChatMessagePost")].URL()+"/unpinChatMessage");
+void OAIDefaultApi::postUnpinChatMessage(const OAISendMessageRequest_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &business_connection_id, const ::tele_rest::OptionalParam<qint32> &message_id) {
+    QString fullPath = QString(_serverConfigs["postUnpinChatMessage"][_serverIndices.value("postUnpinChatMessage")].URL()+"/unpinChatMessage");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13725,7 +13725,7 @@ void OAIDefaultApi::unpinChatMessagePost(const OAI_sendMessage_post_request_chat
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::unpinChatMessagePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postUnpinChatMessageCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13736,19 +13736,19 @@ void OAIDefaultApi::unpinChatMessagePost(const OAI_sendMessage_post_request_chat
     worker->execute(&input);
 }
 
-void OAIDefaultApi::unpinChatMessagePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postUnpinChatMessageCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIUnpinChatMessageResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT unpinChatMessagePostSignal(output);
-        Q_EMIT unpinChatMessagePostSignalFull(worker, output);
+        Q_EMIT postUnpinChatMessageSignal(output);
+        Q_EMIT postUnpinChatMessageSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -13765,8 +13765,8 @@ void OAIDefaultApi::unpinChatMessagePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT unpinChatMessagePostSignalE(output, error_type, error_str);
-        Q_EMIT unpinChatMessagePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postUnpinChatMessageSignalE(output, error_type, error_str);
+        Q_EMIT postUnpinChatMessageSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -13776,13 +13776,13 @@ void OAIDefaultApi::unpinChatMessagePostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT unpinChatMessagePostSignalError(output, error_type, error_str);
-        Q_EMIT unpinChatMessagePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postUnpinChatMessageSignalError(output, error_type, error_str);
+        Q_EMIT postUnpinChatMessageSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::upgradeGiftPost(const QString &business_connection_id, const QString &owned_gift_id, const ::tele_rest::OptionalParam<bool> &keep_original_details, const ::tele_rest::OptionalParam<qint32> &star_count) {
-    QString fullPath = QString(_serverConfigs["upgradeGiftPost"][_serverIndices.value("upgradeGiftPost")].URL()+"/upgradeGift");
+void OAIDefaultApi::postUpgradeGift(const QString &business_connection_id, const QString &owned_gift_id, const ::tele_rest::OptionalParam<bool> &keep_original_details, const ::tele_rest::OptionalParam<qint32> &star_count) {
+    QString fullPath = QString(_serverConfigs["postUpgradeGift"][_serverIndices.value("postUpgradeGift")].URL()+"/upgradeGift");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13811,7 +13811,7 @@ void OAIDefaultApi::upgradeGiftPost(const QString &business_connection_id, const
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::upgradeGiftPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postUpgradeGiftCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13822,19 +13822,19 @@ void OAIDefaultApi::upgradeGiftPost(const QString &business_connection_id, const
     worker->execute(&input);
 }
 
-void OAIDefaultApi::upgradeGiftPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postUpgradeGiftCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIUpgradeGiftResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT upgradeGiftPostSignal(output);
-        Q_EMIT upgradeGiftPostSignalFull(worker, output);
+        Q_EMIT postUpgradeGiftSignal(output);
+        Q_EMIT postUpgradeGiftSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -13851,8 +13851,8 @@ void OAIDefaultApi::upgradeGiftPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT upgradeGiftPostSignalE(output, error_type, error_str);
-        Q_EMIT upgradeGiftPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postUpgradeGiftSignalE(output, error_type, error_str);
+        Q_EMIT postUpgradeGiftSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -13862,13 +13862,13 @@ void OAIDefaultApi::upgradeGiftPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT upgradeGiftPostSignalError(output, error_type, error_str);
-        Q_EMIT upgradeGiftPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postUpgradeGiftSignalError(output, error_type, error_str);
+        Q_EMIT postUpgradeGiftSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::uploadStickerFilePost(const qint32 &user_id, const QJsonValue &sticker, const QString &sticker_format) {
-    QString fullPath = QString(_serverConfigs["uploadStickerFilePost"][_serverIndices.value("uploadStickerFilePost")].URL()+"/uploadStickerFile");
+void OAIDefaultApi::postUploadStickerFile(const qint32 &user_id, const QJsonValue &sticker, const QString &sticker_format) {
+    QString fullPath = QString(_serverConfigs["postUploadStickerFile"][_serverIndices.value("postUploadStickerFile")].URL()+"/uploadStickerFile");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13893,7 +13893,7 @@ void OAIDefaultApi::uploadStickerFilePost(const qint32 &user_id, const QJsonValu
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::uploadStickerFilePostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postUploadStickerFileCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13904,19 +13904,19 @@ void OAIDefaultApi::uploadStickerFilePost(const qint32 &user_id, const QJsonValu
     worker->execute(&input);
 }
 
-void OAIDefaultApi::uploadStickerFilePostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postUploadStickerFileCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_getFile_post_200_response output(QString(worker->response));
+    OAIUploadStickerFileResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT uploadStickerFilePostSignal(output);
-        Q_EMIT uploadStickerFilePostSignalFull(worker, output);
+        Q_EMIT postUploadStickerFileSignal(output);
+        Q_EMIT postUploadStickerFileSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -13933,8 +13933,8 @@ void OAIDefaultApi::uploadStickerFilePostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT uploadStickerFilePostSignalE(output, error_type, error_str);
-        Q_EMIT uploadStickerFilePostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postUploadStickerFileSignalE(output, error_type, error_str);
+        Q_EMIT postUploadStickerFileSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -13944,13 +13944,13 @@ void OAIDefaultApi::uploadStickerFilePostCallback(OAIHttpRequestWorker *worker) 
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT uploadStickerFilePostSignalError(output, error_type, error_str);
-        Q_EMIT uploadStickerFilePostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postUploadStickerFileSignalError(output, error_type, error_str);
+        Q_EMIT postUploadStickerFileSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::verifyChatPost(const OAI_sendMessage_post_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &custom_description) {
-    QString fullPath = QString(_serverConfigs["verifyChatPost"][_serverIndices.value("verifyChatPost")].URL()+"/verifyChat");
+void OAIDefaultApi::postVerifyChat(const OAISendMessageRequest_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &custom_description) {
+    QString fullPath = QString(_serverConfigs["postVerifyChat"][_serverIndices.value("postVerifyChat")].URL()+"/verifyChat");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -13971,7 +13971,7 @@ void OAIDefaultApi::verifyChatPost(const OAI_sendMessage_post_request_chat_id &c
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::verifyChatPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postVerifyChatCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -13982,19 +13982,19 @@ void OAIDefaultApi::verifyChatPost(const OAI_sendMessage_post_request_chat_id &c
     worker->execute(&input);
 }
 
-void OAIDefaultApi::verifyChatPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postVerifyChatCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIVerifyChatResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT verifyChatPostSignal(output);
-        Q_EMIT verifyChatPostSignalFull(worker, output);
+        Q_EMIT postVerifyChatSignal(output);
+        Q_EMIT postVerifyChatSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -14011,8 +14011,8 @@ void OAIDefaultApi::verifyChatPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT verifyChatPostSignalE(output, error_type, error_str);
-        Q_EMIT verifyChatPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postVerifyChatSignalE(output, error_type, error_str);
+        Q_EMIT postVerifyChatSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -14022,13 +14022,13 @@ void OAIDefaultApi::verifyChatPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT verifyChatPostSignalError(output, error_type, error_str);
-        Q_EMIT verifyChatPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postVerifyChatSignalError(output, error_type, error_str);
+        Q_EMIT postVerifyChatSignalErrorFull(worker, error_type, error_str);
     }
 }
 
-void OAIDefaultApi::verifyUserPost(const qint32 &user_id, const ::tele_rest::OptionalParam<QString> &custom_description) {
-    QString fullPath = QString(_serverConfigs["verifyUserPost"][_serverIndices.value("verifyUserPost")].URL()+"/verifyUser");
+void OAIDefaultApi::postVerifyUser(const qint32 &user_id, const ::tele_rest::OptionalParam<QString> &custom_description) {
+    QString fullPath = QString(_serverConfigs["postVerifyUser"][_serverIndices.value("postVerifyUser")].URL()+"/verifyUser");
     
     OAIHttpRequestWorker *worker = new OAIHttpRequestWorker(this, _manager);
     worker->setTimeOut(_timeOut);
@@ -14049,7 +14049,7 @@ void OAIDefaultApi::verifyUserPost(const qint32 &user_id, const ::tele_rest::Opt
     }
 
 
-    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::verifyUserPostCallback);
+    connect(worker, &OAIHttpRequestWorker::on_execution_finished, this, &OAIDefaultApi::postVerifyUserCallback);
     connect(this, &OAIDefaultApi::abortRequestsSignal, worker, &QObject::deleteLater);
     connect(worker, &QObject::destroyed, this, [this] {
         if (findChildren<OAIHttpRequestWorker*>().count() == 0) {
@@ -14060,19 +14060,19 @@ void OAIDefaultApi::verifyUserPost(const qint32 &user_id, const ::tele_rest::Opt
     worker->execute(&input);
 }
 
-void OAIDefaultApi::verifyUserPostCallback(OAIHttpRequestWorker *worker) {
+void OAIDefaultApi::postVerifyUserCallback(OAIHttpRequestWorker *worker) {
     QString error_str = worker->error_str;
     QNetworkReply::NetworkError error_type = worker->error_type;
 
     if (worker->error_type != QNetworkReply::NoError) {
         error_str = QString("%1, %2").arg(worker->error_str, QString(worker->response));
     }
-    OAI_setWebhook_post_200_response output(QString(worker->response));
+    OAIVerifyUserResponse output(QString(worker->response));
     worker->deleteLater();
 
     if (worker->error_type == QNetworkReply::NoError) {
-        Q_EMIT verifyUserPostSignal(output);
-        Q_EMIT verifyUserPostSignalFull(worker, output);
+        Q_EMIT postVerifyUserSignal(output);
+        Q_EMIT postVerifyUserSignalFull(worker, output);
     } else {
 
 #if defined(_MSC_VER)
@@ -14089,8 +14089,8 @@ void OAIDefaultApi::verifyUserPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-        Q_EMIT verifyUserPostSignalE(output, error_type, error_str);
-        Q_EMIT verifyUserPostSignalEFull(worker, error_type, error_str);
+        Q_EMIT postVerifyUserSignalE(output, error_type, error_str);
+        Q_EMIT postVerifyUserSignalEFull(worker, error_type, error_str);
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
@@ -14100,8 +14100,8 @@ void OAIDefaultApi::verifyUserPostCallback(OAIHttpRequestWorker *worker) {
 #pragma GCC diagnostic pop
 #endif
 
-        Q_EMIT verifyUserPostSignalError(output, error_type, error_str);
-        Q_EMIT verifyUserPostSignalErrorFull(worker, error_type, error_str);
+        Q_EMIT postVerifyUserSignalError(output, error_type, error_str);
+        Q_EMIT postVerifyUserSignalErrorFull(worker, error_type, error_str);
     }
 }
 

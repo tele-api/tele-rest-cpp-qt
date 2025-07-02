@@ -3,8 +3,22 @@ QT += network
 HEADERS += \
 # Models
     $${PWD}/OAIAcceptedGiftTypes.h \
+    $${PWD}/OAIAddStickerToSetRequest.h \
+    $${PWD}/OAIAddStickerToSetResponse.h \
     $${PWD}/OAIAffiliateInfo.h \
     $${PWD}/OAIAnimation.h \
+    $${PWD}/OAIAnswerCallbackQueryRequest.h \
+    $${PWD}/OAIAnswerCallbackQueryResponse.h \
+    $${PWD}/OAIAnswerInlineQueryRequest.h \
+    $${PWD}/OAIAnswerInlineQueryResponse.h \
+    $${PWD}/OAIAnswerPreCheckoutQueryRequest.h \
+    $${PWD}/OAIAnswerPreCheckoutQueryResponse.h \
+    $${PWD}/OAIAnswerShippingQueryRequest.h \
+    $${PWD}/OAIAnswerShippingQueryResponse.h \
+    $${PWD}/OAIAnswerWebAppQueryRequest.h \
+    $${PWD}/OAIAnswerWebAppQueryResponse.h \
+    $${PWD}/OAIApproveChatJoinRequestRequest.h \
+    $${PWD}/OAIApproveChatJoinRequestResponse.h \
     $${PWD}/OAIAudio.h \
     $${PWD}/OAIBackgroundFill.h \
     $${PWD}/OAIBackgroundFillFreeformGradient.h \
@@ -15,6 +29,11 @@ HEADERS += \
     $${PWD}/OAIBackgroundTypeFill.h \
     $${PWD}/OAIBackgroundTypePattern.h \
     $${PWD}/OAIBackgroundTypeWallpaper.h \
+    $${PWD}/OAIBanChatMemberRequest.h \
+    $${PWD}/OAIBanChatMemberRequest_chat_id.h \
+    $${PWD}/OAIBanChatMemberResponse.h \
+    $${PWD}/OAIBanChatSenderChatRequest.h \
+    $${PWD}/OAIBanChatSenderChatResponse.h \
     $${PWD}/OAIBirthdate.h \
     $${PWD}/OAIBotCommand.h \
     $${PWD}/OAIBotCommandScope.h \
@@ -24,6 +43,7 @@ HEADERS += \
     $${PWD}/OAIBotCommandScopeChat.h \
     $${PWD}/OAIBotCommandScopeChatAdministrators.h \
     $${PWD}/OAIBotCommandScopeChatMember.h \
+    $${PWD}/OAIBotCommandScopeChat_chat_id.h \
     $${PWD}/OAIBotCommandScopeDefault.h \
     $${PWD}/OAIBotDescription.h \
     $${PWD}/OAIBotName.h \
@@ -63,28 +83,157 @@ HEADERS += \
     $${PWD}/OAIChatPhoto.h \
     $${PWD}/OAIChatShared.h \
     $${PWD}/OAIChosenInlineResult.h \
+    $${PWD}/OAICloseForumTopicRequest.h \
+    $${PWD}/OAICloseForumTopicResponse.h \
+    $${PWD}/OAICloseGeneralForumTopicRequest.h \
+    $${PWD}/OAICloseGeneralForumTopicResponse.h \
+    $${PWD}/OAICloseResponse.h \
     $${PWD}/OAIContact.h \
+    $${PWD}/OAIConvertGiftToStarsRequest.h \
+    $${PWD}/OAIConvertGiftToStarsResponse.h \
+    $${PWD}/OAICopyMessageRequest.h \
+    $${PWD}/OAICopyMessageResponse.h \
+    $${PWD}/OAICopyMessagesRequest.h \
+    $${PWD}/OAICopyMessagesResponse.h \
     $${PWD}/OAICopyTextButton.h \
+    $${PWD}/OAICreateChatInviteLinkRequest.h \
+    $${PWD}/OAICreateChatInviteLinkResponse.h \
+    $${PWD}/OAICreateChatSubscriptionInviteLinkRequest.h \
+    $${PWD}/OAICreateChatSubscriptionInviteLinkRequest_chat_id.h \
+    $${PWD}/OAICreateChatSubscriptionInviteLinkResponse.h \
+    $${PWD}/OAICreateForumTopicRequest.h \
+    $${PWD}/OAICreateForumTopicResponse.h \
+    $${PWD}/OAICreateInvoiceLinkRequest.h \
+    $${PWD}/OAICreateInvoiceLinkResponse.h \
+    $${PWD}/OAICreateNewStickerSetRequest.h \
+    $${PWD}/OAICreateNewStickerSetResponse.h \
+    $${PWD}/OAIDeclineChatJoinRequestRequest.h \
+    $${PWD}/OAIDeclineChatJoinRequestResponse.h \
+    $${PWD}/OAIDeleteBusinessMessagesRequest.h \
+    $${PWD}/OAIDeleteBusinessMessagesResponse.h \
+    $${PWD}/OAIDeleteChatPhotoRequest.h \
+    $${PWD}/OAIDeleteChatPhotoResponse.h \
+    $${PWD}/OAIDeleteChatStickerSetRequest.h \
+    $${PWD}/OAIDeleteChatStickerSetResponse.h \
+    $${PWD}/OAIDeleteForumTopicRequest.h \
+    $${PWD}/OAIDeleteForumTopicResponse.h \
+    $${PWD}/OAIDeleteMessageRequest.h \
+    $${PWD}/OAIDeleteMessageResponse.h \
+    $${PWD}/OAIDeleteMessagesRequest.h \
+    $${PWD}/OAIDeleteMessagesResponse.h \
+    $${PWD}/OAIDeleteMyCommandsRequest.h \
+    $${PWD}/OAIDeleteMyCommandsResponse.h \
+    $${PWD}/OAIDeleteStickerFromSetRequest.h \
+    $${PWD}/OAIDeleteStickerFromSetResponse.h \
+    $${PWD}/OAIDeleteStickerSetRequest.h \
+    $${PWD}/OAIDeleteStickerSetResponse.h \
+    $${PWD}/OAIDeleteStoryRequest.h \
+    $${PWD}/OAIDeleteStoryResponse.h \
+    $${PWD}/OAIDeleteWebhookRequest.h \
+    $${PWD}/OAIDeleteWebhookResponse.h \
     $${PWD}/OAIDice.h \
     $${PWD}/OAIDocument.h \
+    $${PWD}/OAIEditChatInviteLinkRequest.h \
+    $${PWD}/OAIEditChatInviteLinkResponse.h \
+    $${PWD}/OAIEditChatSubscriptionInviteLinkRequest.h \
+    $${PWD}/OAIEditChatSubscriptionInviteLinkResponse.h \
+    $${PWD}/OAIEditForumTopicRequest.h \
+    $${PWD}/OAIEditForumTopicResponse.h \
+    $${PWD}/OAIEditGeneralForumTopicRequest.h \
+    $${PWD}/OAIEditGeneralForumTopicResponse.h \
+    $${PWD}/OAIEditMessageCaptionRequest.h \
+    $${PWD}/OAIEditMessageCaptionResponse.h \
+    $${PWD}/OAIEditMessageLiveLocationRequest.h \
+    $${PWD}/OAIEditMessageLiveLocationResponse.h \
+    $${PWD}/OAIEditMessageMediaRequest.h \
+    $${PWD}/OAIEditMessageMediaResponse.h \
+    $${PWD}/OAIEditMessageReplyMarkupRequest.h \
+    $${PWD}/OAIEditMessageReplyMarkupResponse.h \
+    $${PWD}/OAIEditMessageTextRequest.h \
+    $${PWD}/OAIEditMessageTextRequest_chat_id.h \
+    $${PWD}/OAIEditMessageTextResponse.h \
+    $${PWD}/OAIEditMessageTextResponse_result.h \
+    $${PWD}/OAIEditStoryRequest.h \
+    $${PWD}/OAIEditStoryResponse.h \
+    $${PWD}/OAIEditUserStarSubscriptionRequest.h \
+    $${PWD}/OAIEditUserStarSubscriptionResponse.h \
     $${PWD}/OAIEncryptedCredentials.h \
     $${PWD}/OAIEncryptedPassportElement.h \
     $${PWD}/OAIError.h \
+    $${PWD}/OAIExportChatInviteLinkRequest.h \
+    $${PWD}/OAIExportChatInviteLinkResponse.h \
     $${PWD}/OAIExternalReplyInfo.h \
     $${PWD}/OAIFile.h \
     $${PWD}/OAIForceReply.h \
     $${PWD}/OAIForumTopic.h \
     $${PWD}/OAIForumTopicCreated.h \
     $${PWD}/OAIForumTopicEdited.h \
+    $${PWD}/OAIForwardMessageRequest.h \
+    $${PWD}/OAIForwardMessageRequest_from_chat_id.h \
+    $${PWD}/OAIForwardMessageResponse.h \
+    $${PWD}/OAIForwardMessagesRequest.h \
+    $${PWD}/OAIForwardMessagesRequest_from_chat_id.h \
+    $${PWD}/OAIForwardMessagesResponse.h \
     $${PWD}/OAIGame.h \
     $${PWD}/OAIGameHighScore.h \
+    $${PWD}/OAIGetAvailableGiftsResponse.h \
+    $${PWD}/OAIGetBusinessAccountGiftsRequest.h \
+    $${PWD}/OAIGetBusinessAccountGiftsResponse.h \
+    $${PWD}/OAIGetBusinessAccountStarBalanceRequest.h \
+    $${PWD}/OAIGetBusinessAccountStarBalanceResponse.h \
+    $${PWD}/OAIGetBusinessConnectionRequest.h \
+    $${PWD}/OAIGetBusinessConnectionResponse.h \
+    $${PWD}/OAIGetChatAdministratorsRequest.h \
+    $${PWD}/OAIGetChatAdministratorsResponse.h \
+    $${PWD}/OAIGetChatMemberCountRequest.h \
+    $${PWD}/OAIGetChatMemberCountResponse.h \
+    $${PWD}/OAIGetChatMemberRequest.h \
+    $${PWD}/OAIGetChatMemberResponse.h \
+    $${PWD}/OAIGetChatMenuButtonRequest.h \
+    $${PWD}/OAIGetChatMenuButtonResponse.h \
+    $${PWD}/OAIGetChatRequest.h \
+    $${PWD}/OAIGetChatResponse.h \
+    $${PWD}/OAIGetCustomEmojiStickersRequest.h \
+    $${PWD}/OAIGetCustomEmojiStickersResponse.h \
+    $${PWD}/OAIGetFileRequest.h \
+    $${PWD}/OAIGetFileResponse.h \
+    $${PWD}/OAIGetForumTopicIconStickersResponse.h \
+    $${PWD}/OAIGetGameHighScoresRequest.h \
+    $${PWD}/OAIGetGameHighScoresResponse.h \
+    $${PWD}/OAIGetMeResponse.h \
+    $${PWD}/OAIGetMyCommandsRequest.h \
+    $${PWD}/OAIGetMyCommandsResponse.h \
+    $${PWD}/OAIGetMyDefaultAdministratorRightsRequest.h \
+    $${PWD}/OAIGetMyDefaultAdministratorRightsResponse.h \
+    $${PWD}/OAIGetMyDescriptionRequest.h \
+    $${PWD}/OAIGetMyDescriptionResponse.h \
+    $${PWD}/OAIGetMyNameRequest.h \
+    $${PWD}/OAIGetMyNameResponse.h \
+    $${PWD}/OAIGetMyShortDescriptionRequest.h \
+    $${PWD}/OAIGetMyShortDescriptionResponse.h \
+    $${PWD}/OAIGetStarTransactionsRequest.h \
+    $${PWD}/OAIGetStarTransactionsResponse.h \
+    $${PWD}/OAIGetStickerSetRequest.h \
+    $${PWD}/OAIGetStickerSetResponse.h \
+    $${PWD}/OAIGetUpdatesRequest.h \
+    $${PWD}/OAIGetUpdatesResponse.h \
+    $${PWD}/OAIGetUserChatBoostsRequest.h \
+    $${PWD}/OAIGetUserChatBoostsRequest_chat_id.h \
+    $${PWD}/OAIGetUserChatBoostsResponse.h \
+    $${PWD}/OAIGetUserProfilePhotosRequest.h \
+    $${PWD}/OAIGetUserProfilePhotosResponse.h \
+    $${PWD}/OAIGetWebhookInfoResponse.h \
     $${PWD}/OAIGift.h \
     $${PWD}/OAIGiftInfo.h \
+    $${PWD}/OAIGiftPremiumSubscriptionRequest.h \
+    $${PWD}/OAIGiftPremiumSubscriptionResponse.h \
     $${PWD}/OAIGifts.h \
     $${PWD}/OAIGiveaway.h \
     $${PWD}/OAIGiveawayCompleted.h \
     $${PWD}/OAIGiveawayCreated.h \
     $${PWD}/OAIGiveawayWinners.h \
+    $${PWD}/OAIHideGeneralForumTopicRequest.h \
+    $${PWD}/OAIHideGeneralForumTopicResponse.h \
     $${PWD}/OAIInaccessibleMessage.h \
     $${PWD}/OAIInlineKeyboardButton.h \
     $${PWD}/OAIInlineKeyboardMarkup.h \
@@ -140,9 +289,13 @@ HEADERS += \
     $${PWD}/OAIKeyboardButtonRequestChat.h \
     $${PWD}/OAIKeyboardButtonRequestUsers.h \
     $${PWD}/OAILabeledPrice.h \
+    $${PWD}/OAILeaveChatRequest.h \
+    $${PWD}/OAILeaveChatRequest_chat_id.h \
+    $${PWD}/OAILeaveChatResponse.h \
     $${PWD}/OAILinkPreviewOptions.h \
     $${PWD}/OAILocation.h \
     $${PWD}/OAILocationAddress.h \
+    $${PWD}/OAILogOutResponse.h \
     $${PWD}/OAILoginUrl.h \
     $${PWD}/OAIMaskPosition.h \
     $${PWD}/OAIMaybeInaccessibleMessage.h \
@@ -186,28 +339,160 @@ HEADERS += \
     $${PWD}/OAIPassportElementErrorUnspecified.h \
     $${PWD}/OAIPassportFile.h \
     $${PWD}/OAIPhotoSize.h \
+    $${PWD}/OAIPinChatMessageRequest.h \
+    $${PWD}/OAIPinChatMessageResponse.h \
     $${PWD}/OAIPoll.h \
     $${PWD}/OAIPollAnswer.h \
     $${PWD}/OAIPollOption.h \
+    $${PWD}/OAIPostStoryRequest.h \
+    $${PWD}/OAIPostStoryResponse.h \
     $${PWD}/OAIPreCheckoutQuery.h \
     $${PWD}/OAIPreparedInlineMessage.h \
+    $${PWD}/OAIPromoteChatMemberRequest.h \
+    $${PWD}/OAIPromoteChatMemberResponse.h \
     $${PWD}/OAIProximityAlertTriggered.h \
     $${PWD}/OAIReactionCount.h \
     $${PWD}/OAIReactionType.h \
     $${PWD}/OAIReactionTypeCustomEmoji.h \
     $${PWD}/OAIReactionTypeEmoji.h \
     $${PWD}/OAIReactionTypePaid.h \
+    $${PWD}/OAIReadBusinessMessageRequest.h \
+    $${PWD}/OAIReadBusinessMessageResponse.h \
+    $${PWD}/OAIRefundStarPaymentRequest.h \
+    $${PWD}/OAIRefundStarPaymentResponse.h \
     $${PWD}/OAIRefundedPayment.h \
+    $${PWD}/OAIRemoveBusinessAccountProfilePhotoRequest.h \
+    $${PWD}/OAIRemoveBusinessAccountProfilePhotoResponse.h \
+    $${PWD}/OAIRemoveChatVerificationRequest.h \
+    $${PWD}/OAIRemoveChatVerificationResponse.h \
+    $${PWD}/OAIRemoveUserVerificationRequest.h \
+    $${PWD}/OAIRemoveUserVerificationResponse.h \
+    $${PWD}/OAIReopenForumTopicRequest.h \
+    $${PWD}/OAIReopenForumTopicResponse.h \
+    $${PWD}/OAIReopenGeneralForumTopicRequest.h \
+    $${PWD}/OAIReopenGeneralForumTopicResponse.h \
+    $${PWD}/OAIReplaceStickerInSetRequest.h \
+    $${PWD}/OAIReplaceStickerInSetResponse.h \
     $${PWD}/OAIReplyKeyboardMarkup.h \
     $${PWD}/OAIReplyKeyboardRemove.h \
     $${PWD}/OAIReplyParameters.h \
     $${PWD}/OAIReplyParameters_chat_id.h \
     $${PWD}/OAIResponseParameters.h \
+    $${PWD}/OAIRestrictChatMemberRequest.h \
+    $${PWD}/OAIRestrictChatMemberResponse.h \
     $${PWD}/OAIRevenueWithdrawalState.h \
     $${PWD}/OAIRevenueWithdrawalStateFailed.h \
     $${PWD}/OAIRevenueWithdrawalStatePending.h \
     $${PWD}/OAIRevenueWithdrawalStateSucceeded.h \
+    $${PWD}/OAIRevokeChatInviteLinkRequest.h \
+    $${PWD}/OAIRevokeChatInviteLinkRequest_chat_id.h \
+    $${PWD}/OAIRevokeChatInviteLinkResponse.h \
+    $${PWD}/OAISavePreparedInlineMessageRequest.h \
+    $${PWD}/OAISavePreparedInlineMessageResponse.h \
+    $${PWD}/OAISendAnimationRequest.h \
+    $${PWD}/OAISendAnimationResponse.h \
+    $${PWD}/OAISendAudioRequest.h \
+    $${PWD}/OAISendAudioResponse.h \
+    $${PWD}/OAISendChatActionRequest.h \
+    $${PWD}/OAISendChatActionResponse.h \
+    $${PWD}/OAISendContactRequest.h \
+    $${PWD}/OAISendContactResponse.h \
+    $${PWD}/OAISendDiceRequest.h \
+    $${PWD}/OAISendDiceResponse.h \
+    $${PWD}/OAISendDocumentRequest.h \
+    $${PWD}/OAISendDocumentResponse.h \
+    $${PWD}/OAISendGameRequest.h \
+    $${PWD}/OAISendGameResponse.h \
+    $${PWD}/OAISendGiftRequest.h \
+    $${PWD}/OAISendGiftRequest_chat_id.h \
+    $${PWD}/OAISendGiftResponse.h \
+    $${PWD}/OAISendInvoiceRequest.h \
+    $${PWD}/OAISendInvoiceResponse.h \
+    $${PWD}/OAISendLocationRequest.h \
+    $${PWD}/OAISendLocationResponse.h \
+    $${PWD}/OAISendMediaGroupRequest.h \
+    $${PWD}/OAISendMediaGroupRequest_media_inner.h \
+    $${PWD}/OAISendMediaGroupResponse.h \
+    $${PWD}/OAISendMessageRequest.h \
+    $${PWD}/OAISendMessageRequest_chat_id.h \
+    $${PWD}/OAISendMessageRequest_reply_markup.h \
+    $${PWD}/OAISendMessageResponse.h \
+    $${PWD}/OAISendPaidMediaRequest.h \
+    $${PWD}/OAISendPaidMediaRequest_chat_id.h \
+    $${PWD}/OAISendPaidMediaResponse.h \
+    $${PWD}/OAISendPhotoRequest.h \
+    $${PWD}/OAISendPhotoResponse.h \
+    $${PWD}/OAISendPollRequest.h \
+    $${PWD}/OAISendPollResponse.h \
+    $${PWD}/OAISendStickerRequest.h \
+    $${PWD}/OAISendStickerResponse.h \
+    $${PWD}/OAISendVenueRequest.h \
+    $${PWD}/OAISendVenueResponse.h \
+    $${PWD}/OAISendVideoNoteRequest.h \
+    $${PWD}/OAISendVideoNoteResponse.h \
+    $${PWD}/OAISendVideoRequest.h \
+    $${PWD}/OAISendVideoResponse.h \
+    $${PWD}/OAISendVoiceRequest.h \
+    $${PWD}/OAISendVoiceResponse.h \
     $${PWD}/OAISentWebAppMessage.h \
+    $${PWD}/OAISetBusinessAccountBioRequest.h \
+    $${PWD}/OAISetBusinessAccountBioResponse.h \
+    $${PWD}/OAISetBusinessAccountGiftSettingsRequest.h \
+    $${PWD}/OAISetBusinessAccountGiftSettingsResponse.h \
+    $${PWD}/OAISetBusinessAccountNameRequest.h \
+    $${PWD}/OAISetBusinessAccountNameResponse.h \
+    $${PWD}/OAISetBusinessAccountProfilePhotoRequest.h \
+    $${PWD}/OAISetBusinessAccountProfilePhotoResponse.h \
+    $${PWD}/OAISetBusinessAccountUsernameRequest.h \
+    $${PWD}/OAISetBusinessAccountUsernameResponse.h \
+    $${PWD}/OAISetChatAdministratorCustomTitleRequest.h \
+    $${PWD}/OAISetChatAdministratorCustomTitleResponse.h \
+    $${PWD}/OAISetChatDescriptionRequest.h \
+    $${PWD}/OAISetChatDescriptionResponse.h \
+    $${PWD}/OAISetChatMenuButtonRequest.h \
+    $${PWD}/OAISetChatMenuButtonResponse.h \
+    $${PWD}/OAISetChatPermissionsRequest.h \
+    $${PWD}/OAISetChatPermissionsResponse.h \
+    $${PWD}/OAISetChatPhotoRequest.h \
+    $${PWD}/OAISetChatPhotoResponse.h \
+    $${PWD}/OAISetChatStickerSetRequest.h \
+    $${PWD}/OAISetChatStickerSetResponse.h \
+    $${PWD}/OAISetChatTitleRequest.h \
+    $${PWD}/OAISetChatTitleResponse.h \
+    $${PWD}/OAISetCustomEmojiStickerSetThumbnailRequest.h \
+    $${PWD}/OAISetCustomEmojiStickerSetThumbnailResponse.h \
+    $${PWD}/OAISetGameScoreRequest.h \
+    $${PWD}/OAISetGameScoreResponse.h \
+    $${PWD}/OAISetMessageReactionRequest.h \
+    $${PWD}/OAISetMessageReactionResponse.h \
+    $${PWD}/OAISetMyCommandsRequest.h \
+    $${PWD}/OAISetMyCommandsResponse.h \
+    $${PWD}/OAISetMyDefaultAdministratorRightsRequest.h \
+    $${PWD}/OAISetMyDefaultAdministratorRightsResponse.h \
+    $${PWD}/OAISetMyDescriptionRequest.h \
+    $${PWD}/OAISetMyDescriptionResponse.h \
+    $${PWD}/OAISetMyNameRequest.h \
+    $${PWD}/OAISetMyNameResponse.h \
+    $${PWD}/OAISetMyShortDescriptionRequest.h \
+    $${PWD}/OAISetMyShortDescriptionResponse.h \
+    $${PWD}/OAISetPassportDataErrorsRequest.h \
+    $${PWD}/OAISetPassportDataErrorsResponse.h \
+    $${PWD}/OAISetStickerEmojiListRequest.h \
+    $${PWD}/OAISetStickerEmojiListResponse.h \
+    $${PWD}/OAISetStickerKeywordsRequest.h \
+    $${PWD}/OAISetStickerKeywordsResponse.h \
+    $${PWD}/OAISetStickerMaskPositionRequest.h \
+    $${PWD}/OAISetStickerMaskPositionResponse.h \
+    $${PWD}/OAISetStickerPositionInSetRequest.h \
+    $${PWD}/OAISetStickerPositionInSetResponse.h \
+    $${PWD}/OAISetStickerSetThumbnailRequest.h \
+    $${PWD}/OAISetStickerSetThumbnailResponse.h \
+    $${PWD}/OAISetStickerSetTitleRequest.h \
+    $${PWD}/OAISetStickerSetTitleResponse.h \
+    $${PWD}/OAISetUserEmojiStatusRequest.h \
+    $${PWD}/OAISetUserEmojiStatusResponse.h \
+    $${PWD}/OAISetWebhookRequest.h \
+    $${PWD}/OAISetWebhookResponse.h \
     $${PWD}/OAISharedUser.h \
     $${PWD}/OAIShippingAddress.h \
     $${PWD}/OAIShippingOption.h \
@@ -217,6 +502,10 @@ HEADERS += \
     $${PWD}/OAIStarTransactions.h \
     $${PWD}/OAISticker.h \
     $${PWD}/OAIStickerSet.h \
+    $${PWD}/OAIStopMessageLiveLocationRequest.h \
+    $${PWD}/OAIStopMessageLiveLocationResponse.h \
+    $${PWD}/OAIStopPollRequest.h \
+    $${PWD}/OAIStopPollResponse.h \
     $${PWD}/OAIStory.h \
     $${PWD}/OAIStoryArea.h \
     $${PWD}/OAIStoryAreaPosition.h \
@@ -237,18 +526,44 @@ HEADERS += \
     $${PWD}/OAITransactionPartnerTelegramAds.h \
     $${PWD}/OAITransactionPartnerTelegramApi.h \
     $${PWD}/OAITransactionPartnerUser.h \
+    $${PWD}/OAITransferBusinessAccountStarsRequest.h \
+    $${PWD}/OAITransferBusinessAccountStarsResponse.h \
+    $${PWD}/OAITransferGiftRequest.h \
+    $${PWD}/OAITransferGiftResponse.h \
+    $${PWD}/OAIUnbanChatMemberRequest.h \
+    $${PWD}/OAIUnbanChatMemberResponse.h \
+    $${PWD}/OAIUnbanChatSenderChatRequest.h \
+    $${PWD}/OAIUnbanChatSenderChatResponse.h \
+    $${PWD}/OAIUnhideGeneralForumTopicRequest.h \
+    $${PWD}/OAIUnhideGeneralForumTopicResponse.h \
     $${PWD}/OAIUniqueGift.h \
     $${PWD}/OAIUniqueGiftBackdrop.h \
     $${PWD}/OAIUniqueGiftBackdropColors.h \
     $${PWD}/OAIUniqueGiftInfo.h \
     $${PWD}/OAIUniqueGiftModel.h \
     $${PWD}/OAIUniqueGiftSymbol.h \
+    $${PWD}/OAIUnpinAllChatMessagesRequest.h \
+    $${PWD}/OAIUnpinAllChatMessagesResponse.h \
+    $${PWD}/OAIUnpinAllForumTopicMessagesRequest.h \
+    $${PWD}/OAIUnpinAllForumTopicMessagesResponse.h \
+    $${PWD}/OAIUnpinAllGeneralForumTopicMessagesRequest.h \
+    $${PWD}/OAIUnpinAllGeneralForumTopicMessagesResponse.h \
+    $${PWD}/OAIUnpinChatMessageRequest.h \
+    $${PWD}/OAIUnpinChatMessageResponse.h \
     $${PWD}/OAIUpdate.h \
+    $${PWD}/OAIUpgradeGiftRequest.h \
+    $${PWD}/OAIUpgradeGiftResponse.h \
+    $${PWD}/OAIUploadStickerFileRequest.h \
+    $${PWD}/OAIUploadStickerFileResponse.h \
     $${PWD}/OAIUser.h \
     $${PWD}/OAIUserChatBoosts.h \
     $${PWD}/OAIUserProfilePhotos.h \
     $${PWD}/OAIUsersShared.h \
     $${PWD}/OAIVenue.h \
+    $${PWD}/OAIVerifyChatRequest.h \
+    $${PWD}/OAIVerifyChatResponse.h \
+    $${PWD}/OAIVerifyUserRequest.h \
+    $${PWD}/OAIVerifyUserResponse.h \
     $${PWD}/OAIVideo.h \
     $${PWD}/OAIVideoChatEnded.h \
     $${PWD}/OAIVideoChatParticipantsInvited.h \
@@ -259,176 +574,6 @@ HEADERS += \
     $${PWD}/OAIWebAppInfo.h \
     $${PWD}/OAIWebhookInfo.h \
     $${PWD}/OAIWriteAccessAllowed.h \
-    $${PWD}/OAI_answerCallbackQuery_post_request.h \
-    $${PWD}/OAI_answerInlineQuery_post_request.h \
-    $${PWD}/OAI_answerPreCheckoutQuery_post_request.h \
-    $${PWD}/OAI_answerShippingQuery_post_request.h \
-    $${PWD}/OAI_answerWebAppQuery_post_200_response.h \
-    $${PWD}/OAI_answerWebAppQuery_post_request.h \
-    $${PWD}/OAI_approveChatJoinRequest_post_request.h \
-    $${PWD}/OAI_banChatMember_post_request.h \
-    $${PWD}/OAI_banChatMember_post_request_chat_id.h \
-    $${PWD}/OAI_banChatSenderChat_post_request.h \
-    $${PWD}/OAI_closeForumTopic_post_request.h \
-    $${PWD}/OAI_convertGiftToStars_post_request.h \
-    $${PWD}/OAI_copyMessage_post_200_response.h \
-    $${PWD}/OAI_copyMessage_post_request.h \
-    $${PWD}/OAI_copyMessages_post_request.h \
-    $${PWD}/OAI_createChatInviteLink_post_200_response.h \
-    $${PWD}/OAI_createChatInviteLink_post_request.h \
-    $${PWD}/OAI_createChatSubscriptionInviteLink_post_request.h \
-    $${PWD}/OAI_createChatSubscriptionInviteLink_post_request_chat_id.h \
-    $${PWD}/OAI_createForumTopic_post_200_response.h \
-    $${PWD}/OAI_createForumTopic_post_request.h \
-    $${PWD}/OAI_createInvoiceLink_post_request.h \
-    $${PWD}/OAI_deleteBusinessMessages_post_request.h \
-    $${PWD}/OAI_deleteChatStickerSet_post_request.h \
-    $${PWD}/OAI_deleteMessage_post_request.h \
-    $${PWD}/OAI_deleteMessages_post_request.h \
-    $${PWD}/OAI_deleteMyCommands_post_request.h \
-    $${PWD}/OAI_deleteStickerFromSet_post_request.h \
-    $${PWD}/OAI_deleteStickerSet_post_request.h \
-    $${PWD}/OAI_deleteStory_post_request.h \
-    $${PWD}/OAI_deleteWebhook_post_request.h \
-    $${PWD}/OAI_editChatInviteLink_post_request.h \
-    $${PWD}/OAI_editChatSubscriptionInviteLink_post_request.h \
-    $${PWD}/OAI_editForumTopic_post_request.h \
-    $${PWD}/OAI_editGeneralForumTopic_post_request.h \
-    $${PWD}/OAI_editMessageCaption_post_request.h \
-    $${PWD}/OAI_editMessageLiveLocation_post_request.h \
-    $${PWD}/OAI_editMessageReplyMarkup_post_request.h \
-    $${PWD}/OAI_editMessageText_post_200_response.h \
-    $${PWD}/OAI_editMessageText_post_200_response_result.h \
-    $${PWD}/OAI_editMessageText_post_request.h \
-    $${PWD}/OAI_editMessageText_post_request_chat_id.h \
-    $${PWD}/OAI_editUserStarSubscription_post_request.h \
-    $${PWD}/OAI_exportChatInviteLink_post_200_response.h \
-    $${PWD}/OAI_exportChatInviteLink_post_request.h \
-    $${PWD}/OAI_forwardMessage_post_request.h \
-    $${PWD}/OAI_forwardMessage_post_request_from_chat_id.h \
-    $${PWD}/OAI_forwardMessages_post_200_response.h \
-    $${PWD}/OAI_forwardMessages_post_request.h \
-    $${PWD}/OAI_forwardMessages_post_request_from_chat_id.h \
-    $${PWD}/OAI_getAvailableGifts_post_200_response.h \
-    $${PWD}/OAI_getBusinessAccountGifts_post_200_response.h \
-    $${PWD}/OAI_getBusinessAccountGifts_post_request.h \
-    $${PWD}/OAI_getBusinessAccountStarBalance_post_200_response.h \
-    $${PWD}/OAI_getBusinessConnection_post_200_response.h \
-    $${PWD}/OAI_getBusinessConnection_post_request.h \
-    $${PWD}/OAI_getChatAdministrators_post_200_response.h \
-    $${PWD}/OAI_getChatMemberCount_post_200_response.h \
-    $${PWD}/OAI_getChatMember_post_200_response.h \
-    $${PWD}/OAI_getChatMember_post_request.h \
-    $${PWD}/OAI_getChatMenuButton_post_200_response.h \
-    $${PWD}/OAI_getChatMenuButton_post_request.h \
-    $${PWD}/OAI_getChat_post_200_response.h \
-    $${PWD}/OAI_getCustomEmojiStickers_post_request.h \
-    $${PWD}/OAI_getFile_post_200_response.h \
-    $${PWD}/OAI_getFile_post_request.h \
-    $${PWD}/OAI_getForumTopicIconStickers_post_200_response.h \
-    $${PWD}/OAI_getGameHighScores_post_200_response.h \
-    $${PWD}/OAI_getGameHighScores_post_request.h \
-    $${PWD}/OAI_getMe_post_200_response.h \
-    $${PWD}/OAI_getMyCommands_post_200_response.h \
-    $${PWD}/OAI_getMyCommands_post_request.h \
-    $${PWD}/OAI_getMyDefaultAdministratorRights_post_200_response.h \
-    $${PWD}/OAI_getMyDefaultAdministratorRights_post_request.h \
-    $${PWD}/OAI_getMyDescription_post_200_response.h \
-    $${PWD}/OAI_getMyName_post_200_response.h \
-    $${PWD}/OAI_getMyName_post_request.h \
-    $${PWD}/OAI_getMyShortDescription_post_200_response.h \
-    $${PWD}/OAI_getStarTransactions_post_200_response.h \
-    $${PWD}/OAI_getStarTransactions_post_request.h \
-    $${PWD}/OAI_getStickerSet_post_200_response.h \
-    $${PWD}/OAI_getStickerSet_post_request.h \
-    $${PWD}/OAI_getUpdates_post_200_response.h \
-    $${PWD}/OAI_getUpdates_post_request.h \
-    $${PWD}/OAI_getUserChatBoosts_post_200_response.h \
-    $${PWD}/OAI_getUserChatBoosts_post_request.h \
-    $${PWD}/OAI_getUserChatBoosts_post_request_chat_id.h \
-    $${PWD}/OAI_getUserProfilePhotos_post_200_response.h \
-    $${PWD}/OAI_getUserProfilePhotos_post_request.h \
-    $${PWD}/OAI_getWebhookInfo_post_200_response.h \
-    $${PWD}/OAI_giftPremiumSubscription_post_request.h \
-    $${PWD}/OAI_leaveChat_post_request.h \
-    $${PWD}/OAI_leaveChat_post_request_chat_id.h \
-    $${PWD}/OAI_pinChatMessage_post_request.h \
-    $${PWD}/OAI_postStory_post_200_response.h \
-    $${PWD}/OAI_promoteChatMember_post_request.h \
-    $${PWD}/OAI_readBusinessMessage_post_request.h \
-    $${PWD}/OAI_refundStarPayment_post_request.h \
-    $${PWD}/OAI_removeBusinessAccountProfilePhoto_post_request.h \
-    $${PWD}/OAI_removeUserVerification_post_request.h \
-    $${PWD}/OAI_restrictChatMember_post_request.h \
-    $${PWD}/OAI_restrictChatMember_post_request_chat_id.h \
-    $${PWD}/OAI_revokeChatInviteLink_post_request.h \
-    $${PWD}/OAI_revokeChatInviteLink_post_request_chat_id.h \
-    $${PWD}/OAI_savePreparedInlineMessage_post_200_response.h \
-    $${PWD}/OAI_savePreparedInlineMessage_post_request.h \
-    $${PWD}/OAI_sendAnimation_post_request_animation.h \
-    $${PWD}/OAI_sendAudio_post_request_audio.h \
-    $${PWD}/OAI_sendAudio_post_request_thumbnail.h \
-    $${PWD}/OAI_sendChatAction_post_request.h \
-    $${PWD}/OAI_sendContact_post_request.h \
-    $${PWD}/OAI_sendDice_post_request.h \
-    $${PWD}/OAI_sendDocument_post_request_document.h \
-    $${PWD}/OAI_sendGame_post_request.h \
-    $${PWD}/OAI_sendGift_post_request.h \
-    $${PWD}/OAI_sendGift_post_request_chat_id.h \
-    $${PWD}/OAI_sendInvoice_post_request.h \
-    $${PWD}/OAI_sendLocation_post_request.h \
-    $${PWD}/OAI_sendMediaGroup_post_200_response.h \
-    $${PWD}/OAI_sendMediaGroup_post_request_media_inner.h \
-    $${PWD}/OAI_sendMessage_post_200_response.h \
-    $${PWD}/OAI_sendMessage_post_request.h \
-    $${PWD}/OAI_sendMessage_post_request_chat_id.h \
-    $${PWD}/OAI_sendMessage_post_request_reply_markup.h \
-    $${PWD}/OAI_sendPaidMedia_post_request_chat_id.h \
-    $${PWD}/OAI_sendPhoto_post_request_photo.h \
-    $${PWD}/OAI_sendPoll_post_request.h \
-    $${PWD}/OAI_sendSticker_post_request_sticker.h \
-    $${PWD}/OAI_sendVenue_post_request.h \
-    $${PWD}/OAI_sendVideoNote_post_request_video_note.h \
-    $${PWD}/OAI_sendVideo_post_request_cover.h \
-    $${PWD}/OAI_sendVideo_post_request_video.h \
-    $${PWD}/OAI_sendVoice_post_request_voice.h \
-    $${PWD}/OAI_setBusinessAccountBio_post_request.h \
-    $${PWD}/OAI_setBusinessAccountGiftSettings_post_request.h \
-    $${PWD}/OAI_setBusinessAccountName_post_request.h \
-    $${PWD}/OAI_setBusinessAccountUsername_post_request.h \
-    $${PWD}/OAI_setChatAdministratorCustomTitle_post_request.h \
-    $${PWD}/OAI_setChatDescription_post_request.h \
-    $${PWD}/OAI_setChatMenuButton_post_request.h \
-    $${PWD}/OAI_setChatPermissions_post_request.h \
-    $${PWD}/OAI_setChatStickerSet_post_request.h \
-    $${PWD}/OAI_setChatTitle_post_request.h \
-    $${PWD}/OAI_setCustomEmojiStickerSetThumbnail_post_request.h \
-    $${PWD}/OAI_setGameScore_post_request.h \
-    $${PWD}/OAI_setMessageReaction_post_request.h \
-    $${PWD}/OAI_setMyCommands_post_request.h \
-    $${PWD}/OAI_setMyDefaultAdministratorRights_post_request.h \
-    $${PWD}/OAI_setMyDescription_post_request.h \
-    $${PWD}/OAI_setMyName_post_request.h \
-    $${PWD}/OAI_setMyShortDescription_post_request.h \
-    $${PWD}/OAI_setPassportDataErrors_post_request.h \
-    $${PWD}/OAI_setStickerEmojiList_post_request.h \
-    $${PWD}/OAI_setStickerKeywords_post_request.h \
-    $${PWD}/OAI_setStickerMaskPosition_post_request.h \
-    $${PWD}/OAI_setStickerPositionInSet_post_request.h \
-    $${PWD}/OAI_setStickerSetThumbnail_post_request_thumbnail.h \
-    $${PWD}/OAI_setStickerSetTitle_post_request.h \
-    $${PWD}/OAI_setUserEmojiStatus_post_request.h \
-    $${PWD}/OAI_setWebhook_post_200_response.h \
-    $${PWD}/OAI_stopMessageLiveLocation_post_request.h \
-    $${PWD}/OAI_stopPoll_post_200_response.h \
-    $${PWD}/OAI_stopPoll_post_request.h \
-    $${PWD}/OAI_transferBusinessAccountStars_post_request.h \
-    $${PWD}/OAI_transferGift_post_request.h \
-    $${PWD}/OAI_unbanChatMember_post_request.h \
-    $${PWD}/OAI_unpinChatMessage_post_request.h \
-    $${PWD}/OAI_upgradeGift_post_request.h \
-    $${PWD}/OAI_verifyChat_post_request.h \
-    $${PWD}/OAI_verifyUser_post_request.h \
 # APIs
     $${PWD}/OAIDefaultApi.h \
 # Others
@@ -444,8 +589,22 @@ HEADERS += \
 SOURCES += \
 # Models
     $${PWD}/OAIAcceptedGiftTypes.cpp \
+    $${PWD}/OAIAddStickerToSetRequest.cpp \
+    $${PWD}/OAIAddStickerToSetResponse.cpp \
     $${PWD}/OAIAffiliateInfo.cpp \
     $${PWD}/OAIAnimation.cpp \
+    $${PWD}/OAIAnswerCallbackQueryRequest.cpp \
+    $${PWD}/OAIAnswerCallbackQueryResponse.cpp \
+    $${PWD}/OAIAnswerInlineQueryRequest.cpp \
+    $${PWD}/OAIAnswerInlineQueryResponse.cpp \
+    $${PWD}/OAIAnswerPreCheckoutQueryRequest.cpp \
+    $${PWD}/OAIAnswerPreCheckoutQueryResponse.cpp \
+    $${PWD}/OAIAnswerShippingQueryRequest.cpp \
+    $${PWD}/OAIAnswerShippingQueryResponse.cpp \
+    $${PWD}/OAIAnswerWebAppQueryRequest.cpp \
+    $${PWD}/OAIAnswerWebAppQueryResponse.cpp \
+    $${PWD}/OAIApproveChatJoinRequestRequest.cpp \
+    $${PWD}/OAIApproveChatJoinRequestResponse.cpp \
     $${PWD}/OAIAudio.cpp \
     $${PWD}/OAIBackgroundFill.cpp \
     $${PWD}/OAIBackgroundFillFreeformGradient.cpp \
@@ -456,6 +615,11 @@ SOURCES += \
     $${PWD}/OAIBackgroundTypeFill.cpp \
     $${PWD}/OAIBackgroundTypePattern.cpp \
     $${PWD}/OAIBackgroundTypeWallpaper.cpp \
+    $${PWD}/OAIBanChatMemberRequest.cpp \
+    $${PWD}/OAIBanChatMemberRequest_chat_id.cpp \
+    $${PWD}/OAIBanChatMemberResponse.cpp \
+    $${PWD}/OAIBanChatSenderChatRequest.cpp \
+    $${PWD}/OAIBanChatSenderChatResponse.cpp \
     $${PWD}/OAIBirthdate.cpp \
     $${PWD}/OAIBotCommand.cpp \
     $${PWD}/OAIBotCommandScope.cpp \
@@ -465,6 +629,7 @@ SOURCES += \
     $${PWD}/OAIBotCommandScopeChat.cpp \
     $${PWD}/OAIBotCommandScopeChatAdministrators.cpp \
     $${PWD}/OAIBotCommandScopeChatMember.cpp \
+    $${PWD}/OAIBotCommandScopeChat_chat_id.cpp \
     $${PWD}/OAIBotCommandScopeDefault.cpp \
     $${PWD}/OAIBotDescription.cpp \
     $${PWD}/OAIBotName.cpp \
@@ -504,28 +669,157 @@ SOURCES += \
     $${PWD}/OAIChatPhoto.cpp \
     $${PWD}/OAIChatShared.cpp \
     $${PWD}/OAIChosenInlineResult.cpp \
+    $${PWD}/OAICloseForumTopicRequest.cpp \
+    $${PWD}/OAICloseForumTopicResponse.cpp \
+    $${PWD}/OAICloseGeneralForumTopicRequest.cpp \
+    $${PWD}/OAICloseGeneralForumTopicResponse.cpp \
+    $${PWD}/OAICloseResponse.cpp \
     $${PWD}/OAIContact.cpp \
+    $${PWD}/OAIConvertGiftToStarsRequest.cpp \
+    $${PWD}/OAIConvertGiftToStarsResponse.cpp \
+    $${PWD}/OAICopyMessageRequest.cpp \
+    $${PWD}/OAICopyMessageResponse.cpp \
+    $${PWD}/OAICopyMessagesRequest.cpp \
+    $${PWD}/OAICopyMessagesResponse.cpp \
     $${PWD}/OAICopyTextButton.cpp \
+    $${PWD}/OAICreateChatInviteLinkRequest.cpp \
+    $${PWD}/OAICreateChatInviteLinkResponse.cpp \
+    $${PWD}/OAICreateChatSubscriptionInviteLinkRequest.cpp \
+    $${PWD}/OAICreateChatSubscriptionInviteLinkRequest_chat_id.cpp \
+    $${PWD}/OAICreateChatSubscriptionInviteLinkResponse.cpp \
+    $${PWD}/OAICreateForumTopicRequest.cpp \
+    $${PWD}/OAICreateForumTopicResponse.cpp \
+    $${PWD}/OAICreateInvoiceLinkRequest.cpp \
+    $${PWD}/OAICreateInvoiceLinkResponse.cpp \
+    $${PWD}/OAICreateNewStickerSetRequest.cpp \
+    $${PWD}/OAICreateNewStickerSetResponse.cpp \
+    $${PWD}/OAIDeclineChatJoinRequestRequest.cpp \
+    $${PWD}/OAIDeclineChatJoinRequestResponse.cpp \
+    $${PWD}/OAIDeleteBusinessMessagesRequest.cpp \
+    $${PWD}/OAIDeleteBusinessMessagesResponse.cpp \
+    $${PWD}/OAIDeleteChatPhotoRequest.cpp \
+    $${PWD}/OAIDeleteChatPhotoResponse.cpp \
+    $${PWD}/OAIDeleteChatStickerSetRequest.cpp \
+    $${PWD}/OAIDeleteChatStickerSetResponse.cpp \
+    $${PWD}/OAIDeleteForumTopicRequest.cpp \
+    $${PWD}/OAIDeleteForumTopicResponse.cpp \
+    $${PWD}/OAIDeleteMessageRequest.cpp \
+    $${PWD}/OAIDeleteMessageResponse.cpp \
+    $${PWD}/OAIDeleteMessagesRequest.cpp \
+    $${PWD}/OAIDeleteMessagesResponse.cpp \
+    $${PWD}/OAIDeleteMyCommandsRequest.cpp \
+    $${PWD}/OAIDeleteMyCommandsResponse.cpp \
+    $${PWD}/OAIDeleteStickerFromSetRequest.cpp \
+    $${PWD}/OAIDeleteStickerFromSetResponse.cpp \
+    $${PWD}/OAIDeleteStickerSetRequest.cpp \
+    $${PWD}/OAIDeleteStickerSetResponse.cpp \
+    $${PWD}/OAIDeleteStoryRequest.cpp \
+    $${PWD}/OAIDeleteStoryResponse.cpp \
+    $${PWD}/OAIDeleteWebhookRequest.cpp \
+    $${PWD}/OAIDeleteWebhookResponse.cpp \
     $${PWD}/OAIDice.cpp \
     $${PWD}/OAIDocument.cpp \
+    $${PWD}/OAIEditChatInviteLinkRequest.cpp \
+    $${PWD}/OAIEditChatInviteLinkResponse.cpp \
+    $${PWD}/OAIEditChatSubscriptionInviteLinkRequest.cpp \
+    $${PWD}/OAIEditChatSubscriptionInviteLinkResponse.cpp \
+    $${PWD}/OAIEditForumTopicRequest.cpp \
+    $${PWD}/OAIEditForumTopicResponse.cpp \
+    $${PWD}/OAIEditGeneralForumTopicRequest.cpp \
+    $${PWD}/OAIEditGeneralForumTopicResponse.cpp \
+    $${PWD}/OAIEditMessageCaptionRequest.cpp \
+    $${PWD}/OAIEditMessageCaptionResponse.cpp \
+    $${PWD}/OAIEditMessageLiveLocationRequest.cpp \
+    $${PWD}/OAIEditMessageLiveLocationResponse.cpp \
+    $${PWD}/OAIEditMessageMediaRequest.cpp \
+    $${PWD}/OAIEditMessageMediaResponse.cpp \
+    $${PWD}/OAIEditMessageReplyMarkupRequest.cpp \
+    $${PWD}/OAIEditMessageReplyMarkupResponse.cpp \
+    $${PWD}/OAIEditMessageTextRequest.cpp \
+    $${PWD}/OAIEditMessageTextRequest_chat_id.cpp \
+    $${PWD}/OAIEditMessageTextResponse.cpp \
+    $${PWD}/OAIEditMessageTextResponse_result.cpp \
+    $${PWD}/OAIEditStoryRequest.cpp \
+    $${PWD}/OAIEditStoryResponse.cpp \
+    $${PWD}/OAIEditUserStarSubscriptionRequest.cpp \
+    $${PWD}/OAIEditUserStarSubscriptionResponse.cpp \
     $${PWD}/OAIEncryptedCredentials.cpp \
     $${PWD}/OAIEncryptedPassportElement.cpp \
     $${PWD}/OAIError.cpp \
+    $${PWD}/OAIExportChatInviteLinkRequest.cpp \
+    $${PWD}/OAIExportChatInviteLinkResponse.cpp \
     $${PWD}/OAIExternalReplyInfo.cpp \
     $${PWD}/OAIFile.cpp \
     $${PWD}/OAIForceReply.cpp \
     $${PWD}/OAIForumTopic.cpp \
     $${PWD}/OAIForumTopicCreated.cpp \
     $${PWD}/OAIForumTopicEdited.cpp \
+    $${PWD}/OAIForwardMessageRequest.cpp \
+    $${PWD}/OAIForwardMessageRequest_from_chat_id.cpp \
+    $${PWD}/OAIForwardMessageResponse.cpp \
+    $${PWD}/OAIForwardMessagesRequest.cpp \
+    $${PWD}/OAIForwardMessagesRequest_from_chat_id.cpp \
+    $${PWD}/OAIForwardMessagesResponse.cpp \
     $${PWD}/OAIGame.cpp \
     $${PWD}/OAIGameHighScore.cpp \
+    $${PWD}/OAIGetAvailableGiftsResponse.cpp \
+    $${PWD}/OAIGetBusinessAccountGiftsRequest.cpp \
+    $${PWD}/OAIGetBusinessAccountGiftsResponse.cpp \
+    $${PWD}/OAIGetBusinessAccountStarBalanceRequest.cpp \
+    $${PWD}/OAIGetBusinessAccountStarBalanceResponse.cpp \
+    $${PWD}/OAIGetBusinessConnectionRequest.cpp \
+    $${PWD}/OAIGetBusinessConnectionResponse.cpp \
+    $${PWD}/OAIGetChatAdministratorsRequest.cpp \
+    $${PWD}/OAIGetChatAdministratorsResponse.cpp \
+    $${PWD}/OAIGetChatMemberCountRequest.cpp \
+    $${PWD}/OAIGetChatMemberCountResponse.cpp \
+    $${PWD}/OAIGetChatMemberRequest.cpp \
+    $${PWD}/OAIGetChatMemberResponse.cpp \
+    $${PWD}/OAIGetChatMenuButtonRequest.cpp \
+    $${PWD}/OAIGetChatMenuButtonResponse.cpp \
+    $${PWD}/OAIGetChatRequest.cpp \
+    $${PWD}/OAIGetChatResponse.cpp \
+    $${PWD}/OAIGetCustomEmojiStickersRequest.cpp \
+    $${PWD}/OAIGetCustomEmojiStickersResponse.cpp \
+    $${PWD}/OAIGetFileRequest.cpp \
+    $${PWD}/OAIGetFileResponse.cpp \
+    $${PWD}/OAIGetForumTopicIconStickersResponse.cpp \
+    $${PWD}/OAIGetGameHighScoresRequest.cpp \
+    $${PWD}/OAIGetGameHighScoresResponse.cpp \
+    $${PWD}/OAIGetMeResponse.cpp \
+    $${PWD}/OAIGetMyCommandsRequest.cpp \
+    $${PWD}/OAIGetMyCommandsResponse.cpp \
+    $${PWD}/OAIGetMyDefaultAdministratorRightsRequest.cpp \
+    $${PWD}/OAIGetMyDefaultAdministratorRightsResponse.cpp \
+    $${PWD}/OAIGetMyDescriptionRequest.cpp \
+    $${PWD}/OAIGetMyDescriptionResponse.cpp \
+    $${PWD}/OAIGetMyNameRequest.cpp \
+    $${PWD}/OAIGetMyNameResponse.cpp \
+    $${PWD}/OAIGetMyShortDescriptionRequest.cpp \
+    $${PWD}/OAIGetMyShortDescriptionResponse.cpp \
+    $${PWD}/OAIGetStarTransactionsRequest.cpp \
+    $${PWD}/OAIGetStarTransactionsResponse.cpp \
+    $${PWD}/OAIGetStickerSetRequest.cpp \
+    $${PWD}/OAIGetStickerSetResponse.cpp \
+    $${PWD}/OAIGetUpdatesRequest.cpp \
+    $${PWD}/OAIGetUpdatesResponse.cpp \
+    $${PWD}/OAIGetUserChatBoostsRequest.cpp \
+    $${PWD}/OAIGetUserChatBoostsRequest_chat_id.cpp \
+    $${PWD}/OAIGetUserChatBoostsResponse.cpp \
+    $${PWD}/OAIGetUserProfilePhotosRequest.cpp \
+    $${PWD}/OAIGetUserProfilePhotosResponse.cpp \
+    $${PWD}/OAIGetWebhookInfoResponse.cpp \
     $${PWD}/OAIGift.cpp \
     $${PWD}/OAIGiftInfo.cpp \
+    $${PWD}/OAIGiftPremiumSubscriptionRequest.cpp \
+    $${PWD}/OAIGiftPremiumSubscriptionResponse.cpp \
     $${PWD}/OAIGifts.cpp \
     $${PWD}/OAIGiveaway.cpp \
     $${PWD}/OAIGiveawayCompleted.cpp \
     $${PWD}/OAIGiveawayCreated.cpp \
     $${PWD}/OAIGiveawayWinners.cpp \
+    $${PWD}/OAIHideGeneralForumTopicRequest.cpp \
+    $${PWD}/OAIHideGeneralForumTopicResponse.cpp \
     $${PWD}/OAIInaccessibleMessage.cpp \
     $${PWD}/OAIInlineKeyboardButton.cpp \
     $${PWD}/OAIInlineKeyboardMarkup.cpp \
@@ -581,9 +875,13 @@ SOURCES += \
     $${PWD}/OAIKeyboardButtonRequestChat.cpp \
     $${PWD}/OAIKeyboardButtonRequestUsers.cpp \
     $${PWD}/OAILabeledPrice.cpp \
+    $${PWD}/OAILeaveChatRequest.cpp \
+    $${PWD}/OAILeaveChatRequest_chat_id.cpp \
+    $${PWD}/OAILeaveChatResponse.cpp \
     $${PWD}/OAILinkPreviewOptions.cpp \
     $${PWD}/OAILocation.cpp \
     $${PWD}/OAILocationAddress.cpp \
+    $${PWD}/OAILogOutResponse.cpp \
     $${PWD}/OAILoginUrl.cpp \
     $${PWD}/OAIMaskPosition.cpp \
     $${PWD}/OAIMaybeInaccessibleMessage.cpp \
@@ -627,28 +925,160 @@ SOURCES += \
     $${PWD}/OAIPassportElementErrorUnspecified.cpp \
     $${PWD}/OAIPassportFile.cpp \
     $${PWD}/OAIPhotoSize.cpp \
+    $${PWD}/OAIPinChatMessageRequest.cpp \
+    $${PWD}/OAIPinChatMessageResponse.cpp \
     $${PWD}/OAIPoll.cpp \
     $${PWD}/OAIPollAnswer.cpp \
     $${PWD}/OAIPollOption.cpp \
+    $${PWD}/OAIPostStoryRequest.cpp \
+    $${PWD}/OAIPostStoryResponse.cpp \
     $${PWD}/OAIPreCheckoutQuery.cpp \
     $${PWD}/OAIPreparedInlineMessage.cpp \
+    $${PWD}/OAIPromoteChatMemberRequest.cpp \
+    $${PWD}/OAIPromoteChatMemberResponse.cpp \
     $${PWD}/OAIProximityAlertTriggered.cpp \
     $${PWD}/OAIReactionCount.cpp \
     $${PWD}/OAIReactionType.cpp \
     $${PWD}/OAIReactionTypeCustomEmoji.cpp \
     $${PWD}/OAIReactionTypeEmoji.cpp \
     $${PWD}/OAIReactionTypePaid.cpp \
+    $${PWD}/OAIReadBusinessMessageRequest.cpp \
+    $${PWD}/OAIReadBusinessMessageResponse.cpp \
+    $${PWD}/OAIRefundStarPaymentRequest.cpp \
+    $${PWD}/OAIRefundStarPaymentResponse.cpp \
     $${PWD}/OAIRefundedPayment.cpp \
+    $${PWD}/OAIRemoveBusinessAccountProfilePhotoRequest.cpp \
+    $${PWD}/OAIRemoveBusinessAccountProfilePhotoResponse.cpp \
+    $${PWD}/OAIRemoveChatVerificationRequest.cpp \
+    $${PWD}/OAIRemoveChatVerificationResponse.cpp \
+    $${PWD}/OAIRemoveUserVerificationRequest.cpp \
+    $${PWD}/OAIRemoveUserVerificationResponse.cpp \
+    $${PWD}/OAIReopenForumTopicRequest.cpp \
+    $${PWD}/OAIReopenForumTopicResponse.cpp \
+    $${PWD}/OAIReopenGeneralForumTopicRequest.cpp \
+    $${PWD}/OAIReopenGeneralForumTopicResponse.cpp \
+    $${PWD}/OAIReplaceStickerInSetRequest.cpp \
+    $${PWD}/OAIReplaceStickerInSetResponse.cpp \
     $${PWD}/OAIReplyKeyboardMarkup.cpp \
     $${PWD}/OAIReplyKeyboardRemove.cpp \
     $${PWD}/OAIReplyParameters.cpp \
     $${PWD}/OAIReplyParameters_chat_id.cpp \
     $${PWD}/OAIResponseParameters.cpp \
+    $${PWD}/OAIRestrictChatMemberRequest.cpp \
+    $${PWD}/OAIRestrictChatMemberResponse.cpp \
     $${PWD}/OAIRevenueWithdrawalState.cpp \
     $${PWD}/OAIRevenueWithdrawalStateFailed.cpp \
     $${PWD}/OAIRevenueWithdrawalStatePending.cpp \
     $${PWD}/OAIRevenueWithdrawalStateSucceeded.cpp \
+    $${PWD}/OAIRevokeChatInviteLinkRequest.cpp \
+    $${PWD}/OAIRevokeChatInviteLinkRequest_chat_id.cpp \
+    $${PWD}/OAIRevokeChatInviteLinkResponse.cpp \
+    $${PWD}/OAISavePreparedInlineMessageRequest.cpp \
+    $${PWD}/OAISavePreparedInlineMessageResponse.cpp \
+    $${PWD}/OAISendAnimationRequest.cpp \
+    $${PWD}/OAISendAnimationResponse.cpp \
+    $${PWD}/OAISendAudioRequest.cpp \
+    $${PWD}/OAISendAudioResponse.cpp \
+    $${PWD}/OAISendChatActionRequest.cpp \
+    $${PWD}/OAISendChatActionResponse.cpp \
+    $${PWD}/OAISendContactRequest.cpp \
+    $${PWD}/OAISendContactResponse.cpp \
+    $${PWD}/OAISendDiceRequest.cpp \
+    $${PWD}/OAISendDiceResponse.cpp \
+    $${PWD}/OAISendDocumentRequest.cpp \
+    $${PWD}/OAISendDocumentResponse.cpp \
+    $${PWD}/OAISendGameRequest.cpp \
+    $${PWD}/OAISendGameResponse.cpp \
+    $${PWD}/OAISendGiftRequest.cpp \
+    $${PWD}/OAISendGiftRequest_chat_id.cpp \
+    $${PWD}/OAISendGiftResponse.cpp \
+    $${PWD}/OAISendInvoiceRequest.cpp \
+    $${PWD}/OAISendInvoiceResponse.cpp \
+    $${PWD}/OAISendLocationRequest.cpp \
+    $${PWD}/OAISendLocationResponse.cpp \
+    $${PWD}/OAISendMediaGroupRequest.cpp \
+    $${PWD}/OAISendMediaGroupRequest_media_inner.cpp \
+    $${PWD}/OAISendMediaGroupResponse.cpp \
+    $${PWD}/OAISendMessageRequest.cpp \
+    $${PWD}/OAISendMessageRequest_chat_id.cpp \
+    $${PWD}/OAISendMessageRequest_reply_markup.cpp \
+    $${PWD}/OAISendMessageResponse.cpp \
+    $${PWD}/OAISendPaidMediaRequest.cpp \
+    $${PWD}/OAISendPaidMediaRequest_chat_id.cpp \
+    $${PWD}/OAISendPaidMediaResponse.cpp \
+    $${PWD}/OAISendPhotoRequest.cpp \
+    $${PWD}/OAISendPhotoResponse.cpp \
+    $${PWD}/OAISendPollRequest.cpp \
+    $${PWD}/OAISendPollResponse.cpp \
+    $${PWD}/OAISendStickerRequest.cpp \
+    $${PWD}/OAISendStickerResponse.cpp \
+    $${PWD}/OAISendVenueRequest.cpp \
+    $${PWD}/OAISendVenueResponse.cpp \
+    $${PWD}/OAISendVideoNoteRequest.cpp \
+    $${PWD}/OAISendVideoNoteResponse.cpp \
+    $${PWD}/OAISendVideoRequest.cpp \
+    $${PWD}/OAISendVideoResponse.cpp \
+    $${PWD}/OAISendVoiceRequest.cpp \
+    $${PWD}/OAISendVoiceResponse.cpp \
     $${PWD}/OAISentWebAppMessage.cpp \
+    $${PWD}/OAISetBusinessAccountBioRequest.cpp \
+    $${PWD}/OAISetBusinessAccountBioResponse.cpp \
+    $${PWD}/OAISetBusinessAccountGiftSettingsRequest.cpp \
+    $${PWD}/OAISetBusinessAccountGiftSettingsResponse.cpp \
+    $${PWD}/OAISetBusinessAccountNameRequest.cpp \
+    $${PWD}/OAISetBusinessAccountNameResponse.cpp \
+    $${PWD}/OAISetBusinessAccountProfilePhotoRequest.cpp \
+    $${PWD}/OAISetBusinessAccountProfilePhotoResponse.cpp \
+    $${PWD}/OAISetBusinessAccountUsernameRequest.cpp \
+    $${PWD}/OAISetBusinessAccountUsernameResponse.cpp \
+    $${PWD}/OAISetChatAdministratorCustomTitleRequest.cpp \
+    $${PWD}/OAISetChatAdministratorCustomTitleResponse.cpp \
+    $${PWD}/OAISetChatDescriptionRequest.cpp \
+    $${PWD}/OAISetChatDescriptionResponse.cpp \
+    $${PWD}/OAISetChatMenuButtonRequest.cpp \
+    $${PWD}/OAISetChatMenuButtonResponse.cpp \
+    $${PWD}/OAISetChatPermissionsRequest.cpp \
+    $${PWD}/OAISetChatPermissionsResponse.cpp \
+    $${PWD}/OAISetChatPhotoRequest.cpp \
+    $${PWD}/OAISetChatPhotoResponse.cpp \
+    $${PWD}/OAISetChatStickerSetRequest.cpp \
+    $${PWD}/OAISetChatStickerSetResponse.cpp \
+    $${PWD}/OAISetChatTitleRequest.cpp \
+    $${PWD}/OAISetChatTitleResponse.cpp \
+    $${PWD}/OAISetCustomEmojiStickerSetThumbnailRequest.cpp \
+    $${PWD}/OAISetCustomEmojiStickerSetThumbnailResponse.cpp \
+    $${PWD}/OAISetGameScoreRequest.cpp \
+    $${PWD}/OAISetGameScoreResponse.cpp \
+    $${PWD}/OAISetMessageReactionRequest.cpp \
+    $${PWD}/OAISetMessageReactionResponse.cpp \
+    $${PWD}/OAISetMyCommandsRequest.cpp \
+    $${PWD}/OAISetMyCommandsResponse.cpp \
+    $${PWD}/OAISetMyDefaultAdministratorRightsRequest.cpp \
+    $${PWD}/OAISetMyDefaultAdministratorRightsResponse.cpp \
+    $${PWD}/OAISetMyDescriptionRequest.cpp \
+    $${PWD}/OAISetMyDescriptionResponse.cpp \
+    $${PWD}/OAISetMyNameRequest.cpp \
+    $${PWD}/OAISetMyNameResponse.cpp \
+    $${PWD}/OAISetMyShortDescriptionRequest.cpp \
+    $${PWD}/OAISetMyShortDescriptionResponse.cpp \
+    $${PWD}/OAISetPassportDataErrorsRequest.cpp \
+    $${PWD}/OAISetPassportDataErrorsResponse.cpp \
+    $${PWD}/OAISetStickerEmojiListRequest.cpp \
+    $${PWD}/OAISetStickerEmojiListResponse.cpp \
+    $${PWD}/OAISetStickerKeywordsRequest.cpp \
+    $${PWD}/OAISetStickerKeywordsResponse.cpp \
+    $${PWD}/OAISetStickerMaskPositionRequest.cpp \
+    $${PWD}/OAISetStickerMaskPositionResponse.cpp \
+    $${PWD}/OAISetStickerPositionInSetRequest.cpp \
+    $${PWD}/OAISetStickerPositionInSetResponse.cpp \
+    $${PWD}/OAISetStickerSetThumbnailRequest.cpp \
+    $${PWD}/OAISetStickerSetThumbnailResponse.cpp \
+    $${PWD}/OAISetStickerSetTitleRequest.cpp \
+    $${PWD}/OAISetStickerSetTitleResponse.cpp \
+    $${PWD}/OAISetUserEmojiStatusRequest.cpp \
+    $${PWD}/OAISetUserEmojiStatusResponse.cpp \
+    $${PWD}/OAISetWebhookRequest.cpp \
+    $${PWD}/OAISetWebhookResponse.cpp \
     $${PWD}/OAISharedUser.cpp \
     $${PWD}/OAIShippingAddress.cpp \
     $${PWD}/OAIShippingOption.cpp \
@@ -658,6 +1088,10 @@ SOURCES += \
     $${PWD}/OAIStarTransactions.cpp \
     $${PWD}/OAISticker.cpp \
     $${PWD}/OAIStickerSet.cpp \
+    $${PWD}/OAIStopMessageLiveLocationRequest.cpp \
+    $${PWD}/OAIStopMessageLiveLocationResponse.cpp \
+    $${PWD}/OAIStopPollRequest.cpp \
+    $${PWD}/OAIStopPollResponse.cpp \
     $${PWD}/OAIStory.cpp \
     $${PWD}/OAIStoryArea.cpp \
     $${PWD}/OAIStoryAreaPosition.cpp \
@@ -678,18 +1112,44 @@ SOURCES += \
     $${PWD}/OAITransactionPartnerTelegramAds.cpp \
     $${PWD}/OAITransactionPartnerTelegramApi.cpp \
     $${PWD}/OAITransactionPartnerUser.cpp \
+    $${PWD}/OAITransferBusinessAccountStarsRequest.cpp \
+    $${PWD}/OAITransferBusinessAccountStarsResponse.cpp \
+    $${PWD}/OAITransferGiftRequest.cpp \
+    $${PWD}/OAITransferGiftResponse.cpp \
+    $${PWD}/OAIUnbanChatMemberRequest.cpp \
+    $${PWD}/OAIUnbanChatMemberResponse.cpp \
+    $${PWD}/OAIUnbanChatSenderChatRequest.cpp \
+    $${PWD}/OAIUnbanChatSenderChatResponse.cpp \
+    $${PWD}/OAIUnhideGeneralForumTopicRequest.cpp \
+    $${PWD}/OAIUnhideGeneralForumTopicResponse.cpp \
     $${PWD}/OAIUniqueGift.cpp \
     $${PWD}/OAIUniqueGiftBackdrop.cpp \
     $${PWD}/OAIUniqueGiftBackdropColors.cpp \
     $${PWD}/OAIUniqueGiftInfo.cpp \
     $${PWD}/OAIUniqueGiftModel.cpp \
     $${PWD}/OAIUniqueGiftSymbol.cpp \
+    $${PWD}/OAIUnpinAllChatMessagesRequest.cpp \
+    $${PWD}/OAIUnpinAllChatMessagesResponse.cpp \
+    $${PWD}/OAIUnpinAllForumTopicMessagesRequest.cpp \
+    $${PWD}/OAIUnpinAllForumTopicMessagesResponse.cpp \
+    $${PWD}/OAIUnpinAllGeneralForumTopicMessagesRequest.cpp \
+    $${PWD}/OAIUnpinAllGeneralForumTopicMessagesResponse.cpp \
+    $${PWD}/OAIUnpinChatMessageRequest.cpp \
+    $${PWD}/OAIUnpinChatMessageResponse.cpp \
     $${PWD}/OAIUpdate.cpp \
+    $${PWD}/OAIUpgradeGiftRequest.cpp \
+    $${PWD}/OAIUpgradeGiftResponse.cpp \
+    $${PWD}/OAIUploadStickerFileRequest.cpp \
+    $${PWD}/OAIUploadStickerFileResponse.cpp \
     $${PWD}/OAIUser.cpp \
     $${PWD}/OAIUserChatBoosts.cpp \
     $${PWD}/OAIUserProfilePhotos.cpp \
     $${PWD}/OAIUsersShared.cpp \
     $${PWD}/OAIVenue.cpp \
+    $${PWD}/OAIVerifyChatRequest.cpp \
+    $${PWD}/OAIVerifyChatResponse.cpp \
+    $${PWD}/OAIVerifyUserRequest.cpp \
+    $${PWD}/OAIVerifyUserResponse.cpp \
     $${PWD}/OAIVideo.cpp \
     $${PWD}/OAIVideoChatEnded.cpp \
     $${PWD}/OAIVideoChatParticipantsInvited.cpp \
@@ -700,176 +1160,6 @@ SOURCES += \
     $${PWD}/OAIWebAppInfo.cpp \
     $${PWD}/OAIWebhookInfo.cpp \
     $${PWD}/OAIWriteAccessAllowed.cpp \
-    $${PWD}/OAI_answerCallbackQuery_post_request.cpp \
-    $${PWD}/OAI_answerInlineQuery_post_request.cpp \
-    $${PWD}/OAI_answerPreCheckoutQuery_post_request.cpp \
-    $${PWD}/OAI_answerShippingQuery_post_request.cpp \
-    $${PWD}/OAI_answerWebAppQuery_post_200_response.cpp \
-    $${PWD}/OAI_answerWebAppQuery_post_request.cpp \
-    $${PWD}/OAI_approveChatJoinRequest_post_request.cpp \
-    $${PWD}/OAI_banChatMember_post_request.cpp \
-    $${PWD}/OAI_banChatMember_post_request_chat_id.cpp \
-    $${PWD}/OAI_banChatSenderChat_post_request.cpp \
-    $${PWD}/OAI_closeForumTopic_post_request.cpp \
-    $${PWD}/OAI_convertGiftToStars_post_request.cpp \
-    $${PWD}/OAI_copyMessage_post_200_response.cpp \
-    $${PWD}/OAI_copyMessage_post_request.cpp \
-    $${PWD}/OAI_copyMessages_post_request.cpp \
-    $${PWD}/OAI_createChatInviteLink_post_200_response.cpp \
-    $${PWD}/OAI_createChatInviteLink_post_request.cpp \
-    $${PWD}/OAI_createChatSubscriptionInviteLink_post_request.cpp \
-    $${PWD}/OAI_createChatSubscriptionInviteLink_post_request_chat_id.cpp \
-    $${PWD}/OAI_createForumTopic_post_200_response.cpp \
-    $${PWD}/OAI_createForumTopic_post_request.cpp \
-    $${PWD}/OAI_createInvoiceLink_post_request.cpp \
-    $${PWD}/OAI_deleteBusinessMessages_post_request.cpp \
-    $${PWD}/OAI_deleteChatStickerSet_post_request.cpp \
-    $${PWD}/OAI_deleteMessage_post_request.cpp \
-    $${PWD}/OAI_deleteMessages_post_request.cpp \
-    $${PWD}/OAI_deleteMyCommands_post_request.cpp \
-    $${PWD}/OAI_deleteStickerFromSet_post_request.cpp \
-    $${PWD}/OAI_deleteStickerSet_post_request.cpp \
-    $${PWD}/OAI_deleteStory_post_request.cpp \
-    $${PWD}/OAI_deleteWebhook_post_request.cpp \
-    $${PWD}/OAI_editChatInviteLink_post_request.cpp \
-    $${PWD}/OAI_editChatSubscriptionInviteLink_post_request.cpp \
-    $${PWD}/OAI_editForumTopic_post_request.cpp \
-    $${PWD}/OAI_editGeneralForumTopic_post_request.cpp \
-    $${PWD}/OAI_editMessageCaption_post_request.cpp \
-    $${PWD}/OAI_editMessageLiveLocation_post_request.cpp \
-    $${PWD}/OAI_editMessageReplyMarkup_post_request.cpp \
-    $${PWD}/OAI_editMessageText_post_200_response.cpp \
-    $${PWD}/OAI_editMessageText_post_200_response_result.cpp \
-    $${PWD}/OAI_editMessageText_post_request.cpp \
-    $${PWD}/OAI_editMessageText_post_request_chat_id.cpp \
-    $${PWD}/OAI_editUserStarSubscription_post_request.cpp \
-    $${PWD}/OAI_exportChatInviteLink_post_200_response.cpp \
-    $${PWD}/OAI_exportChatInviteLink_post_request.cpp \
-    $${PWD}/OAI_forwardMessage_post_request.cpp \
-    $${PWD}/OAI_forwardMessage_post_request_from_chat_id.cpp \
-    $${PWD}/OAI_forwardMessages_post_200_response.cpp \
-    $${PWD}/OAI_forwardMessages_post_request.cpp \
-    $${PWD}/OAI_forwardMessages_post_request_from_chat_id.cpp \
-    $${PWD}/OAI_getAvailableGifts_post_200_response.cpp \
-    $${PWD}/OAI_getBusinessAccountGifts_post_200_response.cpp \
-    $${PWD}/OAI_getBusinessAccountGifts_post_request.cpp \
-    $${PWD}/OAI_getBusinessAccountStarBalance_post_200_response.cpp \
-    $${PWD}/OAI_getBusinessConnection_post_200_response.cpp \
-    $${PWD}/OAI_getBusinessConnection_post_request.cpp \
-    $${PWD}/OAI_getChatAdministrators_post_200_response.cpp \
-    $${PWD}/OAI_getChatMemberCount_post_200_response.cpp \
-    $${PWD}/OAI_getChatMember_post_200_response.cpp \
-    $${PWD}/OAI_getChatMember_post_request.cpp \
-    $${PWD}/OAI_getChatMenuButton_post_200_response.cpp \
-    $${PWD}/OAI_getChatMenuButton_post_request.cpp \
-    $${PWD}/OAI_getChat_post_200_response.cpp \
-    $${PWD}/OAI_getCustomEmojiStickers_post_request.cpp \
-    $${PWD}/OAI_getFile_post_200_response.cpp \
-    $${PWD}/OAI_getFile_post_request.cpp \
-    $${PWD}/OAI_getForumTopicIconStickers_post_200_response.cpp \
-    $${PWD}/OAI_getGameHighScores_post_200_response.cpp \
-    $${PWD}/OAI_getGameHighScores_post_request.cpp \
-    $${PWD}/OAI_getMe_post_200_response.cpp \
-    $${PWD}/OAI_getMyCommands_post_200_response.cpp \
-    $${PWD}/OAI_getMyCommands_post_request.cpp \
-    $${PWD}/OAI_getMyDefaultAdministratorRights_post_200_response.cpp \
-    $${PWD}/OAI_getMyDefaultAdministratorRights_post_request.cpp \
-    $${PWD}/OAI_getMyDescription_post_200_response.cpp \
-    $${PWD}/OAI_getMyName_post_200_response.cpp \
-    $${PWD}/OAI_getMyName_post_request.cpp \
-    $${PWD}/OAI_getMyShortDescription_post_200_response.cpp \
-    $${PWD}/OAI_getStarTransactions_post_200_response.cpp \
-    $${PWD}/OAI_getStarTransactions_post_request.cpp \
-    $${PWD}/OAI_getStickerSet_post_200_response.cpp \
-    $${PWD}/OAI_getStickerSet_post_request.cpp \
-    $${PWD}/OAI_getUpdates_post_200_response.cpp \
-    $${PWD}/OAI_getUpdates_post_request.cpp \
-    $${PWD}/OAI_getUserChatBoosts_post_200_response.cpp \
-    $${PWD}/OAI_getUserChatBoosts_post_request.cpp \
-    $${PWD}/OAI_getUserChatBoosts_post_request_chat_id.cpp \
-    $${PWD}/OAI_getUserProfilePhotos_post_200_response.cpp \
-    $${PWD}/OAI_getUserProfilePhotos_post_request.cpp \
-    $${PWD}/OAI_getWebhookInfo_post_200_response.cpp \
-    $${PWD}/OAI_giftPremiumSubscription_post_request.cpp \
-    $${PWD}/OAI_leaveChat_post_request.cpp \
-    $${PWD}/OAI_leaveChat_post_request_chat_id.cpp \
-    $${PWD}/OAI_pinChatMessage_post_request.cpp \
-    $${PWD}/OAI_postStory_post_200_response.cpp \
-    $${PWD}/OAI_promoteChatMember_post_request.cpp \
-    $${PWD}/OAI_readBusinessMessage_post_request.cpp \
-    $${PWD}/OAI_refundStarPayment_post_request.cpp \
-    $${PWD}/OAI_removeBusinessAccountProfilePhoto_post_request.cpp \
-    $${PWD}/OAI_removeUserVerification_post_request.cpp \
-    $${PWD}/OAI_restrictChatMember_post_request.cpp \
-    $${PWD}/OAI_restrictChatMember_post_request_chat_id.cpp \
-    $${PWD}/OAI_revokeChatInviteLink_post_request.cpp \
-    $${PWD}/OAI_revokeChatInviteLink_post_request_chat_id.cpp \
-    $${PWD}/OAI_savePreparedInlineMessage_post_200_response.cpp \
-    $${PWD}/OAI_savePreparedInlineMessage_post_request.cpp \
-    $${PWD}/OAI_sendAnimation_post_request_animation.cpp \
-    $${PWD}/OAI_sendAudio_post_request_audio.cpp \
-    $${PWD}/OAI_sendAudio_post_request_thumbnail.cpp \
-    $${PWD}/OAI_sendChatAction_post_request.cpp \
-    $${PWD}/OAI_sendContact_post_request.cpp \
-    $${PWD}/OAI_sendDice_post_request.cpp \
-    $${PWD}/OAI_sendDocument_post_request_document.cpp \
-    $${PWD}/OAI_sendGame_post_request.cpp \
-    $${PWD}/OAI_sendGift_post_request.cpp \
-    $${PWD}/OAI_sendGift_post_request_chat_id.cpp \
-    $${PWD}/OAI_sendInvoice_post_request.cpp \
-    $${PWD}/OAI_sendLocation_post_request.cpp \
-    $${PWD}/OAI_sendMediaGroup_post_200_response.cpp \
-    $${PWD}/OAI_sendMediaGroup_post_request_media_inner.cpp \
-    $${PWD}/OAI_sendMessage_post_200_response.cpp \
-    $${PWD}/OAI_sendMessage_post_request.cpp \
-    $${PWD}/OAI_sendMessage_post_request_chat_id.cpp \
-    $${PWD}/OAI_sendMessage_post_request_reply_markup.cpp \
-    $${PWD}/OAI_sendPaidMedia_post_request_chat_id.cpp \
-    $${PWD}/OAI_sendPhoto_post_request_photo.cpp \
-    $${PWD}/OAI_sendPoll_post_request.cpp \
-    $${PWD}/OAI_sendSticker_post_request_sticker.cpp \
-    $${PWD}/OAI_sendVenue_post_request.cpp \
-    $${PWD}/OAI_sendVideoNote_post_request_video_note.cpp \
-    $${PWD}/OAI_sendVideo_post_request_cover.cpp \
-    $${PWD}/OAI_sendVideo_post_request_video.cpp \
-    $${PWD}/OAI_sendVoice_post_request_voice.cpp \
-    $${PWD}/OAI_setBusinessAccountBio_post_request.cpp \
-    $${PWD}/OAI_setBusinessAccountGiftSettings_post_request.cpp \
-    $${PWD}/OAI_setBusinessAccountName_post_request.cpp \
-    $${PWD}/OAI_setBusinessAccountUsername_post_request.cpp \
-    $${PWD}/OAI_setChatAdministratorCustomTitle_post_request.cpp \
-    $${PWD}/OAI_setChatDescription_post_request.cpp \
-    $${PWD}/OAI_setChatMenuButton_post_request.cpp \
-    $${PWD}/OAI_setChatPermissions_post_request.cpp \
-    $${PWD}/OAI_setChatStickerSet_post_request.cpp \
-    $${PWD}/OAI_setChatTitle_post_request.cpp \
-    $${PWD}/OAI_setCustomEmojiStickerSetThumbnail_post_request.cpp \
-    $${PWD}/OAI_setGameScore_post_request.cpp \
-    $${PWD}/OAI_setMessageReaction_post_request.cpp \
-    $${PWD}/OAI_setMyCommands_post_request.cpp \
-    $${PWD}/OAI_setMyDefaultAdministratorRights_post_request.cpp \
-    $${PWD}/OAI_setMyDescription_post_request.cpp \
-    $${PWD}/OAI_setMyName_post_request.cpp \
-    $${PWD}/OAI_setMyShortDescription_post_request.cpp \
-    $${PWD}/OAI_setPassportDataErrors_post_request.cpp \
-    $${PWD}/OAI_setStickerEmojiList_post_request.cpp \
-    $${PWD}/OAI_setStickerKeywords_post_request.cpp \
-    $${PWD}/OAI_setStickerMaskPosition_post_request.cpp \
-    $${PWD}/OAI_setStickerPositionInSet_post_request.cpp \
-    $${PWD}/OAI_setStickerSetThumbnail_post_request_thumbnail.cpp \
-    $${PWD}/OAI_setStickerSetTitle_post_request.cpp \
-    $${PWD}/OAI_setUserEmojiStatus_post_request.cpp \
-    $${PWD}/OAI_setWebhook_post_200_response.cpp \
-    $${PWD}/OAI_stopMessageLiveLocation_post_request.cpp \
-    $${PWD}/OAI_stopPoll_post_200_response.cpp \
-    $${PWD}/OAI_stopPoll_post_request.cpp \
-    $${PWD}/OAI_transferBusinessAccountStars_post_request.cpp \
-    $${PWD}/OAI_transferGift_post_request.cpp \
-    $${PWD}/OAI_unbanChatMember_post_request.cpp \
-    $${PWD}/OAI_unpinChatMessage_post_request.cpp \
-    $${PWD}/OAI_upgradeGift_post_request.cpp \
-    $${PWD}/OAI_verifyChat_post_request.cpp \
-    $${PWD}/OAI_verifyUser_post_request.cpp \
 # APIs
     $${PWD}/OAIDefaultApi.cpp \
 # Others
