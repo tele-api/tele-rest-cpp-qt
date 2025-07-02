@@ -7,7 +7,7 @@
  * - **Copyright**: Copyright (c) 2025 Qntx
  * - **Author**: ΣX <gitctrlx@gmail.com>
  * - **Version**: 9.0.0
- * - **Modified**: 2025-07-01T14:36:12.380160517Z[Etc/UTC]
+ * - **Modified**: 2025-07-02T07:03:12.172160579Z[Etc/UTC]
  * - **Generator Version**: 7.14.0
  *
  * <details>
@@ -72,72 +72,72 @@
 #include "OAIMenuButton.h"
 #include "OAIMessageEntity.h"
 #include "OAIPassportElementError.h"
+#include "OAIPost_answerWebAppQuery_200_response.h"
+#include "OAIPost_banChatMember_request_chat_id.h"
+#include "OAIPost_copyMessage_200_response.h"
+#include "OAIPost_createChatInviteLink_200_response.h"
+#include "OAIPost_createChatSubscriptionInviteLink_request_chat_id.h"
+#include "OAIPost_createForumTopic_200_response.h"
+#include "OAIPost_editMessageText_200_response.h"
+#include "OAIPost_editMessageText_request_chat_id.h"
+#include "OAIPost_exportChatInviteLink_200_response.h"
+#include "OAIPost_forwardMessage_request_from_chat_id.h"
+#include "OAIPost_forwardMessages_200_response.h"
+#include "OAIPost_forwardMessages_request_from_chat_id.h"
+#include "OAIPost_getAvailableGifts_200_response.h"
+#include "OAIPost_getBusinessAccountGifts_200_response.h"
+#include "OAIPost_getBusinessAccountStarBalance_200_response.h"
+#include "OAIPost_getBusinessConnection_200_response.h"
+#include "OAIPost_getChatAdministrators_200_response.h"
+#include "OAIPost_getChatMemberCount_200_response.h"
+#include "OAIPost_getChatMember_200_response.h"
+#include "OAIPost_getChatMenuButton_200_response.h"
+#include "OAIPost_getChat_200_response.h"
+#include "OAIPost_getFile_200_response.h"
+#include "OAIPost_getForumTopicIconStickers_200_response.h"
+#include "OAIPost_getGameHighScores_200_response.h"
+#include "OAIPost_getMe_200_response.h"
+#include "OAIPost_getMyCommands_200_response.h"
+#include "OAIPost_getMyDefaultAdministratorRights_200_response.h"
+#include "OAIPost_getMyDescription_200_response.h"
+#include "OAIPost_getMyName_200_response.h"
+#include "OAIPost_getMyShortDescription_200_response.h"
+#include "OAIPost_getStarTransactions_200_response.h"
+#include "OAIPost_getStickerSet_200_response.h"
+#include "OAIPost_getUpdates_200_response.h"
+#include "OAIPost_getUserChatBoosts_200_response.h"
+#include "OAIPost_getUserChatBoosts_request_chat_id.h"
+#include "OAIPost_getUserProfilePhotos_200_response.h"
+#include "OAIPost_getWebhookInfo_200_response.h"
+#include "OAIPost_leaveChat_request_chat_id.h"
+#include "OAIPost_postStory_200_response.h"
+#include "OAIPost_restrictChatMember_request_chat_id.h"
+#include "OAIPost_revokeChatInviteLink_request_chat_id.h"
+#include "OAIPost_savePreparedInlineMessage_200_response.h"
+#include "OAIPost_sendAnimation_request_animation.h"
+#include "OAIPost_sendAudio_request_audio.h"
+#include "OAIPost_sendAudio_request_thumbnail.h"
+#include "OAIPost_sendDocument_request_document.h"
+#include "OAIPost_sendGift_request_chat_id.h"
+#include "OAIPost_sendMediaGroup_200_response.h"
+#include "OAIPost_sendMediaGroup_request_media_inner.h"
+#include "OAIPost_sendMessage_200_response.h"
+#include "OAIPost_sendMessage_request_chat_id.h"
+#include "OAIPost_sendMessage_request_reply_markup.h"
+#include "OAIPost_sendPaidMedia_request_chat_id.h"
+#include "OAIPost_sendPhoto_request_photo.h"
+#include "OAIPost_sendSticker_request_sticker.h"
+#include "OAIPost_sendVideoNote_request_video_note.h"
+#include "OAIPost_sendVideo_request_cover.h"
+#include "OAIPost_sendVideo_request_video.h"
+#include "OAIPost_sendVoice_request_voice.h"
+#include "OAIPost_setStickerSetThumbnail_request_thumbnail.h"
+#include "OAIPost_setWebhook_200_response.h"
+#include "OAIPost_stopPoll_200_response.h"
 #include "OAIReactionType.h"
 #include "OAIReplyParameters.h"
 #include "OAIShippingOption.h"
 #include "OAIStoryArea.h"
-#include "OAI_answerWebAppQuery_post_200_response.h"
-#include "OAI_banChatMember_post_request_chat_id.h"
-#include "OAI_copyMessage_post_200_response.h"
-#include "OAI_createChatInviteLink_post_200_response.h"
-#include "OAI_createChatSubscriptionInviteLink_post_request_chat_id.h"
-#include "OAI_createForumTopic_post_200_response.h"
-#include "OAI_editMessageText_post_200_response.h"
-#include "OAI_editMessageText_post_request_chat_id.h"
-#include "OAI_exportChatInviteLink_post_200_response.h"
-#include "OAI_forwardMessage_post_request_from_chat_id.h"
-#include "OAI_forwardMessages_post_200_response.h"
-#include "OAI_forwardMessages_post_request_from_chat_id.h"
-#include "OAI_getAvailableGifts_post_200_response.h"
-#include "OAI_getBusinessAccountGifts_post_200_response.h"
-#include "OAI_getBusinessAccountStarBalance_post_200_response.h"
-#include "OAI_getBusinessConnection_post_200_response.h"
-#include "OAI_getChatAdministrators_post_200_response.h"
-#include "OAI_getChatMemberCount_post_200_response.h"
-#include "OAI_getChatMember_post_200_response.h"
-#include "OAI_getChatMenuButton_post_200_response.h"
-#include "OAI_getChat_post_200_response.h"
-#include "OAI_getFile_post_200_response.h"
-#include "OAI_getForumTopicIconStickers_post_200_response.h"
-#include "OAI_getGameHighScores_post_200_response.h"
-#include "OAI_getMe_post_200_response.h"
-#include "OAI_getMyCommands_post_200_response.h"
-#include "OAI_getMyDefaultAdministratorRights_post_200_response.h"
-#include "OAI_getMyDescription_post_200_response.h"
-#include "OAI_getMyName_post_200_response.h"
-#include "OAI_getMyShortDescription_post_200_response.h"
-#include "OAI_getStarTransactions_post_200_response.h"
-#include "OAI_getStickerSet_post_200_response.h"
-#include "OAI_getUpdates_post_200_response.h"
-#include "OAI_getUserChatBoosts_post_200_response.h"
-#include "OAI_getUserChatBoosts_post_request_chat_id.h"
-#include "OAI_getUserProfilePhotos_post_200_response.h"
-#include "OAI_getWebhookInfo_post_200_response.h"
-#include "OAI_leaveChat_post_request_chat_id.h"
-#include "OAI_postStory_post_200_response.h"
-#include "OAI_restrictChatMember_post_request_chat_id.h"
-#include "OAI_revokeChatInviteLink_post_request_chat_id.h"
-#include "OAI_savePreparedInlineMessage_post_200_response.h"
-#include "OAI_sendAnimation_post_request_animation.h"
-#include "OAI_sendAudio_post_request_audio.h"
-#include "OAI_sendAudio_post_request_thumbnail.h"
-#include "OAI_sendDocument_post_request_document.h"
-#include "OAI_sendGift_post_request_chat_id.h"
-#include "OAI_sendMediaGroup_post_200_response.h"
-#include "OAI_sendMediaGroup_post_request_media_inner.h"
-#include "OAI_sendMessage_post_200_response.h"
-#include "OAI_sendMessage_post_request_chat_id.h"
-#include "OAI_sendMessage_post_request_reply_markup.h"
-#include "OAI_sendPaidMedia_post_request_chat_id.h"
-#include "OAI_sendPhoto_post_request_photo.h"
-#include "OAI_sendSticker_post_request_sticker.h"
-#include "OAI_sendVideoNote_post_request_video_note.h"
-#include "OAI_sendVideo_post_request_cover.h"
-#include "OAI_sendVideo_post_request_video.h"
-#include "OAI_sendVoice_post_request_voice.h"
-#include "OAI_setStickerSetThumbnail_post_request_thumbnail.h"
-#include "OAI_setWebhook_post_200_response.h"
-#include "OAI_stopPoll_post_200_response.h"
 #include <QString>
 
 #include <QObject>
@@ -181,7 +181,7 @@ public:
     * @param[in]  name QString [required]
     * @param[in]  sticker OAIInputSticker [required]
     */
-    virtual void addStickerToSetPost(const qint32 &user_id, const QString &name, const OAIInputSticker &sticker);
+    virtual void postAddStickerToSet(const qint32 &user_id, const QString &name, const OAIInputSticker &sticker);
 
     /**
     * @param[in]  callback_query_id QString [required]
@@ -190,7 +190,7 @@ public:
     * @param[in]  url QString [optional]
     * @param[in]  cache_time qint32 [optional]
     */
-    virtual void answerCallbackQueryPost(const QString &callback_query_id, const ::tele_rest::OptionalParam<QString> &text = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &show_alert = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &url = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &cache_time = ::tele_rest::OptionalParam<qint32>());
+    virtual void postAnswerCallbackQuery(const QString &callback_query_id, const ::tele_rest::OptionalParam<QString> &text = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &show_alert = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &url = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &cache_time = ::tele_rest::OptionalParam<qint32>());
 
     /**
     * @param[in]  inline_query_id QString [required]
@@ -200,14 +200,14 @@ public:
     * @param[in]  next_offset QString [optional]
     * @param[in]  button OAIInlineQueryResultsButton [optional]
     */
-    virtual void answerInlineQueryPost(const QString &inline_query_id, const QList<OAIInlineQueryResult> &results, const ::tele_rest::OptionalParam<qint32> &cache_time = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &is_personal = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &next_offset = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIInlineQueryResultsButton> &button = ::tele_rest::OptionalParam<OAIInlineQueryResultsButton>());
+    virtual void postAnswerInlineQuery(const QString &inline_query_id, const QList<OAIInlineQueryResult> &results, const ::tele_rest::OptionalParam<qint32> &cache_time = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &is_personal = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &next_offset = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIInlineQueryResultsButton> &button = ::tele_rest::OptionalParam<OAIInlineQueryResultsButton>());
 
     /**
     * @param[in]  pre_checkout_query_id QString [required]
     * @param[in]  ok bool [required]
     * @param[in]  error_message QString [optional]
     */
-    virtual void answerPreCheckoutQueryPost(const QString &pre_checkout_query_id, const bool &ok, const ::tele_rest::OptionalParam<QString> &error_message = ::tele_rest::OptionalParam<QString>());
+    virtual void postAnswerPreCheckoutQuery(const QString &pre_checkout_query_id, const bool &ok, const ::tele_rest::OptionalParam<QString> &error_message = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  shipping_query_id QString [required]
@@ -215,57 +215,57 @@ public:
     * @param[in]  shipping_options QList<OAIShippingOption> [optional]
     * @param[in]  error_message QString [optional]
     */
-    virtual void answerShippingQueryPost(const QString &shipping_query_id, const bool &ok, const ::tele_rest::OptionalParam<QList<OAIShippingOption>> &shipping_options = ::tele_rest::OptionalParam<QList<OAIShippingOption>>(), const ::tele_rest::OptionalParam<QString> &error_message = ::tele_rest::OptionalParam<QString>());
+    virtual void postAnswerShippingQuery(const QString &shipping_query_id, const bool &ok, const ::tele_rest::OptionalParam<QList<OAIShippingOption>> &shipping_options = ::tele_rest::OptionalParam<QList<OAIShippingOption>>(), const ::tele_rest::OptionalParam<QString> &error_message = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  web_app_query_id QString [required]
     * @param[in]  result OAIInlineQueryResult [required]
     */
-    virtual void answerWebAppQueryPost(const QString &web_app_query_id, const OAIInlineQueryResult &result);
+    virtual void postAnswerWebAppQuery(const QString &web_app_query_id, const OAIInlineQueryResult &result);
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  user_id qint32 [required]
     */
-    virtual void approveChatJoinRequestPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &user_id);
+    virtual void postApproveChatJoinRequest(const OAIPost_sendMessage_request_chat_id &chat_id, const qint32 &user_id);
 
     /**
-    * @param[in]  chat_id OAI_banChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_banChatMember_request_chat_id [required]
     * @param[in]  user_id qint32 [required]
     * @param[in]  until_date qint32 [optional]
     * @param[in]  revoke_messages bool [optional]
     */
-    virtual void banChatMemberPost(const OAI_banChatMember_post_request_chat_id &chat_id, const qint32 &user_id, const ::tele_rest::OptionalParam<qint32> &until_date = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &revoke_messages = ::tele_rest::OptionalParam<bool>());
+    virtual void postBanChatMember(const OAIPost_banChatMember_request_chat_id &chat_id, const qint32 &user_id, const ::tele_rest::OptionalParam<qint32> &until_date = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &revoke_messages = ::tele_rest::OptionalParam<bool>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  sender_chat_id qint32 [required]
     */
-    virtual void banChatSenderChatPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &sender_chat_id);
+    virtual void postBanChatSenderChat(const OAIPost_sendMessage_request_chat_id &chat_id, const qint32 &sender_chat_id);
+
+
+    virtual void postClose();
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     * @param[in]  message_thread_id qint32 [required]
     */
-    virtual void closeForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &message_thread_id);
+    virtual void postCloseForumTopic(const OAIPost_restrictChatMember_request_chat_id &chat_id, const qint32 &message_thread_id);
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     */
-    virtual void closeGeneralForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id);
-
-
-    virtual void closePost();
+    virtual void postCloseGeneralForumTopic(const OAIPost_restrictChatMember_request_chat_id &chat_id);
 
     /**
     * @param[in]  business_connection_id QString [required]
     * @param[in]  owned_gift_id QString [required]
     */
-    virtual void convertGiftToStarsPost(const QString &business_connection_id, const QString &owned_gift_id);
+    virtual void postConvertGiftToStars(const QString &business_connection_id, const QString &owned_gift_id);
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  from_chat_id OAI_forwardMessage_post_request_from_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  from_chat_id OAIPost_forwardMessage_request_from_chat_id [required]
     * @param[in]  message_id qint32 [required]
     * @param[in]  message_thread_id qint32 [optional]
     * @param[in]  video_start_timestamp qint32 [optional]
@@ -277,45 +277,45 @@ public:
     * @param[in]  protect_content bool [optional]
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void copyMessagePost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_forwardMessage_post_request_from_chat_id &from_chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &video_start_timestamp = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &show_caption_above_media = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postCopyMessage(const OAIPost_sendMessage_request_chat_id &chat_id, const OAIPost_forwardMessage_request_from_chat_id &from_chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &video_start_timestamp = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &show_caption_above_media = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  from_chat_id OAI_forwardMessages_post_request_from_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  from_chat_id OAIPost_forwardMessages_request_from_chat_id [required]
     * @param[in]  message_ids QList<qint32> [required]
     * @param[in]  message_thread_id qint32 [optional]
     * @param[in]  disable_notification bool [optional]
     * @param[in]  protect_content bool [optional]
     * @param[in]  remove_caption bool [optional]
     */
-    virtual void copyMessagesPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_forwardMessages_post_request_from_chat_id &from_chat_id, const QList<qint32> &message_ids, const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &remove_caption = ::tele_rest::OptionalParam<bool>());
+    virtual void postCopyMessages(const OAIPost_sendMessage_request_chat_id &chat_id, const OAIPost_forwardMessages_request_from_chat_id &from_chat_id, const QList<qint32> &message_ids, const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &remove_caption = ::tele_rest::OptionalParam<bool>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  name QString [optional]
     * @param[in]  expire_date qint32 [optional]
     * @param[in]  member_limit qint32 [optional]
     * @param[in]  creates_join_request bool [optional]
     */
-    virtual void createChatInviteLinkPost(const OAI_sendMessage_post_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &name = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &expire_date = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &member_limit = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &creates_join_request = ::tele_rest::OptionalParam<bool>());
+    virtual void postCreateChatInviteLink(const OAIPost_sendMessage_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &name = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &expire_date = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &member_limit = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &creates_join_request = ::tele_rest::OptionalParam<bool>());
 
     /**
-    * @param[in]  chat_id OAI_createChatSubscriptionInviteLink_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_createChatSubscriptionInviteLink_request_chat_id [required]
     * @param[in]  subscription_period qint32 [required]
     * @param[in]  subscription_price qint32 [required]
     * @param[in]  name QString [optional]
     */
-    virtual void createChatSubscriptionInviteLinkPost(const OAI_createChatSubscriptionInviteLink_post_request_chat_id &chat_id, const qint32 &subscription_period, const qint32 &subscription_price, const ::tele_rest::OptionalParam<QString> &name = ::tele_rest::OptionalParam<QString>());
+    virtual void postCreateChatSubscriptionInviteLink(const OAIPost_createChatSubscriptionInviteLink_request_chat_id &chat_id, const qint32 &subscription_period, const qint32 &subscription_price, const ::tele_rest::OptionalParam<QString> &name = ::tele_rest::OptionalParam<QString>());
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     * @param[in]  name QString [required]
     * @param[in]  icon_color qint32 [optional]
     * @param[in]  icon_custom_emoji_id QString [optional]
     */
-    virtual void createForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const QString &name, const ::tele_rest::OptionalParam<qint32> &icon_color = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &icon_custom_emoji_id = ::tele_rest::OptionalParam<QString>());
+    virtual void postCreateForumTopic(const OAIPost_restrictChatMember_request_chat_id &chat_id, const QString &name, const ::tele_rest::OptionalParam<qint32> &icon_color = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &icon_custom_emoji_id = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  title QString [required]
@@ -341,7 +341,7 @@ public:
     * @param[in]  send_email_to_provider bool [optional]
     * @param[in]  is_flexible bool [optional]
     */
-    virtual void createInvoiceLinkPost(const QString &title, const QString &description, const QString &payload, const QString &currency, const QList<OAILabeledPrice> &prices, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &provider_token = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &subscription_period = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &max_tip_amount = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QList<qint32>> &suggested_tip_amounts = ::tele_rest::OptionalParam<QList<qint32>>(), const ::tele_rest::OptionalParam<QString> &provider_data = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &photo_url = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &photo_size = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &photo_width = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &photo_height = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &need_name = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &need_phone_number = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &need_email = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &need_shipping_address = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &send_phone_number_to_provider = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &send_email_to_provider = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &is_flexible = ::tele_rest::OptionalParam<bool>());
+    virtual void postCreateInvoiceLink(const QString &title, const QString &description, const QString &payload, const QString &currency, const QList<OAILabeledPrice> &prices, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &provider_token = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &subscription_period = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &max_tip_amount = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QList<qint32>> &suggested_tip_amounts = ::tele_rest::OptionalParam<QList<qint32>>(), const ::tele_rest::OptionalParam<QString> &provider_data = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &photo_url = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &photo_size = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &photo_width = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &photo_height = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &need_name = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &need_phone_number = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &need_email = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &need_shipping_address = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &send_phone_number_to_provider = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &send_email_to_provider = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &is_flexible = ::tele_rest::OptionalParam<bool>());
 
     /**
     * @param[in]  user_id qint32 [required]
@@ -351,109 +351,109 @@ public:
     * @param[in]  sticker_type QString [optional]
     * @param[in]  needs_repainting bool [optional]
     */
-    virtual void createNewStickerSetPost(const qint32 &user_id, const QString &name, const QString &title, const QList<OAIInputSticker> &stickers, const ::tele_rest::OptionalParam<QString> &sticker_type = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &needs_repainting = ::tele_rest::OptionalParam<bool>());
+    virtual void postCreateNewStickerSet(const qint32 &user_id, const QString &name, const QString &title, const QList<OAIInputSticker> &stickers, const ::tele_rest::OptionalParam<QString> &sticker_type = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &needs_repainting = ::tele_rest::OptionalParam<bool>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  user_id qint32 [required]
     */
-    virtual void declineChatJoinRequestPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &user_id);
+    virtual void postDeclineChatJoinRequest(const OAIPost_sendMessage_request_chat_id &chat_id, const qint32 &user_id);
 
     /**
     * @param[in]  business_connection_id QString [required]
     * @param[in]  message_ids QList<qint32> [required]
     */
-    virtual void deleteBusinessMessagesPost(const QString &business_connection_id, const QList<qint32> &message_ids);
+    virtual void postDeleteBusinessMessages(const QString &business_connection_id, const QList<qint32> &message_ids);
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     */
-    virtual void deleteChatPhotoPost(const OAI_sendMessage_post_request_chat_id &chat_id);
+    virtual void postDeleteChatPhoto(const OAIPost_sendMessage_request_chat_id &chat_id);
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     */
-    virtual void deleteChatStickerSetPost(const OAI_restrictChatMember_post_request_chat_id &chat_id);
+    virtual void postDeleteChatStickerSet(const OAIPost_restrictChatMember_request_chat_id &chat_id);
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     * @param[in]  message_thread_id qint32 [required]
     */
-    virtual void deleteForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &message_thread_id);
+    virtual void postDeleteForumTopic(const OAIPost_restrictChatMember_request_chat_id &chat_id, const qint32 &message_thread_id);
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  message_id qint32 [required]
     */
-    virtual void deleteMessagePost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &message_id);
+    virtual void postDeleteMessage(const OAIPost_sendMessage_request_chat_id &chat_id, const qint32 &message_id);
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  message_ids QList<qint32> [required]
     */
-    virtual void deleteMessagesPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QList<qint32> &message_ids);
+    virtual void postDeleteMessages(const OAIPost_sendMessage_request_chat_id &chat_id, const QList<qint32> &message_ids);
 
     /**
     * @param[in]  scope OAIBotCommandScope [optional]
     * @param[in]  language_code QString [optional]
     */
-    virtual void deleteMyCommandsPost(const ::tele_rest::OptionalParam<OAIBotCommandScope> &scope = ::tele_rest::OptionalParam<OAIBotCommandScope>(), const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
+    virtual void postDeleteMyCommands(const ::tele_rest::OptionalParam<OAIBotCommandScope> &scope = ::tele_rest::OptionalParam<OAIBotCommandScope>(), const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  sticker QString [required]
     */
-    virtual void deleteStickerFromSetPost(const QString &sticker);
+    virtual void postDeleteStickerFromSet(const QString &sticker);
 
     /**
     * @param[in]  name QString [required]
     */
-    virtual void deleteStickerSetPost(const QString &name);
+    virtual void postDeleteStickerSet(const QString &name);
 
     /**
     * @param[in]  business_connection_id QString [required]
     * @param[in]  story_id qint32 [required]
     */
-    virtual void deleteStoryPost(const QString &business_connection_id, const qint32 &story_id);
+    virtual void postDeleteStory(const QString &business_connection_id, const qint32 &story_id);
 
     /**
     * @param[in]  drop_pending_updates bool [optional]
     */
-    virtual void deleteWebhookPost(const ::tele_rest::OptionalParam<bool> &drop_pending_updates = ::tele_rest::OptionalParam<bool>());
+    virtual void postDeleteWebhook(const ::tele_rest::OptionalParam<bool> &drop_pending_updates = ::tele_rest::OptionalParam<bool>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  invite_link QString [required]
     * @param[in]  name QString [optional]
     * @param[in]  expire_date qint32 [optional]
     * @param[in]  member_limit qint32 [optional]
     * @param[in]  creates_join_request bool [optional]
     */
-    virtual void editChatInviteLinkPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &invite_link, const ::tele_rest::OptionalParam<QString> &name = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &expire_date = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &member_limit = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &creates_join_request = ::tele_rest::OptionalParam<bool>());
+    virtual void postEditChatInviteLink(const OAIPost_sendMessage_request_chat_id &chat_id, const QString &invite_link, const ::tele_rest::OptionalParam<QString> &name = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &expire_date = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &member_limit = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &creates_join_request = ::tele_rest::OptionalParam<bool>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  invite_link QString [required]
     * @param[in]  name QString [optional]
     */
-    virtual void editChatSubscriptionInviteLinkPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &invite_link, const ::tele_rest::OptionalParam<QString> &name = ::tele_rest::OptionalParam<QString>());
+    virtual void postEditChatSubscriptionInviteLink(const OAIPost_sendMessage_request_chat_id &chat_id, const QString &invite_link, const ::tele_rest::OptionalParam<QString> &name = ::tele_rest::OptionalParam<QString>());
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     * @param[in]  message_thread_id qint32 [required]
     * @param[in]  name QString [optional]
     * @param[in]  icon_custom_emoji_id QString [optional]
     */
-    virtual void editForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &message_thread_id, const ::tele_rest::OptionalParam<QString> &name = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &icon_custom_emoji_id = ::tele_rest::OptionalParam<QString>());
+    virtual void postEditForumTopic(const OAIPost_restrictChatMember_request_chat_id &chat_id, const qint32 &message_thread_id, const ::tele_rest::OptionalParam<QString> &name = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &icon_custom_emoji_id = ::tele_rest::OptionalParam<QString>());
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     * @param[in]  name QString [required]
     */
-    virtual void editGeneralForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const QString &name);
+    virtual void postEditGeneralForumTopic(const OAIPost_restrictChatMember_request_chat_id &chat_id, const QString &name);
 
     /**
     * @param[in]  business_connection_id QString [optional]
-    * @param[in]  chat_id OAI_editMessageText_post_request_chat_id [optional]
+    * @param[in]  chat_id OAIPost_editMessageText_request_chat_id [optional]
     * @param[in]  message_id qint32 [optional]
     * @param[in]  inline_message_id QString [optional]
     * @param[in]  caption QString [optional]
@@ -462,13 +462,13 @@ public:
     * @param[in]  show_caption_above_media bool [optional]
     * @param[in]  reply_markup OAIInlineKeyboardMarkup [optional]
     */
-    virtual void editMessageCaptionPost(const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &show_caption_above_media = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
+    virtual void postEditMessageCaption(const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIPost_editMessageText_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAIPost_editMessageText_request_chat_id>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &show_caption_above_media = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
 
     /**
     * @param[in]  latitude double [required]
     * @param[in]  longitude double [required]
     * @param[in]  business_connection_id QString [optional]
-    * @param[in]  chat_id OAI_editMessageText_post_request_chat_id [optional]
+    * @param[in]  chat_id OAIPost_editMessageText_request_chat_id [optional]
     * @param[in]  message_id qint32 [optional]
     * @param[in]  inline_message_id QString [optional]
     * @param[in]  live_period qint32 [optional]
@@ -477,31 +477,31 @@ public:
     * @param[in]  proximity_alert_radius qint32 [optional]
     * @param[in]  reply_markup OAIInlineKeyboardMarkup [optional]
     */
-    virtual void editMessageLiveLocationPost(const double &latitude, const double &longitude, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &live_period = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<double> &horizontal_accuracy = ::tele_rest::OptionalParam<double>(), const ::tele_rest::OptionalParam<qint32> &heading = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &proximity_alert_radius = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
+    virtual void postEditMessageLiveLocation(const double &latitude, const double &longitude, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIPost_editMessageText_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAIPost_editMessageText_request_chat_id>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &live_period = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<double> &horizontal_accuracy = ::tele_rest::OptionalParam<double>(), const ::tele_rest::OptionalParam<qint32> &heading = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &proximity_alert_radius = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
 
     /**
     * @param[in]  media OAIInputMedia [required]
     * @param[in]  business_connection_id QString [optional]
-    * @param[in]  chat_id OAI_editMessageText_post_request_chat_id [optional]
+    * @param[in]  chat_id OAIPost_editMessageText_request_chat_id [optional]
     * @param[in]  message_id qint32 [optional]
     * @param[in]  inline_message_id QString [optional]
     * @param[in]  reply_markup OAIInlineKeyboardMarkup [optional]
     */
-    virtual void editMessageMediaPost(const OAIInputMedia &media, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
+    virtual void postEditMessageMedia(const OAIInputMedia &media, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIPost_editMessageText_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAIPost_editMessageText_request_chat_id>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
 
     /**
     * @param[in]  business_connection_id QString [optional]
-    * @param[in]  chat_id OAI_editMessageText_post_request_chat_id [optional]
+    * @param[in]  chat_id OAIPost_editMessageText_request_chat_id [optional]
     * @param[in]  message_id qint32 [optional]
     * @param[in]  inline_message_id QString [optional]
     * @param[in]  reply_markup OAIInlineKeyboardMarkup [optional]
     */
-    virtual void editMessageReplyMarkupPost(const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
+    virtual void postEditMessageReplyMarkup(const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIPost_editMessageText_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAIPost_editMessageText_request_chat_id>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
 
     /**
     * @param[in]  text QString [required]
     * @param[in]  business_connection_id QString [optional]
-    * @param[in]  chat_id OAI_editMessageText_post_request_chat_id [optional]
+    * @param[in]  chat_id OAIPost_editMessageText_request_chat_id [optional]
     * @param[in]  message_id qint32 [optional]
     * @param[in]  inline_message_id QString [optional]
     * @param[in]  parse_mode QString [optional]
@@ -509,7 +509,7 @@ public:
     * @param[in]  link_preview_options OAILinkPreviewOptions [optional]
     * @param[in]  reply_markup OAIInlineKeyboardMarkup [optional]
     */
-    virtual void editMessageTextPost(const QString &text, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<OAILinkPreviewOptions> &link_preview_options = ::tele_rest::OptionalParam<OAILinkPreviewOptions>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
+    virtual void postEditMessageText(const QString &text, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIPost_editMessageText_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAIPost_editMessageText_request_chat_id>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<OAILinkPreviewOptions> &link_preview_options = ::tele_rest::OptionalParam<OAILinkPreviewOptions>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
 
     /**
     * @param[in]  business_connection_id QString [required]
@@ -520,43 +520,43 @@ public:
     * @param[in]  caption_entities QList<OAIMessageEntity> [optional]
     * @param[in]  areas QList<OAIStoryArea> [optional]
     */
-    virtual void editStoryPost(const QString &business_connection_id, const qint32 &story_id, const OAIInputStoryContent &content, const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<QList<OAIStoryArea>> &areas = ::tele_rest::OptionalParam<QList<OAIStoryArea>>());
+    virtual void postEditStory(const QString &business_connection_id, const qint32 &story_id, const OAIInputStoryContent &content, const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<QList<OAIStoryArea>> &areas = ::tele_rest::OptionalParam<QList<OAIStoryArea>>());
 
     /**
     * @param[in]  user_id qint32 [required]
     * @param[in]  telegram_payment_charge_id QString [required]
     * @param[in]  is_canceled bool [required]
     */
-    virtual void editUserStarSubscriptionPost(const qint32 &user_id, const QString &telegram_payment_charge_id, const bool &is_canceled);
+    virtual void postEditUserStarSubscription(const qint32 &user_id, const QString &telegram_payment_charge_id, const bool &is_canceled);
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     */
-    virtual void exportChatInviteLinkPost(const OAI_sendMessage_post_request_chat_id &chat_id);
+    virtual void postExportChatInviteLink(const OAIPost_sendMessage_request_chat_id &chat_id);
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  from_chat_id OAI_forwardMessage_post_request_from_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  from_chat_id OAIPost_forwardMessage_request_from_chat_id [required]
     * @param[in]  message_id qint32 [required]
     * @param[in]  message_thread_id qint32 [optional]
     * @param[in]  video_start_timestamp qint32 [optional]
     * @param[in]  disable_notification bool [optional]
     * @param[in]  protect_content bool [optional]
     */
-    virtual void forwardMessagePost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_forwardMessage_post_request_from_chat_id &from_chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &video_start_timestamp = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>());
+    virtual void postForwardMessage(const OAIPost_sendMessage_request_chat_id &chat_id, const OAIPost_forwardMessage_request_from_chat_id &from_chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &video_start_timestamp = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  from_chat_id OAI_forwardMessages_post_request_from_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  from_chat_id OAIPost_forwardMessages_request_from_chat_id [required]
     * @param[in]  message_ids QList<qint32> [required]
     * @param[in]  message_thread_id qint32 [optional]
     * @param[in]  disable_notification bool [optional]
     * @param[in]  protect_content bool [optional]
     */
-    virtual void forwardMessagesPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_forwardMessages_post_request_from_chat_id &from_chat_id, const QList<qint32> &message_ids, const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>());
+    virtual void postForwardMessages(const OAIPost_sendMessage_request_chat_id &chat_id, const OAIPost_forwardMessages_request_from_chat_id &from_chat_id, const QList<qint32> &message_ids, const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>());
 
 
-    virtual void getAvailableGiftsPost();
+    virtual void postGetAvailableGifts();
 
     /**
     * @param[in]  business_connection_id QString [required]
@@ -569,56 +569,56 @@ public:
     * @param[in]  offset QString [optional]
     * @param[in]  limit qint32 [optional]
     */
-    virtual void getBusinessAccountGiftsPost(const QString &business_connection_id, const ::tele_rest::OptionalParam<bool> &exclude_unsaved = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &exclude_saved = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &exclude_unlimited = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &exclude_limited = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &exclude_unique = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &sort_by_price = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &offset = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &limit = ::tele_rest::OptionalParam<qint32>());
+    virtual void postGetBusinessAccountGifts(const QString &business_connection_id, const ::tele_rest::OptionalParam<bool> &exclude_unsaved = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &exclude_saved = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &exclude_unlimited = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &exclude_limited = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &exclude_unique = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &sort_by_price = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &offset = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &limit = ::tele_rest::OptionalParam<qint32>());
 
     /**
     * @param[in]  business_connection_id QString [required]
     */
-    virtual void getBusinessAccountStarBalancePost(const QString &business_connection_id);
+    virtual void postGetBusinessAccountStarBalance(const QString &business_connection_id);
 
     /**
     * @param[in]  business_connection_id QString [required]
     */
-    virtual void getBusinessConnectionPost(const QString &business_connection_id);
+    virtual void postGetBusinessConnection(const QString &business_connection_id);
 
     /**
-    * @param[in]  chat_id OAI_leaveChat_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_leaveChat_request_chat_id [required]
     */
-    virtual void getChatAdministratorsPost(const OAI_leaveChat_post_request_chat_id &chat_id);
+    virtual void postGetChat(const OAIPost_leaveChat_request_chat_id &chat_id);
 
     /**
-    * @param[in]  chat_id OAI_leaveChat_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_leaveChat_request_chat_id [required]
     */
-    virtual void getChatMemberCountPost(const OAI_leaveChat_post_request_chat_id &chat_id);
+    virtual void postGetChatAdministrators(const OAIPost_leaveChat_request_chat_id &chat_id);
 
     /**
-    * @param[in]  chat_id OAI_leaveChat_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_leaveChat_request_chat_id [required]
     * @param[in]  user_id qint32 [required]
     */
-    virtual void getChatMemberPost(const OAI_leaveChat_post_request_chat_id &chat_id, const qint32 &user_id);
+    virtual void postGetChatMember(const OAIPost_leaveChat_request_chat_id &chat_id, const qint32 &user_id);
+
+    /**
+    * @param[in]  chat_id OAIPost_leaveChat_request_chat_id [required]
+    */
+    virtual void postGetChatMemberCount(const OAIPost_leaveChat_request_chat_id &chat_id);
 
     /**
     * @param[in]  chat_id qint32 [optional]
     */
-    virtual void getChatMenuButtonPost(const ::tele_rest::OptionalParam<qint32> &chat_id = ::tele_rest::OptionalParam<qint32>());
-
-    /**
-    * @param[in]  chat_id OAI_leaveChat_post_request_chat_id [required]
-    */
-    virtual void getChatPost(const OAI_leaveChat_post_request_chat_id &chat_id);
+    virtual void postGetChatMenuButton(const ::tele_rest::OptionalParam<qint32> &chat_id = ::tele_rest::OptionalParam<qint32>());
 
     /**
     * @param[in]  custom_emoji_ids QList<QString> [required]
     */
-    virtual void getCustomEmojiStickersPost(const QList<QString> &custom_emoji_ids);
+    virtual void postGetCustomEmojiStickers(const QList<QString> &custom_emoji_ids);
 
     /**
     * @param[in]  file_id QString [required]
     */
-    virtual void getFilePost(const QString &file_id);
+    virtual void postGetFile(const QString &file_id);
 
 
-    virtual void getForumTopicIconStickersPost();
+    virtual void postGetForumTopicIconStickers();
 
     /**
     * @param[in]  user_id qint32 [required]
@@ -626,47 +626,47 @@ public:
     * @param[in]  message_id qint32 [optional]
     * @param[in]  inline_message_id QString [optional]
     */
-    virtual void getGameHighScoresPost(const qint32 &user_id, const ::tele_rest::OptionalParam<qint32> &chat_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>());
+    virtual void postGetGameHighScores(const qint32 &user_id, const ::tele_rest::OptionalParam<qint32> &chat_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>());
 
 
-    virtual void getMePost();
+    virtual void postGetMe();
 
     /**
     * @param[in]  scope OAIBotCommandScope [optional]
     * @param[in]  language_code QString [optional]
     */
-    virtual void getMyCommandsPost(const ::tele_rest::OptionalParam<OAIBotCommandScope> &scope = ::tele_rest::OptionalParam<OAIBotCommandScope>(), const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
+    virtual void postGetMyCommands(const ::tele_rest::OptionalParam<OAIBotCommandScope> &scope = ::tele_rest::OptionalParam<OAIBotCommandScope>(), const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  for_channels bool [optional]
     */
-    virtual void getMyDefaultAdministratorRightsPost(const ::tele_rest::OptionalParam<bool> &for_channels = ::tele_rest::OptionalParam<bool>());
+    virtual void postGetMyDefaultAdministratorRights(const ::tele_rest::OptionalParam<bool> &for_channels = ::tele_rest::OptionalParam<bool>());
 
     /**
     * @param[in]  language_code QString [optional]
     */
-    virtual void getMyDescriptionPost(const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
+    virtual void postGetMyDescription(const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  language_code QString [optional]
     */
-    virtual void getMyNamePost(const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
+    virtual void postGetMyName(const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  language_code QString [optional]
     */
-    virtual void getMyShortDescriptionPost(const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
+    virtual void postGetMyShortDescription(const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  offset qint32 [optional]
     * @param[in]  limit qint32 [optional]
     */
-    virtual void getStarTransactionsPost(const ::tele_rest::OptionalParam<qint32> &offset = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &limit = ::tele_rest::OptionalParam<qint32>());
+    virtual void postGetStarTransactions(const ::tele_rest::OptionalParam<qint32> &offset = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &limit = ::tele_rest::OptionalParam<qint32>());
 
     /**
     * @param[in]  name QString [required]
     */
-    virtual void getStickerSetPost(const QString &name);
+    virtual void postGetStickerSet(const QString &name);
 
     /**
     * @param[in]  offset qint32 [optional]
@@ -674,23 +674,23 @@ public:
     * @param[in]  timeout qint32 [optional]
     * @param[in]  allowed_updates QList<QString> [optional]
     */
-    virtual void getUpdatesPost(const ::tele_rest::OptionalParam<qint32> &offset = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &limit = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &timeout = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QList<QString>> &allowed_updates = ::tele_rest::OptionalParam<QList<QString>>());
+    virtual void postGetUpdates(const ::tele_rest::OptionalParam<qint32> &offset = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &limit = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &timeout = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QList<QString>> &allowed_updates = ::tele_rest::OptionalParam<QList<QString>>());
 
     /**
-    * @param[in]  chat_id OAI_getUserChatBoosts_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_getUserChatBoosts_request_chat_id [required]
     * @param[in]  user_id qint32 [required]
     */
-    virtual void getUserChatBoostsPost(const OAI_getUserChatBoosts_post_request_chat_id &chat_id, const qint32 &user_id);
+    virtual void postGetUserChatBoosts(const OAIPost_getUserChatBoosts_request_chat_id &chat_id, const qint32 &user_id);
 
     /**
     * @param[in]  user_id qint32 [required]
     * @param[in]  offset qint32 [optional]
     * @param[in]  limit qint32 [optional]
     */
-    virtual void getUserProfilePhotosPost(const qint32 &user_id, const ::tele_rest::OptionalParam<qint32> &offset = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &limit = ::tele_rest::OptionalParam<qint32>());
+    virtual void postGetUserProfilePhotos(const qint32 &user_id, const ::tele_rest::OptionalParam<qint32> &offset = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &limit = ::tele_rest::OptionalParam<qint32>());
 
 
-    virtual void getWebhookInfoPost();
+    virtual void postGetWebhookInfo();
 
     /**
     * @param[in]  user_id qint32 [required]
@@ -700,28 +700,28 @@ public:
     * @param[in]  text_parse_mode QString [optional]
     * @param[in]  text_entities QList<OAIMessageEntity> [optional]
     */
-    virtual void giftPremiumSubscriptionPost(const qint32 &user_id, const qint32 &month_count, const qint32 &star_count, const ::tele_rest::OptionalParam<QString> &text = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &text_parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &text_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>());
+    virtual void postGiftPremiumSubscription(const qint32 &user_id, const qint32 &month_count, const qint32 &star_count, const ::tele_rest::OptionalParam<QString> &text = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &text_parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &text_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>());
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     */
-    virtual void hideGeneralForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id);
+    virtual void postHideGeneralForumTopic(const OAIPost_restrictChatMember_request_chat_id &chat_id);
 
     /**
-    * @param[in]  chat_id OAI_leaveChat_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_leaveChat_request_chat_id [required]
     */
-    virtual void leaveChatPost(const OAI_leaveChat_post_request_chat_id &chat_id);
+    virtual void postLeaveChat(const OAIPost_leaveChat_request_chat_id &chat_id);
 
 
-    virtual void logOutPost();
+    virtual void postLogOut();
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  message_id qint32 [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  disable_notification bool [optional]
     */
-    virtual void pinChatMessagePost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>());
+    virtual void postPinChatMessage(const OAIPost_sendMessage_request_chat_id &chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>());
 
     /**
     * @param[in]  business_connection_id QString [required]
@@ -734,10 +734,10 @@ public:
     * @param[in]  post_to_chat_page bool [optional]
     * @param[in]  protect_content bool [optional]
     */
-    virtual void postStoryPost(const QString &business_connection_id, const OAIInputStoryContent &content, const qint32 &active_period, const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<QList<OAIStoryArea>> &areas = ::tele_rest::OptionalParam<QList<OAIStoryArea>>(), const ::tele_rest::OptionalParam<bool> &post_to_chat_page = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>());
+    virtual void postPostStory(const QString &business_connection_id, const OAIInputStoryContent &content, const qint32 &active_period, const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<QList<OAIStoryArea>> &areas = ::tele_rest::OptionalParam<QList<OAIStoryArea>>(), const ::tele_rest::OptionalParam<bool> &post_to_chat_page = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  user_id qint32 [required]
     * @param[in]  is_anonymous bool [optional]
     * @param[in]  can_manage_chat bool [optional]
@@ -755,47 +755,47 @@ public:
     * @param[in]  can_pin_messages bool [optional]
     * @param[in]  can_manage_topics bool [optional]
     */
-    virtual void promoteChatMemberPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &user_id, const ::tele_rest::OptionalParam<bool> &is_anonymous = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_manage_chat = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_delete_messages = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_manage_video_chats = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_restrict_members = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_promote_members = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_change_info = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_invite_users = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_post_stories = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_edit_stories = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_delete_stories = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_post_messages = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_edit_messages = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_pin_messages = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_manage_topics = ::tele_rest::OptionalParam<bool>());
+    virtual void postPromoteChatMember(const OAIPost_sendMessage_request_chat_id &chat_id, const qint32 &user_id, const ::tele_rest::OptionalParam<bool> &is_anonymous = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_manage_chat = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_delete_messages = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_manage_video_chats = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_restrict_members = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_promote_members = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_change_info = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_invite_users = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_post_stories = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_edit_stories = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_delete_stories = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_post_messages = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_edit_messages = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_pin_messages = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &can_manage_topics = ::tele_rest::OptionalParam<bool>());
 
     /**
     * @param[in]  business_connection_id QString [required]
     * @param[in]  chat_id qint32 [required]
     * @param[in]  message_id qint32 [required]
     */
-    virtual void readBusinessMessagePost(const QString &business_connection_id, const qint32 &chat_id, const qint32 &message_id);
+    virtual void postReadBusinessMessage(const QString &business_connection_id, const qint32 &chat_id, const qint32 &message_id);
 
     /**
     * @param[in]  user_id qint32 [required]
     * @param[in]  telegram_payment_charge_id QString [required]
     */
-    virtual void refundStarPaymentPost(const qint32 &user_id, const QString &telegram_payment_charge_id);
+    virtual void postRefundStarPayment(const qint32 &user_id, const QString &telegram_payment_charge_id);
 
     /**
     * @param[in]  business_connection_id QString [required]
     * @param[in]  is_public bool [optional]
     */
-    virtual void removeBusinessAccountProfilePhotoPost(const QString &business_connection_id, const ::tele_rest::OptionalParam<bool> &is_public = ::tele_rest::OptionalParam<bool>());
+    virtual void postRemoveBusinessAccountProfilePhoto(const QString &business_connection_id, const ::tele_rest::OptionalParam<bool> &is_public = ::tele_rest::OptionalParam<bool>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     */
-    virtual void removeChatVerificationPost(const OAI_sendMessage_post_request_chat_id &chat_id);
+    virtual void postRemoveChatVerification(const OAIPost_sendMessage_request_chat_id &chat_id);
 
     /**
     * @param[in]  user_id qint32 [required]
     */
-    virtual void removeUserVerificationPost(const qint32 &user_id);
+    virtual void postRemoveUserVerification(const qint32 &user_id);
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     * @param[in]  message_thread_id qint32 [required]
     */
-    virtual void reopenForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &message_thread_id);
+    virtual void postReopenForumTopic(const OAIPost_restrictChatMember_request_chat_id &chat_id, const qint32 &message_thread_id);
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     */
-    virtual void reopenGeneralForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id);
+    virtual void postReopenGeneralForumTopic(const OAIPost_restrictChatMember_request_chat_id &chat_id);
 
     /**
     * @param[in]  user_id qint32 [required]
@@ -803,22 +803,22 @@ public:
     * @param[in]  old_sticker QString [required]
     * @param[in]  sticker OAIInputSticker [required]
     */
-    virtual void replaceStickerInSetPost(const qint32 &user_id, const QString &name, const QString &old_sticker, const OAIInputSticker &sticker);
+    virtual void postReplaceStickerInSet(const qint32 &user_id, const QString &name, const QString &old_sticker, const OAIInputSticker &sticker);
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     * @param[in]  user_id qint32 [required]
     * @param[in]  permissions OAIChatPermissions [required]
     * @param[in]  use_independent_chat_permissions bool [optional]
     * @param[in]  until_date qint32 [optional]
     */
-    virtual void restrictChatMemberPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &user_id, const OAIChatPermissions &permissions, const ::tele_rest::OptionalParam<bool> &use_independent_chat_permissions = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<qint32> &until_date = ::tele_rest::OptionalParam<qint32>());
+    virtual void postRestrictChatMember(const OAIPost_restrictChatMember_request_chat_id &chat_id, const qint32 &user_id, const OAIChatPermissions &permissions, const ::tele_rest::OptionalParam<bool> &use_independent_chat_permissions = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<qint32> &until_date = ::tele_rest::OptionalParam<qint32>());
 
     /**
-    * @param[in]  chat_id OAI_revokeChatInviteLink_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_revokeChatInviteLink_request_chat_id [required]
     * @param[in]  invite_link QString [required]
     */
-    virtual void revokeChatInviteLinkPost(const OAI_revokeChatInviteLink_post_request_chat_id &chat_id, const QString &invite_link);
+    virtual void postRevokeChatInviteLink(const OAIPost_revokeChatInviteLink_request_chat_id &chat_id, const QString &invite_link);
 
     /**
     * @param[in]  user_id qint32 [required]
@@ -828,17 +828,17 @@ public:
     * @param[in]  allow_group_chats bool [optional]
     * @param[in]  allow_channel_chats bool [optional]
     */
-    virtual void savePreparedInlineMessagePost(const qint32 &user_id, const OAIInlineQueryResult &result, const ::tele_rest::OptionalParam<bool> &allow_user_chats = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_bot_chats = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_group_chats = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_channel_chats = ::tele_rest::OptionalParam<bool>());
+    virtual void postSavePreparedInlineMessage(const qint32 &user_id, const OAIInlineQueryResult &result, const ::tele_rest::OptionalParam<bool> &allow_user_chats = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_bot_chats = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_group_chats = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_channel_chats = ::tele_rest::OptionalParam<bool>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  animation OAI_sendAnimation_post_request_animation [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  animation OAIPost_sendAnimation_request_animation [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  message_thread_id qint32 [optional]
     * @param[in]  duration qint32 [optional]
     * @param[in]  width qint32 [optional]
     * @param[in]  height qint32 [optional]
-    * @param[in]  thumbnail OAI_sendAudio_post_request_thumbnail [optional]
+    * @param[in]  thumbnail OAIPost_sendAudio_request_thumbnail [optional]
     * @param[in]  caption QString [optional]
     * @param[in]  parse_mode QString [optional]
     * @param[in]  caption_entities QList<OAIMessageEntity> [optional]
@@ -849,13 +849,13 @@ public:
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendAnimationPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendAnimation_post_request_animation &animation, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &duration = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &width = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &height = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail> &thumbnail = ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &show_caption_above_media = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &has_spoiler = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendAnimation(const OAIPost_sendMessage_request_chat_id &chat_id, const OAIPost_sendAnimation_request_animation &animation, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &duration = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &width = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &height = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAIPost_sendAudio_request_thumbnail> &thumbnail = ::tele_rest::OptionalParam<OAIPost_sendAudio_request_thumbnail>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &show_caption_above_media = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &has_spoiler = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  audio OAI_sendAudio_post_request_audio [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  audio OAIPost_sendAudio_request_audio [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  message_thread_id qint32 [optional]
     * @param[in]  caption QString [optional]
@@ -864,26 +864,26 @@ public:
     * @param[in]  duration qint32 [optional]
     * @param[in]  performer QString [optional]
     * @param[in]  title QString [optional]
-    * @param[in]  thumbnail OAI_sendAudio_post_request_thumbnail [optional]
+    * @param[in]  thumbnail OAIPost_sendAudio_request_thumbnail [optional]
     * @param[in]  disable_notification bool [optional]
     * @param[in]  protect_content bool [optional]
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendAudioPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendAudio_post_request_audio &audio, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<qint32> &duration = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &performer = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &title = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail> &thumbnail = ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendAudio(const OAIPost_sendMessage_request_chat_id &chat_id, const OAIPost_sendAudio_request_audio &audio, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<qint32> &duration = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &performer = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &title = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIPost_sendAudio_request_thumbnail> &thumbnail = ::tele_rest::OptionalParam<OAIPost_sendAudio_request_thumbnail>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  action QString [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  message_thread_id qint32 [optional]
     */
-    virtual void sendChatActionPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &action, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>());
+    virtual void postSendChatAction(const OAIPost_sendMessage_request_chat_id &chat_id, const QString &action, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  phone_number QString [required]
     * @param[in]  first_name QString [required]
     * @param[in]  business_connection_id QString [optional]
@@ -895,12 +895,12 @@ public:
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendContactPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &phone_number, const QString &first_name, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &last_name = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &vcard = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendContact(const OAIPost_sendMessage_request_chat_id &chat_id, const QString &phone_number, const QString &first_name, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &last_name = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &vcard = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  message_thread_id qint32 [optional]
     * @param[in]  emoji QString [optional]
@@ -909,16 +909,16 @@ public:
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendDicePost(const OAI_sendMessage_post_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &emoji = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendDice(const OAIPost_sendMessage_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &emoji = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  document OAI_sendDocument_post_request_document [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  document OAIPost_sendDocument_request_document [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  message_thread_id qint32 [optional]
-    * @param[in]  thumbnail OAI_sendAudio_post_request_thumbnail [optional]
+    * @param[in]  thumbnail OAIPost_sendAudio_request_thumbnail [optional]
     * @param[in]  caption QString [optional]
     * @param[in]  parse_mode QString [optional]
     * @param[in]  caption_entities QList<OAIMessageEntity> [optional]
@@ -928,9 +928,9 @@ public:
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendDocumentPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendDocument_post_request_document &document, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail> &thumbnail = ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &disable_content_type_detection = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendDocument(const OAIPost_sendMessage_request_chat_id &chat_id, const OAIPost_sendDocument_request_document &document, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAIPost_sendAudio_request_thumbnail> &thumbnail = ::tele_rest::OptionalParam<OAIPost_sendAudio_request_thumbnail>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &disable_content_type_detection = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
     * @param[in]  chat_id qint32 [required]
@@ -944,21 +944,21 @@ public:
     * @param[in]  reply_parameters OAIReplyParameters [optional]
     * @param[in]  reply_markup OAIInlineKeyboardMarkup [optional]
     */
-    virtual void sendGamePost(const qint32 &chat_id, const QString &game_short_name, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
+    virtual void postSendGame(const qint32 &chat_id, const QString &game_short_name, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
 
     /**
     * @param[in]  gift_id QString [required]
     * @param[in]  user_id qint32 [optional]
-    * @param[in]  chat_id OAI_sendGift_post_request_chat_id [optional]
+    * @param[in]  chat_id OAIPost_sendGift_request_chat_id [optional]
     * @param[in]  pay_for_upgrade bool [optional]
     * @param[in]  text QString [optional]
     * @param[in]  text_parse_mode QString [optional]
     * @param[in]  text_entities QList<OAIMessageEntity> [optional]
     */
-    virtual void sendGiftPost(const QString &gift_id, const ::tele_rest::OptionalParam<qint32> &user_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAI_sendGift_post_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAI_sendGift_post_request_chat_id>(), const ::tele_rest::OptionalParam<bool> &pay_for_upgrade = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &text = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &text_parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &text_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>());
+    virtual void postSendGift(const QString &gift_id, const ::tele_rest::OptionalParam<qint32> &user_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAIPost_sendGift_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAIPost_sendGift_request_chat_id>(), const ::tele_rest::OptionalParam<bool> &pay_for_upgrade = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &text = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &text_parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &text_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  title QString [required]
     * @param[in]  description QString [required]
     * @param[in]  payload QString [required]
@@ -988,10 +988,10 @@ public:
     * @param[in]  reply_parameters OAIReplyParameters [optional]
     * @param[in]  reply_markup OAIInlineKeyboardMarkup [optional]
     */
-    virtual void sendInvoicePost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &title, const QString &description, const QString &payload, const QString &currency, const QList<OAILabeledPrice> &prices, const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &provider_token = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &max_tip_amount = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QList<qint32>> &suggested_tip_amounts = ::tele_rest::OptionalParam<QList<qint32>>(), const ::tele_rest::OptionalParam<QString> &start_parameter = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &provider_data = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &photo_url = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &photo_size = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &photo_width = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &photo_height = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &need_name = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &need_phone_number = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &need_email = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &need_shipping_address = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &send_phone_number_to_provider = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &send_email_to_provider = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &is_flexible = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
+    virtual void postSendInvoice(const OAIPost_sendMessage_request_chat_id &chat_id, const QString &title, const QString &description, const QString &payload, const QString &currency, const QList<OAILabeledPrice> &prices, const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &provider_token = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &max_tip_amount = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QList<qint32>> &suggested_tip_amounts = ::tele_rest::OptionalParam<QList<qint32>>(), const ::tele_rest::OptionalParam<QString> &start_parameter = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &provider_data = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &photo_url = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &photo_size = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &photo_width = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &photo_height = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &need_name = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &need_phone_number = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &need_email = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &need_shipping_address = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &send_phone_number_to_provider = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &send_email_to_provider = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &is_flexible = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  latitude double [required]
     * @param[in]  longitude double [required]
     * @param[in]  business_connection_id QString [optional]
@@ -1005,13 +1005,13 @@ public:
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendLocationPost(const OAI_sendMessage_post_request_chat_id &chat_id, const double &latitude, const double &longitude, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<double> &horizontal_accuracy = ::tele_rest::OptionalParam<double>(), const ::tele_rest::OptionalParam<qint32> &live_period = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &heading = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &proximity_alert_radius = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendLocation(const OAIPost_sendMessage_request_chat_id &chat_id, const double &latitude, const double &longitude, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<double> &horizontal_accuracy = ::tele_rest::OptionalParam<double>(), const ::tele_rest::OptionalParam<qint32> &live_period = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &heading = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &proximity_alert_radius = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  media QList<OAI_sendMediaGroup_post_request_media_inner> [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  media QList<OAIPost_sendMediaGroup_request_media_inner> [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  message_thread_id qint32 [optional]
     * @param[in]  disable_notification bool [optional]
@@ -1020,10 +1020,10 @@ public:
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
     */
-    virtual void sendMediaGroupPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QList<OAI_sendMediaGroup_post_request_media_inner> &media, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>());
+    virtual void postSendMediaGroup(const OAIPost_sendMessage_request_chat_id &chat_id, const QList<OAIPost_sendMediaGroup_request_media_inner> &media, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  text QString [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  message_thread_id qint32 [optional]
@@ -1035,12 +1035,12 @@ public:
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendMessagePost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &text, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<OAILinkPreviewOptions> &link_preview_options = ::tele_rest::OptionalParam<OAILinkPreviewOptions>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendMessage(const OAIPost_sendMessage_request_chat_id &chat_id, const QString &text, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<OAILinkPreviewOptions> &link_preview_options = ::tele_rest::OptionalParam<OAILinkPreviewOptions>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendPaidMedia_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendPaidMedia_request_chat_id [required]
     * @param[in]  star_count qint32 [required]
     * @param[in]  media QList<OAIInputPaidMedia> [required]
     * @param[in]  business_connection_id QString [optional]
@@ -1053,13 +1053,13 @@ public:
     * @param[in]  protect_content bool [optional]
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendPaidMediaPost(const OAI_sendPaidMedia_post_request_chat_id &chat_id, const qint32 &star_count, const QList<OAIInputPaidMedia> &media, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &payload = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &show_caption_above_media = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendPaidMedia(const OAIPost_sendPaidMedia_request_chat_id &chat_id, const qint32 &star_count, const QList<OAIInputPaidMedia> &media, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &payload = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &show_caption_above_media = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  photo OAI_sendPhoto_post_request_photo [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  photo OAIPost_sendPhoto_request_photo [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  message_thread_id qint32 [optional]
     * @param[in]  caption QString [optional]
@@ -1072,12 +1072,12 @@ public:
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendPhotoPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendPhoto_post_request_photo &photo, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &show_caption_above_media = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &has_spoiler = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendPhoto(const OAIPost_sendMessage_request_chat_id &chat_id, const OAIPost_sendPhoto_request_photo &photo, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &show_caption_above_media = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &has_spoiler = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  question QString [required]
     * @param[in]  options QList<OAIInputPollOption> [required]
     * @param[in]  business_connection_id QString [optional]
@@ -1099,13 +1099,13 @@ public:
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendPollPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &question, const QList<OAIInputPollOption> &options, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &question_parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &question_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &is_anonymous = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &type = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &allows_multiple_answers = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<qint32> &correct_option_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &explanation = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &explanation_parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &explanation_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<qint32> &open_period = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &close_date = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &is_closed = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendPoll(const OAIPost_sendMessage_request_chat_id &chat_id, const QString &question, const QList<OAIInputPollOption> &options, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &question_parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &question_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &is_anonymous = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &type = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &allows_multiple_answers = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<qint32> &correct_option_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &explanation = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &explanation_parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &explanation_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<qint32> &open_period = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &close_date = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &is_closed = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  sticker OAI_sendSticker_post_request_sticker [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  sticker OAIPost_sendSticker_request_sticker [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  message_thread_id qint32 [optional]
     * @param[in]  emoji QString [optional]
@@ -1114,12 +1114,12 @@ public:
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendStickerPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendSticker_post_request_sticker &sticker, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &emoji = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendSticker(const OAIPost_sendMessage_request_chat_id &chat_id, const OAIPost_sendSticker_request_sticker &sticker, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &emoji = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  latitude double [required]
     * @param[in]  longitude double [required]
     * @param[in]  title QString [required]
@@ -1135,37 +1135,20 @@ public:
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendVenuePost(const OAI_sendMessage_post_request_chat_id &chat_id, const double &latitude, const double &longitude, const QString &title, const QString &address, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &foursquare_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &foursquare_type = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &google_place_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &google_place_type = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendVenue(const OAIPost_sendMessage_request_chat_id &chat_id, const double &latitude, const double &longitude, const QString &title, const QString &address, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &foursquare_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &foursquare_type = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &google_place_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &google_place_type = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  video_note OAI_sendVideoNote_post_request_video_note [required]
-    * @param[in]  business_connection_id QString [optional]
-    * @param[in]  message_thread_id qint32 [optional]
-    * @param[in]  duration qint32 [optional]
-    * @param[in]  length qint32 [optional]
-    * @param[in]  thumbnail OAI_sendAudio_post_request_thumbnail [optional]
-    * @param[in]  disable_notification bool [optional]
-    * @param[in]  protect_content bool [optional]
-    * @param[in]  allow_paid_broadcast bool [optional]
-    * @param[in]  message_effect_id QString [optional]
-    * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
-    */
-    virtual void sendVideoNotePost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendVideoNote_post_request_video_note &video_note, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &duration = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &length = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail> &thumbnail = ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
-
-    /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  video OAI_sendVideo_post_request_video [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  video OAIPost_sendVideo_request_video [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  message_thread_id qint32 [optional]
     * @param[in]  duration qint32 [optional]
     * @param[in]  width qint32 [optional]
     * @param[in]  height qint32 [optional]
-    * @param[in]  thumbnail OAI_sendAudio_post_request_thumbnail [optional]
-    * @param[in]  cover OAI_sendVideo_post_request_cover [optional]
+    * @param[in]  thumbnail OAIPost_sendAudio_request_thumbnail [optional]
+    * @param[in]  cover OAIPost_sendVideo_request_cover [optional]
     * @param[in]  start_timestamp qint32 [optional]
     * @param[in]  caption QString [optional]
     * @param[in]  parse_mode QString [optional]
@@ -1178,13 +1161,30 @@ public:
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendVideoPost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendVideo_post_request_video &video, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &duration = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &width = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &height = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail> &thumbnail = ::tele_rest::OptionalParam<OAI_sendAudio_post_request_thumbnail>(), const ::tele_rest::OptionalParam<OAI_sendVideo_post_request_cover> &cover = ::tele_rest::OptionalParam<OAI_sendVideo_post_request_cover>(), const ::tele_rest::OptionalParam<qint32> &start_timestamp = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &show_caption_above_media = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &has_spoiler = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &supports_streaming = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendVideo(const OAIPost_sendMessage_request_chat_id &chat_id, const OAIPost_sendVideo_request_video &video, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &duration = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &width = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &height = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAIPost_sendAudio_request_thumbnail> &thumbnail = ::tele_rest::OptionalParam<OAIPost_sendAudio_request_thumbnail>(), const ::tele_rest::OptionalParam<OAIPost_sendVideo_request_cover> &cover = ::tele_rest::OptionalParam<OAIPost_sendVideo_request_cover>(), const ::tele_rest::OptionalParam<qint32> &start_timestamp = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<bool> &show_caption_above_media = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &has_spoiler = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &supports_streaming = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
-    * @param[in]  voice OAI_sendVoice_post_request_voice [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  video_note OAIPost_sendVideoNote_request_video_note [required]
+    * @param[in]  business_connection_id QString [optional]
+    * @param[in]  message_thread_id qint32 [optional]
+    * @param[in]  duration qint32 [optional]
+    * @param[in]  length qint32 [optional]
+    * @param[in]  thumbnail OAIPost_sendAudio_request_thumbnail [optional]
+    * @param[in]  disable_notification bool [optional]
+    * @param[in]  protect_content bool [optional]
+    * @param[in]  allow_paid_broadcast bool [optional]
+    * @param[in]  message_effect_id QString [optional]
+    * @param[in]  reply_parameters OAIReplyParameters [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
+    */
+    virtual void postSendVideoNote(const OAIPost_sendMessage_request_chat_id &chat_id, const OAIPost_sendVideoNote_request_video_note &video_note, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &duration = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &length = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAIPost_sendAudio_request_thumbnail> &thumbnail = ::tele_rest::OptionalParam<OAIPost_sendAudio_request_thumbnail>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
+
+    /**
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
+    * @param[in]  voice OAIPost_sendVoice_request_voice [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  message_thread_id qint32 [optional]
     * @param[in]  caption QString [optional]
@@ -1196,92 +1196,92 @@ public:
     * @param[in]  allow_paid_broadcast bool [optional]
     * @param[in]  message_effect_id QString [optional]
     * @param[in]  reply_parameters OAIReplyParameters [optional]
-    * @param[in]  reply_markup OAI_sendMessage_post_request_reply_markup [optional]
+    * @param[in]  reply_markup OAIPost_sendMessage_request_reply_markup [optional]
     */
-    virtual void sendVoicePost(const OAI_sendMessage_post_request_chat_id &chat_id, const OAI_sendVoice_post_request_voice &voice, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<qint32> &duration = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAI_sendMessage_post_request_reply_markup>());
+    virtual void postSendVoice(const OAIPost_sendMessage_request_chat_id &chat_id, const OAIPost_sendVoice_request_voice &voice, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_thread_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &caption = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &parse_mode = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QList<OAIMessageEntity>> &caption_entities = ::tele_rest::OptionalParam<QList<OAIMessageEntity>>(), const ::tele_rest::OptionalParam<qint32> &duration = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<bool> &disable_notification = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &protect_content = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &allow_paid_broadcast = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &message_effect_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIReplyParameters> &reply_parameters = ::tele_rest::OptionalParam<OAIReplyParameters>(), const ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup> &reply_markup = ::tele_rest::OptionalParam<OAIPost_sendMessage_request_reply_markup>());
 
     /**
     * @param[in]  business_connection_id QString [required]
     * @param[in]  bio QString [optional]
     */
-    virtual void setBusinessAccountBioPost(const QString &business_connection_id, const ::tele_rest::OptionalParam<QString> &bio = ::tele_rest::OptionalParam<QString>());
+    virtual void postSetBusinessAccountBio(const QString &business_connection_id, const ::tele_rest::OptionalParam<QString> &bio = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  business_connection_id QString [required]
     * @param[in]  show_gift_button bool [required]
     * @param[in]  accepted_gift_types OAIAcceptedGiftTypes [required]
     */
-    virtual void setBusinessAccountGiftSettingsPost(const QString &business_connection_id, const bool &show_gift_button, const OAIAcceptedGiftTypes &accepted_gift_types);
+    virtual void postSetBusinessAccountGiftSettings(const QString &business_connection_id, const bool &show_gift_button, const OAIAcceptedGiftTypes &accepted_gift_types);
 
     /**
     * @param[in]  business_connection_id QString [required]
     * @param[in]  first_name QString [required]
     * @param[in]  last_name QString [optional]
     */
-    virtual void setBusinessAccountNamePost(const QString &business_connection_id, const QString &first_name, const ::tele_rest::OptionalParam<QString> &last_name = ::tele_rest::OptionalParam<QString>());
+    virtual void postSetBusinessAccountName(const QString &business_connection_id, const QString &first_name, const ::tele_rest::OptionalParam<QString> &last_name = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  business_connection_id QString [required]
     * @param[in]  photo OAIInputProfilePhoto [required]
     * @param[in]  is_public bool [optional]
     */
-    virtual void setBusinessAccountProfilePhotoPost(const QString &business_connection_id, const OAIInputProfilePhoto &photo, const ::tele_rest::OptionalParam<bool> &is_public = ::tele_rest::OptionalParam<bool>());
+    virtual void postSetBusinessAccountProfilePhoto(const QString &business_connection_id, const OAIInputProfilePhoto &photo, const ::tele_rest::OptionalParam<bool> &is_public = ::tele_rest::OptionalParam<bool>());
 
     /**
     * @param[in]  business_connection_id QString [required]
     * @param[in]  username QString [optional]
     */
-    virtual void setBusinessAccountUsernamePost(const QString &business_connection_id, const ::tele_rest::OptionalParam<QString> &username = ::tele_rest::OptionalParam<QString>());
+    virtual void postSetBusinessAccountUsername(const QString &business_connection_id, const ::tele_rest::OptionalParam<QString> &username = ::tele_rest::OptionalParam<QString>());
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     * @param[in]  user_id qint32 [required]
     * @param[in]  custom_title QString [required]
     */
-    virtual void setChatAdministratorCustomTitlePost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &user_id, const QString &custom_title);
+    virtual void postSetChatAdministratorCustomTitle(const OAIPost_restrictChatMember_request_chat_id &chat_id, const qint32 &user_id, const QString &custom_title);
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  description QString [optional]
     */
-    virtual void setChatDescriptionPost(const OAI_sendMessage_post_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &description = ::tele_rest::OptionalParam<QString>());
+    virtual void postSetChatDescription(const OAIPost_sendMessage_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &description = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  chat_id qint32 [optional]
     * @param[in]  menu_button OAIMenuButton [optional]
     */
-    virtual void setChatMenuButtonPost(const ::tele_rest::OptionalParam<qint32> &chat_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAIMenuButton> &menu_button = ::tele_rest::OptionalParam<OAIMenuButton>());
+    virtual void postSetChatMenuButton(const ::tele_rest::OptionalParam<qint32> &chat_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<OAIMenuButton> &menu_button = ::tele_rest::OptionalParam<OAIMenuButton>());
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     * @param[in]  permissions OAIChatPermissions [required]
     * @param[in]  use_independent_chat_permissions bool [optional]
     */
-    virtual void setChatPermissionsPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const OAIChatPermissions &permissions, const ::tele_rest::OptionalParam<bool> &use_independent_chat_permissions = ::tele_rest::OptionalParam<bool>());
+    virtual void postSetChatPermissions(const OAIPost_restrictChatMember_request_chat_id &chat_id, const OAIChatPermissions &permissions, const ::tele_rest::OptionalParam<bool> &use_independent_chat_permissions = ::tele_rest::OptionalParam<bool>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  photo QJsonValue [required]
     */
-    virtual void setChatPhotoPost(const OAI_sendMessage_post_request_chat_id &chat_id, const QJsonValue &photo);
+    virtual void postSetChatPhoto(const OAIPost_sendMessage_request_chat_id &chat_id, const QJsonValue &photo);
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     * @param[in]  sticker_set_name QString [required]
     */
-    virtual void setChatStickerSetPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const QString &sticker_set_name);
+    virtual void postSetChatStickerSet(const OAIPost_restrictChatMember_request_chat_id &chat_id, const QString &sticker_set_name);
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  title QString [required]
     */
-    virtual void setChatTitlePost(const OAI_sendMessage_post_request_chat_id &chat_id, const QString &title);
+    virtual void postSetChatTitle(const OAIPost_sendMessage_request_chat_id &chat_id, const QString &title);
 
     /**
     * @param[in]  name QString [required]
     * @param[in]  custom_emoji_id QString [optional]
     */
-    virtual void setCustomEmojiStickerSetThumbnailPost(const QString &name, const ::tele_rest::OptionalParam<QString> &custom_emoji_id = ::tele_rest::OptionalParam<QString>());
+    virtual void postSetCustomEmojiStickerSetThumbnail(const QString &name, const ::tele_rest::OptionalParam<QString> &custom_emoji_id = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  user_id qint32 [required]
@@ -1292,97 +1292,97 @@ public:
     * @param[in]  message_id qint32 [optional]
     * @param[in]  inline_message_id QString [optional]
     */
-    virtual void setGameScorePost(const qint32 &user_id, const qint32 &score, const ::tele_rest::OptionalParam<bool> &force = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_edit_message = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<qint32> &chat_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>());
+    virtual void postSetGameScore(const qint32 &user_id, const qint32 &score, const ::tele_rest::OptionalParam<bool> &force = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<bool> &disable_edit_message = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<qint32> &chat_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  message_id qint32 [required]
     * @param[in]  reaction QList<OAIReactionType> [optional]
     * @param[in]  is_big bool [optional]
     */
-    virtual void setMessageReactionPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<QList<OAIReactionType>> &reaction = ::tele_rest::OptionalParam<QList<OAIReactionType>>(), const ::tele_rest::OptionalParam<bool> &is_big = ::tele_rest::OptionalParam<bool>());
+    virtual void postSetMessageReaction(const OAIPost_sendMessage_request_chat_id &chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<QList<OAIReactionType>> &reaction = ::tele_rest::OptionalParam<QList<OAIReactionType>>(), const ::tele_rest::OptionalParam<bool> &is_big = ::tele_rest::OptionalParam<bool>());
 
     /**
     * @param[in]  commands QList<OAIBotCommand> [required]
     * @param[in]  scope OAIBotCommandScope [optional]
     * @param[in]  language_code QString [optional]
     */
-    virtual void setMyCommandsPost(const QList<OAIBotCommand> &commands, const ::tele_rest::OptionalParam<OAIBotCommandScope> &scope = ::tele_rest::OptionalParam<OAIBotCommandScope>(), const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
+    virtual void postSetMyCommands(const QList<OAIBotCommand> &commands, const ::tele_rest::OptionalParam<OAIBotCommandScope> &scope = ::tele_rest::OptionalParam<OAIBotCommandScope>(), const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  rights OAIChatAdministratorRights [optional]
     * @param[in]  for_channels bool [optional]
     */
-    virtual void setMyDefaultAdministratorRightsPost(const ::tele_rest::OptionalParam<OAIChatAdministratorRights> &rights = ::tele_rest::OptionalParam<OAIChatAdministratorRights>(), const ::tele_rest::OptionalParam<bool> &for_channels = ::tele_rest::OptionalParam<bool>());
+    virtual void postSetMyDefaultAdministratorRights(const ::tele_rest::OptionalParam<OAIChatAdministratorRights> &rights = ::tele_rest::OptionalParam<OAIChatAdministratorRights>(), const ::tele_rest::OptionalParam<bool> &for_channels = ::tele_rest::OptionalParam<bool>());
 
     /**
     * @param[in]  description QString [optional]
     * @param[in]  language_code QString [optional]
     */
-    virtual void setMyDescriptionPost(const ::tele_rest::OptionalParam<QString> &description = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
+    virtual void postSetMyDescription(const ::tele_rest::OptionalParam<QString> &description = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  name QString [optional]
     * @param[in]  language_code QString [optional]
     */
-    virtual void setMyNamePost(const ::tele_rest::OptionalParam<QString> &name = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
+    virtual void postSetMyName(const ::tele_rest::OptionalParam<QString> &name = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  short_description QString [optional]
     * @param[in]  language_code QString [optional]
     */
-    virtual void setMyShortDescriptionPost(const ::tele_rest::OptionalParam<QString> &short_description = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
+    virtual void postSetMyShortDescription(const ::tele_rest::OptionalParam<QString> &short_description = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<QString> &language_code = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  user_id qint32 [required]
     * @param[in]  errors QList<OAIPassportElementError> [required]
     */
-    virtual void setPassportDataErrorsPost(const qint32 &user_id, const QList<OAIPassportElementError> &errors);
+    virtual void postSetPassportDataErrors(const qint32 &user_id, const QList<OAIPassportElementError> &errors);
 
     /**
     * @param[in]  sticker QString [required]
     * @param[in]  emoji_list QList<QString> [required]
     */
-    virtual void setStickerEmojiListPost(const QString &sticker, const QList<QString> &emoji_list);
+    virtual void postSetStickerEmojiList(const QString &sticker, const QList<QString> &emoji_list);
 
     /**
     * @param[in]  sticker QString [required]
     * @param[in]  keywords QList<QString> [optional]
     */
-    virtual void setStickerKeywordsPost(const QString &sticker, const ::tele_rest::OptionalParam<QList<QString>> &keywords = ::tele_rest::OptionalParam<QList<QString>>());
+    virtual void postSetStickerKeywords(const QString &sticker, const ::tele_rest::OptionalParam<QList<QString>> &keywords = ::tele_rest::OptionalParam<QList<QString>>());
 
     /**
     * @param[in]  sticker QString [required]
     * @param[in]  mask_position OAIMaskPosition [optional]
     */
-    virtual void setStickerMaskPositionPost(const QString &sticker, const ::tele_rest::OptionalParam<OAIMaskPosition> &mask_position = ::tele_rest::OptionalParam<OAIMaskPosition>());
+    virtual void postSetStickerMaskPosition(const QString &sticker, const ::tele_rest::OptionalParam<OAIMaskPosition> &mask_position = ::tele_rest::OptionalParam<OAIMaskPosition>());
 
     /**
     * @param[in]  sticker QString [required]
     * @param[in]  position qint32 [required]
     */
-    virtual void setStickerPositionInSetPost(const QString &sticker, const qint32 &position);
+    virtual void postSetStickerPositionInSet(const QString &sticker, const qint32 &position);
 
     /**
     * @param[in]  name QString [required]
     * @param[in]  user_id qint32 [required]
     * @param[in]  format QString [required]
-    * @param[in]  thumbnail OAI_setStickerSetThumbnail_post_request_thumbnail [optional]
+    * @param[in]  thumbnail OAIPost_setStickerSetThumbnail_request_thumbnail [optional]
     */
-    virtual void setStickerSetThumbnailPost(const QString &name, const qint32 &user_id, const QString &format, const ::tele_rest::OptionalParam<OAI_setStickerSetThumbnail_post_request_thumbnail> &thumbnail = ::tele_rest::OptionalParam<OAI_setStickerSetThumbnail_post_request_thumbnail>());
+    virtual void postSetStickerSetThumbnail(const QString &name, const qint32 &user_id, const QString &format, const ::tele_rest::OptionalParam<OAIPost_setStickerSetThumbnail_request_thumbnail> &thumbnail = ::tele_rest::OptionalParam<OAIPost_setStickerSetThumbnail_request_thumbnail>());
 
     /**
     * @param[in]  name QString [required]
     * @param[in]  title QString [required]
     */
-    virtual void setStickerSetTitlePost(const QString &name, const QString &title);
+    virtual void postSetStickerSetTitle(const QString &name, const QString &title);
 
     /**
     * @param[in]  user_id qint32 [required]
     * @param[in]  emoji_status_custom_emoji_id QString [optional]
     * @param[in]  emoji_status_expiration_date qint32 [optional]
     */
-    virtual void setUserEmojiStatusPost(const qint32 &user_id, const ::tele_rest::OptionalParam<QString> &emoji_status_custom_emoji_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &emoji_status_expiration_date = ::tele_rest::OptionalParam<qint32>());
+    virtual void postSetUserEmojiStatus(const qint32 &user_id, const ::tele_rest::OptionalParam<QString> &emoji_status_custom_emoji_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &emoji_status_expiration_date = ::tele_rest::OptionalParam<qint32>());
 
     /**
     * @param[in]  url QString [required]
@@ -1393,30 +1393,30 @@ public:
     * @param[in]  drop_pending_updates bool [optional]
     * @param[in]  secret_token QString [optional]
     */
-    virtual void setWebhookPost(const QString &url, const ::tele_rest::OptionalParam<QJsonValue> &certificate = ::tele_rest::OptionalParam<QJsonValue>(), const ::tele_rest::OptionalParam<QString> &ip_address = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &max_connections = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QList<QString>> &allowed_updates = ::tele_rest::OptionalParam<QList<QString>>(), const ::tele_rest::OptionalParam<bool> &drop_pending_updates = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &secret_token = ::tele_rest::OptionalParam<QString>());
+    virtual void postSetWebhook(const QString &url, const ::tele_rest::OptionalParam<QJsonValue> &certificate = ::tele_rest::OptionalParam<QJsonValue>(), const ::tele_rest::OptionalParam<QString> &ip_address = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &max_connections = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QList<QString>> &allowed_updates = ::tele_rest::OptionalParam<QList<QString>>(), const ::tele_rest::OptionalParam<bool> &drop_pending_updates = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<QString> &secret_token = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  business_connection_id QString [optional]
-    * @param[in]  chat_id OAI_editMessageText_post_request_chat_id [optional]
+    * @param[in]  chat_id OAIPost_editMessageText_request_chat_id [optional]
     * @param[in]  message_id qint32 [optional]
     * @param[in]  inline_message_id QString [optional]
     * @param[in]  reply_markup OAIInlineKeyboardMarkup [optional]
     */
-    virtual void stopMessageLiveLocationPost(const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAI_editMessageText_post_request_chat_id>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
+    virtual void postStopMessageLiveLocation(const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIPost_editMessageText_request_chat_id> &chat_id = ::tele_rest::OptionalParam<OAIPost_editMessageText_request_chat_id>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>(), const ::tele_rest::OptionalParam<QString> &inline_message_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  message_id qint32 [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  reply_markup OAIInlineKeyboardMarkup [optional]
     */
-    virtual void stopPollPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
+    virtual void postStopPoll(const OAIPost_sendMessage_request_chat_id &chat_id, const qint32 &message_id, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup> &reply_markup = ::tele_rest::OptionalParam<OAIInlineKeyboardMarkup>());
 
     /**
     * @param[in]  business_connection_id QString [required]
     * @param[in]  star_count qint32 [required]
     */
-    virtual void transferBusinessAccountStarsPost(const QString &business_connection_id, const qint32 &star_count);
+    virtual void postTransferBusinessAccountStars(const QString &business_connection_id, const qint32 &star_count);
 
     /**
     * @param[in]  business_connection_id QString [required]
@@ -1424,48 +1424,48 @@ public:
     * @param[in]  new_owner_chat_id qint32 [required]
     * @param[in]  star_count qint32 [optional]
     */
-    virtual void transferGiftPost(const QString &business_connection_id, const QString &owned_gift_id, const qint32 &new_owner_chat_id, const ::tele_rest::OptionalParam<qint32> &star_count = ::tele_rest::OptionalParam<qint32>());
+    virtual void postTransferGift(const QString &business_connection_id, const QString &owned_gift_id, const qint32 &new_owner_chat_id, const ::tele_rest::OptionalParam<qint32> &star_count = ::tele_rest::OptionalParam<qint32>());
 
     /**
-    * @param[in]  chat_id OAI_banChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_banChatMember_request_chat_id [required]
     * @param[in]  user_id qint32 [required]
     * @param[in]  only_if_banned bool [optional]
     */
-    virtual void unbanChatMemberPost(const OAI_banChatMember_post_request_chat_id &chat_id, const qint32 &user_id, const ::tele_rest::OptionalParam<bool> &only_if_banned = ::tele_rest::OptionalParam<bool>());
+    virtual void postUnbanChatMember(const OAIPost_banChatMember_request_chat_id &chat_id, const qint32 &user_id, const ::tele_rest::OptionalParam<bool> &only_if_banned = ::tele_rest::OptionalParam<bool>());
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  sender_chat_id qint32 [required]
     */
-    virtual void unbanChatSenderChatPost(const OAI_sendMessage_post_request_chat_id &chat_id, const qint32 &sender_chat_id);
+    virtual void postUnbanChatSenderChat(const OAIPost_sendMessage_request_chat_id &chat_id, const qint32 &sender_chat_id);
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     */
-    virtual void unhideGeneralForumTopicPost(const OAI_restrictChatMember_post_request_chat_id &chat_id);
+    virtual void postUnhideGeneralForumTopic(const OAIPost_restrictChatMember_request_chat_id &chat_id);
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     */
-    virtual void unpinAllChatMessagesPost(const OAI_sendMessage_post_request_chat_id &chat_id);
+    virtual void postUnpinAllChatMessages(const OAIPost_sendMessage_request_chat_id &chat_id);
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     * @param[in]  message_thread_id qint32 [required]
     */
-    virtual void unpinAllForumTopicMessagesPost(const OAI_restrictChatMember_post_request_chat_id &chat_id, const qint32 &message_thread_id);
+    virtual void postUnpinAllForumTopicMessages(const OAIPost_restrictChatMember_request_chat_id &chat_id, const qint32 &message_thread_id);
 
     /**
-    * @param[in]  chat_id OAI_restrictChatMember_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_restrictChatMember_request_chat_id [required]
     */
-    virtual void unpinAllGeneralForumTopicMessagesPost(const OAI_restrictChatMember_post_request_chat_id &chat_id);
+    virtual void postUnpinAllGeneralForumTopicMessages(const OAIPost_restrictChatMember_request_chat_id &chat_id);
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  business_connection_id QString [optional]
     * @param[in]  message_id qint32 [optional]
     */
-    virtual void unpinChatMessagePost(const OAI_sendMessage_post_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>());
+    virtual void postUnpinChatMessage(const OAIPost_sendMessage_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &business_connection_id = ::tele_rest::OptionalParam<QString>(), const ::tele_rest::OptionalParam<qint32> &message_id = ::tele_rest::OptionalParam<qint32>());
 
     /**
     * @param[in]  business_connection_id QString [required]
@@ -1473,26 +1473,26 @@ public:
     * @param[in]  keep_original_details bool [optional]
     * @param[in]  star_count qint32 [optional]
     */
-    virtual void upgradeGiftPost(const QString &business_connection_id, const QString &owned_gift_id, const ::tele_rest::OptionalParam<bool> &keep_original_details = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<qint32> &star_count = ::tele_rest::OptionalParam<qint32>());
+    virtual void postUpgradeGift(const QString &business_connection_id, const QString &owned_gift_id, const ::tele_rest::OptionalParam<bool> &keep_original_details = ::tele_rest::OptionalParam<bool>(), const ::tele_rest::OptionalParam<qint32> &star_count = ::tele_rest::OptionalParam<qint32>());
 
     /**
     * @param[in]  user_id qint32 [required]
     * @param[in]  sticker QJsonValue [required]
     * @param[in]  sticker_format QString [required]
     */
-    virtual void uploadStickerFilePost(const qint32 &user_id, const QJsonValue &sticker, const QString &sticker_format);
+    virtual void postUploadStickerFile(const qint32 &user_id, const QJsonValue &sticker, const QString &sticker_format);
 
     /**
-    * @param[in]  chat_id OAI_sendMessage_post_request_chat_id [required]
+    * @param[in]  chat_id OAIPost_sendMessage_request_chat_id [required]
     * @param[in]  custom_description QString [optional]
     */
-    virtual void verifyChatPost(const OAI_sendMessage_post_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &custom_description = ::tele_rest::OptionalParam<QString>());
+    virtual void postVerifyChat(const OAIPost_sendMessage_request_chat_id &chat_id, const ::tele_rest::OptionalParam<QString> &custom_description = ::tele_rest::OptionalParam<QString>());
 
     /**
     * @param[in]  user_id qint32 [required]
     * @param[in]  custom_description QString [optional]
     */
-    virtual void verifyUserPost(const qint32 &user_id, const ::tele_rest::OptionalParam<QString> &custom_description = ::tele_rest::OptionalParam<QString>());
+    virtual void postVerifyUser(const qint32 &user_id, const ::tele_rest::OptionalParam<QString> &custom_description = ::tele_rest::OptionalParam<QString>());
 
 
 private:
@@ -1517,1390 +1517,1390 @@ private:
     OauthPassword _passwordFlow;
     int _OauthMethod = 0;
 
-    void addStickerToSetPostCallback(OAIHttpRequestWorker *worker);
-    void answerCallbackQueryPostCallback(OAIHttpRequestWorker *worker);
-    void answerInlineQueryPostCallback(OAIHttpRequestWorker *worker);
-    void answerPreCheckoutQueryPostCallback(OAIHttpRequestWorker *worker);
-    void answerShippingQueryPostCallback(OAIHttpRequestWorker *worker);
-    void answerWebAppQueryPostCallback(OAIHttpRequestWorker *worker);
-    void approveChatJoinRequestPostCallback(OAIHttpRequestWorker *worker);
-    void banChatMemberPostCallback(OAIHttpRequestWorker *worker);
-    void banChatSenderChatPostCallback(OAIHttpRequestWorker *worker);
-    void closeForumTopicPostCallback(OAIHttpRequestWorker *worker);
-    void closeGeneralForumTopicPostCallback(OAIHttpRequestWorker *worker);
-    void closePostCallback(OAIHttpRequestWorker *worker);
-    void convertGiftToStarsPostCallback(OAIHttpRequestWorker *worker);
-    void copyMessagePostCallback(OAIHttpRequestWorker *worker);
-    void copyMessagesPostCallback(OAIHttpRequestWorker *worker);
-    void createChatInviteLinkPostCallback(OAIHttpRequestWorker *worker);
-    void createChatSubscriptionInviteLinkPostCallback(OAIHttpRequestWorker *worker);
-    void createForumTopicPostCallback(OAIHttpRequestWorker *worker);
-    void createInvoiceLinkPostCallback(OAIHttpRequestWorker *worker);
-    void createNewStickerSetPostCallback(OAIHttpRequestWorker *worker);
-    void declineChatJoinRequestPostCallback(OAIHttpRequestWorker *worker);
-    void deleteBusinessMessagesPostCallback(OAIHttpRequestWorker *worker);
-    void deleteChatPhotoPostCallback(OAIHttpRequestWorker *worker);
-    void deleteChatStickerSetPostCallback(OAIHttpRequestWorker *worker);
-    void deleteForumTopicPostCallback(OAIHttpRequestWorker *worker);
-    void deleteMessagePostCallback(OAIHttpRequestWorker *worker);
-    void deleteMessagesPostCallback(OAIHttpRequestWorker *worker);
-    void deleteMyCommandsPostCallback(OAIHttpRequestWorker *worker);
-    void deleteStickerFromSetPostCallback(OAIHttpRequestWorker *worker);
-    void deleteStickerSetPostCallback(OAIHttpRequestWorker *worker);
-    void deleteStoryPostCallback(OAIHttpRequestWorker *worker);
-    void deleteWebhookPostCallback(OAIHttpRequestWorker *worker);
-    void editChatInviteLinkPostCallback(OAIHttpRequestWorker *worker);
-    void editChatSubscriptionInviteLinkPostCallback(OAIHttpRequestWorker *worker);
-    void editForumTopicPostCallback(OAIHttpRequestWorker *worker);
-    void editGeneralForumTopicPostCallback(OAIHttpRequestWorker *worker);
-    void editMessageCaptionPostCallback(OAIHttpRequestWorker *worker);
-    void editMessageLiveLocationPostCallback(OAIHttpRequestWorker *worker);
-    void editMessageMediaPostCallback(OAIHttpRequestWorker *worker);
-    void editMessageReplyMarkupPostCallback(OAIHttpRequestWorker *worker);
-    void editMessageTextPostCallback(OAIHttpRequestWorker *worker);
-    void editStoryPostCallback(OAIHttpRequestWorker *worker);
-    void editUserStarSubscriptionPostCallback(OAIHttpRequestWorker *worker);
-    void exportChatInviteLinkPostCallback(OAIHttpRequestWorker *worker);
-    void forwardMessagePostCallback(OAIHttpRequestWorker *worker);
-    void forwardMessagesPostCallback(OAIHttpRequestWorker *worker);
-    void getAvailableGiftsPostCallback(OAIHttpRequestWorker *worker);
-    void getBusinessAccountGiftsPostCallback(OAIHttpRequestWorker *worker);
-    void getBusinessAccountStarBalancePostCallback(OAIHttpRequestWorker *worker);
-    void getBusinessConnectionPostCallback(OAIHttpRequestWorker *worker);
-    void getChatAdministratorsPostCallback(OAIHttpRequestWorker *worker);
-    void getChatMemberCountPostCallback(OAIHttpRequestWorker *worker);
-    void getChatMemberPostCallback(OAIHttpRequestWorker *worker);
-    void getChatMenuButtonPostCallback(OAIHttpRequestWorker *worker);
-    void getChatPostCallback(OAIHttpRequestWorker *worker);
-    void getCustomEmojiStickersPostCallback(OAIHttpRequestWorker *worker);
-    void getFilePostCallback(OAIHttpRequestWorker *worker);
-    void getForumTopicIconStickersPostCallback(OAIHttpRequestWorker *worker);
-    void getGameHighScoresPostCallback(OAIHttpRequestWorker *worker);
-    void getMePostCallback(OAIHttpRequestWorker *worker);
-    void getMyCommandsPostCallback(OAIHttpRequestWorker *worker);
-    void getMyDefaultAdministratorRightsPostCallback(OAIHttpRequestWorker *worker);
-    void getMyDescriptionPostCallback(OAIHttpRequestWorker *worker);
-    void getMyNamePostCallback(OAIHttpRequestWorker *worker);
-    void getMyShortDescriptionPostCallback(OAIHttpRequestWorker *worker);
-    void getStarTransactionsPostCallback(OAIHttpRequestWorker *worker);
-    void getStickerSetPostCallback(OAIHttpRequestWorker *worker);
-    void getUpdatesPostCallback(OAIHttpRequestWorker *worker);
-    void getUserChatBoostsPostCallback(OAIHttpRequestWorker *worker);
-    void getUserProfilePhotosPostCallback(OAIHttpRequestWorker *worker);
-    void getWebhookInfoPostCallback(OAIHttpRequestWorker *worker);
-    void giftPremiumSubscriptionPostCallback(OAIHttpRequestWorker *worker);
-    void hideGeneralForumTopicPostCallback(OAIHttpRequestWorker *worker);
-    void leaveChatPostCallback(OAIHttpRequestWorker *worker);
-    void logOutPostCallback(OAIHttpRequestWorker *worker);
-    void pinChatMessagePostCallback(OAIHttpRequestWorker *worker);
-    void postStoryPostCallback(OAIHttpRequestWorker *worker);
-    void promoteChatMemberPostCallback(OAIHttpRequestWorker *worker);
-    void readBusinessMessagePostCallback(OAIHttpRequestWorker *worker);
-    void refundStarPaymentPostCallback(OAIHttpRequestWorker *worker);
-    void removeBusinessAccountProfilePhotoPostCallback(OAIHttpRequestWorker *worker);
-    void removeChatVerificationPostCallback(OAIHttpRequestWorker *worker);
-    void removeUserVerificationPostCallback(OAIHttpRequestWorker *worker);
-    void reopenForumTopicPostCallback(OAIHttpRequestWorker *worker);
-    void reopenGeneralForumTopicPostCallback(OAIHttpRequestWorker *worker);
-    void replaceStickerInSetPostCallback(OAIHttpRequestWorker *worker);
-    void restrictChatMemberPostCallback(OAIHttpRequestWorker *worker);
-    void revokeChatInviteLinkPostCallback(OAIHttpRequestWorker *worker);
-    void savePreparedInlineMessagePostCallback(OAIHttpRequestWorker *worker);
-    void sendAnimationPostCallback(OAIHttpRequestWorker *worker);
-    void sendAudioPostCallback(OAIHttpRequestWorker *worker);
-    void sendChatActionPostCallback(OAIHttpRequestWorker *worker);
-    void sendContactPostCallback(OAIHttpRequestWorker *worker);
-    void sendDicePostCallback(OAIHttpRequestWorker *worker);
-    void sendDocumentPostCallback(OAIHttpRequestWorker *worker);
-    void sendGamePostCallback(OAIHttpRequestWorker *worker);
-    void sendGiftPostCallback(OAIHttpRequestWorker *worker);
-    void sendInvoicePostCallback(OAIHttpRequestWorker *worker);
-    void sendLocationPostCallback(OAIHttpRequestWorker *worker);
-    void sendMediaGroupPostCallback(OAIHttpRequestWorker *worker);
-    void sendMessagePostCallback(OAIHttpRequestWorker *worker);
-    void sendPaidMediaPostCallback(OAIHttpRequestWorker *worker);
-    void sendPhotoPostCallback(OAIHttpRequestWorker *worker);
-    void sendPollPostCallback(OAIHttpRequestWorker *worker);
-    void sendStickerPostCallback(OAIHttpRequestWorker *worker);
-    void sendVenuePostCallback(OAIHttpRequestWorker *worker);
-    void sendVideoNotePostCallback(OAIHttpRequestWorker *worker);
-    void sendVideoPostCallback(OAIHttpRequestWorker *worker);
-    void sendVoicePostCallback(OAIHttpRequestWorker *worker);
-    void setBusinessAccountBioPostCallback(OAIHttpRequestWorker *worker);
-    void setBusinessAccountGiftSettingsPostCallback(OAIHttpRequestWorker *worker);
-    void setBusinessAccountNamePostCallback(OAIHttpRequestWorker *worker);
-    void setBusinessAccountProfilePhotoPostCallback(OAIHttpRequestWorker *worker);
-    void setBusinessAccountUsernamePostCallback(OAIHttpRequestWorker *worker);
-    void setChatAdministratorCustomTitlePostCallback(OAIHttpRequestWorker *worker);
-    void setChatDescriptionPostCallback(OAIHttpRequestWorker *worker);
-    void setChatMenuButtonPostCallback(OAIHttpRequestWorker *worker);
-    void setChatPermissionsPostCallback(OAIHttpRequestWorker *worker);
-    void setChatPhotoPostCallback(OAIHttpRequestWorker *worker);
-    void setChatStickerSetPostCallback(OAIHttpRequestWorker *worker);
-    void setChatTitlePostCallback(OAIHttpRequestWorker *worker);
-    void setCustomEmojiStickerSetThumbnailPostCallback(OAIHttpRequestWorker *worker);
-    void setGameScorePostCallback(OAIHttpRequestWorker *worker);
-    void setMessageReactionPostCallback(OAIHttpRequestWorker *worker);
-    void setMyCommandsPostCallback(OAIHttpRequestWorker *worker);
-    void setMyDefaultAdministratorRightsPostCallback(OAIHttpRequestWorker *worker);
-    void setMyDescriptionPostCallback(OAIHttpRequestWorker *worker);
-    void setMyNamePostCallback(OAIHttpRequestWorker *worker);
-    void setMyShortDescriptionPostCallback(OAIHttpRequestWorker *worker);
-    void setPassportDataErrorsPostCallback(OAIHttpRequestWorker *worker);
-    void setStickerEmojiListPostCallback(OAIHttpRequestWorker *worker);
-    void setStickerKeywordsPostCallback(OAIHttpRequestWorker *worker);
-    void setStickerMaskPositionPostCallback(OAIHttpRequestWorker *worker);
-    void setStickerPositionInSetPostCallback(OAIHttpRequestWorker *worker);
-    void setStickerSetThumbnailPostCallback(OAIHttpRequestWorker *worker);
-    void setStickerSetTitlePostCallback(OAIHttpRequestWorker *worker);
-    void setUserEmojiStatusPostCallback(OAIHttpRequestWorker *worker);
-    void setWebhookPostCallback(OAIHttpRequestWorker *worker);
-    void stopMessageLiveLocationPostCallback(OAIHttpRequestWorker *worker);
-    void stopPollPostCallback(OAIHttpRequestWorker *worker);
-    void transferBusinessAccountStarsPostCallback(OAIHttpRequestWorker *worker);
-    void transferGiftPostCallback(OAIHttpRequestWorker *worker);
-    void unbanChatMemberPostCallback(OAIHttpRequestWorker *worker);
-    void unbanChatSenderChatPostCallback(OAIHttpRequestWorker *worker);
-    void unhideGeneralForumTopicPostCallback(OAIHttpRequestWorker *worker);
-    void unpinAllChatMessagesPostCallback(OAIHttpRequestWorker *worker);
-    void unpinAllForumTopicMessagesPostCallback(OAIHttpRequestWorker *worker);
-    void unpinAllGeneralForumTopicMessagesPostCallback(OAIHttpRequestWorker *worker);
-    void unpinChatMessagePostCallback(OAIHttpRequestWorker *worker);
-    void upgradeGiftPostCallback(OAIHttpRequestWorker *worker);
-    void uploadStickerFilePostCallback(OAIHttpRequestWorker *worker);
-    void verifyChatPostCallback(OAIHttpRequestWorker *worker);
-    void verifyUserPostCallback(OAIHttpRequestWorker *worker);
+    void postAddStickerToSetCallback(OAIHttpRequestWorker *worker);
+    void postAnswerCallbackQueryCallback(OAIHttpRequestWorker *worker);
+    void postAnswerInlineQueryCallback(OAIHttpRequestWorker *worker);
+    void postAnswerPreCheckoutQueryCallback(OAIHttpRequestWorker *worker);
+    void postAnswerShippingQueryCallback(OAIHttpRequestWorker *worker);
+    void postAnswerWebAppQueryCallback(OAIHttpRequestWorker *worker);
+    void postApproveChatJoinRequestCallback(OAIHttpRequestWorker *worker);
+    void postBanChatMemberCallback(OAIHttpRequestWorker *worker);
+    void postBanChatSenderChatCallback(OAIHttpRequestWorker *worker);
+    void postCloseCallback(OAIHttpRequestWorker *worker);
+    void postCloseForumTopicCallback(OAIHttpRequestWorker *worker);
+    void postCloseGeneralForumTopicCallback(OAIHttpRequestWorker *worker);
+    void postConvertGiftToStarsCallback(OAIHttpRequestWorker *worker);
+    void postCopyMessageCallback(OAIHttpRequestWorker *worker);
+    void postCopyMessagesCallback(OAIHttpRequestWorker *worker);
+    void postCreateChatInviteLinkCallback(OAIHttpRequestWorker *worker);
+    void postCreateChatSubscriptionInviteLinkCallback(OAIHttpRequestWorker *worker);
+    void postCreateForumTopicCallback(OAIHttpRequestWorker *worker);
+    void postCreateInvoiceLinkCallback(OAIHttpRequestWorker *worker);
+    void postCreateNewStickerSetCallback(OAIHttpRequestWorker *worker);
+    void postDeclineChatJoinRequestCallback(OAIHttpRequestWorker *worker);
+    void postDeleteBusinessMessagesCallback(OAIHttpRequestWorker *worker);
+    void postDeleteChatPhotoCallback(OAIHttpRequestWorker *worker);
+    void postDeleteChatStickerSetCallback(OAIHttpRequestWorker *worker);
+    void postDeleteForumTopicCallback(OAIHttpRequestWorker *worker);
+    void postDeleteMessageCallback(OAIHttpRequestWorker *worker);
+    void postDeleteMessagesCallback(OAIHttpRequestWorker *worker);
+    void postDeleteMyCommandsCallback(OAIHttpRequestWorker *worker);
+    void postDeleteStickerFromSetCallback(OAIHttpRequestWorker *worker);
+    void postDeleteStickerSetCallback(OAIHttpRequestWorker *worker);
+    void postDeleteStoryCallback(OAIHttpRequestWorker *worker);
+    void postDeleteWebhookCallback(OAIHttpRequestWorker *worker);
+    void postEditChatInviteLinkCallback(OAIHttpRequestWorker *worker);
+    void postEditChatSubscriptionInviteLinkCallback(OAIHttpRequestWorker *worker);
+    void postEditForumTopicCallback(OAIHttpRequestWorker *worker);
+    void postEditGeneralForumTopicCallback(OAIHttpRequestWorker *worker);
+    void postEditMessageCaptionCallback(OAIHttpRequestWorker *worker);
+    void postEditMessageLiveLocationCallback(OAIHttpRequestWorker *worker);
+    void postEditMessageMediaCallback(OAIHttpRequestWorker *worker);
+    void postEditMessageReplyMarkupCallback(OAIHttpRequestWorker *worker);
+    void postEditMessageTextCallback(OAIHttpRequestWorker *worker);
+    void postEditStoryCallback(OAIHttpRequestWorker *worker);
+    void postEditUserStarSubscriptionCallback(OAIHttpRequestWorker *worker);
+    void postExportChatInviteLinkCallback(OAIHttpRequestWorker *worker);
+    void postForwardMessageCallback(OAIHttpRequestWorker *worker);
+    void postForwardMessagesCallback(OAIHttpRequestWorker *worker);
+    void postGetAvailableGiftsCallback(OAIHttpRequestWorker *worker);
+    void postGetBusinessAccountGiftsCallback(OAIHttpRequestWorker *worker);
+    void postGetBusinessAccountStarBalanceCallback(OAIHttpRequestWorker *worker);
+    void postGetBusinessConnectionCallback(OAIHttpRequestWorker *worker);
+    void postGetChatCallback(OAIHttpRequestWorker *worker);
+    void postGetChatAdministratorsCallback(OAIHttpRequestWorker *worker);
+    void postGetChatMemberCallback(OAIHttpRequestWorker *worker);
+    void postGetChatMemberCountCallback(OAIHttpRequestWorker *worker);
+    void postGetChatMenuButtonCallback(OAIHttpRequestWorker *worker);
+    void postGetCustomEmojiStickersCallback(OAIHttpRequestWorker *worker);
+    void postGetFileCallback(OAIHttpRequestWorker *worker);
+    void postGetForumTopicIconStickersCallback(OAIHttpRequestWorker *worker);
+    void postGetGameHighScoresCallback(OAIHttpRequestWorker *worker);
+    void postGetMeCallback(OAIHttpRequestWorker *worker);
+    void postGetMyCommandsCallback(OAIHttpRequestWorker *worker);
+    void postGetMyDefaultAdministratorRightsCallback(OAIHttpRequestWorker *worker);
+    void postGetMyDescriptionCallback(OAIHttpRequestWorker *worker);
+    void postGetMyNameCallback(OAIHttpRequestWorker *worker);
+    void postGetMyShortDescriptionCallback(OAIHttpRequestWorker *worker);
+    void postGetStarTransactionsCallback(OAIHttpRequestWorker *worker);
+    void postGetStickerSetCallback(OAIHttpRequestWorker *worker);
+    void postGetUpdatesCallback(OAIHttpRequestWorker *worker);
+    void postGetUserChatBoostsCallback(OAIHttpRequestWorker *worker);
+    void postGetUserProfilePhotosCallback(OAIHttpRequestWorker *worker);
+    void postGetWebhookInfoCallback(OAIHttpRequestWorker *worker);
+    void postGiftPremiumSubscriptionCallback(OAIHttpRequestWorker *worker);
+    void postHideGeneralForumTopicCallback(OAIHttpRequestWorker *worker);
+    void postLeaveChatCallback(OAIHttpRequestWorker *worker);
+    void postLogOutCallback(OAIHttpRequestWorker *worker);
+    void postPinChatMessageCallback(OAIHttpRequestWorker *worker);
+    void postPostStoryCallback(OAIHttpRequestWorker *worker);
+    void postPromoteChatMemberCallback(OAIHttpRequestWorker *worker);
+    void postReadBusinessMessageCallback(OAIHttpRequestWorker *worker);
+    void postRefundStarPaymentCallback(OAIHttpRequestWorker *worker);
+    void postRemoveBusinessAccountProfilePhotoCallback(OAIHttpRequestWorker *worker);
+    void postRemoveChatVerificationCallback(OAIHttpRequestWorker *worker);
+    void postRemoveUserVerificationCallback(OAIHttpRequestWorker *worker);
+    void postReopenForumTopicCallback(OAIHttpRequestWorker *worker);
+    void postReopenGeneralForumTopicCallback(OAIHttpRequestWorker *worker);
+    void postReplaceStickerInSetCallback(OAIHttpRequestWorker *worker);
+    void postRestrictChatMemberCallback(OAIHttpRequestWorker *worker);
+    void postRevokeChatInviteLinkCallback(OAIHttpRequestWorker *worker);
+    void postSavePreparedInlineMessageCallback(OAIHttpRequestWorker *worker);
+    void postSendAnimationCallback(OAIHttpRequestWorker *worker);
+    void postSendAudioCallback(OAIHttpRequestWorker *worker);
+    void postSendChatActionCallback(OAIHttpRequestWorker *worker);
+    void postSendContactCallback(OAIHttpRequestWorker *worker);
+    void postSendDiceCallback(OAIHttpRequestWorker *worker);
+    void postSendDocumentCallback(OAIHttpRequestWorker *worker);
+    void postSendGameCallback(OAIHttpRequestWorker *worker);
+    void postSendGiftCallback(OAIHttpRequestWorker *worker);
+    void postSendInvoiceCallback(OAIHttpRequestWorker *worker);
+    void postSendLocationCallback(OAIHttpRequestWorker *worker);
+    void postSendMediaGroupCallback(OAIHttpRequestWorker *worker);
+    void postSendMessageCallback(OAIHttpRequestWorker *worker);
+    void postSendPaidMediaCallback(OAIHttpRequestWorker *worker);
+    void postSendPhotoCallback(OAIHttpRequestWorker *worker);
+    void postSendPollCallback(OAIHttpRequestWorker *worker);
+    void postSendStickerCallback(OAIHttpRequestWorker *worker);
+    void postSendVenueCallback(OAIHttpRequestWorker *worker);
+    void postSendVideoCallback(OAIHttpRequestWorker *worker);
+    void postSendVideoNoteCallback(OAIHttpRequestWorker *worker);
+    void postSendVoiceCallback(OAIHttpRequestWorker *worker);
+    void postSetBusinessAccountBioCallback(OAIHttpRequestWorker *worker);
+    void postSetBusinessAccountGiftSettingsCallback(OAIHttpRequestWorker *worker);
+    void postSetBusinessAccountNameCallback(OAIHttpRequestWorker *worker);
+    void postSetBusinessAccountProfilePhotoCallback(OAIHttpRequestWorker *worker);
+    void postSetBusinessAccountUsernameCallback(OAIHttpRequestWorker *worker);
+    void postSetChatAdministratorCustomTitleCallback(OAIHttpRequestWorker *worker);
+    void postSetChatDescriptionCallback(OAIHttpRequestWorker *worker);
+    void postSetChatMenuButtonCallback(OAIHttpRequestWorker *worker);
+    void postSetChatPermissionsCallback(OAIHttpRequestWorker *worker);
+    void postSetChatPhotoCallback(OAIHttpRequestWorker *worker);
+    void postSetChatStickerSetCallback(OAIHttpRequestWorker *worker);
+    void postSetChatTitleCallback(OAIHttpRequestWorker *worker);
+    void postSetCustomEmojiStickerSetThumbnailCallback(OAIHttpRequestWorker *worker);
+    void postSetGameScoreCallback(OAIHttpRequestWorker *worker);
+    void postSetMessageReactionCallback(OAIHttpRequestWorker *worker);
+    void postSetMyCommandsCallback(OAIHttpRequestWorker *worker);
+    void postSetMyDefaultAdministratorRightsCallback(OAIHttpRequestWorker *worker);
+    void postSetMyDescriptionCallback(OAIHttpRequestWorker *worker);
+    void postSetMyNameCallback(OAIHttpRequestWorker *worker);
+    void postSetMyShortDescriptionCallback(OAIHttpRequestWorker *worker);
+    void postSetPassportDataErrorsCallback(OAIHttpRequestWorker *worker);
+    void postSetStickerEmojiListCallback(OAIHttpRequestWorker *worker);
+    void postSetStickerKeywordsCallback(OAIHttpRequestWorker *worker);
+    void postSetStickerMaskPositionCallback(OAIHttpRequestWorker *worker);
+    void postSetStickerPositionInSetCallback(OAIHttpRequestWorker *worker);
+    void postSetStickerSetThumbnailCallback(OAIHttpRequestWorker *worker);
+    void postSetStickerSetTitleCallback(OAIHttpRequestWorker *worker);
+    void postSetUserEmojiStatusCallback(OAIHttpRequestWorker *worker);
+    void postSetWebhookCallback(OAIHttpRequestWorker *worker);
+    void postStopMessageLiveLocationCallback(OAIHttpRequestWorker *worker);
+    void postStopPollCallback(OAIHttpRequestWorker *worker);
+    void postTransferBusinessAccountStarsCallback(OAIHttpRequestWorker *worker);
+    void postTransferGiftCallback(OAIHttpRequestWorker *worker);
+    void postUnbanChatMemberCallback(OAIHttpRequestWorker *worker);
+    void postUnbanChatSenderChatCallback(OAIHttpRequestWorker *worker);
+    void postUnhideGeneralForumTopicCallback(OAIHttpRequestWorker *worker);
+    void postUnpinAllChatMessagesCallback(OAIHttpRequestWorker *worker);
+    void postUnpinAllForumTopicMessagesCallback(OAIHttpRequestWorker *worker);
+    void postUnpinAllGeneralForumTopicMessagesCallback(OAIHttpRequestWorker *worker);
+    void postUnpinChatMessageCallback(OAIHttpRequestWorker *worker);
+    void postUpgradeGiftCallback(OAIHttpRequestWorker *worker);
+    void postUploadStickerFileCallback(OAIHttpRequestWorker *worker);
+    void postVerifyChatCallback(OAIHttpRequestWorker *worker);
+    void postVerifyUserCallback(OAIHttpRequestWorker *worker);
 
 Q_SIGNALS:
 
-    void addStickerToSetPostSignal(OAI_setWebhook_post_200_response summary);
-    void answerCallbackQueryPostSignal(OAI_setWebhook_post_200_response summary);
-    void answerInlineQueryPostSignal(OAI_setWebhook_post_200_response summary);
-    void answerPreCheckoutQueryPostSignal(OAI_setWebhook_post_200_response summary);
-    void answerShippingQueryPostSignal(OAI_setWebhook_post_200_response summary);
-    void answerWebAppQueryPostSignal(OAI_answerWebAppQuery_post_200_response summary);
-    void approveChatJoinRequestPostSignal(OAI_setWebhook_post_200_response summary);
-    void banChatMemberPostSignal(OAI_setWebhook_post_200_response summary);
-    void banChatSenderChatPostSignal(OAI_setWebhook_post_200_response summary);
-    void closeForumTopicPostSignal(OAI_setWebhook_post_200_response summary);
-    void closeGeneralForumTopicPostSignal(OAI_setWebhook_post_200_response summary);
-    void closePostSignal(OAI_setWebhook_post_200_response summary);
-    void convertGiftToStarsPostSignal(OAI_setWebhook_post_200_response summary);
-    void copyMessagePostSignal(OAI_copyMessage_post_200_response summary);
-    void copyMessagesPostSignal(OAI_forwardMessages_post_200_response summary);
-    void createChatInviteLinkPostSignal(OAI_createChatInviteLink_post_200_response summary);
-    void createChatSubscriptionInviteLinkPostSignal(OAI_createChatInviteLink_post_200_response summary);
-    void createForumTopicPostSignal(OAI_createForumTopic_post_200_response summary);
-    void createInvoiceLinkPostSignal(OAI_exportChatInviteLink_post_200_response summary);
-    void createNewStickerSetPostSignal(OAI_setWebhook_post_200_response summary);
-    void declineChatJoinRequestPostSignal(OAI_setWebhook_post_200_response summary);
-    void deleteBusinessMessagesPostSignal(OAI_setWebhook_post_200_response summary);
-    void deleteChatPhotoPostSignal(OAI_setWebhook_post_200_response summary);
-    void deleteChatStickerSetPostSignal(OAI_setWebhook_post_200_response summary);
-    void deleteForumTopicPostSignal(OAI_setWebhook_post_200_response summary);
-    void deleteMessagePostSignal(OAI_setWebhook_post_200_response summary);
-    void deleteMessagesPostSignal(OAI_setWebhook_post_200_response summary);
-    void deleteMyCommandsPostSignal(OAI_setWebhook_post_200_response summary);
-    void deleteStickerFromSetPostSignal(OAI_setWebhook_post_200_response summary);
-    void deleteStickerSetPostSignal(OAI_setWebhook_post_200_response summary);
-    void deleteStoryPostSignal(OAI_setWebhook_post_200_response summary);
-    void deleteWebhookPostSignal(OAI_setWebhook_post_200_response summary);
-    void editChatInviteLinkPostSignal(OAI_createChatInviteLink_post_200_response summary);
-    void editChatSubscriptionInviteLinkPostSignal(OAI_createChatInviteLink_post_200_response summary);
-    void editForumTopicPostSignal(OAI_setWebhook_post_200_response summary);
-    void editGeneralForumTopicPostSignal(OAI_setWebhook_post_200_response summary);
-    void editMessageCaptionPostSignal(OAI_editMessageText_post_200_response summary);
-    void editMessageLiveLocationPostSignal(OAI_editMessageText_post_200_response summary);
-    void editMessageMediaPostSignal(OAI_editMessageText_post_200_response summary);
-    void editMessageReplyMarkupPostSignal(OAI_editMessageText_post_200_response summary);
-    void editMessageTextPostSignal(OAI_editMessageText_post_200_response summary);
-    void editStoryPostSignal(OAI_postStory_post_200_response summary);
-    void editUserStarSubscriptionPostSignal(OAI_setWebhook_post_200_response summary);
-    void exportChatInviteLinkPostSignal(OAI_exportChatInviteLink_post_200_response summary);
-    void forwardMessagePostSignal(OAI_sendMessage_post_200_response summary);
-    void forwardMessagesPostSignal(OAI_forwardMessages_post_200_response summary);
-    void getAvailableGiftsPostSignal(OAI_getAvailableGifts_post_200_response summary);
-    void getBusinessAccountGiftsPostSignal(OAI_getBusinessAccountGifts_post_200_response summary);
-    void getBusinessAccountStarBalancePostSignal(OAI_getBusinessAccountStarBalance_post_200_response summary);
-    void getBusinessConnectionPostSignal(OAI_getBusinessConnection_post_200_response summary);
-    void getChatAdministratorsPostSignal(OAI_getChatAdministrators_post_200_response summary);
-    void getChatMemberCountPostSignal(OAI_getChatMemberCount_post_200_response summary);
-    void getChatMemberPostSignal(OAI_getChatMember_post_200_response summary);
-    void getChatMenuButtonPostSignal(OAI_getChatMenuButton_post_200_response summary);
-    void getChatPostSignal(OAI_getChat_post_200_response summary);
-    void getCustomEmojiStickersPostSignal(OAI_getForumTopicIconStickers_post_200_response summary);
-    void getFilePostSignal(OAI_getFile_post_200_response summary);
-    void getForumTopicIconStickersPostSignal(OAI_getForumTopicIconStickers_post_200_response summary);
-    void getGameHighScoresPostSignal(OAI_getGameHighScores_post_200_response summary);
-    void getMePostSignal(OAI_getMe_post_200_response summary);
-    void getMyCommandsPostSignal(OAI_getMyCommands_post_200_response summary);
-    void getMyDefaultAdministratorRightsPostSignal(OAI_getMyDefaultAdministratorRights_post_200_response summary);
-    void getMyDescriptionPostSignal(OAI_getMyDescription_post_200_response summary);
-    void getMyNamePostSignal(OAI_getMyName_post_200_response summary);
-    void getMyShortDescriptionPostSignal(OAI_getMyShortDescription_post_200_response summary);
-    void getStarTransactionsPostSignal(OAI_getStarTransactions_post_200_response summary);
-    void getStickerSetPostSignal(OAI_getStickerSet_post_200_response summary);
-    void getUpdatesPostSignal(OAI_getUpdates_post_200_response summary);
-    void getUserChatBoostsPostSignal(OAI_getUserChatBoosts_post_200_response summary);
-    void getUserProfilePhotosPostSignal(OAI_getUserProfilePhotos_post_200_response summary);
-    void getWebhookInfoPostSignal(OAI_getWebhookInfo_post_200_response summary);
-    void giftPremiumSubscriptionPostSignal(OAI_setWebhook_post_200_response summary);
-    void hideGeneralForumTopicPostSignal(OAI_setWebhook_post_200_response summary);
-    void leaveChatPostSignal(OAI_setWebhook_post_200_response summary);
-    void logOutPostSignal(OAI_setWebhook_post_200_response summary);
-    void pinChatMessagePostSignal(OAI_setWebhook_post_200_response summary);
-    void postStoryPostSignal(OAI_postStory_post_200_response summary);
-    void promoteChatMemberPostSignal(OAI_setWebhook_post_200_response summary);
-    void readBusinessMessagePostSignal(OAI_setWebhook_post_200_response summary);
-    void refundStarPaymentPostSignal(OAI_setWebhook_post_200_response summary);
-    void removeBusinessAccountProfilePhotoPostSignal(OAI_setWebhook_post_200_response summary);
-    void removeChatVerificationPostSignal(OAI_setWebhook_post_200_response summary);
-    void removeUserVerificationPostSignal(OAI_setWebhook_post_200_response summary);
-    void reopenForumTopicPostSignal(OAI_setWebhook_post_200_response summary);
-    void reopenGeneralForumTopicPostSignal(OAI_setWebhook_post_200_response summary);
-    void replaceStickerInSetPostSignal(OAI_setWebhook_post_200_response summary);
-    void restrictChatMemberPostSignal(OAI_setWebhook_post_200_response summary);
-    void revokeChatInviteLinkPostSignal(OAI_createChatInviteLink_post_200_response summary);
-    void savePreparedInlineMessagePostSignal(OAI_savePreparedInlineMessage_post_200_response summary);
-    void sendAnimationPostSignal(OAI_sendMessage_post_200_response summary);
-    void sendAudioPostSignal(OAI_sendMessage_post_200_response summary);
-    void sendChatActionPostSignal(OAI_setWebhook_post_200_response summary);
-    void sendContactPostSignal(OAI_sendMessage_post_200_response summary);
-    void sendDicePostSignal(OAI_sendMessage_post_200_response summary);
-    void sendDocumentPostSignal(OAI_sendMessage_post_200_response summary);
-    void sendGamePostSignal(OAI_sendMessage_post_200_response summary);
-    void sendGiftPostSignal(OAI_setWebhook_post_200_response summary);
-    void sendInvoicePostSignal(OAI_sendMessage_post_200_response summary);
-    void sendLocationPostSignal(OAI_sendMessage_post_200_response summary);
-    void sendMediaGroupPostSignal(OAI_sendMediaGroup_post_200_response summary);
-    void sendMessagePostSignal(OAI_sendMessage_post_200_response summary);
-    void sendPaidMediaPostSignal(OAI_sendMessage_post_200_response summary);
-    void sendPhotoPostSignal(OAI_sendMessage_post_200_response summary);
-    void sendPollPostSignal(OAI_sendMessage_post_200_response summary);
-    void sendStickerPostSignal(OAI_sendMessage_post_200_response summary);
-    void sendVenuePostSignal(OAI_sendMessage_post_200_response summary);
-    void sendVideoNotePostSignal(OAI_sendMessage_post_200_response summary);
-    void sendVideoPostSignal(OAI_sendMessage_post_200_response summary);
-    void sendVoicePostSignal(OAI_sendMessage_post_200_response summary);
-    void setBusinessAccountBioPostSignal(OAI_setWebhook_post_200_response summary);
-    void setBusinessAccountGiftSettingsPostSignal(OAI_setWebhook_post_200_response summary);
-    void setBusinessAccountNamePostSignal(OAI_setWebhook_post_200_response summary);
-    void setBusinessAccountProfilePhotoPostSignal(OAI_setWebhook_post_200_response summary);
-    void setBusinessAccountUsernamePostSignal(OAI_setWebhook_post_200_response summary);
-    void setChatAdministratorCustomTitlePostSignal(OAI_setWebhook_post_200_response summary);
-    void setChatDescriptionPostSignal(OAI_setWebhook_post_200_response summary);
-    void setChatMenuButtonPostSignal(OAI_setWebhook_post_200_response summary);
-    void setChatPermissionsPostSignal(OAI_setWebhook_post_200_response summary);
-    void setChatPhotoPostSignal(OAI_setWebhook_post_200_response summary);
-    void setChatStickerSetPostSignal(OAI_setWebhook_post_200_response summary);
-    void setChatTitlePostSignal(OAI_setWebhook_post_200_response summary);
-    void setCustomEmojiStickerSetThumbnailPostSignal(OAI_setWebhook_post_200_response summary);
-    void setGameScorePostSignal(OAI_editMessageText_post_200_response summary);
-    void setMessageReactionPostSignal(OAI_setWebhook_post_200_response summary);
-    void setMyCommandsPostSignal(OAI_setWebhook_post_200_response summary);
-    void setMyDefaultAdministratorRightsPostSignal(OAI_setWebhook_post_200_response summary);
-    void setMyDescriptionPostSignal(OAI_setWebhook_post_200_response summary);
-    void setMyNamePostSignal(OAI_setWebhook_post_200_response summary);
-    void setMyShortDescriptionPostSignal(OAI_setWebhook_post_200_response summary);
-    void setPassportDataErrorsPostSignal(OAI_setWebhook_post_200_response summary);
-    void setStickerEmojiListPostSignal(OAI_setWebhook_post_200_response summary);
-    void setStickerKeywordsPostSignal(OAI_setWebhook_post_200_response summary);
-    void setStickerMaskPositionPostSignal(OAI_setWebhook_post_200_response summary);
-    void setStickerPositionInSetPostSignal(OAI_setWebhook_post_200_response summary);
-    void setStickerSetThumbnailPostSignal(OAI_setWebhook_post_200_response summary);
-    void setStickerSetTitlePostSignal(OAI_setWebhook_post_200_response summary);
-    void setUserEmojiStatusPostSignal(OAI_setWebhook_post_200_response summary);
-    void setWebhookPostSignal(OAI_setWebhook_post_200_response summary);
-    void stopMessageLiveLocationPostSignal(OAI_editMessageText_post_200_response summary);
-    void stopPollPostSignal(OAI_stopPoll_post_200_response summary);
-    void transferBusinessAccountStarsPostSignal(OAI_setWebhook_post_200_response summary);
-    void transferGiftPostSignal(OAI_setWebhook_post_200_response summary);
-    void unbanChatMemberPostSignal(OAI_setWebhook_post_200_response summary);
-    void unbanChatSenderChatPostSignal(OAI_setWebhook_post_200_response summary);
-    void unhideGeneralForumTopicPostSignal(OAI_setWebhook_post_200_response summary);
-    void unpinAllChatMessagesPostSignal(OAI_setWebhook_post_200_response summary);
-    void unpinAllForumTopicMessagesPostSignal(OAI_setWebhook_post_200_response summary);
-    void unpinAllGeneralForumTopicMessagesPostSignal(OAI_setWebhook_post_200_response summary);
-    void unpinChatMessagePostSignal(OAI_setWebhook_post_200_response summary);
-    void upgradeGiftPostSignal(OAI_setWebhook_post_200_response summary);
-    void uploadStickerFilePostSignal(OAI_getFile_post_200_response summary);
-    void verifyChatPostSignal(OAI_setWebhook_post_200_response summary);
-    void verifyUserPostSignal(OAI_setWebhook_post_200_response summary);
+    void postAddStickerToSetSignal(OAIPost_setWebhook_200_response summary);
+    void postAnswerCallbackQuerySignal(OAIPost_setWebhook_200_response summary);
+    void postAnswerInlineQuerySignal(OAIPost_setWebhook_200_response summary);
+    void postAnswerPreCheckoutQuerySignal(OAIPost_setWebhook_200_response summary);
+    void postAnswerShippingQuerySignal(OAIPost_setWebhook_200_response summary);
+    void postAnswerWebAppQuerySignal(OAIPost_answerWebAppQuery_200_response summary);
+    void postApproveChatJoinRequestSignal(OAIPost_setWebhook_200_response summary);
+    void postBanChatMemberSignal(OAIPost_setWebhook_200_response summary);
+    void postBanChatSenderChatSignal(OAIPost_setWebhook_200_response summary);
+    void postCloseSignal(OAIPost_setWebhook_200_response summary);
+    void postCloseForumTopicSignal(OAIPost_setWebhook_200_response summary);
+    void postCloseGeneralForumTopicSignal(OAIPost_setWebhook_200_response summary);
+    void postConvertGiftToStarsSignal(OAIPost_setWebhook_200_response summary);
+    void postCopyMessageSignal(OAIPost_copyMessage_200_response summary);
+    void postCopyMessagesSignal(OAIPost_forwardMessages_200_response summary);
+    void postCreateChatInviteLinkSignal(OAIPost_createChatInviteLink_200_response summary);
+    void postCreateChatSubscriptionInviteLinkSignal(OAIPost_createChatInviteLink_200_response summary);
+    void postCreateForumTopicSignal(OAIPost_createForumTopic_200_response summary);
+    void postCreateInvoiceLinkSignal(OAIPost_exportChatInviteLink_200_response summary);
+    void postCreateNewStickerSetSignal(OAIPost_setWebhook_200_response summary);
+    void postDeclineChatJoinRequestSignal(OAIPost_setWebhook_200_response summary);
+    void postDeleteBusinessMessagesSignal(OAIPost_setWebhook_200_response summary);
+    void postDeleteChatPhotoSignal(OAIPost_setWebhook_200_response summary);
+    void postDeleteChatStickerSetSignal(OAIPost_setWebhook_200_response summary);
+    void postDeleteForumTopicSignal(OAIPost_setWebhook_200_response summary);
+    void postDeleteMessageSignal(OAIPost_setWebhook_200_response summary);
+    void postDeleteMessagesSignal(OAIPost_setWebhook_200_response summary);
+    void postDeleteMyCommandsSignal(OAIPost_setWebhook_200_response summary);
+    void postDeleteStickerFromSetSignal(OAIPost_setWebhook_200_response summary);
+    void postDeleteStickerSetSignal(OAIPost_setWebhook_200_response summary);
+    void postDeleteStorySignal(OAIPost_setWebhook_200_response summary);
+    void postDeleteWebhookSignal(OAIPost_setWebhook_200_response summary);
+    void postEditChatInviteLinkSignal(OAIPost_createChatInviteLink_200_response summary);
+    void postEditChatSubscriptionInviteLinkSignal(OAIPost_createChatInviteLink_200_response summary);
+    void postEditForumTopicSignal(OAIPost_setWebhook_200_response summary);
+    void postEditGeneralForumTopicSignal(OAIPost_setWebhook_200_response summary);
+    void postEditMessageCaptionSignal(OAIPost_editMessageText_200_response summary);
+    void postEditMessageLiveLocationSignal(OAIPost_editMessageText_200_response summary);
+    void postEditMessageMediaSignal(OAIPost_editMessageText_200_response summary);
+    void postEditMessageReplyMarkupSignal(OAIPost_editMessageText_200_response summary);
+    void postEditMessageTextSignal(OAIPost_editMessageText_200_response summary);
+    void postEditStorySignal(OAIPost_postStory_200_response summary);
+    void postEditUserStarSubscriptionSignal(OAIPost_setWebhook_200_response summary);
+    void postExportChatInviteLinkSignal(OAIPost_exportChatInviteLink_200_response summary);
+    void postForwardMessageSignal(OAIPost_sendMessage_200_response summary);
+    void postForwardMessagesSignal(OAIPost_forwardMessages_200_response summary);
+    void postGetAvailableGiftsSignal(OAIPost_getAvailableGifts_200_response summary);
+    void postGetBusinessAccountGiftsSignal(OAIPost_getBusinessAccountGifts_200_response summary);
+    void postGetBusinessAccountStarBalanceSignal(OAIPost_getBusinessAccountStarBalance_200_response summary);
+    void postGetBusinessConnectionSignal(OAIPost_getBusinessConnection_200_response summary);
+    void postGetChatSignal(OAIPost_getChat_200_response summary);
+    void postGetChatAdministratorsSignal(OAIPost_getChatAdministrators_200_response summary);
+    void postGetChatMemberSignal(OAIPost_getChatMember_200_response summary);
+    void postGetChatMemberCountSignal(OAIPost_getChatMemberCount_200_response summary);
+    void postGetChatMenuButtonSignal(OAIPost_getChatMenuButton_200_response summary);
+    void postGetCustomEmojiStickersSignal(OAIPost_getForumTopicIconStickers_200_response summary);
+    void postGetFileSignal(OAIPost_getFile_200_response summary);
+    void postGetForumTopicIconStickersSignal(OAIPost_getForumTopicIconStickers_200_response summary);
+    void postGetGameHighScoresSignal(OAIPost_getGameHighScores_200_response summary);
+    void postGetMeSignal(OAIPost_getMe_200_response summary);
+    void postGetMyCommandsSignal(OAIPost_getMyCommands_200_response summary);
+    void postGetMyDefaultAdministratorRightsSignal(OAIPost_getMyDefaultAdministratorRights_200_response summary);
+    void postGetMyDescriptionSignal(OAIPost_getMyDescription_200_response summary);
+    void postGetMyNameSignal(OAIPost_getMyName_200_response summary);
+    void postGetMyShortDescriptionSignal(OAIPost_getMyShortDescription_200_response summary);
+    void postGetStarTransactionsSignal(OAIPost_getStarTransactions_200_response summary);
+    void postGetStickerSetSignal(OAIPost_getStickerSet_200_response summary);
+    void postGetUpdatesSignal(OAIPost_getUpdates_200_response summary);
+    void postGetUserChatBoostsSignal(OAIPost_getUserChatBoosts_200_response summary);
+    void postGetUserProfilePhotosSignal(OAIPost_getUserProfilePhotos_200_response summary);
+    void postGetWebhookInfoSignal(OAIPost_getWebhookInfo_200_response summary);
+    void postGiftPremiumSubscriptionSignal(OAIPost_setWebhook_200_response summary);
+    void postHideGeneralForumTopicSignal(OAIPost_setWebhook_200_response summary);
+    void postLeaveChatSignal(OAIPost_setWebhook_200_response summary);
+    void postLogOutSignal(OAIPost_setWebhook_200_response summary);
+    void postPinChatMessageSignal(OAIPost_setWebhook_200_response summary);
+    void postPostStorySignal(OAIPost_postStory_200_response summary);
+    void postPromoteChatMemberSignal(OAIPost_setWebhook_200_response summary);
+    void postReadBusinessMessageSignal(OAIPost_setWebhook_200_response summary);
+    void postRefundStarPaymentSignal(OAIPost_setWebhook_200_response summary);
+    void postRemoveBusinessAccountProfilePhotoSignal(OAIPost_setWebhook_200_response summary);
+    void postRemoveChatVerificationSignal(OAIPost_setWebhook_200_response summary);
+    void postRemoveUserVerificationSignal(OAIPost_setWebhook_200_response summary);
+    void postReopenForumTopicSignal(OAIPost_setWebhook_200_response summary);
+    void postReopenGeneralForumTopicSignal(OAIPost_setWebhook_200_response summary);
+    void postReplaceStickerInSetSignal(OAIPost_setWebhook_200_response summary);
+    void postRestrictChatMemberSignal(OAIPost_setWebhook_200_response summary);
+    void postRevokeChatInviteLinkSignal(OAIPost_createChatInviteLink_200_response summary);
+    void postSavePreparedInlineMessageSignal(OAIPost_savePreparedInlineMessage_200_response summary);
+    void postSendAnimationSignal(OAIPost_sendMessage_200_response summary);
+    void postSendAudioSignal(OAIPost_sendMessage_200_response summary);
+    void postSendChatActionSignal(OAIPost_setWebhook_200_response summary);
+    void postSendContactSignal(OAIPost_sendMessage_200_response summary);
+    void postSendDiceSignal(OAIPost_sendMessage_200_response summary);
+    void postSendDocumentSignal(OAIPost_sendMessage_200_response summary);
+    void postSendGameSignal(OAIPost_sendMessage_200_response summary);
+    void postSendGiftSignal(OAIPost_setWebhook_200_response summary);
+    void postSendInvoiceSignal(OAIPost_sendMessage_200_response summary);
+    void postSendLocationSignal(OAIPost_sendMessage_200_response summary);
+    void postSendMediaGroupSignal(OAIPost_sendMediaGroup_200_response summary);
+    void postSendMessageSignal(OAIPost_sendMessage_200_response summary);
+    void postSendPaidMediaSignal(OAIPost_sendMessage_200_response summary);
+    void postSendPhotoSignal(OAIPost_sendMessage_200_response summary);
+    void postSendPollSignal(OAIPost_sendMessage_200_response summary);
+    void postSendStickerSignal(OAIPost_sendMessage_200_response summary);
+    void postSendVenueSignal(OAIPost_sendMessage_200_response summary);
+    void postSendVideoSignal(OAIPost_sendMessage_200_response summary);
+    void postSendVideoNoteSignal(OAIPost_sendMessage_200_response summary);
+    void postSendVoiceSignal(OAIPost_sendMessage_200_response summary);
+    void postSetBusinessAccountBioSignal(OAIPost_setWebhook_200_response summary);
+    void postSetBusinessAccountGiftSettingsSignal(OAIPost_setWebhook_200_response summary);
+    void postSetBusinessAccountNameSignal(OAIPost_setWebhook_200_response summary);
+    void postSetBusinessAccountProfilePhotoSignal(OAIPost_setWebhook_200_response summary);
+    void postSetBusinessAccountUsernameSignal(OAIPost_setWebhook_200_response summary);
+    void postSetChatAdministratorCustomTitleSignal(OAIPost_setWebhook_200_response summary);
+    void postSetChatDescriptionSignal(OAIPost_setWebhook_200_response summary);
+    void postSetChatMenuButtonSignal(OAIPost_setWebhook_200_response summary);
+    void postSetChatPermissionsSignal(OAIPost_setWebhook_200_response summary);
+    void postSetChatPhotoSignal(OAIPost_setWebhook_200_response summary);
+    void postSetChatStickerSetSignal(OAIPost_setWebhook_200_response summary);
+    void postSetChatTitleSignal(OAIPost_setWebhook_200_response summary);
+    void postSetCustomEmojiStickerSetThumbnailSignal(OAIPost_setWebhook_200_response summary);
+    void postSetGameScoreSignal(OAIPost_editMessageText_200_response summary);
+    void postSetMessageReactionSignal(OAIPost_setWebhook_200_response summary);
+    void postSetMyCommandsSignal(OAIPost_setWebhook_200_response summary);
+    void postSetMyDefaultAdministratorRightsSignal(OAIPost_setWebhook_200_response summary);
+    void postSetMyDescriptionSignal(OAIPost_setWebhook_200_response summary);
+    void postSetMyNameSignal(OAIPost_setWebhook_200_response summary);
+    void postSetMyShortDescriptionSignal(OAIPost_setWebhook_200_response summary);
+    void postSetPassportDataErrorsSignal(OAIPost_setWebhook_200_response summary);
+    void postSetStickerEmojiListSignal(OAIPost_setWebhook_200_response summary);
+    void postSetStickerKeywordsSignal(OAIPost_setWebhook_200_response summary);
+    void postSetStickerMaskPositionSignal(OAIPost_setWebhook_200_response summary);
+    void postSetStickerPositionInSetSignal(OAIPost_setWebhook_200_response summary);
+    void postSetStickerSetThumbnailSignal(OAIPost_setWebhook_200_response summary);
+    void postSetStickerSetTitleSignal(OAIPost_setWebhook_200_response summary);
+    void postSetUserEmojiStatusSignal(OAIPost_setWebhook_200_response summary);
+    void postSetWebhookSignal(OAIPost_setWebhook_200_response summary);
+    void postStopMessageLiveLocationSignal(OAIPost_editMessageText_200_response summary);
+    void postStopPollSignal(OAIPost_stopPoll_200_response summary);
+    void postTransferBusinessAccountStarsSignal(OAIPost_setWebhook_200_response summary);
+    void postTransferGiftSignal(OAIPost_setWebhook_200_response summary);
+    void postUnbanChatMemberSignal(OAIPost_setWebhook_200_response summary);
+    void postUnbanChatSenderChatSignal(OAIPost_setWebhook_200_response summary);
+    void postUnhideGeneralForumTopicSignal(OAIPost_setWebhook_200_response summary);
+    void postUnpinAllChatMessagesSignal(OAIPost_setWebhook_200_response summary);
+    void postUnpinAllForumTopicMessagesSignal(OAIPost_setWebhook_200_response summary);
+    void postUnpinAllGeneralForumTopicMessagesSignal(OAIPost_setWebhook_200_response summary);
+    void postUnpinChatMessageSignal(OAIPost_setWebhook_200_response summary);
+    void postUpgradeGiftSignal(OAIPost_setWebhook_200_response summary);
+    void postUploadStickerFileSignal(OAIPost_getFile_200_response summary);
+    void postVerifyChatSignal(OAIPost_setWebhook_200_response summary);
+    void postVerifyUserSignal(OAIPost_setWebhook_200_response summary);
 
 
-    void addStickerToSetPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void answerCallbackQueryPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void answerInlineQueryPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void answerPreCheckoutQueryPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void answerShippingQueryPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void answerWebAppQueryPostSignalFull(OAIHttpRequestWorker *worker, OAI_answerWebAppQuery_post_200_response summary);
-    void approveChatJoinRequestPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void banChatMemberPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void banChatSenderChatPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void closeForumTopicPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void closeGeneralForumTopicPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void closePostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void convertGiftToStarsPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void copyMessagePostSignalFull(OAIHttpRequestWorker *worker, OAI_copyMessage_post_200_response summary);
-    void copyMessagesPostSignalFull(OAIHttpRequestWorker *worker, OAI_forwardMessages_post_200_response summary);
-    void createChatInviteLinkPostSignalFull(OAIHttpRequestWorker *worker, OAI_createChatInviteLink_post_200_response summary);
-    void createChatSubscriptionInviteLinkPostSignalFull(OAIHttpRequestWorker *worker, OAI_createChatInviteLink_post_200_response summary);
-    void createForumTopicPostSignalFull(OAIHttpRequestWorker *worker, OAI_createForumTopic_post_200_response summary);
-    void createInvoiceLinkPostSignalFull(OAIHttpRequestWorker *worker, OAI_exportChatInviteLink_post_200_response summary);
-    void createNewStickerSetPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void declineChatJoinRequestPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void deleteBusinessMessagesPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void deleteChatPhotoPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void deleteChatStickerSetPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void deleteForumTopicPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void deleteMessagePostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void deleteMessagesPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void deleteMyCommandsPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void deleteStickerFromSetPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void deleteStickerSetPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void deleteStoryPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void deleteWebhookPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void editChatInviteLinkPostSignalFull(OAIHttpRequestWorker *worker, OAI_createChatInviteLink_post_200_response summary);
-    void editChatSubscriptionInviteLinkPostSignalFull(OAIHttpRequestWorker *worker, OAI_createChatInviteLink_post_200_response summary);
-    void editForumTopicPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void editGeneralForumTopicPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void editMessageCaptionPostSignalFull(OAIHttpRequestWorker *worker, OAI_editMessageText_post_200_response summary);
-    void editMessageLiveLocationPostSignalFull(OAIHttpRequestWorker *worker, OAI_editMessageText_post_200_response summary);
-    void editMessageMediaPostSignalFull(OAIHttpRequestWorker *worker, OAI_editMessageText_post_200_response summary);
-    void editMessageReplyMarkupPostSignalFull(OAIHttpRequestWorker *worker, OAI_editMessageText_post_200_response summary);
-    void editMessageTextPostSignalFull(OAIHttpRequestWorker *worker, OAI_editMessageText_post_200_response summary);
-    void editStoryPostSignalFull(OAIHttpRequestWorker *worker, OAI_postStory_post_200_response summary);
-    void editUserStarSubscriptionPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void exportChatInviteLinkPostSignalFull(OAIHttpRequestWorker *worker, OAI_exportChatInviteLink_post_200_response summary);
-    void forwardMessagePostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void forwardMessagesPostSignalFull(OAIHttpRequestWorker *worker, OAI_forwardMessages_post_200_response summary);
-    void getAvailableGiftsPostSignalFull(OAIHttpRequestWorker *worker, OAI_getAvailableGifts_post_200_response summary);
-    void getBusinessAccountGiftsPostSignalFull(OAIHttpRequestWorker *worker, OAI_getBusinessAccountGifts_post_200_response summary);
-    void getBusinessAccountStarBalancePostSignalFull(OAIHttpRequestWorker *worker, OAI_getBusinessAccountStarBalance_post_200_response summary);
-    void getBusinessConnectionPostSignalFull(OAIHttpRequestWorker *worker, OAI_getBusinessConnection_post_200_response summary);
-    void getChatAdministratorsPostSignalFull(OAIHttpRequestWorker *worker, OAI_getChatAdministrators_post_200_response summary);
-    void getChatMemberCountPostSignalFull(OAIHttpRequestWorker *worker, OAI_getChatMemberCount_post_200_response summary);
-    void getChatMemberPostSignalFull(OAIHttpRequestWorker *worker, OAI_getChatMember_post_200_response summary);
-    void getChatMenuButtonPostSignalFull(OAIHttpRequestWorker *worker, OAI_getChatMenuButton_post_200_response summary);
-    void getChatPostSignalFull(OAIHttpRequestWorker *worker, OAI_getChat_post_200_response summary);
-    void getCustomEmojiStickersPostSignalFull(OAIHttpRequestWorker *worker, OAI_getForumTopicIconStickers_post_200_response summary);
-    void getFilePostSignalFull(OAIHttpRequestWorker *worker, OAI_getFile_post_200_response summary);
-    void getForumTopicIconStickersPostSignalFull(OAIHttpRequestWorker *worker, OAI_getForumTopicIconStickers_post_200_response summary);
-    void getGameHighScoresPostSignalFull(OAIHttpRequestWorker *worker, OAI_getGameHighScores_post_200_response summary);
-    void getMePostSignalFull(OAIHttpRequestWorker *worker, OAI_getMe_post_200_response summary);
-    void getMyCommandsPostSignalFull(OAIHttpRequestWorker *worker, OAI_getMyCommands_post_200_response summary);
-    void getMyDefaultAdministratorRightsPostSignalFull(OAIHttpRequestWorker *worker, OAI_getMyDefaultAdministratorRights_post_200_response summary);
-    void getMyDescriptionPostSignalFull(OAIHttpRequestWorker *worker, OAI_getMyDescription_post_200_response summary);
-    void getMyNamePostSignalFull(OAIHttpRequestWorker *worker, OAI_getMyName_post_200_response summary);
-    void getMyShortDescriptionPostSignalFull(OAIHttpRequestWorker *worker, OAI_getMyShortDescription_post_200_response summary);
-    void getStarTransactionsPostSignalFull(OAIHttpRequestWorker *worker, OAI_getStarTransactions_post_200_response summary);
-    void getStickerSetPostSignalFull(OAIHttpRequestWorker *worker, OAI_getStickerSet_post_200_response summary);
-    void getUpdatesPostSignalFull(OAIHttpRequestWorker *worker, OAI_getUpdates_post_200_response summary);
-    void getUserChatBoostsPostSignalFull(OAIHttpRequestWorker *worker, OAI_getUserChatBoosts_post_200_response summary);
-    void getUserProfilePhotosPostSignalFull(OAIHttpRequestWorker *worker, OAI_getUserProfilePhotos_post_200_response summary);
-    void getWebhookInfoPostSignalFull(OAIHttpRequestWorker *worker, OAI_getWebhookInfo_post_200_response summary);
-    void giftPremiumSubscriptionPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void hideGeneralForumTopicPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void leaveChatPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void logOutPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void pinChatMessagePostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void postStoryPostSignalFull(OAIHttpRequestWorker *worker, OAI_postStory_post_200_response summary);
-    void promoteChatMemberPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void readBusinessMessagePostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void refundStarPaymentPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void removeBusinessAccountProfilePhotoPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void removeChatVerificationPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void removeUserVerificationPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void reopenForumTopicPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void reopenGeneralForumTopicPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void replaceStickerInSetPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void restrictChatMemberPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void revokeChatInviteLinkPostSignalFull(OAIHttpRequestWorker *worker, OAI_createChatInviteLink_post_200_response summary);
-    void savePreparedInlineMessagePostSignalFull(OAIHttpRequestWorker *worker, OAI_savePreparedInlineMessage_post_200_response summary);
-    void sendAnimationPostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendAudioPostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendChatActionPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void sendContactPostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendDicePostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendDocumentPostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendGamePostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendGiftPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void sendInvoicePostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendLocationPostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendMediaGroupPostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMediaGroup_post_200_response summary);
-    void sendMessagePostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendPaidMediaPostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendPhotoPostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendPollPostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendStickerPostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendVenuePostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendVideoNotePostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendVideoPostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void sendVoicePostSignalFull(OAIHttpRequestWorker *worker, OAI_sendMessage_post_200_response summary);
-    void setBusinessAccountBioPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setBusinessAccountGiftSettingsPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setBusinessAccountNamePostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setBusinessAccountProfilePhotoPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setBusinessAccountUsernamePostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setChatAdministratorCustomTitlePostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setChatDescriptionPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setChatMenuButtonPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setChatPermissionsPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setChatPhotoPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setChatStickerSetPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setChatTitlePostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setCustomEmojiStickerSetThumbnailPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setGameScorePostSignalFull(OAIHttpRequestWorker *worker, OAI_editMessageText_post_200_response summary);
-    void setMessageReactionPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setMyCommandsPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setMyDefaultAdministratorRightsPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setMyDescriptionPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setMyNamePostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setMyShortDescriptionPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setPassportDataErrorsPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setStickerEmojiListPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setStickerKeywordsPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setStickerMaskPositionPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setStickerPositionInSetPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setStickerSetThumbnailPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setStickerSetTitlePostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setUserEmojiStatusPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void setWebhookPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void stopMessageLiveLocationPostSignalFull(OAIHttpRequestWorker *worker, OAI_editMessageText_post_200_response summary);
-    void stopPollPostSignalFull(OAIHttpRequestWorker *worker, OAI_stopPoll_post_200_response summary);
-    void transferBusinessAccountStarsPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void transferGiftPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void unbanChatMemberPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void unbanChatSenderChatPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void unhideGeneralForumTopicPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void unpinAllChatMessagesPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void unpinAllForumTopicMessagesPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void unpinAllGeneralForumTopicMessagesPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void unpinChatMessagePostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void upgradeGiftPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void uploadStickerFilePostSignalFull(OAIHttpRequestWorker *worker, OAI_getFile_post_200_response summary);
-    void verifyChatPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
-    void verifyUserPostSignalFull(OAIHttpRequestWorker *worker, OAI_setWebhook_post_200_response summary);
+    void postAddStickerToSetSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postAnswerCallbackQuerySignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postAnswerInlineQuerySignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postAnswerPreCheckoutQuerySignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postAnswerShippingQuerySignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postAnswerWebAppQuerySignalFull(OAIHttpRequestWorker *worker, OAIPost_answerWebAppQuery_200_response summary);
+    void postApproveChatJoinRequestSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postBanChatMemberSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postBanChatSenderChatSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postCloseSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postCloseForumTopicSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postCloseGeneralForumTopicSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postConvertGiftToStarsSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postCopyMessageSignalFull(OAIHttpRequestWorker *worker, OAIPost_copyMessage_200_response summary);
+    void postCopyMessagesSignalFull(OAIHttpRequestWorker *worker, OAIPost_forwardMessages_200_response summary);
+    void postCreateChatInviteLinkSignalFull(OAIHttpRequestWorker *worker, OAIPost_createChatInviteLink_200_response summary);
+    void postCreateChatSubscriptionInviteLinkSignalFull(OAIHttpRequestWorker *worker, OAIPost_createChatInviteLink_200_response summary);
+    void postCreateForumTopicSignalFull(OAIHttpRequestWorker *worker, OAIPost_createForumTopic_200_response summary);
+    void postCreateInvoiceLinkSignalFull(OAIHttpRequestWorker *worker, OAIPost_exportChatInviteLink_200_response summary);
+    void postCreateNewStickerSetSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postDeclineChatJoinRequestSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postDeleteBusinessMessagesSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postDeleteChatPhotoSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postDeleteChatStickerSetSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postDeleteForumTopicSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postDeleteMessageSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postDeleteMessagesSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postDeleteMyCommandsSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postDeleteStickerFromSetSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postDeleteStickerSetSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postDeleteStorySignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postDeleteWebhookSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postEditChatInviteLinkSignalFull(OAIHttpRequestWorker *worker, OAIPost_createChatInviteLink_200_response summary);
+    void postEditChatSubscriptionInviteLinkSignalFull(OAIHttpRequestWorker *worker, OAIPost_createChatInviteLink_200_response summary);
+    void postEditForumTopicSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postEditGeneralForumTopicSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postEditMessageCaptionSignalFull(OAIHttpRequestWorker *worker, OAIPost_editMessageText_200_response summary);
+    void postEditMessageLiveLocationSignalFull(OAIHttpRequestWorker *worker, OAIPost_editMessageText_200_response summary);
+    void postEditMessageMediaSignalFull(OAIHttpRequestWorker *worker, OAIPost_editMessageText_200_response summary);
+    void postEditMessageReplyMarkupSignalFull(OAIHttpRequestWorker *worker, OAIPost_editMessageText_200_response summary);
+    void postEditMessageTextSignalFull(OAIHttpRequestWorker *worker, OAIPost_editMessageText_200_response summary);
+    void postEditStorySignalFull(OAIHttpRequestWorker *worker, OAIPost_postStory_200_response summary);
+    void postEditUserStarSubscriptionSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postExportChatInviteLinkSignalFull(OAIHttpRequestWorker *worker, OAIPost_exportChatInviteLink_200_response summary);
+    void postForwardMessageSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postForwardMessagesSignalFull(OAIHttpRequestWorker *worker, OAIPost_forwardMessages_200_response summary);
+    void postGetAvailableGiftsSignalFull(OAIHttpRequestWorker *worker, OAIPost_getAvailableGifts_200_response summary);
+    void postGetBusinessAccountGiftsSignalFull(OAIHttpRequestWorker *worker, OAIPost_getBusinessAccountGifts_200_response summary);
+    void postGetBusinessAccountStarBalanceSignalFull(OAIHttpRequestWorker *worker, OAIPost_getBusinessAccountStarBalance_200_response summary);
+    void postGetBusinessConnectionSignalFull(OAIHttpRequestWorker *worker, OAIPost_getBusinessConnection_200_response summary);
+    void postGetChatSignalFull(OAIHttpRequestWorker *worker, OAIPost_getChat_200_response summary);
+    void postGetChatAdministratorsSignalFull(OAIHttpRequestWorker *worker, OAIPost_getChatAdministrators_200_response summary);
+    void postGetChatMemberSignalFull(OAIHttpRequestWorker *worker, OAIPost_getChatMember_200_response summary);
+    void postGetChatMemberCountSignalFull(OAIHttpRequestWorker *worker, OAIPost_getChatMemberCount_200_response summary);
+    void postGetChatMenuButtonSignalFull(OAIHttpRequestWorker *worker, OAIPost_getChatMenuButton_200_response summary);
+    void postGetCustomEmojiStickersSignalFull(OAIHttpRequestWorker *worker, OAIPost_getForumTopicIconStickers_200_response summary);
+    void postGetFileSignalFull(OAIHttpRequestWorker *worker, OAIPost_getFile_200_response summary);
+    void postGetForumTopicIconStickersSignalFull(OAIHttpRequestWorker *worker, OAIPost_getForumTopicIconStickers_200_response summary);
+    void postGetGameHighScoresSignalFull(OAIHttpRequestWorker *worker, OAIPost_getGameHighScores_200_response summary);
+    void postGetMeSignalFull(OAIHttpRequestWorker *worker, OAIPost_getMe_200_response summary);
+    void postGetMyCommandsSignalFull(OAIHttpRequestWorker *worker, OAIPost_getMyCommands_200_response summary);
+    void postGetMyDefaultAdministratorRightsSignalFull(OAIHttpRequestWorker *worker, OAIPost_getMyDefaultAdministratorRights_200_response summary);
+    void postGetMyDescriptionSignalFull(OAIHttpRequestWorker *worker, OAIPost_getMyDescription_200_response summary);
+    void postGetMyNameSignalFull(OAIHttpRequestWorker *worker, OAIPost_getMyName_200_response summary);
+    void postGetMyShortDescriptionSignalFull(OAIHttpRequestWorker *worker, OAIPost_getMyShortDescription_200_response summary);
+    void postGetStarTransactionsSignalFull(OAIHttpRequestWorker *worker, OAIPost_getStarTransactions_200_response summary);
+    void postGetStickerSetSignalFull(OAIHttpRequestWorker *worker, OAIPost_getStickerSet_200_response summary);
+    void postGetUpdatesSignalFull(OAIHttpRequestWorker *worker, OAIPost_getUpdates_200_response summary);
+    void postGetUserChatBoostsSignalFull(OAIHttpRequestWorker *worker, OAIPost_getUserChatBoosts_200_response summary);
+    void postGetUserProfilePhotosSignalFull(OAIHttpRequestWorker *worker, OAIPost_getUserProfilePhotos_200_response summary);
+    void postGetWebhookInfoSignalFull(OAIHttpRequestWorker *worker, OAIPost_getWebhookInfo_200_response summary);
+    void postGiftPremiumSubscriptionSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postHideGeneralForumTopicSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postLeaveChatSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postLogOutSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postPinChatMessageSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postPostStorySignalFull(OAIHttpRequestWorker *worker, OAIPost_postStory_200_response summary);
+    void postPromoteChatMemberSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postReadBusinessMessageSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postRefundStarPaymentSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postRemoveBusinessAccountProfilePhotoSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postRemoveChatVerificationSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postRemoveUserVerificationSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postReopenForumTopicSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postReopenGeneralForumTopicSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postReplaceStickerInSetSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postRestrictChatMemberSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postRevokeChatInviteLinkSignalFull(OAIHttpRequestWorker *worker, OAIPost_createChatInviteLink_200_response summary);
+    void postSavePreparedInlineMessageSignalFull(OAIHttpRequestWorker *worker, OAIPost_savePreparedInlineMessage_200_response summary);
+    void postSendAnimationSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendAudioSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendChatActionSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSendContactSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendDiceSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendDocumentSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendGameSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendGiftSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSendInvoiceSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendLocationSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendMediaGroupSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMediaGroup_200_response summary);
+    void postSendMessageSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendPaidMediaSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendPhotoSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendPollSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendStickerSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendVenueSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendVideoSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendVideoNoteSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSendVoiceSignalFull(OAIHttpRequestWorker *worker, OAIPost_sendMessage_200_response summary);
+    void postSetBusinessAccountBioSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetBusinessAccountGiftSettingsSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetBusinessAccountNameSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetBusinessAccountProfilePhotoSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetBusinessAccountUsernameSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetChatAdministratorCustomTitleSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetChatDescriptionSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetChatMenuButtonSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetChatPermissionsSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetChatPhotoSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetChatStickerSetSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetChatTitleSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetCustomEmojiStickerSetThumbnailSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetGameScoreSignalFull(OAIHttpRequestWorker *worker, OAIPost_editMessageText_200_response summary);
+    void postSetMessageReactionSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetMyCommandsSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetMyDefaultAdministratorRightsSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetMyDescriptionSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetMyNameSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetMyShortDescriptionSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetPassportDataErrorsSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetStickerEmojiListSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetStickerKeywordsSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetStickerMaskPositionSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetStickerPositionInSetSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetStickerSetThumbnailSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetStickerSetTitleSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetUserEmojiStatusSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postSetWebhookSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postStopMessageLiveLocationSignalFull(OAIHttpRequestWorker *worker, OAIPost_editMessageText_200_response summary);
+    void postStopPollSignalFull(OAIHttpRequestWorker *worker, OAIPost_stopPoll_200_response summary);
+    void postTransferBusinessAccountStarsSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postTransferGiftSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postUnbanChatMemberSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postUnbanChatSenderChatSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postUnhideGeneralForumTopicSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postUnpinAllChatMessagesSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postUnpinAllForumTopicMessagesSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postUnpinAllGeneralForumTopicMessagesSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postUnpinChatMessageSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postUpgradeGiftSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postUploadStickerFileSignalFull(OAIHttpRequestWorker *worker, OAIPost_getFile_200_response summary);
+    void postVerifyChatSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
+    void postVerifyUserSignalFull(OAIHttpRequestWorker *worker, OAIPost_setWebhook_200_response summary);
 
-    Q_DECL_DEPRECATED_X("Use addStickerToSetPostSignalError() instead")
-    void addStickerToSetPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void addStickerToSetPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use answerCallbackQueryPostSignalError() instead")
-    void answerCallbackQueryPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void answerCallbackQueryPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use answerInlineQueryPostSignalError() instead")
-    void answerInlineQueryPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void answerInlineQueryPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use answerPreCheckoutQueryPostSignalError() instead")
-    void answerPreCheckoutQueryPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void answerPreCheckoutQueryPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use answerShippingQueryPostSignalError() instead")
-    void answerShippingQueryPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void answerShippingQueryPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use answerWebAppQueryPostSignalError() instead")
-    void answerWebAppQueryPostSignalE(OAI_answerWebAppQuery_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void answerWebAppQueryPostSignalError(OAI_answerWebAppQuery_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use approveChatJoinRequestPostSignalError() instead")
-    void approveChatJoinRequestPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void approveChatJoinRequestPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use banChatMemberPostSignalError() instead")
-    void banChatMemberPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void banChatMemberPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use banChatSenderChatPostSignalError() instead")
-    void banChatSenderChatPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void banChatSenderChatPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use closeForumTopicPostSignalError() instead")
-    void closeForumTopicPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void closeForumTopicPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use closeGeneralForumTopicPostSignalError() instead")
-    void closeGeneralForumTopicPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void closeGeneralForumTopicPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use closePostSignalError() instead")
-    void closePostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void closePostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use convertGiftToStarsPostSignalError() instead")
-    void convertGiftToStarsPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void convertGiftToStarsPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use copyMessagePostSignalError() instead")
-    void copyMessagePostSignalE(OAI_copyMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void copyMessagePostSignalError(OAI_copyMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use copyMessagesPostSignalError() instead")
-    void copyMessagesPostSignalE(OAI_forwardMessages_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void copyMessagesPostSignalError(OAI_forwardMessages_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use createChatInviteLinkPostSignalError() instead")
-    void createChatInviteLinkPostSignalE(OAI_createChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void createChatInviteLinkPostSignalError(OAI_createChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use createChatSubscriptionInviteLinkPostSignalError() instead")
-    void createChatSubscriptionInviteLinkPostSignalE(OAI_createChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void createChatSubscriptionInviteLinkPostSignalError(OAI_createChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use createForumTopicPostSignalError() instead")
-    void createForumTopicPostSignalE(OAI_createForumTopic_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void createForumTopicPostSignalError(OAI_createForumTopic_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use createInvoiceLinkPostSignalError() instead")
-    void createInvoiceLinkPostSignalE(OAI_exportChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void createInvoiceLinkPostSignalError(OAI_exportChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use createNewStickerSetPostSignalError() instead")
-    void createNewStickerSetPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void createNewStickerSetPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use declineChatJoinRequestPostSignalError() instead")
-    void declineChatJoinRequestPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void declineChatJoinRequestPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteBusinessMessagesPostSignalError() instead")
-    void deleteBusinessMessagesPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteBusinessMessagesPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteChatPhotoPostSignalError() instead")
-    void deleteChatPhotoPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteChatPhotoPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteChatStickerSetPostSignalError() instead")
-    void deleteChatStickerSetPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteChatStickerSetPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteForumTopicPostSignalError() instead")
-    void deleteForumTopicPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteForumTopicPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteMessagePostSignalError() instead")
-    void deleteMessagePostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteMessagePostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteMessagesPostSignalError() instead")
-    void deleteMessagesPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteMessagesPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteMyCommandsPostSignalError() instead")
-    void deleteMyCommandsPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteMyCommandsPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteStickerFromSetPostSignalError() instead")
-    void deleteStickerFromSetPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteStickerFromSetPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteStickerSetPostSignalError() instead")
-    void deleteStickerSetPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteStickerSetPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteStoryPostSignalError() instead")
-    void deleteStoryPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteStoryPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteWebhookPostSignalError() instead")
-    void deleteWebhookPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteWebhookPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editChatInviteLinkPostSignalError() instead")
-    void editChatInviteLinkPostSignalE(OAI_createChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void editChatInviteLinkPostSignalError(OAI_createChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editChatSubscriptionInviteLinkPostSignalError() instead")
-    void editChatSubscriptionInviteLinkPostSignalE(OAI_createChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void editChatSubscriptionInviteLinkPostSignalError(OAI_createChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editForumTopicPostSignalError() instead")
-    void editForumTopicPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void editForumTopicPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editGeneralForumTopicPostSignalError() instead")
-    void editGeneralForumTopicPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void editGeneralForumTopicPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editMessageCaptionPostSignalError() instead")
-    void editMessageCaptionPostSignalE(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void editMessageCaptionPostSignalError(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editMessageLiveLocationPostSignalError() instead")
-    void editMessageLiveLocationPostSignalE(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void editMessageLiveLocationPostSignalError(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editMessageMediaPostSignalError() instead")
-    void editMessageMediaPostSignalE(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void editMessageMediaPostSignalError(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editMessageReplyMarkupPostSignalError() instead")
-    void editMessageReplyMarkupPostSignalE(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void editMessageReplyMarkupPostSignalError(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editMessageTextPostSignalError() instead")
-    void editMessageTextPostSignalE(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void editMessageTextPostSignalError(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editStoryPostSignalError() instead")
-    void editStoryPostSignalE(OAI_postStory_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void editStoryPostSignalError(OAI_postStory_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editUserStarSubscriptionPostSignalError() instead")
-    void editUserStarSubscriptionPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void editUserStarSubscriptionPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use exportChatInviteLinkPostSignalError() instead")
-    void exportChatInviteLinkPostSignalE(OAI_exportChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void exportChatInviteLinkPostSignalError(OAI_exportChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use forwardMessagePostSignalError() instead")
-    void forwardMessagePostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void forwardMessagePostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use forwardMessagesPostSignalError() instead")
-    void forwardMessagesPostSignalE(OAI_forwardMessages_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void forwardMessagesPostSignalError(OAI_forwardMessages_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getAvailableGiftsPostSignalError() instead")
-    void getAvailableGiftsPostSignalE(OAI_getAvailableGifts_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getAvailableGiftsPostSignalError(OAI_getAvailableGifts_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getBusinessAccountGiftsPostSignalError() instead")
-    void getBusinessAccountGiftsPostSignalE(OAI_getBusinessAccountGifts_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getBusinessAccountGiftsPostSignalError(OAI_getBusinessAccountGifts_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getBusinessAccountStarBalancePostSignalError() instead")
-    void getBusinessAccountStarBalancePostSignalE(OAI_getBusinessAccountStarBalance_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getBusinessAccountStarBalancePostSignalError(OAI_getBusinessAccountStarBalance_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getBusinessConnectionPostSignalError() instead")
-    void getBusinessConnectionPostSignalE(OAI_getBusinessConnection_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getBusinessConnectionPostSignalError(OAI_getBusinessConnection_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getChatAdministratorsPostSignalError() instead")
-    void getChatAdministratorsPostSignalE(OAI_getChatAdministrators_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getChatAdministratorsPostSignalError(OAI_getChatAdministrators_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getChatMemberCountPostSignalError() instead")
-    void getChatMemberCountPostSignalE(OAI_getChatMemberCount_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getChatMemberCountPostSignalError(OAI_getChatMemberCount_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getChatMemberPostSignalError() instead")
-    void getChatMemberPostSignalE(OAI_getChatMember_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getChatMemberPostSignalError(OAI_getChatMember_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getChatMenuButtonPostSignalError() instead")
-    void getChatMenuButtonPostSignalE(OAI_getChatMenuButton_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getChatMenuButtonPostSignalError(OAI_getChatMenuButton_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getChatPostSignalError() instead")
-    void getChatPostSignalE(OAI_getChat_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getChatPostSignalError(OAI_getChat_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getCustomEmojiStickersPostSignalError() instead")
-    void getCustomEmojiStickersPostSignalE(OAI_getForumTopicIconStickers_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getCustomEmojiStickersPostSignalError(OAI_getForumTopicIconStickers_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getFilePostSignalError() instead")
-    void getFilePostSignalE(OAI_getFile_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getFilePostSignalError(OAI_getFile_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getForumTopicIconStickersPostSignalError() instead")
-    void getForumTopicIconStickersPostSignalE(OAI_getForumTopicIconStickers_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getForumTopicIconStickersPostSignalError(OAI_getForumTopicIconStickers_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getGameHighScoresPostSignalError() instead")
-    void getGameHighScoresPostSignalE(OAI_getGameHighScores_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getGameHighScoresPostSignalError(OAI_getGameHighScores_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getMePostSignalError() instead")
-    void getMePostSignalE(OAI_getMe_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getMePostSignalError(OAI_getMe_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getMyCommandsPostSignalError() instead")
-    void getMyCommandsPostSignalE(OAI_getMyCommands_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getMyCommandsPostSignalError(OAI_getMyCommands_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getMyDefaultAdministratorRightsPostSignalError() instead")
-    void getMyDefaultAdministratorRightsPostSignalE(OAI_getMyDefaultAdministratorRights_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getMyDefaultAdministratorRightsPostSignalError(OAI_getMyDefaultAdministratorRights_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getMyDescriptionPostSignalError() instead")
-    void getMyDescriptionPostSignalE(OAI_getMyDescription_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getMyDescriptionPostSignalError(OAI_getMyDescription_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getMyNamePostSignalError() instead")
-    void getMyNamePostSignalE(OAI_getMyName_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getMyNamePostSignalError(OAI_getMyName_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getMyShortDescriptionPostSignalError() instead")
-    void getMyShortDescriptionPostSignalE(OAI_getMyShortDescription_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getMyShortDescriptionPostSignalError(OAI_getMyShortDescription_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getStarTransactionsPostSignalError() instead")
-    void getStarTransactionsPostSignalE(OAI_getStarTransactions_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getStarTransactionsPostSignalError(OAI_getStarTransactions_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getStickerSetPostSignalError() instead")
-    void getStickerSetPostSignalE(OAI_getStickerSet_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getStickerSetPostSignalError(OAI_getStickerSet_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getUpdatesPostSignalError() instead")
-    void getUpdatesPostSignalE(OAI_getUpdates_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getUpdatesPostSignalError(OAI_getUpdates_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getUserChatBoostsPostSignalError() instead")
-    void getUserChatBoostsPostSignalE(OAI_getUserChatBoosts_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getUserChatBoostsPostSignalError(OAI_getUserChatBoosts_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getUserProfilePhotosPostSignalError() instead")
-    void getUserProfilePhotosPostSignalE(OAI_getUserProfilePhotos_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getUserProfilePhotosPostSignalError(OAI_getUserProfilePhotos_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getWebhookInfoPostSignalError() instead")
-    void getWebhookInfoPostSignalE(OAI_getWebhookInfo_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void getWebhookInfoPostSignalError(OAI_getWebhookInfo_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use giftPremiumSubscriptionPostSignalError() instead")
-    void giftPremiumSubscriptionPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void giftPremiumSubscriptionPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use hideGeneralForumTopicPostSignalError() instead")
-    void hideGeneralForumTopicPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void hideGeneralForumTopicPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use leaveChatPostSignalError() instead")
-    void leaveChatPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void leaveChatPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use logOutPostSignalError() instead")
-    void logOutPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void logOutPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use pinChatMessagePostSignalError() instead")
-    void pinChatMessagePostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void pinChatMessagePostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use postStoryPostSignalError() instead")
-    void postStoryPostSignalE(OAI_postStory_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void postStoryPostSignalError(OAI_postStory_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use promoteChatMemberPostSignalError() instead")
-    void promoteChatMemberPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void promoteChatMemberPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use readBusinessMessagePostSignalError() instead")
-    void readBusinessMessagePostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void readBusinessMessagePostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use refundStarPaymentPostSignalError() instead")
-    void refundStarPaymentPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void refundStarPaymentPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use removeBusinessAccountProfilePhotoPostSignalError() instead")
-    void removeBusinessAccountProfilePhotoPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void removeBusinessAccountProfilePhotoPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use removeChatVerificationPostSignalError() instead")
-    void removeChatVerificationPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void removeChatVerificationPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use removeUserVerificationPostSignalError() instead")
-    void removeUserVerificationPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void removeUserVerificationPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use reopenForumTopicPostSignalError() instead")
-    void reopenForumTopicPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void reopenForumTopicPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use reopenGeneralForumTopicPostSignalError() instead")
-    void reopenGeneralForumTopicPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void reopenGeneralForumTopicPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use replaceStickerInSetPostSignalError() instead")
-    void replaceStickerInSetPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void replaceStickerInSetPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use restrictChatMemberPostSignalError() instead")
-    void restrictChatMemberPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void restrictChatMemberPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use revokeChatInviteLinkPostSignalError() instead")
-    void revokeChatInviteLinkPostSignalE(OAI_createChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void revokeChatInviteLinkPostSignalError(OAI_createChatInviteLink_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use savePreparedInlineMessagePostSignalError() instead")
-    void savePreparedInlineMessagePostSignalE(OAI_savePreparedInlineMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void savePreparedInlineMessagePostSignalError(OAI_savePreparedInlineMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendAnimationPostSignalError() instead")
-    void sendAnimationPostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendAnimationPostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendAudioPostSignalError() instead")
-    void sendAudioPostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendAudioPostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendChatActionPostSignalError() instead")
-    void sendChatActionPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendChatActionPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendContactPostSignalError() instead")
-    void sendContactPostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendContactPostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendDicePostSignalError() instead")
-    void sendDicePostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendDicePostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendDocumentPostSignalError() instead")
-    void sendDocumentPostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendDocumentPostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendGamePostSignalError() instead")
-    void sendGamePostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendGamePostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendGiftPostSignalError() instead")
-    void sendGiftPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendGiftPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendInvoicePostSignalError() instead")
-    void sendInvoicePostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendInvoicePostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendLocationPostSignalError() instead")
-    void sendLocationPostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendLocationPostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendMediaGroupPostSignalError() instead")
-    void sendMediaGroupPostSignalE(OAI_sendMediaGroup_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendMediaGroupPostSignalError(OAI_sendMediaGroup_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendMessagePostSignalError() instead")
-    void sendMessagePostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendMessagePostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendPaidMediaPostSignalError() instead")
-    void sendPaidMediaPostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendPaidMediaPostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendPhotoPostSignalError() instead")
-    void sendPhotoPostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendPhotoPostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendPollPostSignalError() instead")
-    void sendPollPostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendPollPostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendStickerPostSignalError() instead")
-    void sendStickerPostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendStickerPostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendVenuePostSignalError() instead")
-    void sendVenuePostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendVenuePostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendVideoNotePostSignalError() instead")
-    void sendVideoNotePostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendVideoNotePostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendVideoPostSignalError() instead")
-    void sendVideoPostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendVideoPostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendVoicePostSignalError() instead")
-    void sendVoicePostSignalE(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendVoicePostSignalError(OAI_sendMessage_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setBusinessAccountBioPostSignalError() instead")
-    void setBusinessAccountBioPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setBusinessAccountBioPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setBusinessAccountGiftSettingsPostSignalError() instead")
-    void setBusinessAccountGiftSettingsPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setBusinessAccountGiftSettingsPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setBusinessAccountNamePostSignalError() instead")
-    void setBusinessAccountNamePostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setBusinessAccountNamePostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setBusinessAccountProfilePhotoPostSignalError() instead")
-    void setBusinessAccountProfilePhotoPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setBusinessAccountProfilePhotoPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setBusinessAccountUsernamePostSignalError() instead")
-    void setBusinessAccountUsernamePostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setBusinessAccountUsernamePostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatAdministratorCustomTitlePostSignalError() instead")
-    void setChatAdministratorCustomTitlePostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatAdministratorCustomTitlePostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatDescriptionPostSignalError() instead")
-    void setChatDescriptionPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatDescriptionPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatMenuButtonPostSignalError() instead")
-    void setChatMenuButtonPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatMenuButtonPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatPermissionsPostSignalError() instead")
-    void setChatPermissionsPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatPermissionsPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatPhotoPostSignalError() instead")
-    void setChatPhotoPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatPhotoPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatStickerSetPostSignalError() instead")
-    void setChatStickerSetPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatStickerSetPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatTitlePostSignalError() instead")
-    void setChatTitlePostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatTitlePostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setCustomEmojiStickerSetThumbnailPostSignalError() instead")
-    void setCustomEmojiStickerSetThumbnailPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setCustomEmojiStickerSetThumbnailPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setGameScorePostSignalError() instead")
-    void setGameScorePostSignalE(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setGameScorePostSignalError(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setMessageReactionPostSignalError() instead")
-    void setMessageReactionPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setMessageReactionPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setMyCommandsPostSignalError() instead")
-    void setMyCommandsPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setMyCommandsPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setMyDefaultAdministratorRightsPostSignalError() instead")
-    void setMyDefaultAdministratorRightsPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setMyDefaultAdministratorRightsPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setMyDescriptionPostSignalError() instead")
-    void setMyDescriptionPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setMyDescriptionPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setMyNamePostSignalError() instead")
-    void setMyNamePostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setMyNamePostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setMyShortDescriptionPostSignalError() instead")
-    void setMyShortDescriptionPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setMyShortDescriptionPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setPassportDataErrorsPostSignalError() instead")
-    void setPassportDataErrorsPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setPassportDataErrorsPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setStickerEmojiListPostSignalError() instead")
-    void setStickerEmojiListPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setStickerEmojiListPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setStickerKeywordsPostSignalError() instead")
-    void setStickerKeywordsPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setStickerKeywordsPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setStickerMaskPositionPostSignalError() instead")
-    void setStickerMaskPositionPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setStickerMaskPositionPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setStickerPositionInSetPostSignalError() instead")
-    void setStickerPositionInSetPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setStickerPositionInSetPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setStickerSetThumbnailPostSignalError() instead")
-    void setStickerSetThumbnailPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setStickerSetThumbnailPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setStickerSetTitlePostSignalError() instead")
-    void setStickerSetTitlePostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setStickerSetTitlePostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setUserEmojiStatusPostSignalError() instead")
-    void setUserEmojiStatusPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setUserEmojiStatusPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setWebhookPostSignalError() instead")
-    void setWebhookPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void setWebhookPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use stopMessageLiveLocationPostSignalError() instead")
-    void stopMessageLiveLocationPostSignalE(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void stopMessageLiveLocationPostSignalError(OAI_editMessageText_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use stopPollPostSignalError() instead")
-    void stopPollPostSignalE(OAI_stopPoll_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void stopPollPostSignalError(OAI_stopPoll_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use transferBusinessAccountStarsPostSignalError() instead")
-    void transferBusinessAccountStarsPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void transferBusinessAccountStarsPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use transferGiftPostSignalError() instead")
-    void transferGiftPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void transferGiftPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unbanChatMemberPostSignalError() instead")
-    void unbanChatMemberPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void unbanChatMemberPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unbanChatSenderChatPostSignalError() instead")
-    void unbanChatSenderChatPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void unbanChatSenderChatPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unhideGeneralForumTopicPostSignalError() instead")
-    void unhideGeneralForumTopicPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void unhideGeneralForumTopicPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unpinAllChatMessagesPostSignalError() instead")
-    void unpinAllChatMessagesPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void unpinAllChatMessagesPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unpinAllForumTopicMessagesPostSignalError() instead")
-    void unpinAllForumTopicMessagesPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void unpinAllForumTopicMessagesPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unpinAllGeneralForumTopicMessagesPostSignalError() instead")
-    void unpinAllGeneralForumTopicMessagesPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void unpinAllGeneralForumTopicMessagesPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unpinChatMessagePostSignalError() instead")
-    void unpinChatMessagePostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void unpinChatMessagePostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use upgradeGiftPostSignalError() instead")
-    void upgradeGiftPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void upgradeGiftPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use uploadStickerFilePostSignalError() instead")
-    void uploadStickerFilePostSignalE(OAI_getFile_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void uploadStickerFilePostSignalError(OAI_getFile_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use verifyChatPostSignalError() instead")
-    void verifyChatPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void verifyChatPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use verifyUserPostSignalError() instead")
-    void verifyUserPostSignalE(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
-    void verifyUserPostSignalError(OAI_setWebhook_post_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postAddStickerToSetSignalError() instead")
+    void postAddStickerToSetSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postAddStickerToSetSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postAnswerCallbackQuerySignalError() instead")
+    void postAnswerCallbackQuerySignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postAnswerCallbackQuerySignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postAnswerInlineQuerySignalError() instead")
+    void postAnswerInlineQuerySignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postAnswerInlineQuerySignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postAnswerPreCheckoutQuerySignalError() instead")
+    void postAnswerPreCheckoutQuerySignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postAnswerPreCheckoutQuerySignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postAnswerShippingQuerySignalError() instead")
+    void postAnswerShippingQuerySignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postAnswerShippingQuerySignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postAnswerWebAppQuerySignalError() instead")
+    void postAnswerWebAppQuerySignalE(OAIPost_answerWebAppQuery_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postAnswerWebAppQuerySignalError(OAIPost_answerWebAppQuery_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postApproveChatJoinRequestSignalError() instead")
+    void postApproveChatJoinRequestSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postApproveChatJoinRequestSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postBanChatMemberSignalError() instead")
+    void postBanChatMemberSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postBanChatMemberSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postBanChatSenderChatSignalError() instead")
+    void postBanChatSenderChatSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postBanChatSenderChatSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCloseSignalError() instead")
+    void postCloseSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCloseSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCloseForumTopicSignalError() instead")
+    void postCloseForumTopicSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCloseForumTopicSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCloseGeneralForumTopicSignalError() instead")
+    void postCloseGeneralForumTopicSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCloseGeneralForumTopicSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postConvertGiftToStarsSignalError() instead")
+    void postConvertGiftToStarsSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postConvertGiftToStarsSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCopyMessageSignalError() instead")
+    void postCopyMessageSignalE(OAIPost_copyMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCopyMessageSignalError(OAIPost_copyMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCopyMessagesSignalError() instead")
+    void postCopyMessagesSignalE(OAIPost_forwardMessages_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCopyMessagesSignalError(OAIPost_forwardMessages_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCreateChatInviteLinkSignalError() instead")
+    void postCreateChatInviteLinkSignalE(OAIPost_createChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCreateChatInviteLinkSignalError(OAIPost_createChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCreateChatSubscriptionInviteLinkSignalError() instead")
+    void postCreateChatSubscriptionInviteLinkSignalE(OAIPost_createChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCreateChatSubscriptionInviteLinkSignalError(OAIPost_createChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCreateForumTopicSignalError() instead")
+    void postCreateForumTopicSignalE(OAIPost_createForumTopic_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCreateForumTopicSignalError(OAIPost_createForumTopic_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCreateInvoiceLinkSignalError() instead")
+    void postCreateInvoiceLinkSignalE(OAIPost_exportChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCreateInvoiceLinkSignalError(OAIPost_exportChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCreateNewStickerSetSignalError() instead")
+    void postCreateNewStickerSetSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCreateNewStickerSetSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeclineChatJoinRequestSignalError() instead")
+    void postDeclineChatJoinRequestSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeclineChatJoinRequestSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteBusinessMessagesSignalError() instead")
+    void postDeleteBusinessMessagesSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteBusinessMessagesSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteChatPhotoSignalError() instead")
+    void postDeleteChatPhotoSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteChatPhotoSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteChatStickerSetSignalError() instead")
+    void postDeleteChatStickerSetSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteChatStickerSetSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteForumTopicSignalError() instead")
+    void postDeleteForumTopicSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteForumTopicSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteMessageSignalError() instead")
+    void postDeleteMessageSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteMessageSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteMessagesSignalError() instead")
+    void postDeleteMessagesSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteMessagesSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteMyCommandsSignalError() instead")
+    void postDeleteMyCommandsSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteMyCommandsSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteStickerFromSetSignalError() instead")
+    void postDeleteStickerFromSetSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteStickerFromSetSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteStickerSetSignalError() instead")
+    void postDeleteStickerSetSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteStickerSetSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteStorySignalError() instead")
+    void postDeleteStorySignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteStorySignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteWebhookSignalError() instead")
+    void postDeleteWebhookSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteWebhookSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditChatInviteLinkSignalError() instead")
+    void postEditChatInviteLinkSignalE(OAIPost_createChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditChatInviteLinkSignalError(OAIPost_createChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditChatSubscriptionInviteLinkSignalError() instead")
+    void postEditChatSubscriptionInviteLinkSignalE(OAIPost_createChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditChatSubscriptionInviteLinkSignalError(OAIPost_createChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditForumTopicSignalError() instead")
+    void postEditForumTopicSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditForumTopicSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditGeneralForumTopicSignalError() instead")
+    void postEditGeneralForumTopicSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditGeneralForumTopicSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditMessageCaptionSignalError() instead")
+    void postEditMessageCaptionSignalE(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditMessageCaptionSignalError(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditMessageLiveLocationSignalError() instead")
+    void postEditMessageLiveLocationSignalE(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditMessageLiveLocationSignalError(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditMessageMediaSignalError() instead")
+    void postEditMessageMediaSignalE(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditMessageMediaSignalError(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditMessageReplyMarkupSignalError() instead")
+    void postEditMessageReplyMarkupSignalE(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditMessageReplyMarkupSignalError(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditMessageTextSignalError() instead")
+    void postEditMessageTextSignalE(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditMessageTextSignalError(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditStorySignalError() instead")
+    void postEditStorySignalE(OAIPost_postStory_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditStorySignalError(OAIPost_postStory_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditUserStarSubscriptionSignalError() instead")
+    void postEditUserStarSubscriptionSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditUserStarSubscriptionSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postExportChatInviteLinkSignalError() instead")
+    void postExportChatInviteLinkSignalE(OAIPost_exportChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postExportChatInviteLinkSignalError(OAIPost_exportChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postForwardMessageSignalError() instead")
+    void postForwardMessageSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postForwardMessageSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postForwardMessagesSignalError() instead")
+    void postForwardMessagesSignalE(OAIPost_forwardMessages_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postForwardMessagesSignalError(OAIPost_forwardMessages_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetAvailableGiftsSignalError() instead")
+    void postGetAvailableGiftsSignalE(OAIPost_getAvailableGifts_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetAvailableGiftsSignalError(OAIPost_getAvailableGifts_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetBusinessAccountGiftsSignalError() instead")
+    void postGetBusinessAccountGiftsSignalE(OAIPost_getBusinessAccountGifts_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetBusinessAccountGiftsSignalError(OAIPost_getBusinessAccountGifts_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetBusinessAccountStarBalanceSignalError() instead")
+    void postGetBusinessAccountStarBalanceSignalE(OAIPost_getBusinessAccountStarBalance_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetBusinessAccountStarBalanceSignalError(OAIPost_getBusinessAccountStarBalance_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetBusinessConnectionSignalError() instead")
+    void postGetBusinessConnectionSignalE(OAIPost_getBusinessConnection_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetBusinessConnectionSignalError(OAIPost_getBusinessConnection_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetChatSignalError() instead")
+    void postGetChatSignalE(OAIPost_getChat_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetChatSignalError(OAIPost_getChat_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetChatAdministratorsSignalError() instead")
+    void postGetChatAdministratorsSignalE(OAIPost_getChatAdministrators_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetChatAdministratorsSignalError(OAIPost_getChatAdministrators_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetChatMemberSignalError() instead")
+    void postGetChatMemberSignalE(OAIPost_getChatMember_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetChatMemberSignalError(OAIPost_getChatMember_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetChatMemberCountSignalError() instead")
+    void postGetChatMemberCountSignalE(OAIPost_getChatMemberCount_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetChatMemberCountSignalError(OAIPost_getChatMemberCount_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetChatMenuButtonSignalError() instead")
+    void postGetChatMenuButtonSignalE(OAIPost_getChatMenuButton_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetChatMenuButtonSignalError(OAIPost_getChatMenuButton_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetCustomEmojiStickersSignalError() instead")
+    void postGetCustomEmojiStickersSignalE(OAIPost_getForumTopicIconStickers_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetCustomEmojiStickersSignalError(OAIPost_getForumTopicIconStickers_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetFileSignalError() instead")
+    void postGetFileSignalE(OAIPost_getFile_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetFileSignalError(OAIPost_getFile_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetForumTopicIconStickersSignalError() instead")
+    void postGetForumTopicIconStickersSignalE(OAIPost_getForumTopicIconStickers_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetForumTopicIconStickersSignalError(OAIPost_getForumTopicIconStickers_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetGameHighScoresSignalError() instead")
+    void postGetGameHighScoresSignalE(OAIPost_getGameHighScores_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetGameHighScoresSignalError(OAIPost_getGameHighScores_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetMeSignalError() instead")
+    void postGetMeSignalE(OAIPost_getMe_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetMeSignalError(OAIPost_getMe_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetMyCommandsSignalError() instead")
+    void postGetMyCommandsSignalE(OAIPost_getMyCommands_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetMyCommandsSignalError(OAIPost_getMyCommands_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetMyDefaultAdministratorRightsSignalError() instead")
+    void postGetMyDefaultAdministratorRightsSignalE(OAIPost_getMyDefaultAdministratorRights_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetMyDefaultAdministratorRightsSignalError(OAIPost_getMyDefaultAdministratorRights_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetMyDescriptionSignalError() instead")
+    void postGetMyDescriptionSignalE(OAIPost_getMyDescription_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetMyDescriptionSignalError(OAIPost_getMyDescription_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetMyNameSignalError() instead")
+    void postGetMyNameSignalE(OAIPost_getMyName_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetMyNameSignalError(OAIPost_getMyName_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetMyShortDescriptionSignalError() instead")
+    void postGetMyShortDescriptionSignalE(OAIPost_getMyShortDescription_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetMyShortDescriptionSignalError(OAIPost_getMyShortDescription_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetStarTransactionsSignalError() instead")
+    void postGetStarTransactionsSignalE(OAIPost_getStarTransactions_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetStarTransactionsSignalError(OAIPost_getStarTransactions_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetStickerSetSignalError() instead")
+    void postGetStickerSetSignalE(OAIPost_getStickerSet_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetStickerSetSignalError(OAIPost_getStickerSet_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetUpdatesSignalError() instead")
+    void postGetUpdatesSignalE(OAIPost_getUpdates_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetUpdatesSignalError(OAIPost_getUpdates_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetUserChatBoostsSignalError() instead")
+    void postGetUserChatBoostsSignalE(OAIPost_getUserChatBoosts_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetUserChatBoostsSignalError(OAIPost_getUserChatBoosts_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetUserProfilePhotosSignalError() instead")
+    void postGetUserProfilePhotosSignalE(OAIPost_getUserProfilePhotos_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetUserProfilePhotosSignalError(OAIPost_getUserProfilePhotos_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetWebhookInfoSignalError() instead")
+    void postGetWebhookInfoSignalE(OAIPost_getWebhookInfo_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetWebhookInfoSignalError(OAIPost_getWebhookInfo_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGiftPremiumSubscriptionSignalError() instead")
+    void postGiftPremiumSubscriptionSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGiftPremiumSubscriptionSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postHideGeneralForumTopicSignalError() instead")
+    void postHideGeneralForumTopicSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postHideGeneralForumTopicSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postLeaveChatSignalError() instead")
+    void postLeaveChatSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postLeaveChatSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postLogOutSignalError() instead")
+    void postLogOutSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postLogOutSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postPinChatMessageSignalError() instead")
+    void postPinChatMessageSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postPinChatMessageSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postPostStorySignalError() instead")
+    void postPostStorySignalE(OAIPost_postStory_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postPostStorySignalError(OAIPost_postStory_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postPromoteChatMemberSignalError() instead")
+    void postPromoteChatMemberSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postPromoteChatMemberSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postReadBusinessMessageSignalError() instead")
+    void postReadBusinessMessageSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postReadBusinessMessageSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postRefundStarPaymentSignalError() instead")
+    void postRefundStarPaymentSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postRefundStarPaymentSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postRemoveBusinessAccountProfilePhotoSignalError() instead")
+    void postRemoveBusinessAccountProfilePhotoSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postRemoveBusinessAccountProfilePhotoSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postRemoveChatVerificationSignalError() instead")
+    void postRemoveChatVerificationSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postRemoveChatVerificationSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postRemoveUserVerificationSignalError() instead")
+    void postRemoveUserVerificationSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postRemoveUserVerificationSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postReopenForumTopicSignalError() instead")
+    void postReopenForumTopicSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postReopenForumTopicSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postReopenGeneralForumTopicSignalError() instead")
+    void postReopenGeneralForumTopicSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postReopenGeneralForumTopicSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postReplaceStickerInSetSignalError() instead")
+    void postReplaceStickerInSetSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postReplaceStickerInSetSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postRestrictChatMemberSignalError() instead")
+    void postRestrictChatMemberSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postRestrictChatMemberSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postRevokeChatInviteLinkSignalError() instead")
+    void postRevokeChatInviteLinkSignalE(OAIPost_createChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postRevokeChatInviteLinkSignalError(OAIPost_createChatInviteLink_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSavePreparedInlineMessageSignalError() instead")
+    void postSavePreparedInlineMessageSignalE(OAIPost_savePreparedInlineMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSavePreparedInlineMessageSignalError(OAIPost_savePreparedInlineMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendAnimationSignalError() instead")
+    void postSendAnimationSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendAnimationSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendAudioSignalError() instead")
+    void postSendAudioSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendAudioSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendChatActionSignalError() instead")
+    void postSendChatActionSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendChatActionSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendContactSignalError() instead")
+    void postSendContactSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendContactSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendDiceSignalError() instead")
+    void postSendDiceSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendDiceSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendDocumentSignalError() instead")
+    void postSendDocumentSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendDocumentSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendGameSignalError() instead")
+    void postSendGameSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendGameSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendGiftSignalError() instead")
+    void postSendGiftSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendGiftSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendInvoiceSignalError() instead")
+    void postSendInvoiceSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendInvoiceSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendLocationSignalError() instead")
+    void postSendLocationSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendLocationSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendMediaGroupSignalError() instead")
+    void postSendMediaGroupSignalE(OAIPost_sendMediaGroup_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendMediaGroupSignalError(OAIPost_sendMediaGroup_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendMessageSignalError() instead")
+    void postSendMessageSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendMessageSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendPaidMediaSignalError() instead")
+    void postSendPaidMediaSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendPaidMediaSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendPhotoSignalError() instead")
+    void postSendPhotoSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendPhotoSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendPollSignalError() instead")
+    void postSendPollSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendPollSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendStickerSignalError() instead")
+    void postSendStickerSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendStickerSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendVenueSignalError() instead")
+    void postSendVenueSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendVenueSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendVideoSignalError() instead")
+    void postSendVideoSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendVideoSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendVideoNoteSignalError() instead")
+    void postSendVideoNoteSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendVideoNoteSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendVoiceSignalError() instead")
+    void postSendVoiceSignalE(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendVoiceSignalError(OAIPost_sendMessage_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetBusinessAccountBioSignalError() instead")
+    void postSetBusinessAccountBioSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetBusinessAccountBioSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetBusinessAccountGiftSettingsSignalError() instead")
+    void postSetBusinessAccountGiftSettingsSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetBusinessAccountGiftSettingsSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetBusinessAccountNameSignalError() instead")
+    void postSetBusinessAccountNameSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetBusinessAccountNameSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetBusinessAccountProfilePhotoSignalError() instead")
+    void postSetBusinessAccountProfilePhotoSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetBusinessAccountProfilePhotoSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetBusinessAccountUsernameSignalError() instead")
+    void postSetBusinessAccountUsernameSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetBusinessAccountUsernameSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatAdministratorCustomTitleSignalError() instead")
+    void postSetChatAdministratorCustomTitleSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatAdministratorCustomTitleSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatDescriptionSignalError() instead")
+    void postSetChatDescriptionSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatDescriptionSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatMenuButtonSignalError() instead")
+    void postSetChatMenuButtonSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatMenuButtonSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatPermissionsSignalError() instead")
+    void postSetChatPermissionsSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatPermissionsSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatPhotoSignalError() instead")
+    void postSetChatPhotoSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatPhotoSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatStickerSetSignalError() instead")
+    void postSetChatStickerSetSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatStickerSetSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatTitleSignalError() instead")
+    void postSetChatTitleSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatTitleSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetCustomEmojiStickerSetThumbnailSignalError() instead")
+    void postSetCustomEmojiStickerSetThumbnailSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetCustomEmojiStickerSetThumbnailSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetGameScoreSignalError() instead")
+    void postSetGameScoreSignalE(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetGameScoreSignalError(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetMessageReactionSignalError() instead")
+    void postSetMessageReactionSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetMessageReactionSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetMyCommandsSignalError() instead")
+    void postSetMyCommandsSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetMyCommandsSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetMyDefaultAdministratorRightsSignalError() instead")
+    void postSetMyDefaultAdministratorRightsSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetMyDefaultAdministratorRightsSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetMyDescriptionSignalError() instead")
+    void postSetMyDescriptionSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetMyDescriptionSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetMyNameSignalError() instead")
+    void postSetMyNameSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetMyNameSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetMyShortDescriptionSignalError() instead")
+    void postSetMyShortDescriptionSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetMyShortDescriptionSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetPassportDataErrorsSignalError() instead")
+    void postSetPassportDataErrorsSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetPassportDataErrorsSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetStickerEmojiListSignalError() instead")
+    void postSetStickerEmojiListSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetStickerEmojiListSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetStickerKeywordsSignalError() instead")
+    void postSetStickerKeywordsSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetStickerKeywordsSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetStickerMaskPositionSignalError() instead")
+    void postSetStickerMaskPositionSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetStickerMaskPositionSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetStickerPositionInSetSignalError() instead")
+    void postSetStickerPositionInSetSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetStickerPositionInSetSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetStickerSetThumbnailSignalError() instead")
+    void postSetStickerSetThumbnailSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetStickerSetThumbnailSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetStickerSetTitleSignalError() instead")
+    void postSetStickerSetTitleSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetStickerSetTitleSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetUserEmojiStatusSignalError() instead")
+    void postSetUserEmojiStatusSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetUserEmojiStatusSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetWebhookSignalError() instead")
+    void postSetWebhookSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetWebhookSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postStopMessageLiveLocationSignalError() instead")
+    void postStopMessageLiveLocationSignalE(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postStopMessageLiveLocationSignalError(OAIPost_editMessageText_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postStopPollSignalError() instead")
+    void postStopPollSignalE(OAIPost_stopPoll_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postStopPollSignalError(OAIPost_stopPoll_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postTransferBusinessAccountStarsSignalError() instead")
+    void postTransferBusinessAccountStarsSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postTransferBusinessAccountStarsSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postTransferGiftSignalError() instead")
+    void postTransferGiftSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postTransferGiftSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnbanChatMemberSignalError() instead")
+    void postUnbanChatMemberSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnbanChatMemberSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnbanChatSenderChatSignalError() instead")
+    void postUnbanChatSenderChatSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnbanChatSenderChatSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnhideGeneralForumTopicSignalError() instead")
+    void postUnhideGeneralForumTopicSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnhideGeneralForumTopicSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnpinAllChatMessagesSignalError() instead")
+    void postUnpinAllChatMessagesSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnpinAllChatMessagesSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnpinAllForumTopicMessagesSignalError() instead")
+    void postUnpinAllForumTopicMessagesSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnpinAllForumTopicMessagesSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnpinAllGeneralForumTopicMessagesSignalError() instead")
+    void postUnpinAllGeneralForumTopicMessagesSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnpinAllGeneralForumTopicMessagesSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnpinChatMessageSignalError() instead")
+    void postUnpinChatMessageSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnpinChatMessageSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUpgradeGiftSignalError() instead")
+    void postUpgradeGiftSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUpgradeGiftSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUploadStickerFileSignalError() instead")
+    void postUploadStickerFileSignalE(OAIPost_getFile_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUploadStickerFileSignalError(OAIPost_getFile_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postVerifyChatSignalError() instead")
+    void postVerifyChatSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postVerifyChatSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postVerifyUserSignalError() instead")
+    void postVerifyUserSignalE(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, QString error_str);
+    void postVerifyUserSignalError(OAIPost_setWebhook_200_response summary, QNetworkReply::NetworkError error_type, const QString &error_str);
 
-    Q_DECL_DEPRECATED_X("Use addStickerToSetPostSignalErrorFull() instead")
-    void addStickerToSetPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void addStickerToSetPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use answerCallbackQueryPostSignalErrorFull() instead")
-    void answerCallbackQueryPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void answerCallbackQueryPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use answerInlineQueryPostSignalErrorFull() instead")
-    void answerInlineQueryPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void answerInlineQueryPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use answerPreCheckoutQueryPostSignalErrorFull() instead")
-    void answerPreCheckoutQueryPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void answerPreCheckoutQueryPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use answerShippingQueryPostSignalErrorFull() instead")
-    void answerShippingQueryPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void answerShippingQueryPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use answerWebAppQueryPostSignalErrorFull() instead")
-    void answerWebAppQueryPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void answerWebAppQueryPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use approveChatJoinRequestPostSignalErrorFull() instead")
-    void approveChatJoinRequestPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void approveChatJoinRequestPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use banChatMemberPostSignalErrorFull() instead")
-    void banChatMemberPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void banChatMemberPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use banChatSenderChatPostSignalErrorFull() instead")
-    void banChatSenderChatPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void banChatSenderChatPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use closeForumTopicPostSignalErrorFull() instead")
-    void closeForumTopicPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void closeForumTopicPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use closeGeneralForumTopicPostSignalErrorFull() instead")
-    void closeGeneralForumTopicPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void closeGeneralForumTopicPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use closePostSignalErrorFull() instead")
-    void closePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void closePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use convertGiftToStarsPostSignalErrorFull() instead")
-    void convertGiftToStarsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void convertGiftToStarsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use copyMessagePostSignalErrorFull() instead")
-    void copyMessagePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void copyMessagePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use copyMessagesPostSignalErrorFull() instead")
-    void copyMessagesPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void copyMessagesPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use createChatInviteLinkPostSignalErrorFull() instead")
-    void createChatInviteLinkPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void createChatInviteLinkPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use createChatSubscriptionInviteLinkPostSignalErrorFull() instead")
-    void createChatSubscriptionInviteLinkPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void createChatSubscriptionInviteLinkPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use createForumTopicPostSignalErrorFull() instead")
-    void createForumTopicPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void createForumTopicPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use createInvoiceLinkPostSignalErrorFull() instead")
-    void createInvoiceLinkPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void createInvoiceLinkPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use createNewStickerSetPostSignalErrorFull() instead")
-    void createNewStickerSetPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void createNewStickerSetPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use declineChatJoinRequestPostSignalErrorFull() instead")
-    void declineChatJoinRequestPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void declineChatJoinRequestPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteBusinessMessagesPostSignalErrorFull() instead")
-    void deleteBusinessMessagesPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteBusinessMessagesPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteChatPhotoPostSignalErrorFull() instead")
-    void deleteChatPhotoPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteChatPhotoPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteChatStickerSetPostSignalErrorFull() instead")
-    void deleteChatStickerSetPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteChatStickerSetPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteForumTopicPostSignalErrorFull() instead")
-    void deleteForumTopicPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteForumTopicPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteMessagePostSignalErrorFull() instead")
-    void deleteMessagePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteMessagePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteMessagesPostSignalErrorFull() instead")
-    void deleteMessagesPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteMessagesPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteMyCommandsPostSignalErrorFull() instead")
-    void deleteMyCommandsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteMyCommandsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteStickerFromSetPostSignalErrorFull() instead")
-    void deleteStickerFromSetPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteStickerFromSetPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteStickerSetPostSignalErrorFull() instead")
-    void deleteStickerSetPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteStickerSetPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteStoryPostSignalErrorFull() instead")
-    void deleteStoryPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteStoryPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use deleteWebhookPostSignalErrorFull() instead")
-    void deleteWebhookPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void deleteWebhookPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editChatInviteLinkPostSignalErrorFull() instead")
-    void editChatInviteLinkPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void editChatInviteLinkPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editChatSubscriptionInviteLinkPostSignalErrorFull() instead")
-    void editChatSubscriptionInviteLinkPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void editChatSubscriptionInviteLinkPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editForumTopicPostSignalErrorFull() instead")
-    void editForumTopicPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void editForumTopicPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editGeneralForumTopicPostSignalErrorFull() instead")
-    void editGeneralForumTopicPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void editGeneralForumTopicPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editMessageCaptionPostSignalErrorFull() instead")
-    void editMessageCaptionPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void editMessageCaptionPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editMessageLiveLocationPostSignalErrorFull() instead")
-    void editMessageLiveLocationPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void editMessageLiveLocationPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editMessageMediaPostSignalErrorFull() instead")
-    void editMessageMediaPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void editMessageMediaPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editMessageReplyMarkupPostSignalErrorFull() instead")
-    void editMessageReplyMarkupPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void editMessageReplyMarkupPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editMessageTextPostSignalErrorFull() instead")
-    void editMessageTextPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void editMessageTextPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editStoryPostSignalErrorFull() instead")
-    void editStoryPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void editStoryPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use editUserStarSubscriptionPostSignalErrorFull() instead")
-    void editUserStarSubscriptionPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void editUserStarSubscriptionPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use exportChatInviteLinkPostSignalErrorFull() instead")
-    void exportChatInviteLinkPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void exportChatInviteLinkPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use forwardMessagePostSignalErrorFull() instead")
-    void forwardMessagePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void forwardMessagePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use forwardMessagesPostSignalErrorFull() instead")
-    void forwardMessagesPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void forwardMessagesPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getAvailableGiftsPostSignalErrorFull() instead")
-    void getAvailableGiftsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getAvailableGiftsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getBusinessAccountGiftsPostSignalErrorFull() instead")
-    void getBusinessAccountGiftsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getBusinessAccountGiftsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getBusinessAccountStarBalancePostSignalErrorFull() instead")
-    void getBusinessAccountStarBalancePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getBusinessAccountStarBalancePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getBusinessConnectionPostSignalErrorFull() instead")
-    void getBusinessConnectionPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getBusinessConnectionPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getChatAdministratorsPostSignalErrorFull() instead")
-    void getChatAdministratorsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getChatAdministratorsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getChatMemberCountPostSignalErrorFull() instead")
-    void getChatMemberCountPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getChatMemberCountPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getChatMemberPostSignalErrorFull() instead")
-    void getChatMemberPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getChatMemberPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getChatMenuButtonPostSignalErrorFull() instead")
-    void getChatMenuButtonPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getChatMenuButtonPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getChatPostSignalErrorFull() instead")
-    void getChatPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getChatPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getCustomEmojiStickersPostSignalErrorFull() instead")
-    void getCustomEmojiStickersPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getCustomEmojiStickersPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getFilePostSignalErrorFull() instead")
-    void getFilePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getFilePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getForumTopicIconStickersPostSignalErrorFull() instead")
-    void getForumTopicIconStickersPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getForumTopicIconStickersPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getGameHighScoresPostSignalErrorFull() instead")
-    void getGameHighScoresPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getGameHighScoresPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getMePostSignalErrorFull() instead")
-    void getMePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getMePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getMyCommandsPostSignalErrorFull() instead")
-    void getMyCommandsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getMyCommandsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getMyDefaultAdministratorRightsPostSignalErrorFull() instead")
-    void getMyDefaultAdministratorRightsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getMyDefaultAdministratorRightsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getMyDescriptionPostSignalErrorFull() instead")
-    void getMyDescriptionPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getMyDescriptionPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getMyNamePostSignalErrorFull() instead")
-    void getMyNamePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getMyNamePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getMyShortDescriptionPostSignalErrorFull() instead")
-    void getMyShortDescriptionPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getMyShortDescriptionPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getStarTransactionsPostSignalErrorFull() instead")
-    void getStarTransactionsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getStarTransactionsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getStickerSetPostSignalErrorFull() instead")
-    void getStickerSetPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getStickerSetPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getUpdatesPostSignalErrorFull() instead")
-    void getUpdatesPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getUpdatesPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getUserChatBoostsPostSignalErrorFull() instead")
-    void getUserChatBoostsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getUserChatBoostsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getUserProfilePhotosPostSignalErrorFull() instead")
-    void getUserProfilePhotosPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getUserProfilePhotosPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use getWebhookInfoPostSignalErrorFull() instead")
-    void getWebhookInfoPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void getWebhookInfoPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use giftPremiumSubscriptionPostSignalErrorFull() instead")
-    void giftPremiumSubscriptionPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void giftPremiumSubscriptionPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use hideGeneralForumTopicPostSignalErrorFull() instead")
-    void hideGeneralForumTopicPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void hideGeneralForumTopicPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use leaveChatPostSignalErrorFull() instead")
-    void leaveChatPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void leaveChatPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use logOutPostSignalErrorFull() instead")
-    void logOutPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void logOutPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use pinChatMessagePostSignalErrorFull() instead")
-    void pinChatMessagePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void pinChatMessagePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use postStoryPostSignalErrorFull() instead")
-    void postStoryPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void postStoryPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use promoteChatMemberPostSignalErrorFull() instead")
-    void promoteChatMemberPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void promoteChatMemberPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use readBusinessMessagePostSignalErrorFull() instead")
-    void readBusinessMessagePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void readBusinessMessagePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use refundStarPaymentPostSignalErrorFull() instead")
-    void refundStarPaymentPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void refundStarPaymentPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use removeBusinessAccountProfilePhotoPostSignalErrorFull() instead")
-    void removeBusinessAccountProfilePhotoPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void removeBusinessAccountProfilePhotoPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use removeChatVerificationPostSignalErrorFull() instead")
-    void removeChatVerificationPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void removeChatVerificationPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use removeUserVerificationPostSignalErrorFull() instead")
-    void removeUserVerificationPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void removeUserVerificationPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use reopenForumTopicPostSignalErrorFull() instead")
-    void reopenForumTopicPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void reopenForumTopicPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use reopenGeneralForumTopicPostSignalErrorFull() instead")
-    void reopenGeneralForumTopicPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void reopenGeneralForumTopicPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use replaceStickerInSetPostSignalErrorFull() instead")
-    void replaceStickerInSetPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void replaceStickerInSetPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use restrictChatMemberPostSignalErrorFull() instead")
-    void restrictChatMemberPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void restrictChatMemberPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use revokeChatInviteLinkPostSignalErrorFull() instead")
-    void revokeChatInviteLinkPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void revokeChatInviteLinkPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use savePreparedInlineMessagePostSignalErrorFull() instead")
-    void savePreparedInlineMessagePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void savePreparedInlineMessagePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendAnimationPostSignalErrorFull() instead")
-    void sendAnimationPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendAnimationPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendAudioPostSignalErrorFull() instead")
-    void sendAudioPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendAudioPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendChatActionPostSignalErrorFull() instead")
-    void sendChatActionPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendChatActionPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendContactPostSignalErrorFull() instead")
-    void sendContactPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendContactPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendDicePostSignalErrorFull() instead")
-    void sendDicePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendDicePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendDocumentPostSignalErrorFull() instead")
-    void sendDocumentPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendDocumentPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendGamePostSignalErrorFull() instead")
-    void sendGamePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendGamePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendGiftPostSignalErrorFull() instead")
-    void sendGiftPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendGiftPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendInvoicePostSignalErrorFull() instead")
-    void sendInvoicePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendInvoicePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendLocationPostSignalErrorFull() instead")
-    void sendLocationPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendLocationPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendMediaGroupPostSignalErrorFull() instead")
-    void sendMediaGroupPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendMediaGroupPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendMessagePostSignalErrorFull() instead")
-    void sendMessagePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendMessagePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendPaidMediaPostSignalErrorFull() instead")
-    void sendPaidMediaPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendPaidMediaPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendPhotoPostSignalErrorFull() instead")
-    void sendPhotoPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendPhotoPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendPollPostSignalErrorFull() instead")
-    void sendPollPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendPollPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendStickerPostSignalErrorFull() instead")
-    void sendStickerPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendStickerPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendVenuePostSignalErrorFull() instead")
-    void sendVenuePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendVenuePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendVideoNotePostSignalErrorFull() instead")
-    void sendVideoNotePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendVideoNotePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendVideoPostSignalErrorFull() instead")
-    void sendVideoPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendVideoPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use sendVoicePostSignalErrorFull() instead")
-    void sendVoicePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void sendVoicePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setBusinessAccountBioPostSignalErrorFull() instead")
-    void setBusinessAccountBioPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setBusinessAccountBioPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setBusinessAccountGiftSettingsPostSignalErrorFull() instead")
-    void setBusinessAccountGiftSettingsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setBusinessAccountGiftSettingsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setBusinessAccountNamePostSignalErrorFull() instead")
-    void setBusinessAccountNamePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setBusinessAccountNamePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setBusinessAccountProfilePhotoPostSignalErrorFull() instead")
-    void setBusinessAccountProfilePhotoPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setBusinessAccountProfilePhotoPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setBusinessAccountUsernamePostSignalErrorFull() instead")
-    void setBusinessAccountUsernamePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setBusinessAccountUsernamePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatAdministratorCustomTitlePostSignalErrorFull() instead")
-    void setChatAdministratorCustomTitlePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatAdministratorCustomTitlePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatDescriptionPostSignalErrorFull() instead")
-    void setChatDescriptionPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatDescriptionPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatMenuButtonPostSignalErrorFull() instead")
-    void setChatMenuButtonPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatMenuButtonPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatPermissionsPostSignalErrorFull() instead")
-    void setChatPermissionsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatPermissionsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatPhotoPostSignalErrorFull() instead")
-    void setChatPhotoPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatPhotoPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatStickerSetPostSignalErrorFull() instead")
-    void setChatStickerSetPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatStickerSetPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setChatTitlePostSignalErrorFull() instead")
-    void setChatTitlePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setChatTitlePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setCustomEmojiStickerSetThumbnailPostSignalErrorFull() instead")
-    void setCustomEmojiStickerSetThumbnailPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setCustomEmojiStickerSetThumbnailPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setGameScorePostSignalErrorFull() instead")
-    void setGameScorePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setGameScorePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setMessageReactionPostSignalErrorFull() instead")
-    void setMessageReactionPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setMessageReactionPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setMyCommandsPostSignalErrorFull() instead")
-    void setMyCommandsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setMyCommandsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setMyDefaultAdministratorRightsPostSignalErrorFull() instead")
-    void setMyDefaultAdministratorRightsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setMyDefaultAdministratorRightsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setMyDescriptionPostSignalErrorFull() instead")
-    void setMyDescriptionPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setMyDescriptionPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setMyNamePostSignalErrorFull() instead")
-    void setMyNamePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setMyNamePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setMyShortDescriptionPostSignalErrorFull() instead")
-    void setMyShortDescriptionPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setMyShortDescriptionPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setPassportDataErrorsPostSignalErrorFull() instead")
-    void setPassportDataErrorsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setPassportDataErrorsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setStickerEmojiListPostSignalErrorFull() instead")
-    void setStickerEmojiListPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setStickerEmojiListPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setStickerKeywordsPostSignalErrorFull() instead")
-    void setStickerKeywordsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setStickerKeywordsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setStickerMaskPositionPostSignalErrorFull() instead")
-    void setStickerMaskPositionPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setStickerMaskPositionPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setStickerPositionInSetPostSignalErrorFull() instead")
-    void setStickerPositionInSetPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setStickerPositionInSetPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setStickerSetThumbnailPostSignalErrorFull() instead")
-    void setStickerSetThumbnailPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setStickerSetThumbnailPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setStickerSetTitlePostSignalErrorFull() instead")
-    void setStickerSetTitlePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setStickerSetTitlePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setUserEmojiStatusPostSignalErrorFull() instead")
-    void setUserEmojiStatusPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setUserEmojiStatusPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use setWebhookPostSignalErrorFull() instead")
-    void setWebhookPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void setWebhookPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use stopMessageLiveLocationPostSignalErrorFull() instead")
-    void stopMessageLiveLocationPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void stopMessageLiveLocationPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use stopPollPostSignalErrorFull() instead")
-    void stopPollPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void stopPollPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use transferBusinessAccountStarsPostSignalErrorFull() instead")
-    void transferBusinessAccountStarsPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void transferBusinessAccountStarsPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use transferGiftPostSignalErrorFull() instead")
-    void transferGiftPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void transferGiftPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unbanChatMemberPostSignalErrorFull() instead")
-    void unbanChatMemberPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void unbanChatMemberPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unbanChatSenderChatPostSignalErrorFull() instead")
-    void unbanChatSenderChatPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void unbanChatSenderChatPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unhideGeneralForumTopicPostSignalErrorFull() instead")
-    void unhideGeneralForumTopicPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void unhideGeneralForumTopicPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unpinAllChatMessagesPostSignalErrorFull() instead")
-    void unpinAllChatMessagesPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void unpinAllChatMessagesPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unpinAllForumTopicMessagesPostSignalErrorFull() instead")
-    void unpinAllForumTopicMessagesPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void unpinAllForumTopicMessagesPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unpinAllGeneralForumTopicMessagesPostSignalErrorFull() instead")
-    void unpinAllGeneralForumTopicMessagesPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void unpinAllGeneralForumTopicMessagesPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use unpinChatMessagePostSignalErrorFull() instead")
-    void unpinChatMessagePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void unpinChatMessagePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use upgradeGiftPostSignalErrorFull() instead")
-    void upgradeGiftPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void upgradeGiftPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use uploadStickerFilePostSignalErrorFull() instead")
-    void uploadStickerFilePostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void uploadStickerFilePostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use verifyChatPostSignalErrorFull() instead")
-    void verifyChatPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void verifyChatPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
-    Q_DECL_DEPRECATED_X("Use verifyUserPostSignalErrorFull() instead")
-    void verifyUserPostSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
-    void verifyUserPostSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postAddStickerToSetSignalErrorFull() instead")
+    void postAddStickerToSetSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postAddStickerToSetSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postAnswerCallbackQuerySignalErrorFull() instead")
+    void postAnswerCallbackQuerySignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postAnswerCallbackQuerySignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postAnswerInlineQuerySignalErrorFull() instead")
+    void postAnswerInlineQuerySignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postAnswerInlineQuerySignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postAnswerPreCheckoutQuerySignalErrorFull() instead")
+    void postAnswerPreCheckoutQuerySignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postAnswerPreCheckoutQuerySignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postAnswerShippingQuerySignalErrorFull() instead")
+    void postAnswerShippingQuerySignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postAnswerShippingQuerySignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postAnswerWebAppQuerySignalErrorFull() instead")
+    void postAnswerWebAppQuerySignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postAnswerWebAppQuerySignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postApproveChatJoinRequestSignalErrorFull() instead")
+    void postApproveChatJoinRequestSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postApproveChatJoinRequestSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postBanChatMemberSignalErrorFull() instead")
+    void postBanChatMemberSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postBanChatMemberSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postBanChatSenderChatSignalErrorFull() instead")
+    void postBanChatSenderChatSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postBanChatSenderChatSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCloseSignalErrorFull() instead")
+    void postCloseSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCloseSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCloseForumTopicSignalErrorFull() instead")
+    void postCloseForumTopicSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCloseForumTopicSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCloseGeneralForumTopicSignalErrorFull() instead")
+    void postCloseGeneralForumTopicSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCloseGeneralForumTopicSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postConvertGiftToStarsSignalErrorFull() instead")
+    void postConvertGiftToStarsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postConvertGiftToStarsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCopyMessageSignalErrorFull() instead")
+    void postCopyMessageSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCopyMessageSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCopyMessagesSignalErrorFull() instead")
+    void postCopyMessagesSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCopyMessagesSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCreateChatInviteLinkSignalErrorFull() instead")
+    void postCreateChatInviteLinkSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCreateChatInviteLinkSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCreateChatSubscriptionInviteLinkSignalErrorFull() instead")
+    void postCreateChatSubscriptionInviteLinkSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCreateChatSubscriptionInviteLinkSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCreateForumTopicSignalErrorFull() instead")
+    void postCreateForumTopicSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCreateForumTopicSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCreateInvoiceLinkSignalErrorFull() instead")
+    void postCreateInvoiceLinkSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCreateInvoiceLinkSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postCreateNewStickerSetSignalErrorFull() instead")
+    void postCreateNewStickerSetSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postCreateNewStickerSetSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeclineChatJoinRequestSignalErrorFull() instead")
+    void postDeclineChatJoinRequestSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeclineChatJoinRequestSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteBusinessMessagesSignalErrorFull() instead")
+    void postDeleteBusinessMessagesSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteBusinessMessagesSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteChatPhotoSignalErrorFull() instead")
+    void postDeleteChatPhotoSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteChatPhotoSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteChatStickerSetSignalErrorFull() instead")
+    void postDeleteChatStickerSetSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteChatStickerSetSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteForumTopicSignalErrorFull() instead")
+    void postDeleteForumTopicSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteForumTopicSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteMessageSignalErrorFull() instead")
+    void postDeleteMessageSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteMessageSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteMessagesSignalErrorFull() instead")
+    void postDeleteMessagesSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteMessagesSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteMyCommandsSignalErrorFull() instead")
+    void postDeleteMyCommandsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteMyCommandsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteStickerFromSetSignalErrorFull() instead")
+    void postDeleteStickerFromSetSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteStickerFromSetSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteStickerSetSignalErrorFull() instead")
+    void postDeleteStickerSetSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteStickerSetSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteStorySignalErrorFull() instead")
+    void postDeleteStorySignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteStorySignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postDeleteWebhookSignalErrorFull() instead")
+    void postDeleteWebhookSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postDeleteWebhookSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditChatInviteLinkSignalErrorFull() instead")
+    void postEditChatInviteLinkSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditChatInviteLinkSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditChatSubscriptionInviteLinkSignalErrorFull() instead")
+    void postEditChatSubscriptionInviteLinkSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditChatSubscriptionInviteLinkSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditForumTopicSignalErrorFull() instead")
+    void postEditForumTopicSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditForumTopicSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditGeneralForumTopicSignalErrorFull() instead")
+    void postEditGeneralForumTopicSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditGeneralForumTopicSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditMessageCaptionSignalErrorFull() instead")
+    void postEditMessageCaptionSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditMessageCaptionSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditMessageLiveLocationSignalErrorFull() instead")
+    void postEditMessageLiveLocationSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditMessageLiveLocationSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditMessageMediaSignalErrorFull() instead")
+    void postEditMessageMediaSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditMessageMediaSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditMessageReplyMarkupSignalErrorFull() instead")
+    void postEditMessageReplyMarkupSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditMessageReplyMarkupSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditMessageTextSignalErrorFull() instead")
+    void postEditMessageTextSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditMessageTextSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditStorySignalErrorFull() instead")
+    void postEditStorySignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditStorySignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postEditUserStarSubscriptionSignalErrorFull() instead")
+    void postEditUserStarSubscriptionSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postEditUserStarSubscriptionSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postExportChatInviteLinkSignalErrorFull() instead")
+    void postExportChatInviteLinkSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postExportChatInviteLinkSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postForwardMessageSignalErrorFull() instead")
+    void postForwardMessageSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postForwardMessageSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postForwardMessagesSignalErrorFull() instead")
+    void postForwardMessagesSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postForwardMessagesSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetAvailableGiftsSignalErrorFull() instead")
+    void postGetAvailableGiftsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetAvailableGiftsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetBusinessAccountGiftsSignalErrorFull() instead")
+    void postGetBusinessAccountGiftsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetBusinessAccountGiftsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetBusinessAccountStarBalanceSignalErrorFull() instead")
+    void postGetBusinessAccountStarBalanceSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetBusinessAccountStarBalanceSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetBusinessConnectionSignalErrorFull() instead")
+    void postGetBusinessConnectionSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetBusinessConnectionSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetChatSignalErrorFull() instead")
+    void postGetChatSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetChatSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetChatAdministratorsSignalErrorFull() instead")
+    void postGetChatAdministratorsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetChatAdministratorsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetChatMemberSignalErrorFull() instead")
+    void postGetChatMemberSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetChatMemberSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetChatMemberCountSignalErrorFull() instead")
+    void postGetChatMemberCountSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetChatMemberCountSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetChatMenuButtonSignalErrorFull() instead")
+    void postGetChatMenuButtonSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetChatMenuButtonSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetCustomEmojiStickersSignalErrorFull() instead")
+    void postGetCustomEmojiStickersSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetCustomEmojiStickersSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetFileSignalErrorFull() instead")
+    void postGetFileSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetFileSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetForumTopicIconStickersSignalErrorFull() instead")
+    void postGetForumTopicIconStickersSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetForumTopicIconStickersSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetGameHighScoresSignalErrorFull() instead")
+    void postGetGameHighScoresSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetGameHighScoresSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetMeSignalErrorFull() instead")
+    void postGetMeSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetMeSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetMyCommandsSignalErrorFull() instead")
+    void postGetMyCommandsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetMyCommandsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetMyDefaultAdministratorRightsSignalErrorFull() instead")
+    void postGetMyDefaultAdministratorRightsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetMyDefaultAdministratorRightsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetMyDescriptionSignalErrorFull() instead")
+    void postGetMyDescriptionSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetMyDescriptionSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetMyNameSignalErrorFull() instead")
+    void postGetMyNameSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetMyNameSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetMyShortDescriptionSignalErrorFull() instead")
+    void postGetMyShortDescriptionSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetMyShortDescriptionSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetStarTransactionsSignalErrorFull() instead")
+    void postGetStarTransactionsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetStarTransactionsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetStickerSetSignalErrorFull() instead")
+    void postGetStickerSetSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetStickerSetSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetUpdatesSignalErrorFull() instead")
+    void postGetUpdatesSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetUpdatesSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetUserChatBoostsSignalErrorFull() instead")
+    void postGetUserChatBoostsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetUserChatBoostsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetUserProfilePhotosSignalErrorFull() instead")
+    void postGetUserProfilePhotosSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetUserProfilePhotosSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGetWebhookInfoSignalErrorFull() instead")
+    void postGetWebhookInfoSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGetWebhookInfoSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postGiftPremiumSubscriptionSignalErrorFull() instead")
+    void postGiftPremiumSubscriptionSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postGiftPremiumSubscriptionSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postHideGeneralForumTopicSignalErrorFull() instead")
+    void postHideGeneralForumTopicSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postHideGeneralForumTopicSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postLeaveChatSignalErrorFull() instead")
+    void postLeaveChatSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postLeaveChatSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postLogOutSignalErrorFull() instead")
+    void postLogOutSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postLogOutSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postPinChatMessageSignalErrorFull() instead")
+    void postPinChatMessageSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postPinChatMessageSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postPostStorySignalErrorFull() instead")
+    void postPostStorySignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postPostStorySignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postPromoteChatMemberSignalErrorFull() instead")
+    void postPromoteChatMemberSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postPromoteChatMemberSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postReadBusinessMessageSignalErrorFull() instead")
+    void postReadBusinessMessageSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postReadBusinessMessageSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postRefundStarPaymentSignalErrorFull() instead")
+    void postRefundStarPaymentSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postRefundStarPaymentSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postRemoveBusinessAccountProfilePhotoSignalErrorFull() instead")
+    void postRemoveBusinessAccountProfilePhotoSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postRemoveBusinessAccountProfilePhotoSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postRemoveChatVerificationSignalErrorFull() instead")
+    void postRemoveChatVerificationSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postRemoveChatVerificationSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postRemoveUserVerificationSignalErrorFull() instead")
+    void postRemoveUserVerificationSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postRemoveUserVerificationSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postReopenForumTopicSignalErrorFull() instead")
+    void postReopenForumTopicSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postReopenForumTopicSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postReopenGeneralForumTopicSignalErrorFull() instead")
+    void postReopenGeneralForumTopicSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postReopenGeneralForumTopicSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postReplaceStickerInSetSignalErrorFull() instead")
+    void postReplaceStickerInSetSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postReplaceStickerInSetSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postRestrictChatMemberSignalErrorFull() instead")
+    void postRestrictChatMemberSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postRestrictChatMemberSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postRevokeChatInviteLinkSignalErrorFull() instead")
+    void postRevokeChatInviteLinkSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postRevokeChatInviteLinkSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSavePreparedInlineMessageSignalErrorFull() instead")
+    void postSavePreparedInlineMessageSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSavePreparedInlineMessageSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendAnimationSignalErrorFull() instead")
+    void postSendAnimationSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendAnimationSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendAudioSignalErrorFull() instead")
+    void postSendAudioSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendAudioSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendChatActionSignalErrorFull() instead")
+    void postSendChatActionSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendChatActionSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendContactSignalErrorFull() instead")
+    void postSendContactSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendContactSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendDiceSignalErrorFull() instead")
+    void postSendDiceSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendDiceSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendDocumentSignalErrorFull() instead")
+    void postSendDocumentSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendDocumentSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendGameSignalErrorFull() instead")
+    void postSendGameSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendGameSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendGiftSignalErrorFull() instead")
+    void postSendGiftSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendGiftSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendInvoiceSignalErrorFull() instead")
+    void postSendInvoiceSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendInvoiceSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendLocationSignalErrorFull() instead")
+    void postSendLocationSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendLocationSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendMediaGroupSignalErrorFull() instead")
+    void postSendMediaGroupSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendMediaGroupSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendMessageSignalErrorFull() instead")
+    void postSendMessageSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendMessageSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendPaidMediaSignalErrorFull() instead")
+    void postSendPaidMediaSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendPaidMediaSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendPhotoSignalErrorFull() instead")
+    void postSendPhotoSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendPhotoSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendPollSignalErrorFull() instead")
+    void postSendPollSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendPollSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendStickerSignalErrorFull() instead")
+    void postSendStickerSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendStickerSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendVenueSignalErrorFull() instead")
+    void postSendVenueSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendVenueSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendVideoSignalErrorFull() instead")
+    void postSendVideoSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendVideoSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendVideoNoteSignalErrorFull() instead")
+    void postSendVideoNoteSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendVideoNoteSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSendVoiceSignalErrorFull() instead")
+    void postSendVoiceSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSendVoiceSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetBusinessAccountBioSignalErrorFull() instead")
+    void postSetBusinessAccountBioSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetBusinessAccountBioSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetBusinessAccountGiftSettingsSignalErrorFull() instead")
+    void postSetBusinessAccountGiftSettingsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetBusinessAccountGiftSettingsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetBusinessAccountNameSignalErrorFull() instead")
+    void postSetBusinessAccountNameSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetBusinessAccountNameSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetBusinessAccountProfilePhotoSignalErrorFull() instead")
+    void postSetBusinessAccountProfilePhotoSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetBusinessAccountProfilePhotoSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetBusinessAccountUsernameSignalErrorFull() instead")
+    void postSetBusinessAccountUsernameSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetBusinessAccountUsernameSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatAdministratorCustomTitleSignalErrorFull() instead")
+    void postSetChatAdministratorCustomTitleSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatAdministratorCustomTitleSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatDescriptionSignalErrorFull() instead")
+    void postSetChatDescriptionSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatDescriptionSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatMenuButtonSignalErrorFull() instead")
+    void postSetChatMenuButtonSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatMenuButtonSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatPermissionsSignalErrorFull() instead")
+    void postSetChatPermissionsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatPermissionsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatPhotoSignalErrorFull() instead")
+    void postSetChatPhotoSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatPhotoSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatStickerSetSignalErrorFull() instead")
+    void postSetChatStickerSetSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatStickerSetSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetChatTitleSignalErrorFull() instead")
+    void postSetChatTitleSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetChatTitleSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetCustomEmojiStickerSetThumbnailSignalErrorFull() instead")
+    void postSetCustomEmojiStickerSetThumbnailSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetCustomEmojiStickerSetThumbnailSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetGameScoreSignalErrorFull() instead")
+    void postSetGameScoreSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetGameScoreSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetMessageReactionSignalErrorFull() instead")
+    void postSetMessageReactionSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetMessageReactionSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetMyCommandsSignalErrorFull() instead")
+    void postSetMyCommandsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetMyCommandsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetMyDefaultAdministratorRightsSignalErrorFull() instead")
+    void postSetMyDefaultAdministratorRightsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetMyDefaultAdministratorRightsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetMyDescriptionSignalErrorFull() instead")
+    void postSetMyDescriptionSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetMyDescriptionSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetMyNameSignalErrorFull() instead")
+    void postSetMyNameSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetMyNameSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetMyShortDescriptionSignalErrorFull() instead")
+    void postSetMyShortDescriptionSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetMyShortDescriptionSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetPassportDataErrorsSignalErrorFull() instead")
+    void postSetPassportDataErrorsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetPassportDataErrorsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetStickerEmojiListSignalErrorFull() instead")
+    void postSetStickerEmojiListSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetStickerEmojiListSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetStickerKeywordsSignalErrorFull() instead")
+    void postSetStickerKeywordsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetStickerKeywordsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetStickerMaskPositionSignalErrorFull() instead")
+    void postSetStickerMaskPositionSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetStickerMaskPositionSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetStickerPositionInSetSignalErrorFull() instead")
+    void postSetStickerPositionInSetSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetStickerPositionInSetSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetStickerSetThumbnailSignalErrorFull() instead")
+    void postSetStickerSetThumbnailSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetStickerSetThumbnailSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetStickerSetTitleSignalErrorFull() instead")
+    void postSetStickerSetTitleSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetStickerSetTitleSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetUserEmojiStatusSignalErrorFull() instead")
+    void postSetUserEmojiStatusSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetUserEmojiStatusSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postSetWebhookSignalErrorFull() instead")
+    void postSetWebhookSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postSetWebhookSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postStopMessageLiveLocationSignalErrorFull() instead")
+    void postStopMessageLiveLocationSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postStopMessageLiveLocationSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postStopPollSignalErrorFull() instead")
+    void postStopPollSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postStopPollSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postTransferBusinessAccountStarsSignalErrorFull() instead")
+    void postTransferBusinessAccountStarsSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postTransferBusinessAccountStarsSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postTransferGiftSignalErrorFull() instead")
+    void postTransferGiftSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postTransferGiftSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnbanChatMemberSignalErrorFull() instead")
+    void postUnbanChatMemberSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnbanChatMemberSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnbanChatSenderChatSignalErrorFull() instead")
+    void postUnbanChatSenderChatSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnbanChatSenderChatSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnhideGeneralForumTopicSignalErrorFull() instead")
+    void postUnhideGeneralForumTopicSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnhideGeneralForumTopicSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnpinAllChatMessagesSignalErrorFull() instead")
+    void postUnpinAllChatMessagesSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnpinAllChatMessagesSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnpinAllForumTopicMessagesSignalErrorFull() instead")
+    void postUnpinAllForumTopicMessagesSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnpinAllForumTopicMessagesSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnpinAllGeneralForumTopicMessagesSignalErrorFull() instead")
+    void postUnpinAllGeneralForumTopicMessagesSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnpinAllGeneralForumTopicMessagesSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUnpinChatMessageSignalErrorFull() instead")
+    void postUnpinChatMessageSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUnpinChatMessageSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUpgradeGiftSignalErrorFull() instead")
+    void postUpgradeGiftSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUpgradeGiftSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postUploadStickerFileSignalErrorFull() instead")
+    void postUploadStickerFileSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postUploadStickerFileSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postVerifyChatSignalErrorFull() instead")
+    void postVerifyChatSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postVerifyChatSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
+    Q_DECL_DEPRECATED_X("Use postVerifyUserSignalErrorFull() instead")
+    void postVerifyUserSignalEFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, QString error_str);
+    void postVerifyUserSignalErrorFull(OAIHttpRequestWorker *worker, QNetworkReply::NetworkError error_type, const QString &error_str);
 
     void abortRequestsSignal();
     void allPendingRequestsCompleted();
