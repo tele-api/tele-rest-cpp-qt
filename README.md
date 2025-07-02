@@ -57,10 +57,10 @@ void Example::exampleFunction1(){
      OAIDefaultApi apiInstance;
      
       QEventLoop loop;
-      connect(&apiInstance, &OAIDefaultApi::addStickerToSetPostSignal, [&]() {
+      connect(&apiInstance, &OAIDefaultApi::postAddStickerToSetSignal, [&]() {
           loop.quit();
       });
-      connect(&apiInstance, &OAIDefaultApi::addStickerToSetPostSignalE, [&](QNetworkReply::NetworkError, QString error_str) {
+      connect(&apiInstance, &OAIDefaultApi::postAddStickerToSetSignalE, [&](QNetworkReply::NetworkError, QString error_str) {
           qDebug() << "Error happened while issuing request : " << error_str;
           loop.quit();
       });
@@ -68,10 +68,10 @@ void Example::exampleFunction1(){
       qint32 user_id = create(); // qint32 | User identifier of sticker set owner
 
       QEventLoop loop;
-      connect(&apiInstance, &OAIDefaultApi::addStickerToSetPostSignal, [&]() {
+      connect(&apiInstance, &OAIDefaultApi::postAddStickerToSetSignal, [&]() {
           loop.quit();
       });
-      connect(&apiInstance, &OAIDefaultApi::addStickerToSetPostSignalE, [&](QNetworkReply::NetworkError, QString error_str) {
+      connect(&apiInstance, &OAIDefaultApi::postAddStickerToSetSignalE, [&](QNetworkReply::NetworkError, QString error_str) {
           qDebug() << "Error happened while issuing request : " << error_str;
           loop.quit();
       });
@@ -79,16 +79,16 @@ void Example::exampleFunction1(){
       QString name = create(); // QString | Sticker set name
 
       QEventLoop loop;
-      connect(&apiInstance, &OAIDefaultApi::addStickerToSetPostSignal, [&]() {
+      connect(&apiInstance, &OAIDefaultApi::postAddStickerToSetSignal, [&]() {
           loop.quit();
       });
-      connect(&apiInstance, &OAIDefaultApi::addStickerToSetPostSignalE, [&](QNetworkReply::NetworkError, QString error_str) {
+      connect(&apiInstance, &OAIDefaultApi::postAddStickerToSetSignalE, [&](QNetworkReply::NetworkError, QString error_str) {
           qDebug() << "Error happened while issuing request : " << error_str;
           loop.quit();
       });
 
       OAIInputSticker sticker = create(); // OAIInputSticker | 
-      apiInstance.addStickerToSetPost(user_idnamesticker);
+      apiInstance.postAddStickerToSet(user_idnamesticker);
       QTimer::singleShot(5000, &loop, &QEventLoop::quit);
       loop.exec();
   }

@@ -7,7 +7,7 @@
  * - **Copyright**: Copyright (c) 2025 Qntx
  * - **Author**: ΣX <gitctrlx@gmail.com>
  * - **Version**: 9.0.0
- * - **Modified**: 2025-07-01T14:36:12.380160517Z[Etc/UTC]
+ * - **Modified**: 2025-07-02T09:16:57.652454639Z[Etc/UTC]
  * - **Generator Version**: 7.14.0
  *
  * <details>
@@ -133,10 +133,10 @@ bool OAIBotCommandScope::is_type_Valid() const{
     return m_type_isValid;
 }
 
-OAI_restrictChatMember_post_request_chat_id OAIBotCommandScope::getChatId() const {
+OAIBotCommandScopeChat_chat_id OAIBotCommandScope::getChatId() const {
     return m_chat_id;
 }
-void OAIBotCommandScope::setChatId(const OAI_restrictChatMember_post_request_chat_id &chat_id) {
+void OAIBotCommandScope::setChatId(const OAIBotCommandScopeChat_chat_id &chat_id) {
     m_chat_id = chat_id;
     m_chat_id_isSet = true;
 }

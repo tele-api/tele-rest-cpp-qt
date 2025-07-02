@@ -7,7 +7,7 @@
  * - **Copyright**: Copyright (c) 2025 Qntx
  * - **Author**: ΣX <gitctrlx@gmail.com>
  * - **Version**: 9.0.0
- * - **Modified**: 2025-07-01T14:36:12.380160517Z[Etc/UTC]
+ * - **Modified**: 2025-07-02T09:16:57.652454639Z[Etc/UTC]
  * - **Generator Version**: 7.14.0
  *
  * <details>
@@ -54,7 +54,7 @@
 
 #include <QJsonObject>
 
-#include "OAI_restrictChatMember_post_request_chat_id.h"
+#include "OAIBotCommandScopeChat_chat_id.h"
 #include <QString>
 
 #include "OAIEnum.h"
@@ -78,8 +78,8 @@ public:
     bool is_type_Set() const;
     bool is_type_Valid() const;
 
-    OAI_restrictChatMember_post_request_chat_id getChatId() const;
-    void setChatId(const OAI_restrictChatMember_post_request_chat_id &chat_id);
+    OAIBotCommandScopeChat_chat_id getChatId() const;
+    void setChatId(const OAIBotCommandScopeChat_chat_id &chat_id);
     bool is_chat_id_Set() const;
     bool is_chat_id_Valid() const;
 
@@ -93,7 +93,7 @@ private:
     bool m_type_isSet;
     bool m_type_isValid;
 
-    OAI_restrictChatMember_post_request_chat_id m_chat_id;
+    OAIBotCommandScopeChat_chat_id m_chat_id;
     bool m_chat_id_isSet;
     bool m_chat_id_isValid;
 };
